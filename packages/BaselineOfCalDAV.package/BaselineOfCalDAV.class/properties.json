@@ -1,14 +1,14 @@
 {
-	"category" : "Counter-Core",
+	"category" : "BaselineOfCalDAV",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentValue" ],
-	"name" : "Counter",
+		 ],
+	"name" : "BaselineOfCalDAV",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
