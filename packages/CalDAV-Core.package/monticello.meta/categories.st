@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Counter-Core'!
+SystemOrganization addCategory: #'CalDAV-Core'!
