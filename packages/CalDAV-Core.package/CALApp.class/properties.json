@@ -1,0 +1,19 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"begin",
+		"end",
+		"title",
+		"description",
+		"participants",
+		"location" ],
+	"name" : "CALApp",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
