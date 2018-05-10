@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testApp" ],
+	"name" : "CALAppTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
