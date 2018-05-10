@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"events" ],
+	"name" : "CALCalendar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
