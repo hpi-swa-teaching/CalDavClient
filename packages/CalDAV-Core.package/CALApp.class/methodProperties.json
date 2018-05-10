@@ -2,9 +2,10 @@
 	"class" : {
 		"open" : "PS 5/5/2018 17:55" },
 	"instance" : {
-		"addEvent" : "PS 5/5/2018 18:18",
-		"buildWith:" : "dm 5/10/2018 12:02",
+		"addEvent:" : "jz 5/10/2018 14:17",
+		"buildWith:" : "jz 5/10/2018 13:59",
 		"eventNames" : "dm 5/10/2018 12:29",
 		"initialize" : "dm 5/10/2018 12:00",
+		"openAddEventDialog" : "jz 5/10/2018 14:13",
 		"selectedCalendar" : "dm 5/10/2018 11:55",
 		"selectedCalendar:" : "dm 5/10/2018 11:55" } }

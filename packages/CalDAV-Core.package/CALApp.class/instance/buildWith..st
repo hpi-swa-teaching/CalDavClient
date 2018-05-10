@@ -12,7 +12,7 @@ buildWith: aBuilder
 	buttonSpec := aBuilder pluggableButtonSpec new.
 	buttonSpec
 		model: self;
-		action: #addEvent;
+		action: #openAddEventDialog;
 		label: 'Add Event';
 		frame: (0@0 corner: 0.1@1).
 	windowSpec children add: buttonSpec.	

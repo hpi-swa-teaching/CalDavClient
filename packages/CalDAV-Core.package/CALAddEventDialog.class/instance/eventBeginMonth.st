@@ -1,0 +1,3 @@
+accessing
+eventBeginMonth
+	^ eventBeginMonth
