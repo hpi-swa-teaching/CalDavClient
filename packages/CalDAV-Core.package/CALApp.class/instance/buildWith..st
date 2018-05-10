@@ -20,7 +20,7 @@ buildWith: aBuilder
 	listSpec := aBuilder pluggableListSpec new.
 	listSpec
 		model: self;
-		list: #events;
+		list: #eventNames;
 		frame: (0.1@0 corner: 1@1).
 	windowSpec children add: listSpec.		
 		
