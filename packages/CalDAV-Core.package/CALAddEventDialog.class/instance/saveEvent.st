@@ -25,5 +25,6 @@ saveEvent
 		participants: self eventParticipants;
 		yourself.
 	
-	self parent addEvent: event.
-	self close
+	event isValid = '' ifTrue:[  
+		self parent addEvent: event.
+		self close]

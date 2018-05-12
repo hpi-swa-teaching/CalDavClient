@@ -1,6 +1,6 @@
 accessing
 titleIsValid 
 
-	self title = '' 
-		ifTrue: [^CALEvent noTitleError]
-		ifFalse:[^'']
+	self title 
+		ifNil:  [^CALEvent noTitleError]
+		ifNotNil: [^'']
