@@ -1,3 +1,3 @@
 as yet unclassified
 selectedCalendar
-	^calendar
+	^calendar ifNil:[calendar :=CALCalendar new]
