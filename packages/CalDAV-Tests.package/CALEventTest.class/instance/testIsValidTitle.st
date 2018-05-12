@@ -3,7 +3,7 @@ testIsValidTitle
 
 	|eventWithNoTitle|
 	eventWithNoTitle := self createEvent.
-	eventWithNoTitle title: ''.
+	eventWithNoTitle title: nil.
 	self assert: (eventWithNoTitle isValid = CALEvent noTitleError)
 	
 
