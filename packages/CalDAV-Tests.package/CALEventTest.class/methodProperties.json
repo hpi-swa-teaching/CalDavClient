@@ -2,7 +2,7 @@
 	"class" : {
 		"noError" : "lh 5/12/2018 15:23" },
 	"instance" : {
-		"begin" : "lh 5/12/2018 15:43",
+		"begin" : "kk 5/12/2018 19:19",
 		"createEvent" : "lh 5/12/2018 15:43",
 		"description" : "PS 5/4/2018 14:59",
 		"end" : "PS 5/4/2018 14:58",
@@ -12,6 +12,6 @@
 		"testIsValid" : "lh 5/12/2018 15:39",
 		"testIsValidDates" : "lh 5/12/2018 15:45",
 		"testIsValidTitle" : "kk 5/12/2018 15:58",
-		"testTimeString" : "dm 5/10/2018 12:28",
+		"testTimeString" : "kk 5/12/2018 19:20",
 		"testTimespan" : "lh 5/12/2018 15:43",
 		"title" : "PS 5/4/2018 14:59" } }

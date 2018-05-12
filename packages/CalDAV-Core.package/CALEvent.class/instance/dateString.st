@@ -2,4 +2,5 @@ accessing
 dateString
 	| date | 
 	date := self begin.
-	^ date dayOfMonth asString , '.' , date month asString, '.', date year asString
+	
+	^(self numberToTwoDigitsString: date dayOfMonth) , '.' , (self numberToTwoDigitsString: date month), '.', date year asString
