@@ -4,4 +4,4 @@ testTimespan
 	
 	event := self createEvent.
 		
-	self assert: (event timespan =  (Timespan starting: self start ending: self end))
+	self assert: (event timespan =  (Timespan starting: self begin ending: self end))

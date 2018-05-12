@@ -4,7 +4,7 @@ testAccessors
 	
 	event := self createEvent.
 		
-	self assert: (event begin  = self start).
+	self assert: (event begin  = self begin).
 	self assert: (event end = self end).
 	self assert: (event title = self title).
 	self assert: (event description = self description).

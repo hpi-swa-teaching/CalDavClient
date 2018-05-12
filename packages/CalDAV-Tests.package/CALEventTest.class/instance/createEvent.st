@@ -3,7 +3,7 @@ createEvent
 	| event |
 	
 	event := CALEvent new.
-	event begin: self start;
+	event begin: self begin;
 		end: self end;
 		title: self title;
 		description: self description;
