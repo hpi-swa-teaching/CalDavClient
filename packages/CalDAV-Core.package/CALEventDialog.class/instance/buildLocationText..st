@@ -1,5 +1,5 @@
 toolbuilding
-buildLocationInput: aBuilder
+buildLocationText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
@@ -7,4 +7,5 @@ buildLocationInput: aBuilder
 		editText: #eventLocation:;
 		indicateUnacceptedChanges: false;
 		help: 'Location';
+		readOnly: self isReadOnly;
 		frame: (0.01@0.54 corner: self borderRight@0.64)

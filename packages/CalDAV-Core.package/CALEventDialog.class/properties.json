@@ -1,0 +1,30 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isReadOnly",
+		"parent",
+		"eventTitle",
+		"eventDescription",
+		"eventBeginYear",
+		"eventBeginMonth",
+		"eventBeginDay",
+		"eventBeginHour",
+		"eventBeginMinute",
+		"eventEndYear",
+		"eventEndMonth",
+		"eventEndDay",
+		"eventEndHour",
+		"eventEndMinute",
+		"eventEnd",
+		"eventLocation",
+		"eventParticipants" ],
+	"name" : "CALEventDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
