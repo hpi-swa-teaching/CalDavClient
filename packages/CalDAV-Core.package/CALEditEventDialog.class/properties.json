@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"calendar",
-		"currentIndex" ],
-	"name" : "CALApp",
+		 ],
+	"name" : "CALEditEventDialog",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CALEventDialog",
 	"type" : "normal" }

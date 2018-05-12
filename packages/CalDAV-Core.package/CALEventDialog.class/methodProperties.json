@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"openEvent:forParent:" : "lh 5/12/2018 19:53",
 		"openForApp:" : "jz 5/10/2018 14:11" },
 	"instance" : {
 		"borderLeft" : "jz 5/10/2018 13:18",
@@ -9,7 +10,7 @@
 		"buildBeginMinuteText:" : "lh 5/12/2018 16:18",
 		"buildBeginMonthText:" : "lh 5/12/2018 16:18",
 		"buildBeginYearText:" : "lh 5/12/2018 16:19",
-		"buildButtons:" : "lh 5/12/2018 17:12",
+		"buildButtons:" : "lh 5/12/2018 19:55",
 		"buildDescriptionText:" : "lh 5/12/2018 16:19",
 		"buildEndDayText:" : "lh 5/12/2018 16:19",
 		"buildEndHourText:" : "lh 5/12/2018 16:19",
@@ -21,8 +22,10 @@
 		"buildStandardFields" : "lh 5/12/2018 17:18",
 		"buildStandardFields:" : "lh 5/12/2018 17:19",
 		"buildTitleText:" : "lh 5/12/2018 16:21",
-		"buildWith:" : "lh 5/12/2018 17:25",
+		"buildWith:" : "lh 5/12/2018 17:34",
 		"close" : "jz 5/10/2018 14:05",
+		"event" : "lh 5/12/2018 19:41",
+		"event:" : "lh 5/12/2018 19:41",
 		"eventBeginDay" : "jz 5/10/2018 15:28",
 		"eventBeginDay:" : "jz 5/10/2018 15:28",
 		"eventBeginHour" : "jz 5/10/2018 15:28",
