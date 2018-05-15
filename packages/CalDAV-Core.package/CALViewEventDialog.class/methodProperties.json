@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildButtons:" : "lh 5/12/2018 19:55",
+		"buildButtons:" : "kk 5/15/2018 14:03",
+		"deleteEvent" : "kk 5/15/2018 14:03",
+		"editEvent" : "kk 5/15/2018 13:57",
 		"eventDescription" : "lh 5/12/2018 20:02",
 		"eventLocation" : "lh 5/12/2018 20:02",
 		"eventParticipants" : "lh 5/12/2018 20:02",
