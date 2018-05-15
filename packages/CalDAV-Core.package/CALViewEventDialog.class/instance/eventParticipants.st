@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 eventParticipants
 	^self event participants

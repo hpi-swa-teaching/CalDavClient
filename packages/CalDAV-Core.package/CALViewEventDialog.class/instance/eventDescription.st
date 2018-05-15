@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 eventDescription
 	^self event description
