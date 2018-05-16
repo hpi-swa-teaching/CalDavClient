@@ -2,7 +2,6 @@ actions
 saveEvent
 
 	| event begin end |
-	
 	begin := DateAndTime 
 		year: eventBeginYear asNumber
 		month: eventBeginMonth asNumber
