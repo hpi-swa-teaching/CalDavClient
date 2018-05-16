@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'CalDAV-*.*' ]
+      #categories : [ 'CalDAV-Core' ]
     }
   }
 }
