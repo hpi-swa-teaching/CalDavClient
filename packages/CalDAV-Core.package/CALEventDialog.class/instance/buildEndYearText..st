@@ -8,4 +8,4 @@ buildEndYearText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Year';
-		frame: (0.01@0.43 corner: 0.3@0.53)
+		frame: (0.21@0.43 corner: 0.3@0.53)

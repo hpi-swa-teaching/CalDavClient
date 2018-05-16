@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CALDatePicker",
+	"pools" : [
+		 ],
+	"super" : "CalendarMorph",
+	"type" : "normal" }

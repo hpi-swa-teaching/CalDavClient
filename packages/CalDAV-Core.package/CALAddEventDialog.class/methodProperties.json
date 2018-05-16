@@ -2,7 +2,9 @@
 	"class" : {
 		"openForApp:" : "jz 5/10/2018 14:11" },
 	"instance" : {
-		"buildButtons:" : "lh 5/12/2018 17:27",
+		"beginDateChanged:" : "jz 5/16/2018 16:52",
+		"buildButtons:" : "jz 5/16/2018 16:06",
 		"isReadOnly" : "lh 5/12/2018 19:37",
+		"pickBeginDate" : "jz 5/16/2018 16:52",
 		"saveEvent" : "lh 5/12/2018 19:46",
 		"windowTitle" : "jz 5/10/2018 12:19" } }
