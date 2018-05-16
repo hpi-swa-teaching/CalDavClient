@@ -7,4 +7,9 @@ SmalltalkCISpec {
       #load : [ 'tests' ]
     }
   ]
+  #testing : {
+    #coverage : {
+      #packages : [ 'CALDav-Core' ]
+    }
+  }
 }
