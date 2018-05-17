@@ -2,6 +2,6 @@ actions
 pickEndDate
 
 	| datePicker |
-	datePicker := CALDatePicker new.
-	datePicker openInWindow.
+	
+	datePicker := CALDatePicker openForDialog: self color: Color paleGreen label: 'Pick End Date'.
 	datePicker when: #dateChanged send: #endDateChanged: to: self.
