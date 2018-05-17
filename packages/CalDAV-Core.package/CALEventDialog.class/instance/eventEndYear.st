@@ -1,3 +1,3 @@
 accessing
 eventEndYear
-	^ eventEndYear
+	^ self event end year asString

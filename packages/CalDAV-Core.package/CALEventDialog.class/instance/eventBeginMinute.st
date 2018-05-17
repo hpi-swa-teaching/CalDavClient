@@ -1,3 +1,3 @@
 accessing
 eventBeginMinute
-	^ eventBeginMinute
+	^ self event begin minutes asString
