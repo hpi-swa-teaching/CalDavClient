@@ -1,3 +1,3 @@
 accessing
 eventBeginMinute
-	^ eventBeginMinute
+	^ event begin minutes asString

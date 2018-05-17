@@ -1,7 +1,7 @@
 toolbuilding
 buildButtons: aBuilder 
 
-self subclassResponsibility
+	self subclassResponsibility
 
 
 

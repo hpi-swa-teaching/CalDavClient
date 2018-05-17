@@ -1,3 +1,3 @@
 accessing
 eventEndDay
-	^ eventEndDay
+	^ event end dayOfMonth asString

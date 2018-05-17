@@ -4,7 +4,7 @@
 	"instance" : {
 		"addEvent:" : "jz 5/10/2018 14:17",
 		"buildAddEventButton:" : "jz 5/17/2018 16:57",
-		"buildEventList:" : "jz 5/17/2018 16:56",
+		"buildEventList:" : "jz 5/17/2018 17:10",
 		"buildWith:" : "jz 5/17/2018 16:58",
 		"currentIndex" : "lh 5/12/2018 19:11",
 		"currentIndex:" : "lh 5/13/2018 13:10",
@@ -13,6 +13,6 @@
 		"eventNames" : "lh 5/12/2018 18:58",
 		"initialize" : "kk 5/12/2018 20:20",
 		"openAddEventDialog" : "jz 5/17/2018 11:44",
-		"openViewEventDialog" : "jz 5/17/2018 11:46",
+		"openEditEventDialog" : "jz 5/17/2018 17:30",
 		"selectedCalendar" : "lh 5/12/2018 19:45",
 		"selectedCalendar:" : "dm 5/10/2018 11:55" } }

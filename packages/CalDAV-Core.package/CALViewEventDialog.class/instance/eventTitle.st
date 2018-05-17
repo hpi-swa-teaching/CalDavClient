@@ -1,3 +1,4 @@
 accessing
 eventTitle
-	^self event title
+
+	^ self event title

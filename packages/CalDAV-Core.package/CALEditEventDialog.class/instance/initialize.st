@@ -1,3 +1,4 @@
-toolbuilding
-initialize 
-	self oldEvent: self event
+as yet unclassified
+initialize
+
+	self editingCopy: self event

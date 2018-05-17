@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildButtons:" : "dm 5/17/2018 11:14",
+		"editEvent" : "dm 5/17/2018 11:27",
+		"initialize" : "dm 5/17/2018 11:26",
+		"isReadOnly" : "lh 5/12/2018 19:40",
+		"oldEvent" : "dm 5/17/2018 11:25",
+		"oldEvent:" : "dm 5/17/2018 11:25",
+		"windowTitle" : "dm 5/17/2018 11:04" } }

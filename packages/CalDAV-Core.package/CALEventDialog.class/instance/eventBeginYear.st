@@ -1,3 +1,3 @@
 accessing
 eventBeginYear
-	^ eventBeginYear
+	^ event begin year asString

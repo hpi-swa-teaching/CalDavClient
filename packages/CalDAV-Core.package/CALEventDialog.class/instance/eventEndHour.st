@@ -1,3 +1,4 @@
 accessing
 eventEndHour
-	^ eventEndHour
+
+	^ event end hours asString
