@@ -1,3 +1,3 @@
 accessing
 eventEndMonth
-	^ eventEndMonth
+	^ self event end month asString

@@ -1,3 +1,3 @@
 accessing
 eventBeginDay
-	^ eventBeginDay
+	^ self event begin dayOfMonth asString
