@@ -2,6 +2,6 @@ actions
 pickBeginDate
 
 	| datePicker |
-	datePicker := CALDatePicker new.
-	datePicker openInWindow.
+	
+	datePicker := CALDatePicker openForDialog: self.
 	datePicker when: #dateChanged send: #beginDateChanged: to: self.
