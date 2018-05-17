@@ -1,4 +1,4 @@
-as yet unclassified
+event management
 addEvent: anEvent
 
 	self selectedCalendar addEvent: anEvent.

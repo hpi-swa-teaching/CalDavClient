@@ -7,6 +7,9 @@ buildWith: aBuilder
 	newWindow
 		model: self;
 		label: #windowTitle;
-		children: (self windowFields: aBuilder).
+		children: OrderedCollection new.
+		
+	newWindow children addAll: (self windowFields: aBuilder).
+	
 	^ aBuilder build: newWindow
 			

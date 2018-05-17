@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 
-	| first second testApp|
+	| first second |
 	testApp := CALApp new.
 	testApp selectedCalendar: CALCalendar new.
 	first := CALEvent new.
@@ -12,5 +12,4 @@ setUp
 	second title: 'second'.
 	testApp selectedCalendar 
 		addEvent: first;
-		addEvent: second.
-	^testApp
+		addEvent: second

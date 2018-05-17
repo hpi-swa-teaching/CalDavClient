@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"datePicker",
-		"date" ],
-	"name" : "CALDatePickerTest",
+		"testApp",
+		"addDialog",
+		"editDialog",
+		"eventDialog" ],
+	"name" : "CALEventDialogTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

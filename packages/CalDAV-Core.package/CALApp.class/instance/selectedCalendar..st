@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 selectedCalendar: aCalendar
 	calendar := aCalendar

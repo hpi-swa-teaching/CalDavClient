@@ -1,4 +1,4 @@
-as yet unclassified
+event management
 deleteEvent: anEvent
 
 	self selectedCalendar deleteEvent: anEvent.
