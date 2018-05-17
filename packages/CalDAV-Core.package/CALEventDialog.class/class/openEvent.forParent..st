@@ -1,9 +1,11 @@
 as yet unclassified
 openEvent: aCALEvent forParent: aParent
-	|window|
-	window := self new.
-	window
+
+	| dialog |
+	
+	dialog := self new.
+	dialog
 		parent: aParent;
 		event: aCALEvent.
 		
-	 ^ToolBuilder default open: window
+	 ^ToolBuilder default open: dialog

@@ -1,13 +1,31 @@
 toolbuilding
 buildButtons: aBuilder
 
-	|saveButton buttons|
-	buttons := OrderedCollection new.
+	| saveButton buttons beginPickerButton endPickerButton |
+	
 	saveButton := aBuilder pluggableActionButtonSpec new.
 	saveButton
 		model: self;
 		action: #saveEvent;
 		label: 'Save Event';
 		frame: (0.01@0.76 corner: self borderRight@0.86).
-	buttons add: saveButton.
-	^buttons
+	beginPickerButton := aBuilder pluggableActionButtonSpec new.
+	beginPickerButton
+		model: self;
+		label: 'Pick Begin Date';
+		action: #pickBeginDate;
+		color: Color sky;
+		frame: (self borderLeft@0.32 corner: 0.2@0.42).
+	endPickerButton := aBuilder pluggableActionButtonSpec new.
+	endPickerButton
+		model: self;
+		label: 'Pick End Date';
+		action: #pickEndDate;
+		color: Color paleGreen;
+		frame: (self borderLeft@0.43 corner: 0.2@0.53).
+		
+	 ^ buttons := OrderedCollection new
+		add: saveButton;
+		add: beginPickerButton;
+		add: endPickerButton;
+		yourself

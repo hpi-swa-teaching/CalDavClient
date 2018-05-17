@@ -1,3 +1,4 @@
 accessing
 eventBeginMonth: anObject
-	eventBeginMonth := anObject
+	eventBeginMonth := anObject.
+	self changed: #eventBeginMonth

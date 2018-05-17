@@ -2,7 +2,6 @@ actions
 saveEvent
 
 	| event begin end |
-	
 	begin := DateAndTime 
 		year: eventBeginYear asNumber
 		month: eventBeginMonth asNumber
@@ -25,6 +24,6 @@ saveEvent
 		participants: self eventParticipants;
 		yourself.
 	
-	event isValid = '' ifTrue:[  
+	event isValid = '' ifTrue:[
 		self parent addEvent: event.
 		self close]

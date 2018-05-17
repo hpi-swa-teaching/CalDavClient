@@ -1,4 +1,10 @@
 as yet unclassified
 openForApp: aParent
 
-	^ ToolBuilder default open: (self new parent: aParent)
+	| dialog |
+	
+	dialog := self new.
+	dialog
+		parent: aParent.	
+		
+	 ^ToolBuilder default open: dialog
