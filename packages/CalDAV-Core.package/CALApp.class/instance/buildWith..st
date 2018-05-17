@@ -23,7 +23,7 @@ buildWith: aBuilder
 		list: #eventNames;
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
-		doubleClick: #openEditEventDialogue;
+		doubleClick: #openViewEventDialog;
 		frame: (0.1@0 corner: 1@1).
 	windowSpec children add: listSpec.		
 		

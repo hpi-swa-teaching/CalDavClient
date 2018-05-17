@@ -5,8 +5,8 @@ openForDialog: aDialog
 	
 	dialogWindow := aDialog topView.
 	datePicker := CALDatePicker new.
-	(datePicker openInWindowLabeled: 'Pick begin date') 
-		extent: datePicker extent + 10;
+	(datePicker openInWindowLabeled: 'Date Picker') 
+		extent: datePicker extent + 20;
 		position: (dialogWindow position x + dialogWindow width) @ (dialogWindow position y + (dialogWindow height * 0.3)).
 	
 	^ datePicker

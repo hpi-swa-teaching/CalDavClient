@@ -3,14 +3,14 @@
 		"open" : "PS 5/5/2018 17:55" },
 	"instance" : {
 		"addEvent:" : "jz 5/10/2018 14:17",
-		"buildWith:" : "lh 5/13/2018 12:25",
+		"buildWith:" : "jz 5/17/2018 11:46",
 		"currentIndex" : "lh 5/12/2018 19:11",
 		"currentIndex:" : "lh 5/13/2018 13:10",
 		"currentlySelectedEvent" : "lh 5/12/2018 19:13",
 		"deleteEvent:" : "kk 5/15/2018 14:40",
 		"eventNames" : "lh 5/12/2018 18:58",
 		"initialize" : "kk 5/12/2018 20:20",
-		"openAddEventDialog" : "jz 5/10/2018 14:13",
-		"openEditEventDialogue" : "lh 5/12/2018 19:50",
+		"openAddEventDialog" : "jz 5/17/2018 11:44",
+		"openViewEventDialog" : "jz 5/17/2018 11:46",
 		"selectedCalendar" : "lh 5/12/2018 19:45",
 		"selectedCalendar:" : "dm 5/10/2018 11:55" } }
