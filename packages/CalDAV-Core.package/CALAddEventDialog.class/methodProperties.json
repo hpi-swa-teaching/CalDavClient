@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"beginDateChanged:" : "dm 5/16/2018 18:26",
-		"buildButtons:" : "jz 5/16/2018 16:06",
+		"buildButtons:" : "jz 5/17/2018 12:04",
+		"endDateChanged:" : "jz 5/17/2018 11:50",
 		"isReadOnly" : "lh 5/12/2018 19:37",
-		"pickBeginDate" : "jz 5/17/2018 11:20",
+		"pickBeginDate" : "jz 5/17/2018 12:06",
+		"pickEndDate" : "jz 5/17/2018 12:07",
 		"saveEvent" : "dm 5/16/2018 18:24",
 		"windowTitle" : "jz 5/10/2018 12:19" } }
