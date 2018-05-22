@@ -15,12 +15,12 @@ testEventPropertiesChanges
 	self assert: eventDialog eventBeginMinute = 6 asString.
 	
 	eventDialog eventEndDay: 10.
-	self assert: eventDialog eventEndDay = 1 asString.
+	self assert: eventDialog eventEndDay = 10 asString.
 	eventDialog eventEndMonth: 8.
-	self assert: eventDialog eventEndMonth = 2 asString.
+	self assert: eventDialog eventEndMonth = 8 asString.
 	eventDialog eventEndYear: 2002.
 	self assert: eventDialog eventEndYear = 2002 asString.
 	eventDialog eventEndHour: 7.
-	self assert: eventDialog eventEndHour = 5 asString.
+	self assert: eventDialog eventEndHour = 7 asString.
 	eventDialog eventEndMinute: 8.
-	self assert: eventDialog eventEndMinute = 6 asString.
+	self assert: eventDialog eventEndMinute = 8 asString.
