@@ -1,3 +1,3 @@
 event properties
 eventLocation
-	^ eventLocation
+	^ self event location
