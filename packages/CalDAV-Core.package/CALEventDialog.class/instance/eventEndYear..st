@@ -1,5 +1,5 @@
 accessing
 eventEndYear: anObject
-	self event beginYear: anObject asNumber.
+	self event endYear: anObject asNumber.
 	self changed: #eventEndYear
 	

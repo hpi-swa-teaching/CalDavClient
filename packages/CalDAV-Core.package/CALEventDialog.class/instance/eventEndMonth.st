@@ -1,4 +1,4 @@
 accessing
 eventEndMonth
 
-	^ event end month asString
+	^ event endMonth asString
