@@ -1,4 +1,4 @@
 as yet unclassified
 initialize
 
-	self editingCopy: self event
+	self oldEvent: self event

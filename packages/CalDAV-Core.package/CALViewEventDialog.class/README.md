@@ -1,1 +1,0 @@
-I am a window and i show the details of an event

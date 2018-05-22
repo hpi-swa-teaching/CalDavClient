@@ -1,3 +1,3 @@
 event properties
 eventTitle: anObject
-	eventTitle := anObject
+	self event title: anObject

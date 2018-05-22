@@ -1,4 +1,0 @@
-toolbuilding
-windowTitle
- 
-^'View Event'

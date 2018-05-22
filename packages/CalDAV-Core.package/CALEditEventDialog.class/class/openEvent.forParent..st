@@ -6,6 +6,7 @@ openEvent: anEvent forParent: aParent
 	dialog := self new.
 	dialog
 		parent: aParent;
-		event: anEvent.
+		event: anEvent;
+		oldEvent: anEvent.
 		
 	 ^ToolBuilder default open: dialog

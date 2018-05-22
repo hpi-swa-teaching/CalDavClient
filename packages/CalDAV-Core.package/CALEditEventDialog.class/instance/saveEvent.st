@@ -1,4 +1,4 @@
-actions
+as yet unclassified
 saveEvent
 
 	| event |
@@ -12,5 +12,6 @@ saveEvent
 		yourself.
 	
 	event isValid = '' ifTrue:[
+		self parent deleteEvent: self oldEvent.
 		self parent addEvent: event.
 		self close].

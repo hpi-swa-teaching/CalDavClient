@@ -1,8 +1,11 @@
 {
 	"class" : {
-		 },
+		"openEvent:forParent:" : "dm 5/22/2018 19:30" },
 	"instance" : {
 		"buildButtons:" : "jz 5/17/2018 17:23",
-		"editingCopy" : "jz 5/17/2018 17:36",
-		"editingCopy:" : "jz 5/17/2018 17:36",
-		"initialize" : "jz 5/17/2018 17:36" } }
+		"deleteEvent" : "dm 5/22/2018 19:21",
+		"initialize" : "dm 5/22/2018 19:12",
+		"oldEvent" : "dm 5/22/2018 19:12",
+		"oldEvent:" : "dm 5/22/2018 19:12",
+		"saveEvent" : "dm 5/22/2018 19:14",
+		"windowTitle" : "dm 5/22/2018 19:05" } }

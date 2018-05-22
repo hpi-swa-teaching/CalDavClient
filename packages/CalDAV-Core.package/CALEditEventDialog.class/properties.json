@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "kk 5/15/2018 12:12",
 	"instvars" : [
-		"editingCopy" ],
+		"editingCopy",
+		"oldEvent" ],
 	"name" : "CALEditEventDialog",
 	"pools" : [
 		 ],
