@@ -1,5 +1,5 @@
 as yet unclassified
-testEvent
+demoEvent
 
 	^ CALEvent new
 		title: 'Meeting';

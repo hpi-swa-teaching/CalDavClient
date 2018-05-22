@@ -1,7 +1,7 @@
 as yet unclassified
 testEventPropertiesChanges
 
-	eventDialog event: self testEvent.
+	eventDialog event: self demoEvent.
 	
 	eventDialog eventBeginDay: 1.
 	self assert: eventDialog eventBeginDay = 1 asString.

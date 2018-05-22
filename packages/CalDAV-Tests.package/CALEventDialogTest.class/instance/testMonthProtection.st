@@ -3,7 +3,7 @@ testMonthProtection
 
 	| oldValue |
 	
-	eventDialog event: self testEvent.
+	eventDialog event: self demoEvent.
 	oldValue := eventDialog eventBeginMonth.
 	eventDialog eventBeginMonth: 13.
 	self assert: eventDialog eventBeginMonth = oldValue.

@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"demoEvent" : "PS 5/22/2018 19:57",
+		"demoEvent2" : "PS 5/22/2018 19:57",
 		"setUp" : "jz 5/17/2018 17:03",
 		"testButtonsForEditDialog" : "jz 5/17/2018 17:22",
-		"testEvent" : "jz 5/17/2018 17:28",
-		"testEventPropertiesChanges" : "PS 5/22/2018 18:14",
-		"testEventSavingInEditDialog" : "jz 5/17/2018 18:14",
+		"testDeleteEvent" : "PS 5/22/2018 20:04",
+		"testEventPropertiesChanges" : "PS 5/22/2018 19:58",
+		"testEventSavingInEditDialog" : "PS 5/22/2018 19:58",
 		"testFieldsWriteable" : "jz 5/17/2018 17:15",
 		"testInputFieldChangeMode" : "jz 5/17/2018 17:11",
-		"testMonthProtection" : "jz 5/17/2018 18:19" } }
+		"testMonthProtection" : "PS 5/22/2018 19:58" } }

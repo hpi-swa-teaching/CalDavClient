@@ -3,7 +3,7 @@ testEventSavingInEditDialog
 
 	| event |
 	
-	event := self testEvent.
+	event := self demoEvent.
 	eventDialog 
 		parent: CALApp new;
 		event: event.
