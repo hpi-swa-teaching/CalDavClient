@@ -4,4 +4,4 @@ testEventEditOnDoubleClick
 	| list |
 	
 	list := testApp buildEventList: ToolBuilder default.
-	self assert: list doubleClick = #openEditEventDialog
+	self assert: list doubleClick = #openViewEventDialog
