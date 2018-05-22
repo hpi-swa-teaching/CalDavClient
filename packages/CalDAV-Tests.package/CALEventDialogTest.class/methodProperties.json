@@ -4,9 +4,8 @@
 	"instance" : {
 		"setUp" : "jz 5/17/2018 17:03",
 		"testButtonsForEditDialog" : "jz 5/17/2018 17:22",
-		"testDayInMonthProtection" : "jz 5/17/2018 18:19",
 		"testEvent" : "jz 5/17/2018 17:28",
-		"testEventPropertiesChanges" : "jz 5/17/2018 18:34",
+		"testEventPropertiesChanges" : "PS 5/22/2018 18:14",
 		"testEventSavingInEditDialog" : "jz 5/17/2018 18:14",
 		"testFieldsWriteable" : "jz 5/17/2018 17:15",
 		"testInputFieldChangeMode" : "jz 5/17/2018 17:11",
