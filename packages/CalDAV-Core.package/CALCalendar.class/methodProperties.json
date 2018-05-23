@@ -1,9 +1,15 @@
 {
 	"class" : {
-		 },
+		"calendarDirectory" : "dm 5/23/2018 14:42" },
 	"instance" : {
-		"addEvent:" : "dm 5/10/2018 11:25",
+		"addEvent:" : "dm 5/23/2018 14:54",
+		"clearEvents" : "dm 5/23/2018 14:59",
 		"deleteEvent:" : "dm 5/22/2018 19:20",
 		"events" : "lh 5/12/2018 19:34",
 		"events:" : "dm 5/10/2018 11:19",
-		"initialize" : "dm 5/10/2018 11:34" } }
+		"eventsData" : "dm 5/23/2018 14:05",
+		"initialize" : "dm 5/23/2018 15:03",
+		"name" : "dm 5/23/2018 15:02",
+		"name:" : "dm 5/23/2018 15:02",
+		"restoreEvents" : "dm 5/23/2018 15:12",
+		"storeEvents" : "dm 5/23/2018 14:36" } }

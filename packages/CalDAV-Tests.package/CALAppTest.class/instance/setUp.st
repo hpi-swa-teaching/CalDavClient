@@ -4,6 +4,8 @@ setUp
 	| first second |
 	testApp := CALApp new.
 	testApp selectedCalendar: CALCalendar new.
+	testApp selectedCalendar name: 'testCalendar'.
+	testApp selectedCalendar clearEvents.
 	first := CALEvent new.
 	first begin: (DateAndTime year: 2017 month: 12 day: 24 hour: 17 minute: 30).
 	second := CALEvent new.

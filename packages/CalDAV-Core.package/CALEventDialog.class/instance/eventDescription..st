@@ -1,3 +1,3 @@
 event properties
 eventDescription: anObject
-	eventDescription := anObject
+	self event description: anObject asString
