@@ -25,7 +25,7 @@
 		"close" : "jz 5/10/2018 14:05",
 		"event" : "jz 5/17/2018 17:44",
 		"event:" : "lh 5/12/2018 19:41",
-		"eventBeginDay" : "jz 5/17/2018 17:51",
+		"eventBeginDay" : "dm 5/17/2018 15:04",
 		"eventBeginDay:" : "PS 5/22/2018 18:21",
 		"eventBeginHour" : "jz 5/17/2018 17:48",
 		"eventBeginHour:" : "PS 5/22/2018 18:23",
