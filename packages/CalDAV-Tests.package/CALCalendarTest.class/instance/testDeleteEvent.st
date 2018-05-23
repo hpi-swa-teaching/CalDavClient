@@ -1,7 +1,7 @@
 as yet unclassified
 testDeleteEvent
 	| entry  calendar |
-	entry := CALEventTest new.
+	entry := CALEvent new.
 	calendar := CALCalendar new.
 	calendar addEvent: entry.
 	calendar deleteEvent: entry.

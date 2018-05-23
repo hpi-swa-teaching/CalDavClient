@@ -1,4 +1,4 @@
 as yet unclassified
 initialize 
 	
-	self currentIndex: 1.
+	self currentIndex: 1
