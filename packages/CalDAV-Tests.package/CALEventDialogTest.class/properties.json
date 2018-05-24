@@ -9,7 +9,8 @@
 		"testApp",
 		"addDialog",
 		"editDialog",
-		"eventDialog" ],
+		"eventDialog",
+		"app" ],
 	"name" : "CALEventDialogTest",
 	"pools" : [
 		 ],

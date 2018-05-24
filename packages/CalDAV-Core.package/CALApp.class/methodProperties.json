@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"open" : "dm 5/23/2018 18:40" },
+		"open" : "jz 5/24/2018 10:58" },
 	"instance" : {
 		"addEvent:" : "jz 5/10/2018 14:17",
 		"buildAddEventButton:" : "jz 5/17/2018 16:57",
@@ -15,5 +15,5 @@
 		"initialize" : "dm 5/23/2018 18:34",
 		"openAddEventDialog" : "jz 5/17/2018 11:44",
 		"openEditEventDialog" : "jz 5/17/2018 17:30",
-		"selectedCalendar" : "lh 5/12/2018 19:45",
+		"selectedCalendar" : "jz 5/24/2018 10:58",
 		"selectedCalendar:" : "dm 5/10/2018 11:55" } }

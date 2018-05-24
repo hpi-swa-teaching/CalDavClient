@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "dm 5/23/2018 15:04",
-		"testAddEventButton" : "jz 5/17/2018 16:54",
-		"testCalendarSelection" : "jz 5/17/2018 16:46",
-		"testEventAdding" : "dm 5/23/2018 15:00",
-		"testEventEditOnDoubleClick" : "dm 5/23/2018 13:32" } }
+		"setUp" : "jz 5/24/2018 11:03",
+		"testAddEventButton" : "jz 5/24/2018 11:03",
+		"testCalendarSelection" : "jz 5/24/2018 11:03",
+		"testEventAdding" : "jz 5/24/2018 11:03",
+		"testEventEditOnDoubleClick" : "jz 5/24/2018 11:03" } }

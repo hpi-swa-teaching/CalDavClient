@@ -1,7 +1,7 @@
 as yet unclassified
 testCalendarSelection
 
-	testApp currentIndex: 1.
-	self assert: testApp currentlySelectedEvent title = 'first'
+	app currentIndex: 1.
+	self assert: app currentlySelectedEvent title = 'first'
 	
 	

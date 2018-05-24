@@ -4,9 +4,9 @@
 	"instance" : {
 		"demoEvent" : "PS 5/22/2018 19:57",
 		"demoEvent2" : "PS 5/22/2018 19:57",
-		"setUp" : "jz 5/17/2018 17:03",
+		"setUp" : "jz 5/24/2018 11:02",
 		"testButtonsForEditDialog" : "jz 5/17/2018 17:22",
-		"testDeleteEvent" : "dm 5/23/2018 18:32",
+		"testDeleteEvent" : "jz 5/24/2018 11:03",
 		"testEventPropertiesChanges" : "PS 5/22/2018 19:58",
 		"testFieldsWriteable" : "jz 5/17/2018 17:15",
 		"testInputFieldChangeMode" : "jz 5/17/2018 17:11",
