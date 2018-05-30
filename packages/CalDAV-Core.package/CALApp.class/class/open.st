@@ -3,8 +3,6 @@ open
 
 	| app |
 	
-	app := self new.
-	app addCalendar: (CALCalendar withName: 'MyCalendar').	
-	app calendars do: [:each | each restoreEvents].	
+	app := CALApp new.
 	
 	^ToolBuilder default open: app
