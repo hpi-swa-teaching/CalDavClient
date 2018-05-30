@@ -6,6 +6,7 @@ testIsValidDates
 	eventWithWrongOrder 
 		begin: self end;
 		end: self begin.
+	Transcript show: eventWithWrongOrder isValid.
 	self assert: (eventWithWrongOrder isValid = CALEvent endBeforeStartError)
 	
 

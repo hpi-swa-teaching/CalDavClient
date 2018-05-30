@@ -1,3 +1,3 @@
-event properties
+accessing
 eventDescription
-	^ eventDescription
+	^ self event description 

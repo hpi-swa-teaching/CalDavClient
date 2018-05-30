@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"demoEvent" : "jz 5/24/2018 11:07",
+		"demoEvent2" : "jz 5/24/2018 11:07",
 		"testAddEvent" : "dm 5/10/2018 11:26",
-		"testDeleteEvent" : "kk 5/15/2018 14:44",
+		"testDeleteEvent" : "dm 5/23/2018 18:31",
+		"testPersistence" : "jz 5/24/2018 11:09",
 		"testSortingOfEvents" : "dm 5/10/2018 12:00" } }

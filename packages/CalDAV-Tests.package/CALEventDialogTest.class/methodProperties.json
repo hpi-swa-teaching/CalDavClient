@@ -4,11 +4,11 @@
 	"instance" : {
 		"demoEvent" : "PS 5/22/2018 19:57",
 		"demoEvent2" : "PS 5/22/2018 19:57",
-		"setUp" : "jz 5/17/2018 17:03",
-		"testButtonsForEditDialog" : "jz 5/17/2018 17:22",
-		"testDeleteEvent" : "PS 5/22/2018 20:18",
+		"setUp" : "lh 5/30/2018 20:48",
+		"testButtonsForEditDialog" : "jz 5/30/2018 14:50",
+		"testDeleteEvent" : "jz 5/24/2018 11:03",
 		"testEventPropertiesChanges" : "PS 5/22/2018 19:58",
 		"testFieldsWriteable" : "jz 5/17/2018 17:15",
 		"testInputFieldChangeMode" : "jz 5/17/2018 17:11",
 		"testMonthProtection" : "PS 5/22/2018 19:58",
-		"testSaveNewEvent" : "PS 5/22/2018 20:25" } }
+		"testSaveNewEvent" : "lh 5/30/2018 20:49" } }

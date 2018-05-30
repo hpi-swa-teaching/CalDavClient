@@ -1,4 +1,5 @@
 accessing
-deleteEvent: aCALEvent
-	self events remove: aCALEvent ifAbsent: [Transcript show: 'Event not found']
-	
+deleteEvent: anEvent
+
+	self events remove: anEvent ifAbsent: [self errorEventNotInCalendar: anEvent].
+	self storeEvents

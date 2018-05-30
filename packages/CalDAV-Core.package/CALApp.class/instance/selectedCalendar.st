@@ -1,3 +1,4 @@
 accessing
 selectedCalendar
-	^selectedCalendar ifNil:[selectedCalendar :=CALCalendar new]
+
+	^self calendars at: self calendarIndex

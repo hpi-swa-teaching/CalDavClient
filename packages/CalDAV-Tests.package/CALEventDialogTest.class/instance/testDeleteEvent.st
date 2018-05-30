@@ -1,9 +1,8 @@
 as yet unclassified
 testDeleteEvent
 
-	| app de1 de2|
+	| de1 de2|
 	
-	app := CALApp new.
 	de1 := self demoEvent.
 	de2 := self demoEvent2.
 	app addEvent: de1.

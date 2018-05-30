@@ -1,9 +1,11 @@
 as yet unclassified
 openAddCalendarDialog
 
-	| dialogWindow |
+	|calendarName|
+	calendarName := UIManager default
+		request: 'How should it be named?:'
+		initialAnswer: ''.
 	
-	dialogWindow := CALAddEventDialog openForApp: self.
-	dialogWindow position: self topView position + (self topView extent * 0.5 - (dialogWindow extent * 0.5)).
+	calendarName = '' ifFalse: [self addCalendar: (CALCalendar withName: calendarName)].
+	self changed: #calendarNames
 	
-	^ dialogWindow

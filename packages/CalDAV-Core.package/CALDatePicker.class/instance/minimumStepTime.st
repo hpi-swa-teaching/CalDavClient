@@ -1,0 +1,3 @@
+CalendarMorph
+minimumStepTime
+	^ 20

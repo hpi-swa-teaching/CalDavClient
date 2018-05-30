@@ -1,3 +1,3 @@
-event properties
+accessing
 eventParticipants: anObject
-	eventParticipants := anObject
+	self event participants: anObject asString

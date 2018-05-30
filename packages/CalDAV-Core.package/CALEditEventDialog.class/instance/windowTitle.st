@@ -1,3 +1,4 @@
-as yet unclassified
+toolbuilding
 windowTitle
-	^ 'View / Edit Dialog'
+
+	^ 'Edit Event'

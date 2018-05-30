@@ -1,4 +1,4 @@
 accessing
 calendarNames
 
-	 ^ self calendars collect: [:calendar | calendar title]
+	 ^ self calendars collect: [:calendar | calendar name]

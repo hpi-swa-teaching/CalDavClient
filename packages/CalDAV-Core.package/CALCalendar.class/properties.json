@@ -7,7 +7,7 @@
 	"commentStamp" : "kk 5/15/2018 12:13",
 	"instvars" : [
 		"events",
-		"title" ],
+		"name" ],
 	"name" : "CALCalendar",
 	"pools" : [
 		 ],
