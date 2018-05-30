@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"date",
+		"shouldUpdate",
+		"stepTime" ],
 	"name" : "CALDatePicker",
 	"pools" : [
 		 ],
-	"super" : "CalendarMorph",
+	"super" : "Morph",
 	"type" : "normal" }
