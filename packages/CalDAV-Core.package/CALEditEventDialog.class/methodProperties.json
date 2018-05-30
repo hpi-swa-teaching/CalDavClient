@@ -2,10 +2,10 @@
 	"class" : {
 		"openEvent:forParent:" : "dm 5/22/2018 19:30" },
 	"instance" : {
-		"buildButtons:" : "dm 5/22/2018 19:36",
+		"buildButtons:" : "jz 5/30/2018 14:47",
 		"deleteEvent" : "PS 5/22/2018 20:18",
 		"initialize" : "dm 5/22/2018 19:12",
 		"oldEvent" : "dm 5/22/2018 19:12",
 		"oldEvent:" : "dm 5/22/2018 19:12",
 		"saveEvent" : "dm 5/22/2018 19:14",
-		"windowTitle" : "dm 5/22/2018 19:05" } }
+		"windowTitle" : "jz 5/30/2018 14:38" } }

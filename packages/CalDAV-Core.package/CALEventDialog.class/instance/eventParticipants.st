@@ -1,3 +1,3 @@
-event properties
+accessing
 eventParticipants
 	^ self event participants 

@@ -1,3 +1,3 @@
-event properties
+accessing
 eventTitle
 	^ self event title
