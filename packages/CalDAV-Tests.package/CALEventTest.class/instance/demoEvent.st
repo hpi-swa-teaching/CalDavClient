@@ -1,5 +1,6 @@
 constants
-createEvent
+demoEvent
+
 	| event |
 	
 	event := CALEvent new.
@@ -9,4 +10,4 @@ createEvent
 		description: self description;
 		participants: self participants.
 	
-	^event
+	^ event

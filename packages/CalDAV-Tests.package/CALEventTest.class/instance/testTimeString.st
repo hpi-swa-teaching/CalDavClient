@@ -1,5 +1,5 @@
 testing
 testTimeString
 	| event |
-	event := self createEvent.
+	event := self demoEvent.
 	self assert: (event timeString = '17:09')

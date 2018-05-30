@@ -1,10 +1,11 @@
 testing
 testIsValidTitle
 
-	|eventWithNoTitle|
-	eventWithNoTitle := self createEvent.
+	| eventWithNoTitle |
+	
+	eventWithNoTitle := self demoEvent.
 	eventWithNoTitle title: nil.
-	self assert: (eventWithNoTitle isValid = CALEvent noTitleError)
+	self assert: eventWithNoTitle isTitleValid not
 	
 
 

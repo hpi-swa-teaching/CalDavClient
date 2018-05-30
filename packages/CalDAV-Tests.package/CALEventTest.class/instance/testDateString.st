@@ -1,5 +1,5 @@
 testing
 testDateString
 	| event |
-	event := self createEvent.
+	event := self demoEvent.
 	self assert: (event dateString = '24.12.2018')
