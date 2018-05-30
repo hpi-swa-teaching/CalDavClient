@@ -1,11 +1,11 @@
 toolbuilder
-buildEventList: aBuilder
+buildCalendarList: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		list: #eventNames;
+		list: #calendarNames;
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
-		doubleClick: #openEditEventDialog;
-		frame: (0.3 @ 0 corner: 1 @ 1);
+		"doubleClick: #openEditEventDialog;"
+		frame: (0.1 @ 0 corner: 0.3 @ 1);
 		yourself

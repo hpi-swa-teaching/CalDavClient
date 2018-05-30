@@ -1,3 +1,3 @@
 accessing
 selectedCalendar
-	^calendar ifNil:[calendar :=CALCalendar new]
+	^selectedCalendar ifNil:[selectedCalendar :=CALCalendar new]

@@ -1,3 +1,3 @@
 accessing
 selectedCalendar: aCalendar
-	calendar := aCalendar
+	selectedCalendar := aCalendar

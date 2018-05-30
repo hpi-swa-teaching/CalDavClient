@@ -5,5 +5,5 @@ buildAddEventButton: aBuilder
 		model: self;
 		action: #openAddEventDialog;
 		label: 'Add Event';
-		frame: (0 @ 0 corner: 0.1 @ 1);
+		frame: (0 @ 0 corner: 0.1 @ 0.5);
 		yourself

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "kk 5/15/2018 12:13",
 	"instvars" : [
-		"calendar",
+		"calendars",
+		"selectedCalendar",
 		"currentIndex" ],
 	"name" : "CALApp",
 	"pools" : [
