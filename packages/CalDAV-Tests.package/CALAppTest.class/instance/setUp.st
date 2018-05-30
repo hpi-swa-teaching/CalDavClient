@@ -4,7 +4,7 @@ setUp
 	| first second |
 	app := CALApp new.
 	app calendars add: (CALCalendar withName: 'testCalendar').
-	app calendarIndex: 1.
+	app calendarIndex: app calendars size.
 	first := CALEvent new.
 	first begin: (DateAndTime year: 2017 month: 12 day: 24 hour: 17 minute: 30).
 	second := CALEvent new.

@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"deleteCalendar" : "lh 5/31/2018 00:51",
 		"demoEvent" : "jz 5/24/2018 11:07",
 		"demoEvent2" : "jz 5/24/2018 11:07",
-		"testAddEvent" : "dm 5/10/2018 11:26",
-		"testDeleteEvent" : "dm 5/23/2018 18:31",
+		"tearDown" : "lh 5/31/2018 00:51",
+		"testAddEvent" : "lh 5/31/2018 00:45",
+		"testDeleteEvent" : "lh 5/31/2018 00:46",
 		"testPersistence" : "jz 5/24/2018 11:09",
-		"testSortingOfEvents" : "dm 5/10/2018 12:00" } }
+		"testSortingOfEvents" : "lh 5/31/2018 00:52" } }
