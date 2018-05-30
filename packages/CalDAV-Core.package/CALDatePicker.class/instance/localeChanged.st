@@ -1,0 +1,3 @@
+CalendarMorph
+localeChanged
+	self update

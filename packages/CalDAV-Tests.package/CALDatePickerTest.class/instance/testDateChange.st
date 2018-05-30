@@ -1,8 +1,6 @@
 testing
 testDateChange
 
-	"datePicker date: Date tomorrow.
+	datePicker date: Date tomorrow.
 	self assert: datePicker date = Date tomorrow.
-	self assert: self date = datePicker date start"
-	
-	self flag: #travisDoesNotUnderstandCalendarMorph
+	self assert: self date = datePicker date start
