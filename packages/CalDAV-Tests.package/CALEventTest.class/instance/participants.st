@@ -1,3 +1,4 @@
 constants
 participants
-	^#('mum' 'dad' 'brother' 'sister' 'grandma')
+
+	^ #('mum' 'dad' 'brother' 'sister' 'grandma')
