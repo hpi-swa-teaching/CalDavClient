@@ -1,9 +1,9 @@
 as yet unclassified
 testSaveNewEvent
 
-	| de1 de2 app |
+	| de1 de2 |
 	
-	app := CALApp new.
+	self setUp.
 	de1 := self demoEvent.
 	de2 := self demoEvent2.
 	app addEvent: de1.

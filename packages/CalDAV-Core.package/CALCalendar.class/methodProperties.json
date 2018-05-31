@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"calendarDirectory" : "dm 5/23/2018 14:42" },
+		"calendarDirectory" : "dm 5/23/2018 14:42",
+		"withName:" : "lh 5/30/2018 20:45" },
 	"instance" : {
 		"addEvent:" : "dm 5/23/2018 14:54",
 		"clearEvents" : "dm 5/23/2018 14:59",

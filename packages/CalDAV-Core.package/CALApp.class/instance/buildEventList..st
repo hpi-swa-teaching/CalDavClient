@@ -7,5 +7,5 @@ buildEventList: aBuilder
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
 		doubleClick: #openEditEventDialog;
-		frame: (0.1 @ 0 corner: 1 @ 1);
+		frame: (0.3 @ 0 corner: 1 @ 1);
 		yourself

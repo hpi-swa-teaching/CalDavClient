@@ -3,9 +3,8 @@ setUp
 
 	| first second |
 	app := CALApp new.
-	app selectedCalendar: CALCalendar new.
-	app selectedCalendar name: 'testCalendar'.
-	app selectedCalendar clearEvents.
+	app calendars add: (CALCalendar withName: 'testCalendar').
+	app calendarIndex: app calendars size.
 	first := CALEvent new.
 	first begin: (DateAndTime year: 2017 month: 12 day: 24 hour: 17 minute: 30).
 	second := CALEvent new.

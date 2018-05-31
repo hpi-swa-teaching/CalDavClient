@@ -4,7 +4,8 @@
 	"instance" : {
 		"demoEvent" : "PS 5/22/2018 19:57",
 		"demoEvent2" : "PS 5/22/2018 19:57",
-		"setUp" : "jz 5/30/2018 16:12",
+		"setUp" : "lh 5/31/2018 00:38",
+		"tearDown" : "lh 5/31/2018 00:52",
 		"testButtonsForEditDialog" : "jz 5/30/2018 14:50",
 		"testDeleteEvent" : "jz 5/24/2018 11:03",
 		"testEventPropertiesChanges" : "PS 5/22/2018 19:58",
