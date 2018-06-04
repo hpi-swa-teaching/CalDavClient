@@ -1,3 +1,3 @@
 accessing
 eventBeginHour
-	^ event begin hours asString
+	^ event beginHour asString
