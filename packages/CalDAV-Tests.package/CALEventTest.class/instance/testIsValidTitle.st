@@ -5,7 +5,7 @@ testIsValidTitle
 	
 	eventWithNoTitle := self demoEvent.
 	eventWithNoTitle title: nil.
-	self assert: eventWithNoTitle isTitleValid not
+	self assert: (eventWithNoTitle isTitleValid not)
 	
 
 

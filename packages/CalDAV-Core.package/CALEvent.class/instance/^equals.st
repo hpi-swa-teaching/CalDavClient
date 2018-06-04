@@ -15,4 +15,5 @@ as yet unclassified
 	 and:
 	[(self endMinute = anEvent endMinute) and:
 	[self location = anEvent location] and:
-	[self participants = anEvent participants]]
+	[self participants = anEvent participants] and:
+	[self description = anEvent description]]

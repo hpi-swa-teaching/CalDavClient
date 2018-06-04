@@ -8,4 +8,5 @@ testAccessors
 	self assert: (event end = self end).
 	self assert: (event title = self title).
 	self assert: (event description = self description).
-	self assert: (event participants = self participants)
+	self assert: (event participants = self participants).
+	self assert: (event calendar = self calendar).

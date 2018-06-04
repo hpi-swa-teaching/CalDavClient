@@ -1,10 +1,13 @@
 {
 	"class" : {
+		"dateString:" : "PS 6/4/2018 16:11",
 		"endBeforeStartError" : "lh 5/12/2018 15:46",
 		"noError" : "lh 5/12/2018 15:24",
-		"noTitleError" : "lh 5/12/2018 15:46" },
+		"noTitleError" : "lh 5/12/2018 15:46",
+		"numberToTwoDigitsString:" : "PS 6/4/2018 16:05",
+		"timeString:" : "PS 6/4/2018 16:16" },
 	"instance" : {
-		"=" : "jz 5/24/2018 11:30",
+		"=" : "PS 6/4/2018 15:52",
 		"areDatesValid" : "jz 5/30/2018 15:19",
 		"autocorrectBegin" : "jz 5/30/2018 16:01",
 		"autocorrectEnd" : "jz 5/30/2018 16:01",
@@ -20,7 +23,8 @@
 		"beginMonth:" : "jz 5/30/2018 15:51",
 		"beginYear" : "PS 5/17/2018 12:02",
 		"beginYear:" : "jz 5/30/2018 15:51",
-		"dateString" : "kk 5/12/2018 19:37",
+		"calendar" : " 6/4/2018 16:22:48",
+		"calendar:" : " 6/4/2018 16:22:48",
 		"description" : "PS 5/4/2018 13:42",
 		"description:" : "PS 5/4/2018 13:42",
 		"end" : "PS 5/22/2018 18:46",
@@ -42,10 +46,8 @@
 		"isValid" : "jz 5/30/2018 15:27",
 		"location" : "PS 5/4/2018 13:42",
 		"location:" : "PS 5/4/2018 13:42",
-		"numberToTwoDigitsString:" : "kk 5/12/2018 19:14",
 		"participants" : "PS 5/4/2018 13:42",
 		"participants:" : "PS 5/4/2018 13:42",
-		"timeString" : "kk 5/12/2018 19:21",
 		"timespan" : "PS 5/4/2018 14:47",
 		"title" : "PS 5/4/2018 13:41",
 		"title:" : "PS 5/4/2018 13:41" } }

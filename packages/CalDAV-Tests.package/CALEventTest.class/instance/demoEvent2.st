@@ -1,5 +1,5 @@
 constants
-demoEvent
+demoEvent2
 
 	| event |
 	
@@ -7,7 +7,7 @@ demoEvent
 	event begin: self begin;
 		end: self end;
 		title: self title;
-		description: self description;
+		description: 'too much drunk familiy! #321';
 		participants: self participants;
 		calendar: self calendar.
 	
