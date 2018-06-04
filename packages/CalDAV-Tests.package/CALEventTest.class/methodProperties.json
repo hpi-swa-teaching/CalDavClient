@@ -16,7 +16,7 @@
 		"testBeginEndOrderCorrection" : "jz 5/30/2018 16:01",
 		"testDateString" : "PS 6/4/2018 16:13",
 		"testEventsEqual" : "PS 6/4/2018 15:52",
-		"testIsValid" : "jz 5/30/2018 15:25",
+		"testIsValid" : "jz 6/4/2018 17:38",
 		"testIsValidTitle" : "PS 6/4/2018 15:55",
 		"testNumberToTwoDigitsString" : "PS 6/4/2018 16:07",
 		"testTimeString" : "PS 6/4/2018 16:17",
