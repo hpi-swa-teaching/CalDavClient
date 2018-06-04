@@ -6,4 +6,6 @@ setUp
 	app calendarIndex: app calendars size.
 	eventDialog := CALEventDialog new.
 	addDialog := CALAddEventDialog new.
-	editDialog := CALEditEventDialog new
+	addDialog parent: app.
+	editDialog := CALEditEventDialog new.
+	editDialog parent: app

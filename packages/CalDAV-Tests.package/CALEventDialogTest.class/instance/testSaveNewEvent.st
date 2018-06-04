@@ -8,7 +8,7 @@ testSaveNewEvent
 	de2 := self demoEvent2.
 	app addEvent: de1.
 	
-	eventDialog 
+	addDialog 
 		parent: app;
 		event: de2;
 		saveEvent.

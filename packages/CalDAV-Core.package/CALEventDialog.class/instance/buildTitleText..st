@@ -3,6 +3,7 @@ buildTitleText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
+		color: #titleColor;
 		getText: #eventTitle;
 		editText: #eventTitle:;
 		indicateUnacceptedChanges: false;
