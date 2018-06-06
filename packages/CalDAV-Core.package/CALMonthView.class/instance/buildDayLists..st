@@ -6,7 +6,7 @@ buildDayLists: aBuilder
 	lists := OrderedCollection new.
 	1 to: 6 do: [ :row |
 		 1 to: 7 do: [ :column |
-			lists add: (self buildListWith: aBuilder row: row column: column)
+			lists addAll: (self buildDayWith: aBuilder row: row column: column).
 		]
 	].
 	^ lists
