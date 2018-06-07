@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"date",
-		"parent" ],
+		"date" ],
 	"name" : "CALDay",
 	"pools" : [
 		 ],

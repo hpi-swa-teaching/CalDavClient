@@ -1,7 +1,7 @@
 as yet unclassified
 previousMonth
 
-	self firstOfMonth: (firstOfMonth addMonths: -1).
+	self firstOfMonth: (firstOfMonth onPreviousMonth).
 	self changed: #monthText.
 	self fillMonth.
 	self changed: #days
