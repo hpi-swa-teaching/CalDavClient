@@ -1,4 +1,4 @@
-calender
+calendar management
 addCalendar: aCalendar
 	
 	self calendars detect: [:calender | calender name = aCalendar name] 

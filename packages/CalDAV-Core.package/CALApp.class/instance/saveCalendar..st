@@ -1,4 +1,4 @@
-calender
+calendar management
 saveCalendar: aCalendar
 	
 	(CALCalendar calendarDirectory fileExists: aCalendar name)

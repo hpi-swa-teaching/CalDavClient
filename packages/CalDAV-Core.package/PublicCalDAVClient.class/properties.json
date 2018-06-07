@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PublicCalDAVClient",
+	"pools" : [
+		 ],
+	"super" : "CalDavClient",
+	"type" : "normal" }

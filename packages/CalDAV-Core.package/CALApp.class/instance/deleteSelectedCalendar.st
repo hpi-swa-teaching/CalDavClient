@@ -1,4 +1,4 @@
-calender
+calendar management
 deleteSelectedCalendar
 	
 	|selectedCalendar|

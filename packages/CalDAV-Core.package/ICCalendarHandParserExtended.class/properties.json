@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ICCalendarHandParserExtended",
+	"pools" : [
+		 ],
+	"super" : "ICCalendarHandParser",
+	"type" : "normal" }

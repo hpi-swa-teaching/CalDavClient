@@ -1,4 +1,2 @@
 as yet unclassified
-noError
-
-^''
+assumesAuthorization
