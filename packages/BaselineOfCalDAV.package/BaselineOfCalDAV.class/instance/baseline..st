@@ -5,8 +5,9 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				
-				package: 'CalDAV-Core';
+				package: 'ICal-Core-Model';
+				package: 'DAV-Cal';
+				package: 'CalDAV-Core'; with: [spec requires: #('DAV-Cal')];
 				package: 'CalDAV-Tests' with: [spec requires: #('CalDAV-Core')];
 				yourself.
 			spec
