@@ -1,0 +1,4 @@
+authorization
+addAuthorizationInformation: request
+
+	self subclassResponsibility 

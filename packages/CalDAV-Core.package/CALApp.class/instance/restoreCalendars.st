@@ -1,4 +1,4 @@
-calender
+calendar management
 restoreCalendars
 
 	CALCalendar calendarDirectory fileNames do: [:name | self addCalendar: (CALCalendar 	withName: name)].

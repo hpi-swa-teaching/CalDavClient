@@ -1,4 +1,4 @@
-calender
+calendar management
 defaultCalendarName
 	
  	^'Privat' 

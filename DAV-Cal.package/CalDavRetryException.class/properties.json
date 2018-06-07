@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDavRetryException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"accessToken",
+		"refreshToken" ],
+	"name" : "GoogleCalDAVClient",
+	"pools" : [
+		 ],
+	"super" : "CalDavClient",
+	"type" : "normal" }
