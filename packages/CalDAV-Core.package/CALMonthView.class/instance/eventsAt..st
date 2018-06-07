@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 eventsAt: aDay
 	
-	^self days at: aDay eventNames
+	^ self days at: aDay eventNames

@@ -1,5 +1,9 @@
-as yet unclassified
+initialize
 initialize
 	
-	self days: OrderedCollection new.
-	self firstOfMonth: (Date year: Date today year month: Date today monthIndex day: 1).
+	self 
+		days: OrderedCollection new;
+		firstOfMonth: (Date 
+			year: Date today year 
+			month: Date today monthIndex 
+			day: 1)

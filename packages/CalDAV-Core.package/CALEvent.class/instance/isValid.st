@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 isValid
 
 	^ self isTitleValid and: self areDatesValid

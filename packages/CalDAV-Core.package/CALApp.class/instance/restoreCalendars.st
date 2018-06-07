@@ -1,8 +1,8 @@
 calendar management
 restoreCalendars
 
-	CALCalendar calendarDirectory fileNames do: [:name | self addCalendar: (CALCalendar 	withName: name)].
-	self calendars do: [:calendar | calendar restoreEvents ].
+	CALCalendar calendarDirectory fileNames do: [ :each | self addCalendar: (CALCalendar 	withName: each) ].
+	self calendars do: [ :each | each restoreEvents ].
 	self changed: #calenderNames.
 	self changed: #eventNames
 	

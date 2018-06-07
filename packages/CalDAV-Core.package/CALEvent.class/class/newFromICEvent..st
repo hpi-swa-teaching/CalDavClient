@@ -6,7 +6,7 @@ newFromICEvent: anEvent
 	event := self new.
 	participants := String new.
 	attendees := anEvent attendees asOrderedCollection.
-	attendees allButLastDo: [:each | participants := participants , each , ', '].
+	attendees allButLastDo: [ :each | participants := participants , each , ', ' ].
 	participants := participants , attendees last.
 	event
 		title: anEvent summary;
@@ -15,6 +15,5 @@ newFromICEvent: anEvent
 		end: anEvent end;
 		location: anEvent location;
 		participants: participants.
-	
 	^ event
 	

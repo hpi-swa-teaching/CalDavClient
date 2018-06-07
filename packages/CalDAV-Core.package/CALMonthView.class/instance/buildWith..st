@@ -1,7 +1,7 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 
-	|newWindow|
+	| newWindow |
 
 	newWindow := aBuilder pluggableWindowSpec new.
 	newWindow

@@ -1,5 +1,5 @@
-as yet unclassified
+actions
 nextMonth
 
-	self changeMonthTo: self firstOfMonth onNextMonth.
+	self changeMonthTo: self firstOfMonth onNextMonth
 	

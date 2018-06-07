@@ -3,7 +3,6 @@ openForApp: anApp
 
 	| monthView |
 	
-	monthView := CALMonthView new.
-	monthView parent: anApp.
-	
-	^ToolBuilder default open: monthView
+	monthView := CALMonthView new;
+		parent: anApp.
+	^ ToolBuilder default open: monthView

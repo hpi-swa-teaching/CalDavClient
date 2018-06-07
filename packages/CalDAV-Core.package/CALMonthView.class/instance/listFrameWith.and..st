@@ -1,7 +1,7 @@
-as yet unclassified
+toolbuilder
 listFrameWith: aRow and: aColumn
 
-	| x y height width listHeight|
+	| x y height width listHeight |
 	
 	width := self monthViewFrame width / 7.
 	height := self monthViewFrame height / 6.

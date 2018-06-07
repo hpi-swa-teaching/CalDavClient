@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 dayAt: aRow and: aColumn
 	
-	^ ((aRow-1) * 7 + aColumn) - self firstOfMonth dayOfWeek +1
+	^ self dayAt: ((aRow-1) * 7 + aColumn)

@@ -1,5 +1,5 @@
-as yet unclassified
+ui
 highlightTitle
 	self event isTitleValid
-		ifFalse: [ self titleColor: Color paleRed ]
-		ifTrue: [ self titleColor: Color white ]
+		ifFalse: [self titleColor: Color paleRed]
+		ifTrue: [self titleColor: Color white]

@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 isEndDateValid
 	
 	[self end] on: Error do: [^ false].

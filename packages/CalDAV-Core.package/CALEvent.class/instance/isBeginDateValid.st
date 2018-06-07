@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 isBeginDateValid
 	
 	[self begin] on: Error do: [^ false].
