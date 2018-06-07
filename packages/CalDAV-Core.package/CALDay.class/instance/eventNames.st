@@ -2,5 +2,5 @@ as yet unclassified
 eventNames 
 	
 	 ^ OrderedCollection new
-			add: self day asString;
+			add: self date asString;
 			yourself.

@@ -1,10 +1,10 @@
 as yet unclassified
-buildTextFor: aDay at: aFrame with: aBuilder
+buildTextAt: aRow and: aColumn with: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
-		model: aDay;
+		model: (self days at: (aRow-1)*7 + aColumn);
 		getText: #dateText;
-		frame: aFrame;
+		frame: (self textFrameWith: aRow and: aColumn);
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		yourself

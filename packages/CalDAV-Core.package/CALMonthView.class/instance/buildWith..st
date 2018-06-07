@@ -12,6 +12,7 @@ buildWith: aBuilder
 	newWindow children
 		add: (self buildNextMonthButton: aBuilder);
 		add: (self buildPreviousMonthButton: aBuilder);
+		add: (self buildMonthTextWith: aBuilder);
 		addAll: (self buildDayLists: aBuilder).
 	
 	^ aBuilder build: newWindow
