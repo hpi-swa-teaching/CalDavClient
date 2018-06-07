@@ -8,7 +8,8 @@
 	"instvars" : [
 		"fields",
 		"days",
-		"firstOfMonth" ],
+		"firstOfMonth",
+		"parent" ],
 	"name" : "CALMonthView",
 	"pools" : [
 		 ],

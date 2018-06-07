@@ -1,5 +1,5 @@
 as yet unclassified
 openMonthView
 
-	CALMonthView open.
+	CALMonthView openForApp: self.
 

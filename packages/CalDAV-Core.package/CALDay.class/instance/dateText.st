@@ -1,3 +1,6 @@
 accessing
 dateText
-	date ifNil: [^''] ifNotNil: [^(date dayOfMonth) asString]
+
+	self date 
+		ifNil: [^''] 
+		ifNotNil: [^(date dayOfMonth) asString]

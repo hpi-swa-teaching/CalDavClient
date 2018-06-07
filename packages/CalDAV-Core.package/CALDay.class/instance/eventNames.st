@@ -1,6 +1,6 @@
 as yet unclassified
 eventNames 
 	
-	 ^ OrderedCollection new
-			add: self date asString;
-			yourself.
+	self date 
+		ifNil: [^OrderedCollection new] 
+		ifNotNil: [^ self parent eventNamesBeginIn: self date]
