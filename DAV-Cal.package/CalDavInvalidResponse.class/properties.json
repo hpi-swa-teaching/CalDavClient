@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDavInvalidResponse",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

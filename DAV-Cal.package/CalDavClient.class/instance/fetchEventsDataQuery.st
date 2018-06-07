@@ -1,0 +1,4 @@
+queries
+fetchEventsDataQuery
+
+	^ DAVPropFindQuery empty

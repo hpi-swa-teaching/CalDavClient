@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"calendarFieldsMapping" : "pre 1/20/2017 16:45" },
+	"instance" : {
+		"addEvent:" : "pre 3/15/2017 14:31",
+		"asTemporaryICCalendar" : "pre 4/6/2017 14:38",
+		"calendarName" : "pre 4/11/2017 11:29",
+		"calendarName:" : "pre 4/11/2017 11:29",
+		"client" : "pre 1/20/2017 10:45",
+		"doesNotUnderstand:" : "pre 11/7/2017 16:46",
+		"events" : "pre 1/20/2017 16:42",
+		"events:" : "pre 1/20/2017 10:43",
+		"initialize" : "pre 3/15/2017 14:29",
+		"newEvent" : "pre 4/11/2017 11:32",
+		"removeDeletedEvents:" : "pre 3/15/2017 15:58",
+		"serverColor" : "pre 4/6/2017 11:44",
+		"serverColor:" : "pre 1/20/2017 16:52",
+		"serverData" : "pre 1/20/2017 16:36",
+		"serverData:" : "pre 1/20/2017 16:36",
+		"updateCalendar" : "pre 1/20/2017 16:44",
+		"updateEvents" : "pre 4/6/2017 12:05",
+		"updateOrAddEvents:" : "pre 4/6/2017 16:53",
+		"url" : "pre 1/20/2017 10:43",
+		"url:" : "pre 1/20/2017 15:53" } }
