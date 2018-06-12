@@ -2,13 +2,17 @@
 	"class" : {
 		"openForApp:" : "kk 6/12/2018 12:22" },
 	"instance" : {
-		"buildNextDayButton:" : "kk 6/12/2018 12:24",
-		"buildPreviousDayButton:" : "kk 6/12/2018 12:25",
-		"buildWith:" : "kk 6/12/2018 12:26",
+		"buildDayTextWith:" : "kk 6/12/2018 13:46",
+		"buildNextDayButton:" : "kk 6/12/2018 13:49",
+		"buildPreviousDayButton:" : "kk 6/12/2018 13:48",
+		"buildWith:" : "kk 6/12/2018 13:46",
 		"buttonHeight" : "kk 6/12/2018 12:26",
 		"buttonWidth" : "kk 6/12/2018 12:27",
 		"day" : "kk 6/12/2018 12:28",
 		"day:" : "kk 6/12/2018 12:28",
+		"dayText" : "kk 6/12/2018 13:46",
 		"initialize" : "kk 6/12/2018 12:29",
+		"nextDay" : "kk 6/12/2018 13:52",
 		"parent" : "kk 6/12/2018 12:22",
-		"parent:" : "kk 6/12/2018 12:22" } }
+		"parent:" : "kk 6/12/2018 12:22",
+		"previousDay" : "kk 6/12/2018 13:52" } }

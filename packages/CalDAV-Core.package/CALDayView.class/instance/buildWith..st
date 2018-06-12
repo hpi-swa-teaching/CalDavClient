@@ -11,7 +11,8 @@ buildWith: aBuilder
 		
 	newWindow children
 		add: (self buildNextDayButton: aBuilder);
-		add: (self buildPreviousDayButton: aBuilder).
+		add: (self buildPreviousDayButton: aBuilder);
+		add: (self buildDayTextWith: aBuilder).
 	
 	^ aBuilder build: newWindow
 			
