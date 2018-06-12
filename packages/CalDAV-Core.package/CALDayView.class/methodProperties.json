@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"openForApp:" : "kk 6/12/2018 12:22" },
+	"instance" : {
+		"buildNextDayButton:" : "kk 6/12/2018 12:24",
+		"buildPreviousDayButton:" : "kk 6/12/2018 12:25",
+		"buildWith:" : "kk 6/12/2018 12:26",
+		"buttonHeight" : "kk 6/12/2018 12:26",
+		"buttonWidth" : "kk 6/12/2018 12:27",
+		"day" : "kk 6/12/2018 12:28",
+		"day:" : "kk 6/12/2018 12:28",
+		"initialize" : "kk 6/12/2018 12:29",
+		"parent" : "kk 6/12/2018 12:22",
+		"parent:" : "kk 6/12/2018 12:22" } }
