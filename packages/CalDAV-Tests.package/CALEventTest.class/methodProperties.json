@@ -14,6 +14,7 @@
 		"testAccessorsChangingBegin" : "jz 5/30/2018 15:01",
 		"testAccessorsChangingEnd" : "jz 5/30/2018 15:01",
 		"testBeginEndOrderCorrection" : "jz 5/30/2018 16:01",
+		"testBuildWith" : "dm 6/13/2018 14:49",
 		"testDateString" : "PS 6/4/2018 16:13",
 		"testEventsEqual" : "PS 6/4/2018 15:52",
 		"testIsValid" : "jz 6/4/2018 17:38",

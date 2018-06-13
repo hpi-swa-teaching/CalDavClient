@@ -7,6 +7,7 @@
 		"demoEvent2" : "jz 5/24/2018 11:07",
 		"tearDown" : "lh 5/31/2018 00:51",
 		"testAddEvent" : "lh 5/31/2018 00:45",
+		"testBuildWith" : "dm 6/13/2018 14:48",
 		"testDeleteEvent" : "lh 5/31/2018 00:46",
 		"testICConversion" : "jz 6/6/2018 10:36",
 		"testPersistence" : "jz 5/24/2018 11:09",

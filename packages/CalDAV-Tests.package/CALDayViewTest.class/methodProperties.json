@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "dm 6/13/2018 14:14",
+		"testBuildWith" : "dm 6/13/2018 14:49",
 		"testButtonsExistence" : "dm 6/13/2018 14:21" } }
