@@ -1,5 +1,5 @@
 as yet unclassified
-eventContentSpecWith: aBuilder
+buildTimelineWith: aBuilder
 
 	| content |
 
@@ -10,8 +10,7 @@ eventContentSpecWith: aBuilder
 		children: OrderedCollection new.
 		
 	content children
-		addAll: (self buildTimeLabels: aBuilder);
-		addAll: (self buildEventBlocks: aBuilder).
+		addAll: (self buildTimeLabels: aBuilder).
 	
 	^ content
 			

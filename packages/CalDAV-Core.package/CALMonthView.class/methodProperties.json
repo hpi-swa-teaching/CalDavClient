@@ -3,8 +3,9 @@
 		"open" : "PS 6/7/2018 15:23",
 		"openForApp:" : "jz 6/13/2018 20:14" },
 	"instance" : {
-		"buildDayLists:" : "PS 6/7/2018 14:57",
-		"buildDayWith:row:column:" : "kk 6/7/2018 10:07",
+		"buildButtonAt:and:with:" : "jz 6/13/2018 20:48",
+		"buildDayLists:" : "jz 6/13/2018 20:46",
+		"buildDayWith:row:column:" : "jz 6/13/2018 20:41",
 		"buildListAt:and:with:" : "PS 6/7/2018 14:52",
 		"buildMonthTextWith:" : "PS 6/7/2018 14:51",
 		"buildNextMonthButton:" : "PS 6/7/2018 14:50",

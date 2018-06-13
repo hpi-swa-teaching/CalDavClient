@@ -13,7 +13,8 @@ buildWith: aBuilder
 		add: (self buildNextDayButton: aBuilder);
 		add: (self buildPreviousDayButton: aBuilder);
 		add: (self buildDayTextWith: aBuilder);
-		add: (self eventContentSpecWith: aBuilder).
+		add: (self buildTimelineWith: aBuilder);
+		add: (self buildEventPanelWith: aBuilder).
 	
 	^ aBuilder build: newWindow
 			
