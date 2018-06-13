@@ -3,11 +3,13 @@
 		"openForApp:" : "kk 6/12/2018 12:22" },
 	"instance" : {
 		"buildDayTextWith:" : "kk 6/12/2018 13:46",
-		"buildEventBlockFor:with:" : "lh 6/13/2018 15:47",
+		"buildEventBlockFor:with:" : "lh 6/13/2018 17:09",
 		"buildEventBlocks:" : "lh 6/13/2018 15:46",
 		"buildNextDayButton:" : "kk 6/12/2018 13:49",
 		"buildPreviousDayButton:" : "kk 6/12/2018 13:48",
-		"buildWith:" : "lh 6/13/2018 15:49",
+		"buildTimeLabelFor:with:" : "lh 6/13/2018 16:42",
+		"buildTimeLabels:" : "lh 6/13/2018 16:05",
+		"buildWith:" : "lh 6/13/2018 16:04",
 		"buttonHeight" : "kk 6/12/2018 12:26",
 		"buttonWidth" : "kk 6/12/2018 12:27",
 		"day" : "kk 6/12/2018 12:28",
@@ -18,4 +20,7 @@
 		"parent" : "kk 6/12/2018 12:22",
 		"parent:" : "kk 6/12/2018 12:22",
 		"previousDay" : "kk 6/12/2018 13:52",
-		"yPositionFor:" : "lh 6/13/2018 15:45" } }
+		"timeLabelWidth" : "lh 6/13/2018 16:42",
+		"widthFor:" : "lh 6/13/2018 17:06",
+		"xLeftFor:" : "lh 6/13/2018 17:10",
+		"yPositionFor:" : "lh 6/13/2018 16:21" } }

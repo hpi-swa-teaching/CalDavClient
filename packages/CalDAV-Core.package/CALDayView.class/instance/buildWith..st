@@ -13,6 +13,7 @@ buildWith: aBuilder
 		add: (self buildNextDayButton: aBuilder);
 		add: (self buildPreviousDayButton: aBuilder);
 		add: (self buildDayTextWith: aBuilder);
+		addAll: (self buildTimeLabels: aBuilder);
 		addAll: (self buildEventBlocks: aBuilder).
 	
 	^ aBuilder build: newWindow

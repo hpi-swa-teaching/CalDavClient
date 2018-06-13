@@ -1,7 +1,7 @@
 as yet unclassified
-yPositionFor: aDateAndTime
+yPositionFor: aTime
 	
 	| relativeHeight yPosition |
-	relativeHeight := ((aDateAndTime hour * 60) + aDateAndTime minute) / (24 * 60).
+	relativeHeight := ((aTime * 60)) / (24 * 60).
 	yPosition := self buttonHeight  + ((1 - self buttonHeight) * relativeHeight).
 	^ yPosition

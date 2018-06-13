@@ -6,6 +6,7 @@
 		"numberToTwoDigitsString:" : "PS 6/7/2018 15:39",
 		"timeString:" : "PS 6/4/2018 16:16" },
 	"instance" : {
+		"<=" : "lh 6/13/2018 17:27",
 		"=" : "PS 6/4/2018 15:52",
 		"areDatesValid" : "jz 5/30/2018 15:19",
 		"autocorrectBegin" : "jz 5/30/2018 16:01",
@@ -45,6 +46,7 @@
 		"isValid" : "jz 5/30/2018 15:27",
 		"location" : "PS 5/4/2018 13:42",
 		"location:" : "PS 5/4/2018 13:42",
+		"overlaps:" : "lh 6/13/2018 16:31",
 		"participants" : "PS 5/4/2018 13:42",
 		"participants:" : "PS 5/4/2018 13:42",
 		"timespan" : "PS 5/4/2018 14:47",

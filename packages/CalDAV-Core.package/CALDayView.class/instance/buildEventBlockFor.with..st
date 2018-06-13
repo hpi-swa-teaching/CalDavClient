@@ -4,4 +4,5 @@ buildEventBlockFor: anEvent with: aBuilder
 	^  aBuilder pluggableActionButtonSpec new
 		model: self;
 		label: anEvent title;
-		frame: ((0.1 @ (self yPositionFor: anEvent begin)) corner: (0.5 @ (self yPositionFor: 		anEvent end)))
+		frame: (((self xLeftFor: anEvent) @ (self yPositionFor: anEvent begin hour))
+		 	corner: (((self xLeftFor: anEvent) + (self widthFor: anEvent)) @ (self yPositionFor: anEvent end hour)))
