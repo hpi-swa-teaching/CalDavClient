@@ -9,9 +9,9 @@ testllistFramesDontIntersect
 				frames add: (monthView listFrameWith: row and: column)
 			]
 		].
-	[frames size > 2] whileTrue:[
+	[frames size > 0] whileTrue:[
 		frame := frames first.
 		frames remove: frame.
-		self assert: ((frame intersects: frames first) not)
+		frames do: [ :each | self assert: (frame intersects: each) not]
 		]
 	
