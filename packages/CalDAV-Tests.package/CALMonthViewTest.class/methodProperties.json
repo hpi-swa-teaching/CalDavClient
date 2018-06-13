@@ -9,4 +9,5 @@
 		"testFirstMonthIsCurrentMonth" : "dm 6/13/2018 15:55",
 		"testNextMonthIsOneMonthAfter" : "dm 6/13/2018 15:55",
 		"testPreviousMonthIsOneMonthBefore" : "dm 6/13/2018 15:55",
-		"testllistFramesDontIntersect" : "dm 6/13/2018 16:17" } }
+		"testllistFramesDontIntersect" : "dm 6/13/2018 16:54",
+		"testtextFramesDontIntersect" : "dm 6/13/2018 16:54" } }
