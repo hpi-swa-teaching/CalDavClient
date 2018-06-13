@@ -1,5 +1,5 @@
-as yet unclassified
+subwindows
 openMonthView
 
-	CALMonthView openForApp: self.
+	CALMonthView openForApp: self
 

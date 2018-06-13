@@ -1,4 +1,4 @@
-accessing
+initialize
 initialize
 	self beginYear: 0.
 	self beginMonth: 0.

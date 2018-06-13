@@ -1,9 +1,10 @@
-as yet unclassified
+accessing
 changeMonthTo: aDate
 	
-	self firstOfMonth: (Date year: aDate year month: aDate monthIndex day: 1). 
-	self changed: #monthText.
-	self fillMonth.
-	self changed: #days
+	self
+		firstOfMonth: (Date year: aDate year month: aDate monthIndex day: 1);
+		changed: #monthText;
+		fillMonth;
+		changed: #days
 	
 	

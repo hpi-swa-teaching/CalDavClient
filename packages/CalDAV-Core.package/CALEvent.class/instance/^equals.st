@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anEvent
 	
 	^ ((self title = anEvent title) and:

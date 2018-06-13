@@ -1,6 +1,7 @@
-as yet unclassified
+parsing
 parseCompleteEventInformation: responseContent
 
 	| iCalCalendar |
+	
 	iCalCalendar := ICCalendarHandParserExtended parseCalendarString: responseContent.
 	^ iCalCalendar 

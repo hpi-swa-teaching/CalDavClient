@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 autocorrectBegin
 
 	self isEndDateValid ifFalse: [^ self].

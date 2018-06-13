@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buttonWidth
 	
 	^ 0.3

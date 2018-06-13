@@ -1,4 +1,4 @@
-as yet unclassified
+subwindows
 openEditEventDialog
 
 	| dialogWindow |

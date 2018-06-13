@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 eventsAt
 	
-	^(self days at: 8) eventNames
+	^ (self days at: 8) eventNames

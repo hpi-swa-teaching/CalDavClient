@@ -6,7 +6,6 @@ newFromICCalendar: anICCalendar
 	calendar := self new.
 	anICCalendar events do: [ :each | calendar addEvent: (CALEvent newFromICEvent: each)].
 	calendar name: anICCalendar name.
-	
 	^ calendar
 		
 	

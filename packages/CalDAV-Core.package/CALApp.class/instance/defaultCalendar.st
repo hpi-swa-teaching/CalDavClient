@@ -1,4 +1,4 @@
 calendar management
 defaultCalendar
 
-	^self calendars detect: [:calendar | calendar name = self defaultCalendarName]
+	^ self calendars detect: [ :each | each name = self defaultCalendarName ]
