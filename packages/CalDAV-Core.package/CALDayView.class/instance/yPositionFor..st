@@ -3,5 +3,5 @@ yPositionFor: aTime
 	
 	| relativeHeight yPosition |
 	relativeHeight := ((aTime * 60)) / (24 * 60).
-	yPosition := self buttonHeight  + ((1 - self buttonHeight) * relativeHeight).
+	yPosition := relativeHeight.
 	^ yPosition
