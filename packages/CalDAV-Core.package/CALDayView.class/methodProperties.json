@@ -3,11 +3,11 @@
 		"openForApp:" : "kk 6/12/2018 12:22" },
 	"instance" : {
 		"buildDayTextWith:" : "kk 6/12/2018 13:46",
-		"buildEventBlockFor:with:" : "lh 6/13/2018 17:09",
+		"buildEventBlockFor:with:" : "jz 6/13/2018 20:04",
 		"buildEventBlocks:" : "lh 6/13/2018 15:46",
 		"buildNextDayButton:" : "kk 6/12/2018 13:49",
 		"buildPreviousDayButton:" : "kk 6/12/2018 13:48",
-		"buildTimeLabelFor:with:" : "lh 6/13/2018 16:42",
+		"buildTimeLabelFor:with:" : "jz 6/13/2018 20:04",
 		"buildTimeLabels:" : "lh 6/13/2018 16:05",
 		"buildWith:" : "dm 6/13/2018 18:03",
 		"buttonHeight" : "kk 6/12/2018 12:26",
@@ -24,4 +24,4 @@
 		"timeLabelWidth" : "lh 6/13/2018 16:42",
 		"widthFor:" : "dm 6/13/2018 17:52",
 		"xLeftFor:" : "dm 6/13/2018 17:53",
-		"yPositionFor:" : "dm 6/13/2018 18:09" } }
+		"yPositionFor:and:" : "jz 6/13/2018 20:03" } }

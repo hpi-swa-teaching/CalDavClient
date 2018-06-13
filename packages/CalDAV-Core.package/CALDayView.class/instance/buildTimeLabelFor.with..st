@@ -3,8 +3,8 @@ buildTimeLabelFor: aNumber with: aBuilder
 
 	| yBottom yTop |
 	
-	yTop := self yPositionFor: aNumber.
-	yBottom := self yPositionFor: aNumber + 1.
+	yTop := self yPositionFor: aNumber and: 0.
+	yBottom := self yPositionFor: aNumber + 1 and: 0.
 	^ aBuilder pluggableTextSpec new
 		model: self;
 		readOnly: true;

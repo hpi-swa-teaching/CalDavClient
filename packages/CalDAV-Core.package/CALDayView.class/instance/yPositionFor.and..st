@@ -1,7 +1,7 @@
 as yet unclassified
-yPositionFor: aTime
+yPositionFor: anHour and: aMinute
 	
 	| relativeHeight yPosition |
-	relativeHeight := ((aTime * 60)) / (24 * 60).
+	relativeHeight := ((anHour * 60) + aMinute) / (24 * 60).
 	yPosition := relativeHeight.
 	^ yPosition
