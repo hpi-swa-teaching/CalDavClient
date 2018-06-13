@@ -6,3 +6,8 @@
         baseline: 'CalDAV';
         repository: 'github://hpi-swa-teaching/SWT18-Project-05:master/packages';
         load.
+        
+        
+        
+        
+[Zeiterfassung](https://docs.google.com/spreadsheets/d/1dj4SpqwGRc0vceZKTeiQqER_g5aR3-BoUz4oO5T2MIw/edit?usp=sharing)
