@@ -1,5 +1,9 @@
-as yet unclassified
+subwindows
 openDayView
 
-	CALDayView openForApp: self.
+	| view |
+	
+	view := CALDayView openForApp: self.
+	view
+		height: self topView height
 
