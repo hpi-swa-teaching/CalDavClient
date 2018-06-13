@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 buildWith: aBuilder
 
 	|newWindow|
@@ -12,7 +12,8 @@ buildWith: aBuilder
 	newWindow children
 		add: (self buildNextDayButton: aBuilder);
 		add: (self buildPreviousDayButton: aBuilder);
-		add: (self buildDayTextWith: aBuilder).
+		add: (self buildDayTextWith: aBuilder);
+		addAll: (self buildEventBlocks: aBuilder).
 	
 	^ aBuilder build: newWindow
 			

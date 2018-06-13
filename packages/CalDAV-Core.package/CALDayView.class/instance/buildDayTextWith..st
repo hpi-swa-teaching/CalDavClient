@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 buildDayTextWith: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
