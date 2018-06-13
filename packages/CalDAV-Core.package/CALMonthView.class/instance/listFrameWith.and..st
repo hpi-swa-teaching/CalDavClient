@@ -1,14 +1,12 @@
-toolbuilder
+as yet unclassified
 listFrameWith: aRow and: aColumn
 
-	| x y height width listHeight |
+	| listHeight height textFrame |
 	
-	width := self monthViewFrame width / 7.
 	height := self monthViewFrame height / 6.
 	listHeight := height * self relativeDayListHeight.
-	x := self monthViewFrame left + ((aColumn - 1) * width).
-	y := self monthViewFrame top + ((aRow - 1) * height) + height - listHeight.
+	textFrame := self textFrameWith: aRow and: aColumn.
 	
-	^ (x @ y) corner: (x+width) @ (y + listHeight)
+	^ (textFrame bottomLeft) corner: (textFrame bottomRight) + (0 @ listHeight)
 	
 	
