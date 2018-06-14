@@ -13,6 +13,7 @@ buildSpec: aBuilder
 		add: (self buildPreviousWeekButton: aBuilder);
 		add: (self buildWeekTextWith: aBuilder);
 		add: (self buildTimelineWith: aBuilder);
+		addAll: (self buildDayLineWith: aBuilder);
 		addAll: (self buildDayGridsWith: aBuilder).
 	
 	^ content

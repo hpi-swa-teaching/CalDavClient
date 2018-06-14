@@ -8,4 +8,4 @@ buildDayGridNumber: aNumber with: aBuilder
 				parent: self parent;
 				day: (self day addDays: aNumber);
 				buildSpec: aBuilder)
-				frame: (x @ self buttonHeight corner: x + self dayGridWidth @ 1)
+				frame: (x @ (self buttonHeight + self dayLabelHeight) corner: x + self dayGridWidth @ 1)
