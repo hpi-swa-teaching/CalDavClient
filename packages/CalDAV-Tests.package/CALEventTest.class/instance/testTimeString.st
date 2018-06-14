@@ -1,5 +1,4 @@
 testing
 testTimeString
-	| event |
-	event := self demoEvent.
-	self assert: ((CALEvent timeString: event begin)= '17:09')
+
+	self assert: ((self demoEvent timeString = '17:09 - 20:00'))

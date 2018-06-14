@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"dateString:" : "PS 6/7/2018 15:42",
 		"endBeforeStartError" : "lh 5/12/2018 15:46",
 		"newFromICEvent:" : "PS 6/7/2018 15:38",
-		"numberToTwoDigitsString:" : "PS 6/7/2018 15:39",
-		"timeString:" : "PS 6/4/2018 16:16" },
+		"numberToTwoDigitsString:" : "PS 6/7/2018 15:39" },
 	"instance" : {
 		"<=" : "lh 6/13/2018 17:27",
 		"=" : "PS 6/4/2018 15:52",
@@ -25,6 +23,7 @@
 		"beginYear:" : "jz 5/30/2018 15:51",
 		"calendar" : "6/4/2018 16:22:48",
 		"calendar:" : "6/4/2018 16:22:48",
+		"dateAndTimeString" : "PS 6/14/2018 14:27",
 		"description" : "PS 5/4/2018 13:42",
 		"description:" : "PS 5/4/2018 13:42",
 		"end" : "PS 5/22/2018 18:46",
@@ -49,6 +48,7 @@
 		"overlaps:" : "lh 6/13/2018 16:31",
 		"participants" : "PS 5/4/2018 13:42",
 		"participants:" : "PS 5/4/2018 13:42",
+		"timeString" : "PS 6/14/2018 14:22",
 		"timespan" : "PS 5/4/2018 14:47",
 		"title" : "PS 5/4/2018 13:41",
 		"title:" : "PS 5/4/2018 13:41" } }
