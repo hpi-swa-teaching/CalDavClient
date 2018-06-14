@@ -1,4 +1,9 @@
 as yet unclassified
 testBuildWith
 
-	self assert: (CALApp selectors anySatisfy: [ :each| each = 'buildWith:'])
+	| spec dialog |
+	
+	self assert: (CALEventDialog  selectors anySatisfy: [ :each| each = 'buildWith:']).
+	dialog := CALAddEventDialog new.
+	spec := dialog buildWith: (ToolBuilderMock default).
+	self assert: (spec model = dialog)

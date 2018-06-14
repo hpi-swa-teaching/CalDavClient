@@ -1,4 +1,4 @@
 as yet unclassified
 testBuildWith
-
-	self assert: (CALApp selectors anySatisfy: [ :each| each = 'buildWith:'])
+	
+	self assert: (CALDayView selectors anySatisfy: [ :each| each = 'buildWith:'])
