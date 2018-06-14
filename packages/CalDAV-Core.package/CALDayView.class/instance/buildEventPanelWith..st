@@ -1,7 +1,7 @@
 as yet unclassified
 buildEventPanelWith: aBuilder
 
-	^ (CALDayPane new
+	^ (CALDayGridPane new
 				parent: self parent;
 				day: self day;
 				buildSpec: aBuilder)
