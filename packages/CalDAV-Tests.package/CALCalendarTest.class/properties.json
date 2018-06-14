@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"testCalendar1",
+		"testCalendar2",
+		"testCalendar3" ],
 	"name" : "CALCalendarTest",
 	"pools" : [
 		 ],

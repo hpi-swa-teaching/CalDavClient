@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"deleteCalendar" : "lh 5/31/2018 00:51",
+		"deleteCalendar" : "PS 6/14/2018 12:35",
 		"demoEvent" : "jz 5/24/2018 11:07",
 		"demoEvent2" : "jz 5/24/2018 11:07",
+		"setUp" : "PS 6/14/2018 12:34",
 		"tearDown" : "lh 5/31/2018 00:51",
-		"testAddEvent" : "lh 5/31/2018 00:45",
+		"testAddEvent" : "PS 6/14/2018 12:24",
 		"testBuildWith" : "dm 6/13/2018 14:48",
-		"testDeleteEvent" : "lh 5/31/2018 00:46",
+		"testCalendarsEqual" : "PS 6/14/2018 12:21",
+		"testDeleteEvent" : "PS 6/14/2018 12:39",
 		"testICConversion" : "jz 6/6/2018 10:36",
-		"testPersistence" : "jz 5/24/2018 11:09",
+		"testPersistence" : "PS 6/14/2018 12:35",
 		"testSortingOfEvents" : "lh 5/31/2018 00:52" } }
