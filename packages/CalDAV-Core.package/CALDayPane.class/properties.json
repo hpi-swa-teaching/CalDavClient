@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"day",
+		"parent" ],
+	"name" : "CALDayPane",
+	"pools" : [
+		 ],
+	"super" : "CALPane",
+	"type" : "normal" }

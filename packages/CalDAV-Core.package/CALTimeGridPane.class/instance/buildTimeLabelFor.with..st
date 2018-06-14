@@ -10,4 +10,4 @@ buildTimeLabelFor: aNumber with: aBuilder
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		help: aNumber asString;
-		frame: (0 @ yTop corner: self timeLabelWidth @ yBottom)
+		frame: (0 @ yTop corner: 1 @ yBottom)
