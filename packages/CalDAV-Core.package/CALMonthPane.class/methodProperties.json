@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"open" : "PS 6/7/2018 15:23",
-		"openForApp:" : "jz 6/13/2018 20:14" },
+		"open" : "kk 6/19/2018 19:27",
+		"openForApp:" : "kk 6/19/2018 19:27" },
 	"instance" : {
 		"buildButtonAt:and:with:" : "jz 6/14/2018 12:35",
 		"buildDayLists:" : "jz 6/13/2018 20:46",
@@ -10,8 +10,8 @@
 		"buildMonthTextWith:" : "PS 6/7/2018 14:51",
 		"buildNextMonthButton:" : "PS 6/7/2018 14:50",
 		"buildPreviousMonthButton:" : "PS 6/7/2018 14:53",
+		"buildSpec:" : "kk 6/19/2018 19:39",
 		"buildTextAt:and:with:" : "PS 6/7/2018 15:29",
-		"buildWith:" : "PS 6/7/2018 14:54",
 		"buttonHeight" : "dm 6/4/2018 20:31",
 		"buttonWidth" : "dm 6/4/2018 20:30",
 		"changeMonthTo:" : "PS 6/7/2018 14:51",

@@ -1,19 +1,18 @@
 toolbuilder
-buildWith: aBuilder
+buildSpec: aBuilder
 
-	| newWindow |
+	| newPane |
 
-	newWindow := aBuilder pluggableWindowSpec new.
-	newWindow
+	newPane := aBuilder pluggablePanelSpec new.
+	newPane
 		model: self;
-		label: 'Month View';
 		children: OrderedCollection new.
 		
-	newWindow children
+	newPane children
 		add: (self buildNextMonthButton: aBuilder);
 		add: (self buildPreviousMonthButton: aBuilder);
 		add: (self buildMonthTextWith: aBuilder);
 		addAll: (self buildDayLists: aBuilder).
 	
-	^ aBuilder build: newWindow
+	^ newPane
 			

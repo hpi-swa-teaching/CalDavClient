@@ -10,8 +10,8 @@
 		"days",
 		"firstOfMonth",
 		"parent" ],
-	"name" : "CALMonthView",
+	"name" : "CALMonthPane",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CALPane",
 	"type" : "normal" }

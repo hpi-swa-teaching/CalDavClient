@@ -1,8 +1,7 @@
 as yet unclassified
-openForApp: anApp
+open
 
 	| monthView |
 	
-	monthView := CALMonthView new
-		parent: anApp.
+	monthView := CALMonthPane new. 
 	^ ToolBuilder default open: monthView
