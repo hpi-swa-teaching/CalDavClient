@@ -2,10 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentIndex" : "lh 5/12/2018 19:11",
+		"currentIndex:" : "lh 5/13/2018 13:10",
+		"currentlySelectedEvent" : "kk 6/19/2018 20:14",
 		"date" : "kk 6/6/2018 18:55",
 		"date:" : "PS 6/7/2018 15:06",
 		"dateText" : "dm 6/7/2018 11:43",
 		"eventNames" : "dm 6/7/2018 11:46",
+		"events" : "kk 6/19/2018 20:10",
+		"initialize" : "kk 6/19/2018 20:18",
 		"openDayView" : "jz 6/13/2018 20:58",
+		"openEditEventDialog" : "kk 6/19/2018 20:14",
 		"parent" : "dm 6/7/2018 11:35",
 		"parent:" : "dm 6/7/2018 11:35" } }

@@ -2,9 +2,9 @@ initialize
 initialize 
 	
 	self 
-		currentIndex: 1;
-		calendarIndex: 1;
 		calendars: OrderedCollection new;
 		addCalendar: (CALCalendar withName: 'Privat');
-		restoreCalendars.
-
+		restoreCalendars;
+		monthPane: CALMonthPane new.
+		
+	self monthPane parent: self.

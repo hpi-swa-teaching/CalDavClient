@@ -4,5 +4,5 @@ calendarIndex: anObject
 		ifFalse: [calendarIndex := anObject.
 				self changed: #calendarIndex.
 				self changed: #calendarNames.
-				self changed: #eventNames].
+				self updateView].
 	
