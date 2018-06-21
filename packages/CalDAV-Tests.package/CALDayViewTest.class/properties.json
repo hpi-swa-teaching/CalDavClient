@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"monthView",
-		"dayView" ],
+		"dayView",
+		"spec" ],
 	"name" : "CALDayViewTest",
 	"pools" : [
 		 ],
