@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "kk 6/21/2018 17:43",
 	"instvars" : [
 		"weekView" ],
 	"name" : "CALWeekViewTest",
