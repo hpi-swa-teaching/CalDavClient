@@ -1,4 +1,4 @@
 accessing
 dayAt: aNumber
 	
-	^ aNumber - self firstOfMonth dayOfWeek + 1
+	^ aNumber - self firstOfMonth dayOfWeek + 2

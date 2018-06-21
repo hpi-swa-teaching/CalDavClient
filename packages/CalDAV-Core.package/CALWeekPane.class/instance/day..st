@@ -1,3 +1,4 @@
 accessing
-day: anObject
-	day := anObject
+day: aDate
+
+	day := aDate subtractDays: aDate dayOfWeek -2
