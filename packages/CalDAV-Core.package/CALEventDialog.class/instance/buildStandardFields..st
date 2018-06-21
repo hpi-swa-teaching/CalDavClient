@@ -2,7 +2,6 @@ toolbuilding
 buildStandardFields: aBuilder
 
 ^{
-	self buildFullDayButton: aBuilder.
 	self buildTitleText: aBuilder.
 	self buildDescriptionText: aBuilder.
 	self buildBeginYearText: aBuilder.
