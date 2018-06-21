@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"weekView" ],
+	"name" : "CALWeekViewTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
