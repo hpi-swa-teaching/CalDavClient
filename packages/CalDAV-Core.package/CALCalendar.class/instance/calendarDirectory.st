@@ -1,4 +1,4 @@
 persistence
 calendarDirectory 
 
-	^ CALCalendar calendarDirectory 
+	^ self class calendarDirectory 
