@@ -1,4 +1,4 @@
 accessing
 initialize
 
-	self fullDaySelected: false
+	self isFullDaySelected: false
