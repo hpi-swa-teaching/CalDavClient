@@ -1,7 +1,10 @@
 accessing
 events
 
-		self date 
-		ifNil: [^OrderedCollection new] 
-		ifNotNil: [^ self parent eventsBeginIn: self date]
+	| events |
+	events:= OrderedCollection new.
+	self date ifNotNil: [
+		events addAll: (self parent eventsIn: self date).
+		].
+	^ events
 	
