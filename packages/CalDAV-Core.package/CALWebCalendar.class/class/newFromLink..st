@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 newFromLink: aLink
 	
 	^ self new 

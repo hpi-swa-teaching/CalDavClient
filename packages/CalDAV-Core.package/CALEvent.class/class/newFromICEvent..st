@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 newFromICEvent: anEvent
 
 	| event participants attendees |

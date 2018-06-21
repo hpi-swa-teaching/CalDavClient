@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 newFromICCalendar: anICCalendar
 
 	| calendar |

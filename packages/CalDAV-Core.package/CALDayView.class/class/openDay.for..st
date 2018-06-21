@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 openDay: aDate for: anApp
 
 	| dayView |
