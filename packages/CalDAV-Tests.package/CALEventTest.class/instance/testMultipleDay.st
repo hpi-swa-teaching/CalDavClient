@@ -1,0 +1,8 @@
+testing
+testMultipleDay
+
+	self assert: (self demoEventMultipleDay isMultipleDay = true).
+	self assert: (self demoEventMultipleDay isFullDayfor: (Date year: 2018 month: 12 day: 22)) = true.
+	self assert: (self demoEventMultipleDay isFullDayfor: (Date year: 2018 month: 12 day: 23)) = true.
+	self assert: (self demoEventMultipleDay isFullDayfor: (Date year: 2018 month: 12 day: 24)) = false
+	
