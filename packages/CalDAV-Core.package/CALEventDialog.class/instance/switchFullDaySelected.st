@@ -1,5 +1,8 @@
 toolbuilding
 switchFullDaySelected
 	
-	self fullDaySelected: self fullDaySelected not.
-	self changed: #fullDayButtonLabel
+	self 
+		isFullDaySelected: self isFullDaySelected not;
+		updateBegin;
+		updateEnd;
+		changed: #fullDayButtonLabel
