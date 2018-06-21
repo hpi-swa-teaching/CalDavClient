@@ -3,9 +3,7 @@ updateDay
 
 	| builder |
 	
-	self flag: #metaProgramming.
-	
-	self topView submorphs first delete.
+	(self topView submorphNamed: 'dayGrid') delete.
 	builder := ToolBuilder default.	
 	builder buildAll: {(self buildEventPanelWith: builder)} in: self topView.
 	self changed: #dayText

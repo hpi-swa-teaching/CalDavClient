@@ -5,4 +5,4 @@ open
 	
 	app := CALApp new.
 	
-	^ToolBuilder default open: app
+	^(ToolBuilder default open: app) extent: 1500 @ 700

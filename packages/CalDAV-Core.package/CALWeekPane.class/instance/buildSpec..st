@@ -6,6 +6,7 @@ buildSpec: aBuilder
 	content := aBuilder pluggablePanelSpec new.
 	content
 		model: self;
+		name: 'weekPane';
 		children: OrderedCollection new.
 		
 	content children
@@ -13,8 +14,7 @@ buildSpec: aBuilder
 		add: (self buildPreviousWeekButton: aBuilder);
 		add: (self buildWeekTextWith: aBuilder);
 		add: (self buildTimelineWith: aBuilder);
-		addAll: (self buildDayLineWith: aBuilder);
-		addAll: (self buildDayGridsWith: aBuilder).
+		add: (self buildWeekGridWith: aBuilder).
 	
 	^ content
 			
