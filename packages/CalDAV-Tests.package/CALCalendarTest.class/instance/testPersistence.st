@@ -7,6 +7,6 @@ testPersistence
 		deleteEvent: self demoEvent.
 	testCalendar3 := CALCalendar new name: 'cal03'.
 	testCalendar3
-		restoreEvents.
+		restore.
 	self assert: (testCalendar3 events includes: self demoEvent2).
 	self assert: (testCalendar3 events includes: self demoEvent) not.

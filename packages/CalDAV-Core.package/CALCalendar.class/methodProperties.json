@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"calendarDirectory" : "dm 5/23/2018 14:42",
-		"newFromICCalendar:" : "PS 6/7/2018 15:32",
-		"newFromLink:" : "jz 6/6/2018 10:29",
-		"withName:" : "lh 5/30/2018 20:45" },
+		"newFromICCalendar:" : "dm 6/21/2018 14:48",
+		"withName:" : "dm 6/21/2018 15:35" },
 	"instance" : {
 		"=" : "PS 6/14/2018 12:22",
-		"addEvent:" : "dm 5/23/2018 14:54",
+		"addEvent:" : "dm 6/21/2018 15:29",
+		"calendarDirectory" : "dm 6/21/2018 15:22",
 		"clearEvents" : "dm 5/23/2018 14:59",
-		"deleteEvent:" : "jz 5/24/2018 11:44",
+		"deleteEvent:" : "dm 6/21/2018 15:29",
 		"errorEventNotInCalendar:" : "jz 5/24/2018 11:42",
 		"events" : "lh 5/12/2018 19:34",
 		"events:" : "dm 5/10/2018 11:19",
@@ -17,5 +17,7 @@
 		"initialize" : "dm 5/23/2018 18:16",
 		"name" : "dm 5/23/2018 15:02",
 		"name:" : "dm 5/23/2018 15:02",
-		"restoreEvents" : "dm 5/23/2018 15:12",
-		"storeEvents" : "dm 5/23/2018 14:36" } }
+		"restore" : "dm 6/21/2018 15:28",
+		"restoreEvents" : "dm 6/21/2018 15:40",
+		"store" : "dm 6/21/2018 15:27",
+		"storeEvents" : "dm 6/21/2018 15:38" } }

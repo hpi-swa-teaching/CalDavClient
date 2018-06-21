@@ -11,6 +11,6 @@
 		"testBuildWith" : "dm 6/13/2018 14:48",
 		"testCalendarsEqual" : "PS 6/14/2018 12:21",
 		"testDeleteEvent" : "PS 6/14/2018 12:39",
-		"testICConversion" : "jz 6/6/2018 10:36",
-		"testPersistence" : "PS 6/14/2018 12:35",
+		"testICConversion" : "dm 6/21/2018 14:49",
+		"testPersistence" : "dm 6/21/2018 15:29",
 		"testSortingOfEvents" : "lh 5/31/2018 00:52" } }

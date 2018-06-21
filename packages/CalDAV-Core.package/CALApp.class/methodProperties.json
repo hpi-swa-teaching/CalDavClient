@@ -2,7 +2,7 @@
 	"class" : {
 		"open" : "PS 6/21/2018 12:20" },
 	"instance" : {
-		"addCalendar:" : "PS 6/7/2018 14:28",
+		"addCalendar:" : "dm 6/21/2018 15:24",
 		"addEvent:" : "kk 6/19/2018 20:38",
 		"buildAddCalendarButton:" : "jz 6/4/2018 20:42",
 		"buildAddEventButton:" : "PS 6/14/2018 16:24",
@@ -26,7 +26,7 @@
 		"eventNames" : "kk 6/19/2018 19:55",
 		"eventNamesBeginIn:" : "kk 6/19/2018 19:56",
 		"eventsBeginIn:" : "lh 6/13/2018 15:48",
-		"importCalendar" : "jz 6/13/2018 20:18",
+		"importCalendar" : "dm 6/21/2018 15:13",
 		"initialize" : "kk 6/19/2018 21:02",
 		"monthPane" : "kk 6/19/2018 20:42",
 		"monthPane:" : "kk 6/19/2018 20:42",
@@ -35,7 +35,7 @@
 		"openEditEventDialogFor:" : "kk 6/19/2018 20:14",
 		"openMonthView" : "kk 6/19/2018 19:44",
 		"openWeekView" : "PS 6/14/2018 16:26",
-		"restoreCalendars" : "PS 6/7/2018 14:30",
-		"saveCalendar:" : "PS 6/7/2018 14:32",
+		"restoreCalendars" : "dm 6/21/2018 15:35",
 		"selectedCalendar" : "lh 5/30/2018 20:51",
+		"storeCalendar:" : "dm 6/21/2018 15:29",
 		"updateView" : "kk 6/19/2018 20:44" } }

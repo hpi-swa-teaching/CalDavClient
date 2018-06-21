@@ -1,0 +1,4 @@
+accessing
+calendarDirectory 
+
+	^ CALWebCalendar calendarDirectory 

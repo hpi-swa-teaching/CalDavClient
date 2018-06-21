@@ -1,9 +1,9 @@
-persistence
-storeEvents
-	
+accessing
+storeLink
+
 	| filestream |
 	
 	filestream := FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name).
 	filestream
-		nextPutAll: self eventsData;
+		nextPutAll: self caldavLink;
 		close.
