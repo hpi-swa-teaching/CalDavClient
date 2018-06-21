@@ -11,3 +11,5 @@
         
         
 [Zeiterfassung](https://docs.google.com/spreadsheets/d/1dj4SpqwGRc0vceZKTeiQqER_g5aR3-BoUz4oO5T2MIw/edit?usp=sharing)
+
+[Präsentation](https://docs.google.com/presentation/d/1FIa5mIE4Zv7R_i9t2izEc1qsjYD4eEeud4nLNKJb2EA/edit?usp=sharing)
