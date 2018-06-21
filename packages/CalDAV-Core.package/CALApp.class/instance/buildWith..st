@@ -18,6 +18,7 @@ buildWith: aBuilder
 		add: (self buildDeleteCalendarButton: aBuilder);
 		add: (self buildImportCalendarButton: aBuilder);
 		add: (self buildMonthViewButton: aBuilder);
-		add: (self buildWeekViewButton: aBuilder).
+		add: (self buildWeekViewButton: aBuilder);
+		add: (self buildRefreshButton: aBuilder).
 	
 	^ aBuilder build: windowSpec
