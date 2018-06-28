@@ -1,10 +1,9 @@
 as yet unclassified
 buildWeekTextWith: aBuilder
 
-	^ aBuilder pluggableInputFieldSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
-		getText: #weekText;
-		readOnly: true;
+		label: self weekText;
+		enabled: false;
 		frame: (self buttonWidth@0 corner: (1 - self buttonWidth)@self buttonHeight);
-		indicateUnacceptedChanges: false;
 		yourself

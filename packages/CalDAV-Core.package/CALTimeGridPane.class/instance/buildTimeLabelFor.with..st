@@ -5,9 +5,8 @@ buildTimeLabelFor: aNumber with: aBuilder
 	aNumber = 0 ifTrue:[hourText := 'whole day'] ifFalse: [hourText := (aNumber -1) asString].
 	yTop := self yPositionFor: aNumber and: 0.
 	yBottom := self yPositionFor: aNumber + 1 and: 0.
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
-		readOnly: true;
-		indicateUnacceptedChanges: false;
-		help: hourText;
+		enabled: false;
+		label: hourText;
 		frame: (0 @ yTop corner: 1 @ yBottom)
