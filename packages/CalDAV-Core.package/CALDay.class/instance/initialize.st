@@ -1,4 +1,4 @@
 accessing
 initialize
 
-	self currentIndex: 1.
+	self currentIndex: 1
