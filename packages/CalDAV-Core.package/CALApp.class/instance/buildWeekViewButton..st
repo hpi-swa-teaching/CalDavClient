@@ -5,5 +5,5 @@ buildWeekViewButton: aBuilder
 		model: self;
 		action: #openWeekView;
 		label: 'Week View';
-		frame: (0 @ 0.1 corner: 0.1 @ 0.2);
+		frame: (0 @ 0 corner: 0.1 @ 0.2);
 		yourself
