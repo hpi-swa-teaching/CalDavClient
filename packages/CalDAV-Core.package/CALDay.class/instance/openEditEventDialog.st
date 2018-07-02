@@ -1,4 +1,4 @@
-as yet unclassified
+open windows
 openEditEventDialog
 	
 	self parent openEditEventDialogFor: self currentlySelectedEvent

@@ -1,4 +1,4 @@
 toolbuilder
 monthViewFrame
 	
-	^ (0 @ self buttonHeight) corner: (1 @ 1)
+	^ (0 @ 0) corner: (1 @ 1)

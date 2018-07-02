@@ -1,10 +1,7 @@
 as yet unclassified
 testFillMonthIsCorrect
 	
-	|firstDay notInMonth|
-	
-	firstDay := monthView days at: 4.
-	notInMonth := monthView days at: 37.
-	monthView changeMonthTo: self firstOfMarch2018.
-	self assert: (firstDay dateText = '1').
-	self assert: (notInMonth dateText = '')
+	monthView firstOfMonth: self firstOfMarch2018.
+	monthView fillMonth.
+	self assert: (monthView days at: 4) dateText equals: '1'.
+	self assert: (monthView days at: 37) dateText equals: ''

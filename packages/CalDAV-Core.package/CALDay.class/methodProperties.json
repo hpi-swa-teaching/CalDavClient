@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"buildAddButtonWith:" : "jz 7/1/2018 13:48",
+		"buildDayButtonWith:" : "jz 7/1/2018 13:49",
+		"buildEventListWith:" : "jz 7/1/2018 13:44",
+		"buildInFrame:with:" : "jz 7/1/2018 14:48",
 		"currentIndex" : "lh 5/12/2018 19:11",
 		"currentIndex:" : "lh 5/13/2018 13:10",
 		"currentlySelectedEvent" : "kk 6/19/2018 20:14",
@@ -10,8 +14,13 @@
 		"dateText" : "dm 6/7/2018 11:43",
 		"eventNames" : "kk 6/21/2018 17:10",
 		"events" : "kk 6/21/2018 16:04",
+		"hasDate" : "jz 7/1/2018 13:48",
 		"initialize" : "PS 6/23/2018 13:11",
+		"openAddEventDialog" : "jz 7/1/2018 12:48",
 		"openDayView" : "jz 6/13/2018 20:58",
 		"openEditEventDialog" : "kk 6/19/2018 20:14",
 		"parent" : "dm 6/7/2018 11:35",
-		"parent:" : "dm 6/7/2018 11:35" } }
+		"parent:" : "dm 6/7/2018 11:35",
+		"relativeAddButtonHeight" : "jz 7/1/2018 13:45",
+		"relativeDayButtonHeight" : "jz 7/1/2018 13:45",
+		"relativeEventListHeight" : "jz 7/1/2018 13:45" } }

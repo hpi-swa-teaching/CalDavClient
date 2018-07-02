@@ -3,7 +3,7 @@ buildMonthTextWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: self monthText;
+		label: #monthText;
 		enabled: false;
 		frame: (self buttonWidth @ 0 corner: (1 - self buttonWidth) @ self buttonHeight);
 		yourself
