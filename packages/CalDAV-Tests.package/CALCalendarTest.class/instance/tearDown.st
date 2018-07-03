@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown
 	
-	self deleteCalendar
+	self deleteCalendars

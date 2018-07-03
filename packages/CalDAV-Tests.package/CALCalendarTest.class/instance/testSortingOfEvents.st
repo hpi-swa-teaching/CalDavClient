@@ -1,6 +1,8 @@
 as yet unclassified
 testSortingOfEvents
+
 	| first second calendar |
+	
 	first := CALEvent new.
 	first begin: (DateAndTime year: 2017 month: 12 day: 24 hour: 17 minute: 30).
 	second := CALEvent new.

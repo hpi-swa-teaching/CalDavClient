@@ -3,7 +3,8 @@
 		"noError" : "lh 5/12/2018 15:23" },
 	"instance" : {
 		"begin" : "kk 5/12/2018 19:19",
-		"calendar" : "PS 6/4/2018 15:45",
+		"calendar" : "jz 7/3/2018 23:38",
+		"calendar:" : "jz 7/3/2018 23:37",
 		"demoEvent" : "PS 6/4/2018 15:34",
 		"demoEvent2" : "PS 6/4/2018 15:50",
 		"demoEventFullDay" : "kk 6/21/2018 10:32",
@@ -11,6 +12,8 @@
 		"description" : "jz 5/30/2018 15:26",
 		"end" : "PS 5/4/2018 14:58",
 		"participants" : "jz 5/30/2018 15:27",
+		"setUp" : "jz 7/3/2018 23:36",
+		"tearDown" : "jz 7/3/2018 23:38",
 		"testAccessors" : "PS 6/4/2018 15:47",
 		"testAccessors2" : "PS 6/4/2018 15:33",
 		"testAccessorsChangingBegin" : "jz 5/30/2018 15:01",
@@ -27,4 +30,4 @@
 		"testOverlaps" : "PS 7/3/2018 12:12",
 		"testTimeString" : "PS 6/14/2018 14:36",
 		"testTimespan" : "PS 6/4/2018 16:05",
-		"title" : "jz 5/30/2018 15:27" } }
+		"title" : "jz 7/3/2018 23:39" } }

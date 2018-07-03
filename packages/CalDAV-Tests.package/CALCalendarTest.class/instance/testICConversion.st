@@ -3,7 +3,8 @@ testICConversion
 
 	| remoteCalendar appCalendar event |
 	
-	remoteCalendar := ICCalendar new.
+	remoteCalendar := ICCalendar new
+		name: 'testCalendarICConversion'.
 	remoteCalendar addEvent: (ICEvent new
 		summary: 'Meeting1';
 		start: (DateAndTime year: 2018 month: 6 day: 6 hour: 10 minute: 0);
@@ -22,4 +23,5 @@ testICConversion
 		description: 'plan world domination';
 		yourself.
 	self assert: (appCalendar includes: event).
+	appCalendar calendarDirectory deleteFileNamed: remoteCalendar name
 	
