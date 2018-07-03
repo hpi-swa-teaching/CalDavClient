@@ -4,8 +4,8 @@ setUp
 	| first second |
 	app := CALApp new.
 	app calendars add: (CALCalendar withName: 'testCalendar').
-	app monthPane buildSpec: ToolBuilder default.
 	app calendarIndex: app calendars size.
+	app buildWith: ToolBuilderMock default.
 	first := CALEvent new.
 	first begin: (DateAndTime year: 2017 month: 12 day: 24 hour: 17 minute: 30).
 	second := CALEvent new.
