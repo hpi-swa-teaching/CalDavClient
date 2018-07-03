@@ -8,7 +8,7 @@
 	"instvars" : [
 		"day",
 		"parent" ],
-	"name" : "CALDayGridPane",
+	"name" : "CALDayGridPanel",
 	"pools" : [
 		 ],
 	"super" : "CALPane",

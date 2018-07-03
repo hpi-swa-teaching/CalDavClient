@@ -5,7 +5,7 @@ buildDayGridNumber: aNumber with: aBuilder
 	
 	x := self dayGridWidth * aNumber.
 	y := self dayLabelHeight.
-	^  (CALDayGridPane new
+	^  (CALDayGridPanel new
 				parent: self parent;
 				day: (self startDay addDays: aNumber);
 				buildSpec: aBuilder)
