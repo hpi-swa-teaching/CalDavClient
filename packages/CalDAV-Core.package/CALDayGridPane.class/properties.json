@@ -8,8 +8,8 @@
 	"instvars" : [
 		"day",
 		"parent" ],
-	"name" : "CALWeekPanel",
+	"name" : "CALDayGridPane",
 	"pools" : [
 		 ],
-	"super" : "CALPanel",
+	"super" : "CALPane",
 	"type" : "normal" }

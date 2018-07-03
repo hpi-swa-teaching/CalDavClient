@@ -5,5 +5,5 @@ initialize
 		calendars: OrderedCollection new;
 		addCalendar: (CALCalendar withName: 'Privat');
 		restoreCalendars;
-		monthPanel: CALMonthPanel new.
-	self monthPanel parent: self.
+		monthPane: CALMonthPane new.
+	self monthPane parent: self.

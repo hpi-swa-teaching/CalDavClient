@@ -8,7 +8,7 @@
 	"instvars" : [
 		"calendars",
 		"calendarIndex",
-		"monthPanel" ],
+		"monthPane" ],
 	"name" : "CALApp",
 	"pools" : [
 		 ],

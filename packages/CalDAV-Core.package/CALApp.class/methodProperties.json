@@ -10,7 +10,7 @@
 		"buildDeleteCalendarButton:" : "jz 6/6/2018 10:17",
 		"buildEventList:" : "kk 6/19/2018 20:03",
 		"buildImportCalendarButton:" : "jz 6/4/2018 20:41",
-		"buildMonthPane:" : "lh 7/3/2018 17:06",
+		"buildMonthPane:" : "jz 7/1/2018 14:42",
 		"buildMonthViewButton:" : "kk 6/7/2018 10:29",
 		"buildRefreshButton:" : "dm 6/21/2018 16:02",
 		"buildWeekViewButton:" : "PS 6/14/2018 16:24",
@@ -28,9 +28,9 @@
 		"eventNamesIn:" : "kk 6/21/2018 17:11",
 		"eventsIn:" : "kk 6/21/2018 16:10",
 		"importCalendar" : "dm 6/21/2018 15:13",
-		"initialize" : "lh 7/3/2018 17:06",
-		"monthPanel" : "lh 7/3/2018 17:06",
-		"monthPanel:" : "lh 7/3/2018 17:06",
+		"initialize" : "dm 6/21/2018 16:31",
+		"monthPane" : "kk 6/19/2018 20:42",
+		"monthPane:" : "kk 6/19/2018 20:42",
 		"openAddCalendarDialog" : "jz 6/13/2018 20:25",
 		"openAddEventDialog" : "jz 6/13/2018 20:26",
 		"openAddEventDialogFor:" : "jz 7/1/2018 12:48",
@@ -41,4 +41,4 @@
 		"restoreCalendars" : "dm 6/21/2018 15:35",
 		"selectedCalendar" : "lh 5/30/2018 20:51",
 		"storeCalendar:" : "dm 6/21/2018 15:29",
-		"updateView" : "lh 7/3/2018 17:06" } }
+		"updateView" : "kk 6/19/2018 20:44" } }
