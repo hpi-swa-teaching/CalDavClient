@@ -1,4 +1,4 @@
 calendar management
 updateView
 
-	self monthPane fillMonth
+	self monthPanel fillMonth

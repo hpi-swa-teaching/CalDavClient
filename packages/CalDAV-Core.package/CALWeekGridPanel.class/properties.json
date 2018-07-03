@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CALPane",
+		"startDay",
+		"parent" ],
+	"name" : "CALWeekGridPanel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CALPanel",
 	"type" : "normal" }

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lh 6/21/2018 10:35",
+		"setUp" : "lh 7/3/2018 17:06",
 		"tearDown" : "lh 5/31/2018 00:47",
 		"testBuildWith" : "dm 6/14/2018 12:27",
 		"testButtonPresence" : "jz 6/6/2018 10:16",
