@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	
-	monthView := CALMonthPane new
+	monthView := CALMonthPanel new

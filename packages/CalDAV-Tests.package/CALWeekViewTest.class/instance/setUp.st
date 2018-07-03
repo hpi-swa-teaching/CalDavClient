@@ -1,5 +1,5 @@
 as yet unclassified
 setUp
 	
-	weekView := CALWeekPane new.
+	weekView := CALWeekPanel new.
 	weekView day: self firstOfMarch2018
