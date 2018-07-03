@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CALPane",
+		"fields",
+		"days",
+		"firstOfMonth",
+		"parent" ],
+	"name" : "CALMonthPanel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "CALPanel",
 	"type" : "normal" }

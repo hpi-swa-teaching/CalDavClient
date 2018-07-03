@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CALTimeGridPane",
+	"name" : "CALTimeGridPanel",
 	"pools" : [
 		 ],
-	"super" : "CALPane",
+	"super" : "CALPanel",
 	"type" : "normal" }

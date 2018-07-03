@@ -11,5 +11,5 @@
 	"name" : "CALDayGridPanel",
 	"pools" : [
 		 ],
-	"super" : "CALPane",
+	"super" : "CALPanel",
 	"type" : "normal" }

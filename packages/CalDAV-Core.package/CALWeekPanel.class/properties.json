@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fields",
-		"days",
-		"firstOfMonth",
+		"day",
 		"parent" ],
-	"name" : "CALMonthPane",
+	"name" : "CALWeekPanel",
 	"pools" : [
 		 ],
-	"super" : "CALPane",
+	"super" : "CALPanel",
 	"type" : "normal" }

@@ -1,7 +1,7 @@
 as yet unclassified
 buildWeekPaneWith: aBuilder
 
-	^ (CALWeekPane new
+	^ (CALWeekPanel new
 				parent: self parent;
 				day: self day;
 				buildSpec: aBuilder)
