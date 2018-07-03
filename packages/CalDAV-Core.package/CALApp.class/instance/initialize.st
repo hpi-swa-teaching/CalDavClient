@@ -6,4 +6,6 @@ initialize
 		addCalendar: (CALCalendar withName: 'Privat');
 		restoreCalendars;
 		monthPanel: (CALMonthPanel new
-			parent: self)
+			parent: self);
+		weekPanel: (CALWeekPanel new
+		parent: self)

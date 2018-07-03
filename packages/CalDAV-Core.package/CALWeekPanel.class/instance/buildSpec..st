@@ -6,7 +6,7 @@ buildSpec: aBuilder
 	content := aBuilder pluggablePanelSpec new.
 	content
 		model: self;
-		name: 'weekPane';
+		name: 'weekPanel';
 		children: OrderedCollection new.
 		
 	content children

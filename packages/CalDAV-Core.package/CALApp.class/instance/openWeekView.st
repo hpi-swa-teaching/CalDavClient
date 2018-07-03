@@ -1,10 +1,12 @@
 subwindows
 openWeekView
 
-	| view |
+	| builder |
 	
-	view := CALWeekView openDay: Date today for: self.
-	view
-		width: 1300;
-		height: self topView height
+	self clearView.
+	builder := ToolBuilder default.
+	builder 
+		buildAll: {(self buildWeekPanel: builder)} 
+		in: self topView.
+	self changed: #isWeekViewActive
 
