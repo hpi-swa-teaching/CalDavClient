@@ -1,8 +1,5 @@
 as yet unclassified
 testDeleteEvent
-	| entry  calendar |
-	entry := CALEvent new.
-	calendar := CALCalendar withName: 'testCalendar'.
-	calendar addEvent: entry.
-	calendar deleteEvent: entry.
-	self assert: (calendar events includes: entry)not
+	testCalendar1 addEvent: (self demoEvent2).
+	testCalendar1 deleteEvent: (self demoEvent2).
+	self assert: (testCalendar1 events includes: (self demoEvent2))not

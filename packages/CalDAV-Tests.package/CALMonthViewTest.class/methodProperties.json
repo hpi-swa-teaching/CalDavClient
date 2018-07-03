@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"march2018" : "lh 6/7/2018 12:16",
-		"setUp" : "lh 6/7/2018 12:15",
-		"testFillMonthIsCorrect" : "dm 6/7/2018 12:46",
-		"testFirstMonthIsCurrentMonth" : "lh 6/7/2018 11:31",
-		"testNextMonthIsOneMonthAfter" : "lh 6/7/2018 12:16",
-		"testPreviousMonthIsOneMonthBefore" : "lh 6/7/2018 12:16" } }
+		"firstOfMarch2018" : "kk 6/21/2018 14:48",
+		"setUp" : "lh 7/3/2018 17:43",
+		"testFillMonthIsCorrect" : "jz 7/2/2018 11:59",
+		"testFirstMonthIsCurrentMonth" : "dm 6/13/2018 15:55",
+		"testNextMonthIsOneMonthAfter" : "kk 6/21/2018 14:48",
+		"testPreviousMonthIsOneMonthBefore" : "kk 6/21/2018 14:48",
+		"testllistFramesDontIntersect" : "dm 6/13/2018 16:54",
+		"testtextFramesDontIntersect" : "dm 6/13/2018 16:54" } }

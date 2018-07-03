@@ -1,6 +1,7 @@
 calendar management
 importCalendar
-
-	self addCalendar: (CALCalendar newFromLink: 
-		(UIManager default request: 'Enter Link: ' translated
-		initialAnswer: ''))
+	
+	self addCalendar: (CALWebCalendar newFromLink: 
+		(UIManager default 
+			request: 'Enter Link: '
+			initialAnswer: ''))

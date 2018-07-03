@@ -1,7 +1,7 @@
-as yet unclassified
+initialize
 withName: aString
 	
 	|newCalendar|
-	newCalendar := CALCalendar new.
+	newCalendar := self new.
 	newCalendar name: aString.
 	^ newCalendar

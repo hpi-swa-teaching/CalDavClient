@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 newFromICEvent: anEvent
 
 	| event participants attendees |
@@ -6,13 +6,15 @@ newFromICEvent: anEvent
 	event := self new.
 	participants := String new.
 	attendees := anEvent attendees asOrderedCollection.
-	attendees allButLastDo: [ :each | participants := participants , each , ', ' ].
-	participants := participants , attendees last.
+	attendees ifNotEmpty: [ 
+		attendees allButLastDo: [ :each | participants := participants , each , ', ' ].
+		participants := participants , attendees last ].
+	anEvent isFullDayEvent
+		ifTrue: [event begin: anEvent start start. event end: anEvent end start. event makeFullDay]
+		ifFalse: [event begin: anEvent start. event end: anEvent end].
 	event
 		title: anEvent summary;
 		description: anEvent textualDescription;
-		begin: anEvent start;
-		end: anEvent end;
 		location: anEvent location;
 		participants: participants.
 	^ event

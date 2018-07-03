@@ -9,7 +9,8 @@
 		"event",
 		"isReadOnly",
 		"parent",
-		"titleColor" ],
+		"titleColor",
+		"isFullDaySelected" ],
 	"name" : "CALEventDialog",
 	"pools" : [
 		 ],

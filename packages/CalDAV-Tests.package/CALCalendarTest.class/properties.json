@@ -4,9 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "kk 6/21/2018 17:39",
 	"instvars" : [
-		 ],
+		"testCalendar1",
+		"testCalendar2",
+		"testCalendar3" ],
 	"name" : "CALCalendarTest",
 	"pools" : [
 		 ],

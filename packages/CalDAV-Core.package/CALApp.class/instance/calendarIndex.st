@@ -1,3 +1,3 @@
 accessing
 calendarIndex
-	^ calendarIndex
+	calendarIndex ifNil: [^ calendarIndex := 1] ifNotNil: [^ calendarIndex]

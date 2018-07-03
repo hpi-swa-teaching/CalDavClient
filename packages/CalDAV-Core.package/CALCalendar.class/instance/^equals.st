@@ -1,4 +1,4 @@
 errors
 = aCalendar
 
-	^ (self events = aCalendar events)
+	^ ((self events = aCalendar events) and: (self name = aCalendar name))

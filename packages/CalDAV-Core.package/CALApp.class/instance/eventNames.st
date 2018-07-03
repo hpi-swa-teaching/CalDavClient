@@ -1,5 +1,4 @@
 accessing
 eventNames
 
-	 ^ self selectedCalendar events 
-		collect: [ :each | (CALEvent dateString: (each begin)), '   ', (CALEvent timeString: (each begin)), '   ' ,each title]
+	 ^ self selectedCalendar events collect: [ :each|each title, '   ', each dateAndTimeString]
