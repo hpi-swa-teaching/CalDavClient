@@ -2,4 +2,4 @@ ui
 highlightTitle
 	self event isTitleValid
 		ifFalse: [self titleColor: Color paleRed]
-		ifTrue: [self titleColor: Color white]
+		ifTrue: [self titleColor: self defaultColor]
