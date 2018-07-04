@@ -1,9 +1,3 @@
-constants
+accessing
 calendar
-
-	| calendar |
-	
-	calendar := CALCalendar new.
-	calendar addEvent: CALEvent new.
-	
 	^ calendar

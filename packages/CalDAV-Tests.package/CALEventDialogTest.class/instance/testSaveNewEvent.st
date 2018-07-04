@@ -3,7 +3,6 @@ testSaveNewEvent
 
 	| de1 de2 |
 	
-	self setUp.
 	de1 := self demoEvent.
 	de2 := self demoEvent2.
 	app addEvent: de1.
@@ -14,4 +13,5 @@ testSaveNewEvent
 		saveEvent.
 		
 	self assert: (app selectedCalendar events includes: de1).
-	self assert: (app selectedCalendar events includes: de2).
+	self assert: (app selectedCalendar events includes: de2)
+	

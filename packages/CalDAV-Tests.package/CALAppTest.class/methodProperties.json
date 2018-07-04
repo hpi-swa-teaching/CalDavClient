@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lh 6/21/2018 10:35",
+		"demoEvent" : "jz 7/4/2018 01:14",
+		"demoEvent2" : "jz 7/4/2018 01:15",
+		"setUp" : "jz 7/4/2018 01:15",
 		"tearDown" : "lh 5/31/2018 00:47",
-		"testBuildWith" : "dm 6/14/2018 12:27",
-		"testButtonPresence" : "jz 6/6/2018 10:16",
-		"testEventAdding" : "jz 5/24/2018 11:03",
-		"testEventEditOnDoubleClick" : "jz 5/24/2018 11:03" } }
+		"testBuildWith" : "jz 7/4/2018 00:07",
+		"testButtonPresence" : "jz 7/4/2018 00:12",
+		"testEventAdding" : "jz 7/4/2018 01:17",
+		"testEventEditOnDoubleClick" : "jz 5/24/2018 11:03",
+		"testMonthViewIsStandard" : "jz 7/4/2018 00:41",
+		"testViewSwitching" : "dm 7/4/2018 18:34" } }

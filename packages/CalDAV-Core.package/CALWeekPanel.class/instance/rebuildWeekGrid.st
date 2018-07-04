@@ -6,4 +6,4 @@ rebuildWeekGrid
 	builder := ToolBuilder default.	
 	builder 
 		buildAll: {(self buildWeekGridWith: builder)} 
-		in: ((self dependents select: [ :each | each externalName = 'weekPane']) first)
+		in: ((self dependents select: [ :each | each externalName = 'weekPanel']) first)
