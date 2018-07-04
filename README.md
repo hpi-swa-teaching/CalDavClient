@@ -8,3 +8,5 @@
         load.
 
 [Zeiterfassung](https://docs.google.com/spreadsheets/d/1dj4SpqwGRc0vceZKTeiQqER_g5aR3-BoUz4oO5T2MIw/edit#gid=281207454)
+
+[Präsentation](https://docs.google.com/presentation/d/1D59Daqjp01A0MHEx4JH3pOsvUvObdAKe30bwfzYYl84/edit?usp=sharing)
