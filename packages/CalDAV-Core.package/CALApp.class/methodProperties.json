@@ -31,8 +31,8 @@
 		"eventsIn:" : "kk 6/21/2018 16:10",
 		"importCalendar" : "dm 6/21/2018 15:13",
 		"initialize" : "jz 7/4/2018 00:51",
-		"isMonthViewActive" : "jz 7/4/2018 00:34",
-		"isWeekViewActive" : "jz 7/4/2018 00:34",
+		"isMonthViewActive" : "dm 7/4/2018 18:23",
+		"isWeekViewActive" : "dm 7/4/2018 18:24",
 		"monthPanel" : "jz 7/4/2018 00:15",
 		"monthPanel:" : "jz 7/4/2018 00:15",
 		"openAddCalendarDialog" : "jz 6/13/2018 20:25",
@@ -45,6 +45,6 @@
 		"restoreCalendars" : "dm 6/21/2018 15:35",
 		"selectedCalendar" : "lh 5/30/2018 20:51",
 		"storeCalendar:" : "dm 6/21/2018 15:29",
-		"updateView" : "jz 7/4/2018 00:15",
+		"updateView" : "dm 7/4/2018 18:22",
 		"weekPanel" : "jz 7/4/2018 00:50",
 		"weekPanel:" : "jz 7/4/2018 00:50" } }
