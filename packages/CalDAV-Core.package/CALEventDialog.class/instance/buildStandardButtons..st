@@ -1,8 +1,4 @@
 toolbuilding
 buildStandardButtons: aBuilder
 
-^{
-		self buildFullDayButton: aBuilder
-	}
-	
-	
+^ { self buildFullDayButton: aBuilder }

@@ -1,5 +1,6 @@
 CalendarMorph
 buildYearRow
+
 	^ self newRow
 		addMorphBack: ((self newButtonWithContents: '<-') actionSelector: #previousYear; target: self);
 		addMorphBack: AlignmentMorph newVariableTransparentSpacer;

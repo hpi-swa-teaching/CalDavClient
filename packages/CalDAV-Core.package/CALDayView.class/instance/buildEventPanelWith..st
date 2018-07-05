@@ -5,4 +5,4 @@ buildEventPanelWith: aBuilder
 				parent: self parent;
 				day: self day;
 				buildSpec: aBuilder)
-				frame: (self timeLabelWidth  @ self buttonHeight corner: 1@1)
+				frame: (self timeLabelWidth @ self buttonHeight corner: 1 @ 1)

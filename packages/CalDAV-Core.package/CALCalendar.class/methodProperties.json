@@ -2,23 +2,23 @@
 	"class" : {
 		"calendarDirectory" : "jz 7/3/2018 23:41",
 		"newFromICCalendar:" : "jz 7/3/2018 23:57",
-		"withName:" : "dm 6/21/2018 15:35" },
+		"withName:" : "kk 7/5/2018 15:55" },
 	"instance" : {
 		"=" : "PS 6/14/2018 12:22",
-		"addEvent:" : "dm 6/21/2018 15:29",
+		"addEvent:" : "kk 7/5/2018 12:20",
 		"calendarDirectory" : "dm 6/21/2018 16:36",
-		"clearEvents" : "dm 5/23/2018 14:59",
+		"clearEvents" : "kk 7/5/2018 12:20",
 		"deleteEvent:" : "dm 6/21/2018 15:29",
 		"errorEventNotInCalendar:" : "jz 5/24/2018 11:42",
 		"events" : "lh 5/12/2018 19:34",
 		"events:" : "dm 5/10/2018 11:19",
 		"eventsData" : "jz 6/4/2018 20:28",
 		"includes:" : "jz 6/6/2018 10:33",
-		"initialize" : "dm 5/23/2018 18:16",
+		"initialize" : "kk 7/5/2018 12:21",
 		"name" : "dm 5/23/2018 15:02",
 		"name:" : "dm 5/23/2018 15:02",
 		"refresh" : "dm 6/21/2018 16:12",
 		"restore" : "dm 6/21/2018 15:28",
 		"restoreEvents" : "dm 6/21/2018 15:40",
 		"store" : "dm 6/21/2018 15:27",
-		"storeEvents" : "dm 6/21/2018 15:38" } }
+		"storeEvents" : "kk 7/5/2018 12:21" } }

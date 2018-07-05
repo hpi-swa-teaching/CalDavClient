@@ -1,8 +1,7 @@
 toolbuilding
 buildStandardFields: aBuilder
 
-^{
-	self buildTitleText: aBuilder.
+^ {self buildTitleText: aBuilder.
 	self buildDescriptionText: aBuilder.
 	self buildBeginYearText: aBuilder.
 	self buildBeginMonthText: aBuilder.

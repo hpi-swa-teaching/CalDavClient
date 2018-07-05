@@ -1,6 +1,7 @@
 CalendarMorph
 newDateButtonWithContents: aByteString 
-	^SimpleButtonMorph new
+
+	^ SimpleButtonMorph new
 		label: aByteString;
 		cornerStyle: #square;
 		color: self color muchLighter;

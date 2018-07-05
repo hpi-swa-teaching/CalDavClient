@@ -1,4 +1,4 @@
 accessing
 currentlySelectedEvent
 
-	^self events at: self currentIndex.
+	^ self events at: self currentIndex

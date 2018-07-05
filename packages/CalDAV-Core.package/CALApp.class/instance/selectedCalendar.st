@@ -1,4 +1,4 @@
 accessing
 selectedCalendar
 
-	^self calendars at: self calendarIndex
+	^ self calendars at: self calendarIndex

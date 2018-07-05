@@ -8,4 +8,4 @@ buildLocationText: aBuilder
 		indicateUnacceptedChanges: false;
 		help: 'Location';
 		readOnly: self isReadOnly;
-		frame: (0.01@0.54 corner: self borderRight@0.64)
+		frame: (0.01 @ 0.54 corner: self borderRight @ 0.64)

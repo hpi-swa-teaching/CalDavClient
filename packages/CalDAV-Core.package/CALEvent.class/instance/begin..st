@@ -1,5 +1,6 @@
 accessing
 begin: beginDate
+
 	self beginYear: (beginDate year).
 	self beginMonth: (beginDate month).
 	self beginDay: (beginDate dayOfMonth).

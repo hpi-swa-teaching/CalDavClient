@@ -1,4 +1,4 @@
 toolbuilding
 windowTitle
 
-	^self subclassResponsibility
+	^ self subclassResponsibility

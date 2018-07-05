@@ -1,4 +1,5 @@
 validation
 isTitleValid
 
-	^ (self title isNil not) and: [self title ~= '']
+	^ (self title isNil not) 
+		and: [self title ~= '']

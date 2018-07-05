@@ -1,6 +1,8 @@
 CalendarMorph
 dayInitialsRow
+
 	| newRow |
+
 	newRow := self newRow.
 	Week dayNames
 		do: [:dayName|
@@ -12,4 +14,4 @@ dayInitialsRow
 				centered;
 				lock)]
 		separatedBy: [newRow addMorphBack: AlignmentMorph newVariableTransparentSpacer].
-	^newRow 
+	^ newRow 

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildNextWeekButton:" : "PS 6/14/2018 15:48",
-		"buildPreviousWeekButton:" : "PS 6/14/2018 15:54",
+		"buildNextWeekButton:" : "kk 7/5/2018 16:15",
+		"buildPreviousWeekButton:" : "kk 7/5/2018 16:15",
 		"buildSpec:" : "jz 7/4/2018 00:51",
-		"buildTimelineWith:" : "dm 7/3/2018 17:36",
+		"buildTimelineWith:" : "kk 7/5/2018 16:15",
 		"buildWeekGridWith:" : "dm 7/3/2018 17:36",
-		"buildWeekTextWith:" : "jz 7/2/2018 11:14",
+		"buildWeekTextWith:" : "kk 7/5/2018 16:15",
 		"buttonHeight" : "PS 6/14/2018 15:58",
 		"buttonWidth" : "PS 6/14/2018 16:18",
-		"clearWeekGrid" : "jz 7/4/2018 00:56",
+		"clearWeekGrid" : "kk 7/5/2018 15:52",
 		"day" : "PS 6/14/2018 15:53",
 		"day:" : "kk 6/21/2018 14:33",
 		"dayLabelHeight" : "PS 6/21/2018 11:43",
@@ -21,5 +21,5 @@
 		"previousWeek" : "PS 6/21/2018 11:21",
 		"rebuildWeekGrid" : "jz 7/4/2018 00:58",
 		"timeLabelWidth" : "PS 6/14/2018 15:58",
-		"updateWeek" : "PS 6/21/2018 12:16",
+		"updateWeek" : "kk 7/5/2018 15:53",
 		"weekText" : "PS 6/14/2018 15:57" } }

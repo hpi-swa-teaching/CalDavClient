@@ -1,5 +1,6 @@
 ui
 highlightTitle
+
 	self event isTitleValid
 		ifFalse: [self titleColor: Color paleRed.
 				self titleTextColor: Color black]

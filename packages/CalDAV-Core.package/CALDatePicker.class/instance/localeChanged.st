@@ -1,3 +1,4 @@
 CalendarMorph
 localeChanged
+
 	self update

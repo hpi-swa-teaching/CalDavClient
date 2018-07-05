@@ -8,4 +8,4 @@ openDay: aDate for: anApp
 		parent: anApp;
 		day: aDate.
 	
-	^ToolBuilder default open: dayView
+	^ ToolBuilder default open: dayView

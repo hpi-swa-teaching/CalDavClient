@@ -1,6 +1,7 @@
 CalendarMorph
 newButtonWithContents: aByteString 
-	^SimpleButtonMorph new 
+
+	^ SimpleButtonMorph new 
 		label: aByteString;
 		color: (self color mixed: 0.5 with: Color gray);
 		borderColor: #raised;

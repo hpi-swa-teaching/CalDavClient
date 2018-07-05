@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"openEvent:forParent:" : "dm 5/22/2018 19:30" },
+		"openEvent:forParent:" : "kk 7/5/2018 16:03" },
 	"instance" : {
-		"buildButtons:" : "jz 5/30/2018 14:47",
+		"buildButtons:" : "kk 7/5/2018 16:12",
 		"deleteEvent" : "PS 5/22/2018 20:18",
 		"initialize" : "kk 6/19/2018 22:04",
 		"oldEvent" : "dm 5/22/2018 19:12",

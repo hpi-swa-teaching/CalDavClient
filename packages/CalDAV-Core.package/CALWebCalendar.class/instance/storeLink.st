@@ -6,4 +6,4 @@ storeLink
 	filestream := FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name).
 	filestream
 		nextPutAll: self caldavLink;
-		close.
+		close

@@ -8,4 +8,4 @@ buildDescriptionText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Description';
-		frame: (0.01@0.11 corner: self borderRight@0.21)
+		frame: (0.01 @ 0.11 corner: self borderRight @ 0.21)

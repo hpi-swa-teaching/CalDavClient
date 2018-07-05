@@ -9,4 +9,4 @@ openEvent: anEvent forParent: aParent
 		event: anEvent;
 		oldEvent: anEvent.
 		
-	 ^ToolBuilder default open: dialog
+	 ^ ToolBuilder default open: dialog

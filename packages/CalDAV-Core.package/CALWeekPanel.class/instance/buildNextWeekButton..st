@@ -5,6 +5,5 @@ buildNextWeekButton: aBuilder
 		model: self;
 		action: #nextWeek;
 		label: 'next week';
-		frame: ((1 - self buttonWidth)@0 corner: 1@self buttonHeight).
-	
-	
+		frame: ((1 - self buttonWidth) @ 0 corner: 1 @ self buttonHeight);
+		yourself

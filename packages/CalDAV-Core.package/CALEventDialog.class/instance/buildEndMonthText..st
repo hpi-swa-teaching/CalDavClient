@@ -8,4 +8,4 @@ buildEndMonthText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Month';
-		frame: (0.31@0.43 corner: 0.61@0.53)
+		frame: (0.31 @ 0.43 corner: 0.61 @ 0.53)

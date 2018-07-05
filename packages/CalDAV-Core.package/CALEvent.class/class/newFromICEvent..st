@@ -10,8 +10,13 @@ newFromICEvent: anEvent
 		attendees allButLastDo: [ :each | participants := participants , each , ', ' ].
 		participants := participants , attendees last ].
 	anEvent isFullDayEvent
-		ifTrue: [event begin: anEvent start start. event end: anEvent end start. event makeFullDay]
-		ifFalse: [event begin: anEvent start. event end: anEvent end].
+		ifTrue: [event 
+					begin: anEvent start start;
+					end: anEvent end start;
+					makeFullDay]
+		ifFalse: [event 
+					begin: anEvent start;
+					end: anEvent end].
 	event
 		title: anEvent summary;
 		description: anEvent textualDescription;

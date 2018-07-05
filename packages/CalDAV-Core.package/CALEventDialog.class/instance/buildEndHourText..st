@@ -8,4 +8,4 @@ buildEndHourText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'hh';
-		frame: (0.73@0.43 corner: 0.78@0.53)
+		frame: (0.73 @ 0.43 corner: 0.78 @ 0.53)

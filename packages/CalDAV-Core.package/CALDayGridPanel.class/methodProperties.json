@@ -4,13 +4,13 @@
 	"instance" : {
 		"buildEventBlockFor:with:" : "jz 7/4/2018 01:25",
 		"buildEventBlocks:" : "kk 6/21/2018 16:05",
-		"buildSpec:" : "PS 6/21/2018 10:30",
+		"buildSpec:" : "kk 7/5/2018 16:13",
 		"day" : "PS 6/14/2018 15:07",
 		"day:" : "PS 6/14/2018 15:07",
-		"eventBlockFrame:" : "kk 6/21/2018 16:45",
+		"eventBlockFrame:" : "kk 7/5/2018 15:32",
 		"parent" : "PS 6/14/2018 15:01",
 		"parent:" : "PS 6/14/2018 15:01",
 		"widthFor:" : "kk 6/21/2018 16:05",
-		"xLeftFor:" : "PS 7/3/2018 11:51",
-		"yBeginPositionFor:" : "kk 6/21/2018 17:00",
-		"yEndPositionFor:" : "kk 6/21/2018 17:02" } }
+		"xLeftFor:" : "kk 7/5/2018 15:34",
+		"yBeginPositionFor:" : "kk 7/5/2018 15:37",
+		"yEndPositionFor:" : "kk 7/5/2018 15:38" } }

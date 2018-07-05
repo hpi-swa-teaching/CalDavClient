@@ -1,5 +1,6 @@
 initialize
 initialize 
+
 	self 
 		name: 'Default';
 		events: SortedCollection new.

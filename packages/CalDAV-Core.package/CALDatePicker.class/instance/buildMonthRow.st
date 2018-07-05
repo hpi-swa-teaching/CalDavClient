@@ -1,5 +1,6 @@
 CalendarMorph
 buildMonthRow
+
 	^ self newRow
 		addMorphBack: ((self newButtonWithContents: '<-') actionSelector: #previousMonth; target: self);
 		addMorphBack: AlignmentMorph newVariableTransparentSpacer;

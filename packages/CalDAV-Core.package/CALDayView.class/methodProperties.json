@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"openDay:for:" : "jz 6/13/2018 20:57" },
+		"openDay:for:" : "kk 7/5/2018 16:00" },
 	"instance" : {
-		"buildDayTextWith:" : "jz 7/2/2018 11:15",
-		"buildEventPanelWith:" : "dm 7/3/2018 17:35",
-		"buildNextDayButton:" : "kk 6/12/2018 13:49",
-		"buildPreviousDayButton:" : "kk 6/12/2018 13:48",
-		"buildTimelineWith:" : "dm 7/3/2018 17:36",
+		"buildDayTextWith:" : "kk 7/5/2018 16:06",
+		"buildEventPanelWith:" : "kk 7/5/2018 16:07",
+		"buildNextDayButton:" : "kk 7/5/2018 16:07",
+		"buildPreviousDayButton:" : "kk 7/5/2018 16:07",
+		"buildTimelineWith:" : "kk 7/5/2018 16:07",
 		"buildWith:" : "PS 6/14/2018 15:15",
 		"buttonHeight" : "kk 6/12/2018 12:26",
 		"buttonWidth" : "kk 6/12/2018 12:27",
@@ -19,4 +19,4 @@
 		"previousDay" : "PS 6/14/2018 15:51",
 		"timeLabelWidth" : "lh 6/13/2018 16:42",
 		"updateDay" : "PS 6/21/2018 10:37",
-		"yPositionFor:and:" : "jz 6/13/2018 20:03" } }
+		"yPositionFor:and:" : "kk 7/5/2018 15:10" } }

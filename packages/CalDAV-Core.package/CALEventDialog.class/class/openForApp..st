@@ -7,4 +7,4 @@ openForApp: aParent
 	dialog
 		parent: aParent.	
 		
-	 ^ToolBuilder default open: dialog
+	 ^ ToolBuilder default open: dialog
