@@ -1,3 +1,4 @@
 accessing
 calendarsToShow
-	^ calendarsToShow ifNil: [calendarsToShow := Set new]
+	^ calendarsToShow ifNil: [calendarsToShow := Set new add: 1;
+															yourself]

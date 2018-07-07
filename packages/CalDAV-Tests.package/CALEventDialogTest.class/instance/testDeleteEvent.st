@@ -7,7 +7,7 @@ testDeleteEvent
 	de2 := self demoEvent2.
 	app addEvent: de1.
 	app addEvent: de2.
-	app showEventsForCalendar: 1 put: true.
+	app calendarIndex: 1.
 	
 	editDialog
 		parent: app;
