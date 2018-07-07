@@ -1,4 +1,4 @@
 accessing
 eventNames
 
-	 ^ self selectedCalendar events collect: [ :each|each title, '   ', each dateAndTimeString]
+	 ^ self selectedEvents collect: [ :each|each title, '   ', each dateAndTimeString]

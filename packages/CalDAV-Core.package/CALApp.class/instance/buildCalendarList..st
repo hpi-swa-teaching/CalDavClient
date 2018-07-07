@@ -1,10 +1,10 @@
 toolbuilder
 buildCalendarList: aBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #calendarNames;
-		getIndex: #calendarIndex;
-		setIndex: #calendarIndex:;
+		getSelectionList: #shouldDisplayEventsFor:;
+		setSelectionList: #showEventsForCalendar:put:;
 		frame: (0.1 @ 0 corner: 0.3 @ 1);
 		yourself

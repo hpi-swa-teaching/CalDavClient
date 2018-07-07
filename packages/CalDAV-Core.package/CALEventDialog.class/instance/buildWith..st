@@ -9,7 +9,9 @@ buildWith: aBuilder
 		label: #windowTitle;
 		children: OrderedCollection new.
 		
-	newWindow children addAll: (self windowFields: aBuilder).
+	newWindow children 
+		addAll: (self windowFields: aBuilder);
+		add: (self buildCalendarList: aBuilder).
 	
 	^ aBuilder build: newWindow
 			

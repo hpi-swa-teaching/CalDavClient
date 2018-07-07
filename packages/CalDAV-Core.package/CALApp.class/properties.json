@@ -9,7 +9,8 @@
 		"calendars",
 		"calendarIndex",
 		"monthPanel",
-		"weekPanel" ],
+		"weekPanel",
+		"calendarsToShow" ],
 	"name" : "CALApp",
 	"pools" : [
 		 ],
