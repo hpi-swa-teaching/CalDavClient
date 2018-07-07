@@ -5,6 +5,7 @@ setUp
 	app addCalendar: (CALCalendar withName: 'testCalendar').
 	app monthPanel buildSpec: ToolBuilder default. 
 	app calendarIndex: app calendars size.
+	app calendars last clearEvents.
 	eventDialog := CALEventDialog new.
 	addDialog := CALAddEventDialog new.
 	addDialog parent: app.
