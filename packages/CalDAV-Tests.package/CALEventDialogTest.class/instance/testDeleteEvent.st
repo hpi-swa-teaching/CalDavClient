@@ -5,8 +5,9 @@ testDeleteEvent
 	
 	event := self demoEvent.
 	(app calendars at: 2) clearEvents.
+	app calendarIndex: 2.
 	app addEvent: event.
-	self assert: (app selectedEvents includes: event) not.
+	self assert: ((app selectedEvents) includes: event).
 	editDialog
 		parent: app;
 		event: event;
