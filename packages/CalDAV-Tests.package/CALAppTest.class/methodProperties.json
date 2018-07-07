@@ -11,4 +11,5 @@
 		"testEventAdding" : "jz 7/4/2018 01:17",
 		"testEventEditOnDoubleClick" : "jz 5/24/2018 11:03",
 		"testMonthViewIsStandard" : "jz 7/4/2018 00:41",
+		"testMultipleCalendarSelection" : "dm 7/7/2018 10:12",
 		"testViewSwitching" : "dm 7/5/2018 11:33" } }

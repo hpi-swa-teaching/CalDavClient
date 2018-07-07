@@ -9,6 +9,7 @@
 		"testBuildWith" : "dm 7/7/2018 09:03",
 		"testButtonsForAddDialog" : "dm 6/13/2018 15:49",
 		"testButtonsForEditDialog" : "jz 5/30/2018 14:50",
+		"testChangeEventCalendar" : "dm 7/7/2018 10:15",
 		"testDeleteEvent" : "dm 7/7/2018 10:08",
 		"testEventPropertiesChanges" : "PS 5/22/2018 19:58",
 		"testFieldsWriteable" : "jz 5/17/2018 17:15",
