@@ -7,6 +7,7 @@ testDeleteEvent
 	de2 := self demoEvent2.
 	app addEvent: de1.
 	app addEvent: de2.
+	app showEventsForCalendar: 1 put: true.
 	
 	editDialog
 		parent: app;
@@ -15,5 +16,5 @@ testDeleteEvent
 		deleteEvent.
 		
 	
-	self assert: (app selectedCalendar events includes: de1) not.
-	self assert: (app selectedCalendar events includes: de2).
+	self assert: (app selectedEvents includes: de1) not.
+	self assert: (app selectedEvents includes: de2).
