@@ -9,6 +9,7 @@
 		"tearDown" : "jz 7/3/2018 23:46",
 		"testAddEvent" : "PS 6/14/2018 12:24",
 		"testBuildWith" : "dm 6/13/2018 14:48",
+		"testCalendarHasColor" : "jz 7/8/2018 18:17",
 		"testCalendarsEqual" : "PS 6/14/2018 12:21",
 		"testDeleteEvent" : "PS 6/14/2018 12:39",
 		"testICConversion" : "jz 7/4/2018 00:00",

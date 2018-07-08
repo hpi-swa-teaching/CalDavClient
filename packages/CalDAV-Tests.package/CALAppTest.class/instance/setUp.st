@@ -3,5 +3,6 @@ setUp
 
 	app := CALApp new.
 	app selectionFileName: 'testSelection'.
+	app restoreCalendarSelection.
 	app addCalendar: (CALCalendar withName: 'testCalendar').
 	app calendarIndex: app calendars size
