@@ -6,6 +6,6 @@ testBuildWith
 	dayView := CALDayView new
 					parent: CALApp new;
 					day: Date today.
-	spec := dayView buildWith: (ToolBuilderMock default).
+	spec := dayView buildWith: (ToolBuilder default).
 	self assert: (spec label = 'Day View').
 	self assert: (spec submorphs isEmpty not)

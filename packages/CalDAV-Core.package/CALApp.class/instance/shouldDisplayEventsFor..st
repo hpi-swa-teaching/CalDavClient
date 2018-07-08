@@ -1,4 +1,4 @@
 toolbuilder
 shouldDisplayEventsFor: anIndex
 
-	^ self calendarsToShow includes: anIndex
+	^ self calendarsToShow includes: (self nameOfCalendarAt: anIndex)

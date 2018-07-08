@@ -5,5 +5,5 @@ testBuildWith
 	
 	self assert: (CALApp selectors anySatisfy: [ :each| each = 'buildWith:']).
 	calApp := CALApp new.
-	spec := calApp buildWith: (ToolBuilderMock default).
+	spec := calApp buildWith: (ToolBuilder default).
 	self assert: (spec model = calApp)

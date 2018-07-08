@@ -7,5 +7,5 @@ testBuildWith
 	dialog := CALAddEventDialog new.
 	spec := dialog 
 		parent: app;
-		buildWith: (ToolBuilderMock default).
+		buildWith: (ToolBuilder default).
 	self assert: (spec model = dialog)

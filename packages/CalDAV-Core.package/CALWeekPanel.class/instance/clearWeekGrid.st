@@ -1,5 +1,5 @@
 as yet unclassified
 clearWeekGrid
 
-	((self dependents select: [ :each | each externalName = 'weekPanel' ]) first
+	((self dependents detect: [ :each | each externalName = 'weekPanel' ])
 		 submorphNamed: 'weekGrid') delete

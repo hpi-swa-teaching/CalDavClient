@@ -1,7 +1,11 @@
 toolbuilder
 showEventsForCalendar: aCalendarIndex put: aBoolean
 
-	aBoolean 
-		ifTrue: [self calendarsToShow add: aCalendarIndex]
-		ifFalse: [self calendarsToShow remove: aCalendarIndex ifAbsent: []].
+	| calendarName |
+	
+	calendarName := self nameOfCalendarAt: aCalendarIndex.
+	(aBoolean and: [(self calendarsToShow includes: calendarName) not])
+		ifTrue: [self calendarsToShow add: calendarName ]
+		ifFalse: [self calendarsToShow remove: calendarName ifAbsent: []].
+	self storeCalendarSelection.
 	self updateView

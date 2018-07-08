@@ -1,4 +1,4 @@
 event management
 findCalendarFor: anEvent
 	
-	self calendars do: [ :each | (each events includes: anEvent) ifTrue: [^ each]]
+	^ self calendars detect: [ :each | each events includes: anEvent] ifNone: [self error: 'No calendar with this event present']

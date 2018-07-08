@@ -7,6 +7,5 @@ openAddCalendarDialog
 		request: 'How should it be named?:'
 		initialAnswer: ''.
 	
-	calendarName = '' ifFalse: [self addCalendar: (CALCalendar withName: calendarName)].
+	calendarName isEmpty not ifTrue: [self addCalendar: (CALCalendar withName: calendarName)].
 	self changed: #calendarNames
-	

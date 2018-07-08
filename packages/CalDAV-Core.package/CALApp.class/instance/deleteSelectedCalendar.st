@@ -1,10 +1,15 @@
 calendar management
 deleteSelectedCalendar
 	
-	self selectedCalendar = self defaultCalendar ifTrue: [  ^ self ].
-	CALCalendar calendarDirectory deleteFileNamed: self selectedCalendar name.
+	| newIndex |
+	
+	self calendars size <= 1 ifTrue: [ ^ self ].
+	self showEventsForCalendar: self calendarIndex put: false.
+	self selectedCalendar calendarDirectory deleteFileNamed: self selectedCalendar name.
 	self calendars remove: self selectedCalendar.
+	self calendarIndex - 1 >= 1
+		ifTrue: [newIndex := self calendarIndex - 1]
+		ifFalse: [newIndex := 1].
 	self 
-		calendarIndex: self calendarIndex - 1;
-		changed: #calendarNames;
-		changed: #eventNames
+		calendarIndex:  newIndex;
+		updateView

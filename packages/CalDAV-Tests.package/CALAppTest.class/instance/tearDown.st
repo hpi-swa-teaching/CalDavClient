@@ -1,4 +1,5 @@
 as yet unclassified
 tearDown
 	
-	app deleteSelectedCalendar
+	app deleteCalendarNamed: 'testCalendar'.
+	app class fileDirectory deleteFileNamed: app selectionFileName
