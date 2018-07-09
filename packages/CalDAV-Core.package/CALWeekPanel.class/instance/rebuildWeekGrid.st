@@ -6,4 +6,4 @@ rebuildWeekGrid
 	builder := ToolBuilder default.	
 	builder 
 		buildAll: {(self buildWeekGridWith: builder)} 
-		in: ((self dependents select: [ :each | each externalName = 'weekPanel']) first)
+		in: (self dependents detect: [ :each | each externalName = 'weekPanel'] ifNone: [self error: 'No weekPanel found in dependents'])

@@ -2,7 +2,7 @@ as yet unclassified
 testMultipleCalendarSelection
 	
 	self assert: app calendarsToShow size <= app calendars size.
-	app showEventsForCalendar: 2 put: true.
-	self assert: (app shouldDisplayEventsFor: 2) description: 'the second calendar in the list should be selected'.
-	app showEventsForCalendar: 2 put: false.
-	self assert: (app shouldDisplayEventsFor: 2) not.
+	app showEventsForCalendar: (app indexOfCalendarNamed: 'testCalendar') put: true.
+	self assert: (app shouldDisplayEventsFor: (app indexOfCalendarNamed: 'testCalendar')) description: 'the second calendar in the list should be selected'.
+	app showEventsForCalendar: (app indexOfCalendarNamed: 'testCalendar') put: false.
+	self assert: (app shouldDisplayEventsFor: (app indexOfCalendarNamed: 'testCalendar')) not.
