@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "kk 6/21/2018 17:43",
+	"commentStamp" : "",
 	"instvars" : [
-		"weekPanel",
-		"weekView" ],
-	"name" : "CALWeekViewTest",
+		 ],
+	"name" : "PublicCalDAVClientTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

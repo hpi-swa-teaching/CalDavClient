@@ -1,5 +1,5 @@
 as yet unclassified
-buildWeekPaneWith: aBuilder
+buildWeekPanelWith: aBuilder
 
 	^ (CALWeekPanel new
 				parent: self parent;

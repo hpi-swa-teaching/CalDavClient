@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"firstOfMarch2018" : "kk 6/21/2018 14:48",
-		"setUp" : "jz 7/4/2018 01:45",
-		"testCorrectWeekDisplayed" : "kk 6/21/2018 14:56" } }
+		"setUp" : "jz 7/9/2018 15:25",
+		"testBuildingOfWeekPanelInExternalWeekView" : "jz 7/9/2018 15:24",
+		"testCorrectWeekDisplayed" : "jz 7/9/2018 15:15",
+		"testDayIsSetCorrectly" : "jz 7/9/2018 15:16" } }

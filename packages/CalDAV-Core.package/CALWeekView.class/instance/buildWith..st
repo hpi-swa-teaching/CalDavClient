@@ -10,7 +10,7 @@ buildWith: aBuilder
 		children: OrderedCollection new.
 		
 	newWindow children
-		add: (self buildWeekPaneWith: aBuilder).
+		add: (self buildWeekPanelWith: aBuilder).
 	
 	^ aBuilder build: newWindow
 			

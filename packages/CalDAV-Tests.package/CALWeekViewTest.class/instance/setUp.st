@@ -1,5 +1,9 @@
 as yet unclassified
 setUp
 	
-	weekView := CALWeekPanel new.
-	weekView day: self firstOfMarch2018
+	weekView := CALWeekView new
+		parent: CALApp new;
+		day: Date today.
+	weekPanel := CALWeekPanel new.
+	weekPanel day: self firstOfMarch2018.
+	weekPanel parent: CALApp new
