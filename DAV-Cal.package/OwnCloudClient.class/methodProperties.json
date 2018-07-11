@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"initialize" : "lh 7/5/2018 12:29" },
+	"instance" : {
+		"addAuthorizationInformation:" : "lh 7/5/2018 12:24",
+		"assumesAuthorization" : "lh 7/5/2018 12:26",
+		"handleResponse:" : "lh 7/5/2018 12:27",
+		"password" : "lh 7/5/2018 12:25",
+		"password:" : "lh 7/5/2018 12:22",
+		"username" : "lh 7/5/2018 12:25",
+		"username:" : "lh 7/5/2018 12:22" } }
