@@ -8,5 +8,5 @@ initialize
 		restoreCalendarSelection;
 		monthPanel: (CALMonthPanel new
 			parent: self);
-		weekPanel: (CALWeekPanel new
-		parent: self)
+		weekPanel: (CALWeekPanel new 
+			parent: self)
