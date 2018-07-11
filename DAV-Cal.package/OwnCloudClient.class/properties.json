@@ -1,0 +1,15 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"password" ],
+	"name" : "OwnCloudClient",
+	"pools" : [
+		 ],
+	"super" : "CalDavClient",
+	"type" : "normal" }
