@@ -1,9 +1,11 @@
 {
 	"class" : {
+		"calendarDirectory" : "dm 7/11/2018 16:56",
 		"newWithUrl:" : "jz 7/11/2018 17:05" },
 	"instance" : {
 		"caldavLink" : "jz 7/11/2018 16:46",
 		"caldavLink:" : "jz 7/11/2018 16:46",
+		"credentialsData" : "dm 7/11/2018 17:09",
 		"events" : "jz 7/11/2018 17:12",
 		"events:" : "jz 7/11/2018 17:13",
 		"initialize" : "jz 7/11/2018 17:06",
@@ -11,6 +13,10 @@
 		"localCalendarCopy:" : "jz 7/11/2018 16:55",
 		"password" : "jz 7/11/2018 16:47",
 		"password:" : "jz 7/11/2018 16:47",
+		"restore" : "dm 7/11/2018 17:02",
+		"restoreCredentials" : "dm 7/11/2018 17:04",
+		"store" : "dm 7/11/2018 16:54",
+		"storeCredentials" : "dm 7/11/2018 16:59",
 		"update" : "jz 7/11/2018 17:09",
 		"username" : "jz 7/11/2018 16:47",
 		"username:" : "jz 7/11/2018 16:47" } }

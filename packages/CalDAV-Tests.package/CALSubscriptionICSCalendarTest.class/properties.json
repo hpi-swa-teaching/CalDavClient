@@ -10,7 +10,7 @@
 		"testCalendar2",
 		"testCalendar3",
 		"cal" ],
-	"name" : "CALWebCalendarTest",
+	"name" : "CALSubscriptionICSCalendarTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
