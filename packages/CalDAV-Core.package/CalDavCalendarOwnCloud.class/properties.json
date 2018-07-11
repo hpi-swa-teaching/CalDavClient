@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDavCalendarOwnCloud",
+	"pools" : [
+		 ],
+	"super" : "CalDavCalendar",
+	"type" : "normal" }

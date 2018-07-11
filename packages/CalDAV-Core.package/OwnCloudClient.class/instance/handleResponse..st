@@ -1,4 +1,4 @@
-as yet unclassified
+authorization
 handleResponse: aResponse
 
 	^ aResponse
