@@ -1,0 +1,4 @@
+updating
+initialize
+
+	self update

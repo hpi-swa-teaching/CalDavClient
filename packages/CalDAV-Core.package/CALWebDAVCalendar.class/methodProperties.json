@@ -1,10 +1,16 @@
 {
 	"class" : {
-		 },
+		"newWithUrl:" : "jz 7/11/2018 17:05" },
 	"instance" : {
 		"caldavLink" : "jz 7/11/2018 16:46",
 		"caldavLink:" : "jz 7/11/2018 16:46",
+		"events" : "jz 7/11/2018 17:12",
+		"events:" : "jz 7/11/2018 17:13",
+		"initialize" : "jz 7/11/2018 17:06",
+		"localCalendarCopy" : "jz 7/11/2018 16:55",
+		"localCalendarCopy:" : "jz 7/11/2018 16:55",
 		"password" : "jz 7/11/2018 16:47",
 		"password:" : "jz 7/11/2018 16:47",
+		"update" : "jz 7/11/2018 17:09",
 		"username" : "jz 7/11/2018 16:47",
 		"username:" : "jz 7/11/2018 16:47" } }
