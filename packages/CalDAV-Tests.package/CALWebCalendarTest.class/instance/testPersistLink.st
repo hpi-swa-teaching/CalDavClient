@@ -3,7 +3,7 @@ testPersistLink
 	
 	| cal |
 	
-	cal := CALWebCalendar new.
+	cal := CALSubscriptionICSCalendar new.
 	cal 
 		name: 'testCalendar';
 		caldavLink: 'test';

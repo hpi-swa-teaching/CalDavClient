@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 	
-	cal := CALWebCalendar new.
+	cal := CALSubscriptionICSCalendar new.
 	cal 
 		name: 'testCalendar';
 		caldavLink: 'test';
