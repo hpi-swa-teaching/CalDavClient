@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"caldavLink" ],
-	"name" : "CALWebCalendar",
+		"caldavLink",
+		"username",
+		"password" ],
+	"name" : "CALWebDAVCalendar",
 	"pools" : [
 		 ],
 	"super" : "CALCalendar",

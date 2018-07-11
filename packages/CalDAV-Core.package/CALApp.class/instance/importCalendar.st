@@ -6,4 +6,4 @@ importCalendar
 	url := UIManager default 
 			request: 'Enter Link: '
 			initialAnswer: ''.
-	url isEmpty not ifTrue: [self addCalendar: (CALWebCalendar newFromLink: url)]
+	url isEmpty not ifTrue: [self addCalendar: (CALSubscriptionICSCalendar newFromLink: url)]
