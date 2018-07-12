@@ -4,15 +4,15 @@ testCredentialPersistance
 	| cal |
 	
 	cal := CALWebDAVCalendar new
-		name: 'testcalendar';
+		name: 'testCalendar';
 		caldavLink: 'https://l.com';
 		username: 'u';
 		password: 'p';
-		store;
+		storeCredentials;
 		caldavLink: '';
 		username: '';
 		password: '';
-		restore.
+		restoreCredentials.
 		
 	self assert: cal username equals: 'u'.
 	self assert: cal password equals: 'p'.

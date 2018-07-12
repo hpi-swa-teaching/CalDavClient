@@ -1,5 +1,5 @@
 updating
-update
+refresh
 
 	| localCopy |
 	
@@ -16,5 +16,6 @@ update
 		username: nil;
 		password: nil.
 	self localCalendarCopy: localCopy.
+	self name: self localCalendarCopy calendarName.
 	self events removeAll addAll: (self localCalendarCopy events collect: [ :each | CALEvent newFromICEvent: each serverData ])
 		
