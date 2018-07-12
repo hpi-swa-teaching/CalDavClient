@@ -5,5 +5,5 @@ buildRefreshButton: aBuilder
 		model: self;
 		action: #refreshCalendars;
 		label: 'Refresh';
-		frame: (0 @ 0.6 corner: 0.1 @ 0.7);
+		frame: (0 @ 0.8 corner: 0.1 @ 0.9);
 		yourself

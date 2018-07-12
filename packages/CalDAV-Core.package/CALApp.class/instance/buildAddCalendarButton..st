@@ -5,5 +5,5 @@ buildAddCalendarButton: aBuilder
 		model: self;
 		action: #openAddCalendarDialog;
 		label: 'Add Calendar';
-		frame: (0 @ 0.8 corner: 0.1 @ 0.9);
+		frame: (0 @ 0.5 corner: 0.1 @ 0.6);
 		yourself

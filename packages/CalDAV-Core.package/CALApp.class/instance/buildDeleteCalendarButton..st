@@ -5,5 +5,5 @@ buildDeleteCalendarButton: aBuilder
 		model: self;
 		action: #deleteCalendar;
 		label: 'Delete Calendar';
-		frame: (0 @ 0.7 corner: 0.1 @ 0.8);
+		frame: (0 @ 0.9 corner: 0.1 @ 1);
 		yourself

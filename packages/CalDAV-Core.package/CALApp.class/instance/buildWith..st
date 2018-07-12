@@ -15,7 +15,7 @@ buildWith: aBuilder
 		add: (self buildMonthPanel: aBuilder);
 		add: (self buildCalendarList: aBuilder);
 		add: (self buildDeleteCalendarButton: aBuilder);
-		add: (self buildImportCalendarButton: aBuilder);
+		add: (self buildICSCalendarButton: aBuilder);
 		add: (self buildMonthViewButton: aBuilder);
 		add: (self buildWeekViewButton: aBuilder);
 		add: (self buildSyncCalendarButton: aBuilder);

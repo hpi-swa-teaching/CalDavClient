@@ -9,6 +9,6 @@ testButtonPresence
 	button := app buildDeleteCalendarButton: ToolBuilder default.
 	self assert: button label = 'Delete Calendar'.
 	self assert: button action = #deleteCalendar.
-	button := app buildImportCalendarButton: ToolBuilder default.
+	button := app buildICSCalendarButton: ToolBuilder default.
 	self assert: (button label includesSubstring: 'Import').
 	self assert: button action = #importCalendar

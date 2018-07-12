@@ -8,7 +8,7 @@
 		"tearDown" : "jz 7/12/2018 18:31",
 		"testAtLeastOneCalendar" : "jz 7/12/2018 18:32",
 		"testBuildWith" : "jz 7/8/2018 16:38",
-		"testButtonPresence" : "jz 7/8/2018 12:32",
+		"testButtonPresence" : "jz 7/12/2018 19:01",
 		"testCalendarsAreSortedAlphabetically" : "jz 7/9/2018 13:58",
 		"testEmptySelectionIsRemembered" : "jz 7/8/2018 17:58",
 		"testEventAdding" : "jz 7/4/2018 01:17",
