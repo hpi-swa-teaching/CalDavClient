@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 
-	app := CALApp new.
+	app := CALApp new prepareCalendarsForTesting.
 	app addCalendar: (CALCalendar withName: 'testCalendar').
 	app monthPanel buildSpec: ToolBuilder default. 
 	app calendarIndex: app calendars size.

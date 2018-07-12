@@ -8,7 +8,7 @@
 	"instvars" : [
 		"username",
 		"password" ],
-	"name" : "OwnCloudClient",
+	"name" : "SabreDAVClient",
 	"pools" : [
 		 ],
 	"super" : "CalDavClient",

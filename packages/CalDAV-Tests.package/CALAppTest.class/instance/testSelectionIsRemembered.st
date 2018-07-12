@@ -8,6 +8,8 @@ testSelectionIsRemembered
 	self assert: app calendarsToShow size = 1 description: 'only testCalendar should be selected'.
 	self assert: (app calendarsToShow includes: 'testCalendar') description: 'selection should include testCalendar'.
 	app := CALApp new 
+		restoreCalendarNamed: 'testCalendar' ofType: CALCalendar;
+		prepareCalendarsForTesting;
 		selectionFileName: 'testSelection';
 		restoreCalendarSelection;
 		yourself.

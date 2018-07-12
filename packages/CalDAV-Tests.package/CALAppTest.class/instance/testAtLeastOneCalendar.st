@@ -1,4 +1,4 @@
 as yet unclassified
 testAtLeastOneCalendar
 
-	self assert: CALApp new calendars size > 0
+	self assert: CALApp new prepareCalendarsForTesting calendars size > 0

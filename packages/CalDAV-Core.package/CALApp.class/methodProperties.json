@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"fileDirectory" : "jz 7/8/2018 12:03",
-		"open" : "kk 7/5/2018 15:55" },
+		"open" : "jz 7/12/2018 18:28" },
 	"instance" : {
 		"addCalendar:" : "dm 6/21/2018 15:24",
 		"addEvent:" : "kk 6/19/2018 20:38",
@@ -41,7 +41,7 @@
 		"importCalendar" : "jz 7/11/2018 16:45",
 		"importSyncCalendar" : "lh 7/12/2018 12:38",
 		"indexOfCalendarNamed:" : "jz 7/9/2018 13:48",
-		"initialize" : "dm 7/11/2018 15:00",
+		"initialize" : "jz 7/12/2018 18:29",
 		"isMonthViewActive" : "dm 7/4/2018 18:23",
 		"isWeekViewActive" : "dm 7/4/2018 18:24",
 		"monthPanel" : "jz 7/4/2018 00:15",
@@ -53,7 +53,10 @@
 		"openEditEventDialogFor:" : "dm 7/7/2018 09:57",
 		"openMonthView" : "jz 7/4/2018 01:05",
 		"openWeekView" : "dm 7/11/2018 15:06",
+		"prepareCalendars" : "jz 7/12/2018 18:29",
+		"prepareCalendarsForTesting" : "jz 7/12/2018 18:30",
 		"refreshCalendars" : "dm 6/21/2018 16:21",
+		"restoreCalendarNamed:ofType:" : "jz 7/12/2018 18:42",
 		"restoreCalendarSelection" : "jz 7/8/2018 16:54",
 		"restoreCalendars" : "jz 7/12/2018 12:34",
 		"selectedCalendar" : "kk 7/5/2018 16:05",

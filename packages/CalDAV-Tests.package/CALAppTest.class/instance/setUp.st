@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 
-	app := CALApp new.
+	app := CALApp new prepareCalendarsForTesting.
 	app selectionFileName: 'testSelection'.
 	app restoreCalendarSelection.
 	app addCalendar: (CALCalendar withName: 'testCalendar').

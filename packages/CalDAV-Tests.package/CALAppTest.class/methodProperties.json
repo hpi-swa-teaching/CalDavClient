@@ -4,9 +4,9 @@
 	"instance" : {
 		"demoEvent" : "jz 7/4/2018 01:14",
 		"demoEvent2" : "jz 7/4/2018 01:15",
-		"setUp" : "jz 7/8/2018 18:02",
-		"tearDown" : "jz 7/8/2018 17:15",
-		"testAtLeastOneCalendar" : "jz 7/8/2018 15:19",
+		"setUp" : "jz 7/12/2018 18:30",
+		"tearDown" : "jz 7/12/2018 18:31",
+		"testAtLeastOneCalendar" : "jz 7/12/2018 18:32",
 		"testBuildWith" : "jz 7/8/2018 16:38",
 		"testButtonPresence" : "jz 7/8/2018 12:32",
 		"testCalendarsAreSortedAlphabetically" : "jz 7/9/2018 13:58",
@@ -16,5 +16,5 @@
 		"testMonthViewIsStandard" : "jz 7/8/2018 16:39",
 		"testMultipleCalendarSelection" : "jz 7/9/2018 13:44",
 		"testSelectionFileNameIsNotChangedByDefault" : "jz 7/8/2018 16:29",
-		"testSelectionIsRemembered" : "jz 7/8/2018 17:10",
+		"testSelectionIsRemembered" : "jz 7/12/2018 18:42",
 		"testViewSwitching" : "jz 7/8/2018 16:42" } }
