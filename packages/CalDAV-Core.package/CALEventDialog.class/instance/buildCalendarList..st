@@ -6,5 +6,5 @@ buildCalendarList: aBuilder
 		list: #calendarNames;
 		getIndex: #calendarIndex;
 		setIndex: #calendarIndex:;
-		frame: (0 @ 0.9 corner: 1 @ 1);
+		frame: (self borderLeft @ 0.9 corner: self borderRight @ 1);
 		yourself
