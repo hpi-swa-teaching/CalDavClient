@@ -1,4 +1,4 @@
 updating
 initialize
 
-	self update
+	
