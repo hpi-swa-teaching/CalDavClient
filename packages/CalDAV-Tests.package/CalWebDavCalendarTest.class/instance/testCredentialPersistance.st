@@ -4,7 +4,8 @@ testCredentialPersistance
 	| cal |
 	
 	cal := CALWebDAVCalendar new
-		caldavLink: 'l';
+		name: 'testcalendar';
+		caldavLink: 'https://l.com';
 		username: 'u';
 		password: 'p';
 		store;
@@ -15,6 +16,6 @@ testCredentialPersistance
 		
 	self assert: cal username equals: 'u'.
 	self assert: cal password equals: 'p'.
-	self assert: cal caldavLink equals: 'l'.
+	self assert: cal caldavLink equals: 'https://l.com'.
 		
 		
