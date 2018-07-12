@@ -8,7 +8,6 @@ demoEvent2
 		end: self end;
 		title: self title;
 		description: 'too much drunk familiy! #321';
-		participants: self participants;
-		calendar: self calendar.
+		participants: self participants.
 	
 	^ event
