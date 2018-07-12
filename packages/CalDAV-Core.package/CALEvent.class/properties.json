@@ -19,8 +19,7 @@
 		"title",
 		"description",
 		"participants",
-		"location",
-		"calendar" ],
+		"location" ],
 	"name" : "CALEvent",
 	"pools" : [
 		 ],

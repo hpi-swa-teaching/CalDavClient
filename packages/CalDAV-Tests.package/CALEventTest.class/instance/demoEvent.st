@@ -8,7 +8,6 @@ demoEvent
 		end: self end;
 		title: self title;
 		description: self description;
-		participants: self participants;
-		calendar: self calendar.
+		participants: self participants.
 	
 	^ event

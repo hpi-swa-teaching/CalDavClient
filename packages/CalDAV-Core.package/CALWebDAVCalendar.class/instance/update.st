@@ -4,8 +4,17 @@ update
 	| localCopy |
 	
 	localCopy := CalDavCalendarCALVersion new
-		url: self caldavLink;
+		url: self caldavLink.
+	localCopy client
+		username: self username;
+		password: self password.
+	localCopy
 		updateCalendar;
 		updateEvents;
 		yourself.
-	self localCalendarCopy: localCopy
+	localCopy client
+		username: nil;
+		password: nil.
+	self localCalendarCopy: localCopy.
+	self events removeAll addAll: (self localCalendarCopy events collect: [ :each | CALEvent newFromICEvent: each serverData ])
+		
