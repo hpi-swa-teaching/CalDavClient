@@ -4,4 +4,6 @@ newWithUrl: aUrl Username: aUsername Password: aPassword
 	^ self new
 		caldavLink: aUrl;
 		username: aUsername;
-		password: aPassword
+		password: aPassword;
+		refresh;
+		yourself

@@ -17,11 +17,14 @@ importSyncCalendar
 			initialAnswer: ''.
 	url = '' ifTrue: [^ self].
 	
-	self calendars add:
+	self addCalendar:
 		(CALWebDAVCalendar 
 			newWithUrl: url
 			Username:  username
-			Password: password )
+			Password: password ).
+		
+	
+		
 			
 			
 	
