@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"calendarDirectory" : "dm 7/11/2018 16:56",
+		"credentialsDirectory" : "jz 7/13/2018 10:15",
 		"newWithUrl:Username:Password:" : "lh 7/12/2018 12:38" },
 	"instance" : {
 		"caldavLink" : "jz 7/11/2018 16:46",
@@ -12,9 +13,9 @@
 		"password" : "jz 7/11/2018 16:47",
 		"password:" : "jz 7/11/2018 16:47",
 		"refresh" : "jz 7/12/2018 12:33",
-		"restore" : "jz 7/12/2018 12:36",
-		"restoreCredentials" : "dm 7/11/2018 17:04",
-		"store" : "dm 7/11/2018 16:54",
-		"storeCredentials" : "dm 7/11/2018 16:59",
+		"restore" : "jz 7/13/2018 10:14",
+		"restoreCredentials" : "jz 7/13/2018 10:17",
+		"store" : "jz 7/13/2018 10:14",
+		"storeCredentials" : "jz 7/13/2018 10:16",
 		"username" : "jz 7/11/2018 16:47",
 		"username:" : "jz 7/11/2018 16:47" } }

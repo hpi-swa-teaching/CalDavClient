@@ -1,4 +1,5 @@
 as yet unclassified
 tearDown 
 
-	CALWebDAVCalendar new calendarDirectory deleteFileNamed: 'testCalendar'
+	CALWebDAVCalendar calendarDirectory deleteFileNamed: 'testCalendar'.
+	CALWebDAVCalendar credentialsDirectory deleteFileNamed: 'testCalendar'
