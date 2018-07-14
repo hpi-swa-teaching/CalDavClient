@@ -1,5 +1,5 @@
 accessing
 restore
 	
-	super restore.
-	self restoreCredentials
+	self restoreCredentials.
+	super restore

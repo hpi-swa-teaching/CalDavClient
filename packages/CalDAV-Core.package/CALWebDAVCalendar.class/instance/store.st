@@ -1,5 +1,5 @@
 accessing
 store
 	
-	super store.
-	self storeCredentials
+	self storeCredentials.
+	super store
