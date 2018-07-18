@@ -3,4 +3,4 @@ initialize
 
 	self 
 		name: 'Default';
-		color: Color random
+		color: Color random duller thriceLighter
