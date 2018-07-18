@@ -2,10 +2,10 @@ as yet unclassified
 testEmptySelectionIsRemembered
 
 	app selectionFileName: 'testSelection'.
-	1 to: app calendars size do: [ :each | app showEventsForCalendar: each put: false ].
-	self assert: app calendarsToShow size = 0.
+	app hideAllEvents.
+	self assert: app calendarsToShow isEmpty description: 'no calendars should be selected'.
 	app := CALApp new 
 		selectionFileName: 'testSelection';
 		restoreCalendarSelection;
 		yourself.
-	self assert: app calendarsToShow size = 0 description: 'no calendars should be selected'
+	self assert: app calendarsToShow isEmpty description: 'no calendars should be selected'

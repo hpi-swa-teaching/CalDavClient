@@ -1,14 +1,14 @@
 as yet unclassified
 testButtonPresence
 
-	| button |
+	| spec buttons |
 	
-	button := app buildAddEventButton: ToolBuilder default.
-	self assert: button label = 'Add Event'.
-	self assert: button action = #openAddEventDialog.
-	button := app buildDeleteCalendarButton: ToolBuilder default.
-	self assert: button label = 'Delete Calendar'.
-	self assert: button action = #deleteCalendar.
-	button := app buildICSCalendarButton: ToolBuilder default.
-	self assert: (button label includesSubstring: 'Import').
-	self assert: button action = #importCalendar
+	spec := app buildWith: ToolBuilder default.
+	buttons := Dictionary newFrom:
+	{'Add Calendar' -> #openAddCalendarDialog.
+	  'Delete Calendar' -> #openDeleteCalendarDialog.
+	  'Import ICS Calendar' -> #importCalendar.
+	  'Sync CalDAV Calendar' -> #importSyncCalendar.
+	  'Refresh' -> #refreshCalendars}.
+	
+	buttons associationsDo: [ :each | self assert: spec hasButtonLabeled: each key performing: each value]

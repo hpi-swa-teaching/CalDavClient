@@ -1,4 +1,4 @@
 as yet unclassified
 testSelectionFileNameIsNotChangedByDefault
 
-	self assert: CALApp new selectionFileName = 'selection'
+	self assert: CALApp new selectionFileName equals: 'selection' description: 'Expected selection file name to be ''selection'''

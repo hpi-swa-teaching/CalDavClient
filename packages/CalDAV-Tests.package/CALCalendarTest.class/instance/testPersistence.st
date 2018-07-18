@@ -9,4 +9,4 @@ testPersistence
 	testCalendar3
 		restore.
 	self assert: (testCalendar3 events includes: self demoEvent2).
-	self assert: (testCalendar3 events includes: self demoEvent) not.
+	self assert: (testCalendar3 events includes: self demoEvent) not

@@ -3,7 +3,6 @@ testBuildWith
 
 	| spec calApp |
 	
-	self assert: (CALApp selectors anySatisfy: [ :each| each = 'buildWith:']).
 	calApp := CALApp new.
 	spec := calApp buildWith: (ToolBuilder default).
-	self assert: (spec model = calApp)
+	self assert: (spec model = calApp) description: 'Expected CALApp as model of spec'

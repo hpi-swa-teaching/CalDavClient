@@ -1,5 +1,5 @@
 calendar management
-deleteCalendar
+openDeleteCalendarDialog
 
 	| name |
 	

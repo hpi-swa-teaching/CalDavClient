@@ -5,7 +5,7 @@ testViewSwitching
 	
 	spec := app buildWith: ToolBuilder default.
 	app openWeekView.
-	self assert: app isMonthViewActive equals: false.
-	self assert: app isWeekViewActive equals: true.
+	self assert: false equals: app isMonthViewActive.
+	self assert: true equals: app isWeekViewActive.
 	app openMonthView.
-	self assert: app isWeekViewActive equals: false
+	self assert: false equals: app isWeekViewActive
