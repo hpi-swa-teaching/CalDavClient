@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAuthorization" : "jz 7/9/2018 14:15" } }
+		"mockICContent" : "dm 7/19/2018 16:26",
+		"testAuthorization" : "jz 7/9/2018 14:15",
+		"testParseCompleteEventInformation" : "dm 7/19/2018 16:26" } }
