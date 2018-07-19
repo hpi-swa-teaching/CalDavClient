@@ -2,4 +2,4 @@ testing
 tearDown
 	
 	[self app deleteCalendarNamed: 'testCalendar'] on: Error do: [].
-	self app class fileDirectory deleteFileNamed: self app selectionFileName
+	CALApp fileDirectory deleteFileNamed: self app selectionFileName
