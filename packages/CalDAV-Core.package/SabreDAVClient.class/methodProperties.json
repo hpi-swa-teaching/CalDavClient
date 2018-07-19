@@ -2,7 +2,7 @@
 	"class" : {
 		"initialize" : "jz 7/12/2018 18:28" },
 	"instance" : {
-		"addAuthorizationInformation:" : "jz 7/11/2018 15:14",
+		"addAuthorizationInformation:" : "dm 7/19/2018 15:58",
 		"assumesAuthorization" : "lh 7/5/2018 12:26",
 		"calendarFieldsMapping" : "jz 7/11/2018 15:09",
 		"fetchEventDataFrom:" : "jz 7/11/2018 16:39",

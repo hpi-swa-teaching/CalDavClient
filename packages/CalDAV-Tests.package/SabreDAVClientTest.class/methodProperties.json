@@ -5,4 +5,5 @@
 		"sabreDAVClient" : "dm 7/19/2018 15:54",
 		"sabreDAVClient:" : "dm 7/19/2018 15:54",
 		"setUp" : "dm 7/19/2018 15:55",
-		"testAccessors" : "dm 7/19/2018 15:56" } }
+		"testAccessors" : "dm 7/19/2018 15:56",
+		"testAddAuthorizationInformation" : "dm 7/19/2018 16:04" } }
