@@ -3,7 +3,7 @@ testButtonPresence
 
 	| spec buttons |
 	
-	spec := app buildWith: ToolBuilder default.
+	spec := self app buildWith: ToolBuilder default.
 	buttons := Dictionary newFrom:
 	{'Add Calendar' -> #openAddCalendarDialog.
 	  'Delete Calendar' -> #openDeleteCalendarDialog.

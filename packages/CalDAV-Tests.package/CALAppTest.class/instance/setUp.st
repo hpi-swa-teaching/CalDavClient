@@ -1,9 +1,10 @@
 as yet unclassified
 setUp
 
-	app := CALApp new prepareCalendarsForTesting.
-	app 
+	self app: (CALApp new
+		prepareCalendarsForTesting;
 		selectionFileName: 'testSelection';
 		restoreCalendarSelection;
 		addCalendar: (CALCalendar withName: 'testCalendar');
-		calendarIndex: app calendars size
+		yourself).
+	self app calendarIndex: self app calendars size

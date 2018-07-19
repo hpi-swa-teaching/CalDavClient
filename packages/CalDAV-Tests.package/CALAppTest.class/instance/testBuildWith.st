@@ -1,8 +1,7 @@
 as yet unclassified
 testBuildWith
 
-	| spec calApp |
+	| spec |
 	
-	calApp := CALApp new.
-	spec := calApp buildWith: (ToolBuilder default).
-	self assert: (spec model = calApp) description: 'Expected CALApp as model of spec'
+	spec := self app buildWith: (ToolBuilder default).
+	self assert: (spec model = self app) description: 'Expected CALApp as model of spec'
