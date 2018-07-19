@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHasBuildWith
 
 	self assert: (CALApp selectors includes: 'buildWith:')

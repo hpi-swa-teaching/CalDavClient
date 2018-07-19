@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEventAdding
 	
 	self assert: self app selectedCalendar isEmpty description: 'test assumes no events are present'.

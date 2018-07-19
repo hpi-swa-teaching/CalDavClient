@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSelectionIsRemembered
 
 	self assert: CALCalendar calendarDirectory contains: 'testCalendar' description: 'testCalendar should be added in setUp'.

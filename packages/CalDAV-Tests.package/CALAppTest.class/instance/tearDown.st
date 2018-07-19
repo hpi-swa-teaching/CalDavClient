@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 tearDown
 	
 	[self app deleteCalendarNamed: 'testCalendar'] on: Error do: [].

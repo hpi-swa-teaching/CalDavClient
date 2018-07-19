@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEmptySelectionIsRemembered
 
 	self app selectionFileName: 'testSelection'.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCalendarAddingAndRemoval
 
 	self app addCalendar: (CALCalendar withName: 'persistenceTest').

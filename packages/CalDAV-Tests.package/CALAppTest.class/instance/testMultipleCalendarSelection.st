@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMultipleCalendarSelection
 	
 	self assert: self app calendarsToShow size <= self app calendars size description: 'can''t show more calendars than present'.
