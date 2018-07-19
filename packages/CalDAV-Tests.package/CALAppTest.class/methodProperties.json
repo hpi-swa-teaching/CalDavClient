@@ -13,7 +13,7 @@
 		"demoEvent" : "jz 7/4/2018 01:14",
 		"demoEvent2" : "jz 7/4/2018 01:15",
 		"setUp" : "dm 7/19/2018 11:51",
-		"tearDown" : "dm 7/19/2018 12:03",
+		"tearDown" : "dm 7/19/2018 15:13",
 		"testAtLeastOneCalendar" : "jz 7/18/2018 14:47",
 		"testBuildWith" : "dm 7/19/2018 11:52",
 		"testButtonPresence" : "dm 7/19/2018 11:52",
