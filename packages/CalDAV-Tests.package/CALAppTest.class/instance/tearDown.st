@@ -1,5 +1,5 @@
-as yet unclassified
+testing
 tearDown
 	
-	[app deleteCalendarNamed: 'testCalendar'] on: Error do: [].
-	app class fileDirectory deleteFileNamed: app selectionFileName
+	[self app deleteCalendarNamed: 'testCalendar'] on: Error do: [].
+	self app class fileDirectory deleteFileNamed: app selectionFileName

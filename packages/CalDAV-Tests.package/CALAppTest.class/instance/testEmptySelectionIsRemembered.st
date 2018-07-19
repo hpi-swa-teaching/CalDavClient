@@ -1,11 +1,11 @@
-as yet unclassified
+testing
 testEmptySelectionIsRemembered
 
-	app selectionFileName: 'testSelection'.
-	app hideAllEvents.
-	self assert: app calendarsToShow isEmpty description: 'no calendars should be selected'.
-	app := CALApp new 
+	self app selectionFileName: 'testSelection'.
+	self app hideAllEvents.
+	self assert: self app calendarsToShow isEmpty description: 'no calendars should be selected'.
+	self app: (CALApp new 
 		selectionFileName: 'testSelection';
 		restoreCalendarSelection;
-		yourself.
-	self assert: app calendarsToShow isEmpty description: 'no calendars should be selected'
+		yourself).
+	self assert: self  app calendarsToShow isEmpty description: 'no calendars should be selected'

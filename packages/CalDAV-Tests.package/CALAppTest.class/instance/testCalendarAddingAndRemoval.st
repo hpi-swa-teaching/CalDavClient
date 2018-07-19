@@ -1,7 +1,7 @@
-as yet unclassified
+testing
 testCalendarAddingAndRemoval
 
-	app addCalendar: (CALCalendar withName: 'persistenceTest').
+	self app addCalendar: (CALCalendar withName: 'persistenceTest').
 	self assert: CALCalendar calendarDirectory contains: 'persistenceTest'.
-	app deleteCalendarNamed: 'persistenceTest'.
+	self app deleteCalendarNamed: 'persistenceTest'.
 	self assert: CALCalendar calendarDirectory containsNo: 'persistenceTest'
