@@ -6,4 +6,6 @@ importCalendar
 	url := UIManager default 
 			request: 'Enter Link: '
 			initialAnswer: ''.
-	url isEmpty not ifTrue: [self addCalendar: (CALSubscriptionICSCalendar newFromLink: url)]
+	[self addCalendar: (CALSubscriptionICSCalendar newFromLink: url)] 
+		on: Error do: [:each | UIManager inform: ('Encounterd Error getting the Calendar: ' , each messageText).
+							UIManager inform:  'Aborting importing calendar']
