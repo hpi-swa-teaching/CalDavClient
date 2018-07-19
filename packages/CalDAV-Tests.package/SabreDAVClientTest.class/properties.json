@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sabreDAVClient" ],
+	"name" : "SabreDAVClientTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
