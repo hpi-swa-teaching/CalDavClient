@@ -1,5 +1,5 @@
 testing
-testEventsEqual
+testEventEquality
 	| anEvent anotherEvent |
 	
 	anEvent := self demoEvent.
