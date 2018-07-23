@@ -1,21 +1,14 @@
 updating
 refresh
 
-	| localCopy |
-	
-	localCopy := CalDavCalendarCALVersion new
-		url: self caldavLink.
-	localCopy client
+	self localCalendarCopy: (CalDavCalendarCALVersion new
+		url: self caldavLink;
 		username: self username;
-		password: self password.
-	localCopy
-		updateCalendar;
-		updateEvents;
-		yourself.
-	localCopy client
-		username: nil;
-		password: nil.
-	self localCalendarCopy: localCopy.
+		password: self password;
+		update;
+		yourself).
 	self name: self localCalendarCopy calendarName.
-	self events removeAll addAll: (self localCalendarCopy events collect: [ :each | CALEvent newFromICEvent: each serverData ])
+	self events 
+		removeAll; 
+		addAll: (self localCalendarCopy events collect: [ :each | CALEvent newFromICEvent: each serverData ])
 		
