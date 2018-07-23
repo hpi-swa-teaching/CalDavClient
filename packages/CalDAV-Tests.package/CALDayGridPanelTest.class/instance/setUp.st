@@ -1,9 +1,8 @@
 as yet unclassified
 setUp
 
-	| model |
-	
-	model := CALDayGridPanel new
+	self dayGrid: (CALDayGridPanel new
 		parent: CALApp new;
-		day: Date today.
-	dayGrid := model buildSpec: ToolBuilder default
+		day: Date today
+		yourself)
+	
