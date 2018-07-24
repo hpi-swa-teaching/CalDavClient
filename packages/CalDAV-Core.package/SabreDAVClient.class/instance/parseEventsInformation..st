@@ -11,4 +11,4 @@ parseEventsInformation: responseContent
 			((resultNode firstTagNamed: #'d:resourcetype') elements
 				anySatisfy: [:e | e name = 'caldav:calendar']) not]
 		thenCollect: [:resultNode |
-			self parseEventInformation: resultNode].
+			self parseEventInformation: resultNode]
