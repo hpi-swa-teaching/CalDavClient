@@ -22,7 +22,7 @@
 		"testBeginEndOrderCorrection" : "jz 5/30/2018 16:01",
 		"testBuildWith" : "dm 6/13/2018 14:49",
 		"testDateString" : "PS 6/14/2018 14:35",
-		"testEventComparison" : "dm 7/22/2018 16:37",
+		"testEventComparison" : "dm 7/24/2018 20:01",
 		"testEventEquality" : "dm 7/22/2018 16:01",
 		"testFullDay" : "kk 6/21/2018 10:34",
 		"testIsValid" : "jz 6/4/2018 17:38",
