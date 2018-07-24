@@ -1,0 +1,1 @@
+I am a special calendar: a Web DAV Calendar

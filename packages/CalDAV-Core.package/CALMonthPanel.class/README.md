@@ -1,0 +1,1 @@
+i am a panel that contains the MonthView
