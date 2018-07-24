@@ -1,15 +1,14 @@
 {
-	"category" : "CalDAV-Core",
+	"category" : "CalDAV-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"password" ],
-	"name" : "CalDavCalendarCALVersion",
+		 ],
+	"name" : "CalDavCalendarCALVersionTest",
 	"pools" : [
 		 ],
-	"super" : "CalDavCalendar",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -12,7 +12,7 @@ newFromICEvent: anEvent
 	anEvent isFullDayEvent
 		ifTrue: [event 
 					begin: anEvent start start;
-					end: anEvent end start;
+					end: anEvent end start - (Duration seconds: 1);
 					makeFullDay]
 		ifFalse: [event 
 					begin: anEvent start;

@@ -12,5 +12,4 @@ parseEventInformation: anEventNode
 		select: [:property | property contents notEmpty]
 		thenDo: [:property |
 			resultProperties at: property name asSymbol put: property contents first string ].
-	
 	^ resultProperties

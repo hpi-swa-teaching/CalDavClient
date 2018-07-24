@@ -2,12 +2,11 @@
 	"class" : {
 		"noError" : "lh 5/12/2018 15:23" },
 	"instance" : {
-		"begin" : "dm 7/22/2018 15:55",
+		"begin" : "kk 5/12/2018 19:19",
 		"calendar" : "jz 7/3/2018 23:38",
 		"calendar:" : "jz 7/3/2018 23:37",
 		"demoEvent" : "jz 7/12/2018 12:14",
 		"demoEvent2" : "jz 7/12/2018 12:15",
-		"demoEventDuringDemoEvent" : "dm 7/22/2018 16:07",
 		"demoEventFullDay" : "jz 7/12/2018 12:15",
 		"demoEventMultipleDay" : "jz 7/12/2018 12:15",
 		"description" : "jz 5/30/2018 15:26",
@@ -22,8 +21,7 @@
 		"testBeginEndOrderCorrection" : "jz 5/30/2018 16:01",
 		"testBuildWith" : "dm 6/13/2018 14:49",
 		"testDateString" : "PS 6/14/2018 14:35",
-		"testEventComparison" : "dm 7/22/2018 16:37",
-		"testEventEquality" : "dm 7/22/2018 16:01",
+		"testEventsEqual" : "PS 6/4/2018 15:52",
 		"testFullDay" : "kk 6/21/2018 10:34",
 		"testIsValid" : "jz 6/4/2018 17:38",
 		"testIsValidTitle" : "PS 6/4/2018 15:55",

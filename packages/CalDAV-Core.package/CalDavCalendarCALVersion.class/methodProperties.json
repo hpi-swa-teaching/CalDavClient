@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addCredentialData" : "dm 7/23/2018 16:57",
 		"client" : "jz 7/12/2018 18:53",
 		"defaultClient" : "jz 7/12/2018 18:56",
+		"password" : "dm 7/23/2018 16:54",
+		"password:" : "dm 7/23/2018 16:54",
+		"removeCredentialData" : "dm 7/23/2018 16:58",
+		"update" : "dm 7/23/2018 16:57",
 		"updateCalendar" : "jz 7/12/2018 18:49",
 		"updateEvents" : "jz 7/11/2018 16:00",
-		"updateOrAddEvents:" : "jz 7/11/2018 15:33" } }
+		"updateOrAddEvents:" : "jz 7/11/2018 15:33",
+		"username" : "dm 7/23/2018 16:54",
+		"username:" : "dm 7/23/2018 16:54" } }

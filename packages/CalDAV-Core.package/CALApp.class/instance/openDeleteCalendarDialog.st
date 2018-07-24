@@ -6,4 +6,4 @@ openDeleteCalendarDialog
 	name := UIManager default 
 			request: 'Enter name of calendar to delete: '
 			initialAnswer: ''.
-	[self deleteCalendarNamed: name] on: Error do: [:each | UIManager inform: 'Deletion failed: ' , each messageText]
+	name isEmpty not ifTrue: [self deleteCalendarNamed: name]
