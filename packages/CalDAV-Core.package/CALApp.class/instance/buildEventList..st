@@ -6,6 +6,6 @@ buildEventList: aBuilder
 		list: #eventNames;
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
-		doubleClick: #openEditEventDialog;
+		doubleClick: #openEventDetails;
 		frame: (0.3 @ 0 corner: 1 @ 1);
 		yourself

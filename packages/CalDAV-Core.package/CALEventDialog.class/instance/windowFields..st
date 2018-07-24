@@ -6,7 +6,9 @@ windowFields: aBuilder
 	windowFields := OrderedCollection new.
 	windowFields 
 		addAll: (self buildStandardFields: aBuilder);
-		addAll: (self buildStandardButtons: aBuilder);
-	 	addAll: (self buildButtons: aBuilder).
+	 	addAll: (self buildButtons: aBuilder);
+		addAll: (self buildFields: aBuilder);
+		yourself.
+		
 	^ windowFields
 	 

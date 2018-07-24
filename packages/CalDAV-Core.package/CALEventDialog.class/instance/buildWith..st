@@ -10,8 +10,7 @@ buildWith: aBuilder
 		children: OrderedCollection new.
 		
 	newWindow children 
-		addAll: (self windowFields: aBuilder);
-		add: (self buildCalendarList: aBuilder).
+		addAll: (self windowFields: aBuilder).
 	
 	^ aBuilder build: newWindow
 			

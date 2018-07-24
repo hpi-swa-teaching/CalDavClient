@@ -22,7 +22,7 @@
 		"testDeleteNonexistentCalendar" : "dm 7/22/2018 15:29",
 		"testEmptySelectionIsRemembered" : "dm 7/19/2018 11:54",
 		"testEventAdding" : "dm 7/19/2018 11:54",
-		"testEventEditOnDoubleClick" : "dm 7/19/2018 11:54",
+		"testEventEditOnDoubleClick" : "dm 7/24/2018 19:06",
 		"testHasBuildWith" : "jz 7/18/2018 15:39",
 		"testMonthViewIsStandard" : "dm 7/19/2018 11:54",
 		"testMultipleCalendarSelection" : "dm 7/19/2018 11:55",
