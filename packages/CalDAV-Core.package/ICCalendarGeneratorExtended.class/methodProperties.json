@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"attendee:parameters:" : "dm 7/23/2018 17:42" } }
+		"attendee:parameters:" : "jz 7/24/2018 16:00",
+		"hasMailEnding:" : "jz 7/24/2018 15:50",
+		"mailEndingOf:" : "jz 7/24/2018 16:00" } }

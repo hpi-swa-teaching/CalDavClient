@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildEventBlockFor:with:" : "jz 7/8/2018 17:47",
-		"buildEventBlocks:" : "kk 6/21/2018 16:05",
+		"buildEventBlockFor:" : "jz 7/24/2018 17:16",
+		"buildEventBlocks:" : "jz 7/24/2018 19:27",
 		"buildSpec:" : "kk 7/5/2018 16:13",
 		"day" : "PS 6/14/2018 15:07",
 		"day:" : "PS 6/14/2018 15:07",
-		"eventBlockFrame:" : "kk 7/5/2018 15:32",
+		"expand:in:after:by:" : "jz 7/24/2018 20:02",
+		"getButtonsForEventGroup:" : "jz 7/24/2018 19:56",
 		"parent" : "PS 6/14/2018 15:01",
 		"parent:" : "PS 6/14/2018 15:01",
-		"widthFor:" : "kk 6/21/2018 16:05",
-		"xLeftFor:" : "kk 7/5/2018 15:34",
+		"setInitialFrameFor:in:with:" : "jz 7/24/2018 19:48",
+		"tryPlacing:in:" : "jz 7/24/2018 18:18",
 		"yBeginPositionFor:" : "kk 7/5/2018 15:37",
 		"yEndPositionFor:" : "kk 7/5/2018 15:38" } }
