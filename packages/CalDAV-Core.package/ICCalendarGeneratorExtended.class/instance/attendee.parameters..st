@@ -1,9 +1,10 @@
 processing-properties
 attendee: aString parameters: aDictionary
 
-	| attendee |
+	| value |
 	
-	attendee := aDictionary at: 'EMAIL' ifAbsent: [self mailEndingOf: aString].
-	"skip adding attendee if no value was found"
-	((attendee isNil not) and: [attendee isEmpty not])
-		ifTrue: [	self tempComponent addAttendee: attendee]
+	value := aDictionary at: 'EMAIL' ifAbsent: [''].
+	((value = '') and: [(aString subStrings: '$:') includes: 'mailto']) 
+		ifTrue: [value := (aString subStrings: '$:') last].
+	((value isNil not) and: [value isEmpty not])
+		ifTrue: [	self tempComponent addAttendee: value]

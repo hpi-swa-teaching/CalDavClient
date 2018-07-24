@@ -19,6 +19,7 @@
 		"testButtonPresence" : "dm 7/19/2018 11:52",
 		"testCalendarAddingAndRemoval" : "dm 7/19/2018 11:53",
 		"testCalendarsAreSortedAlphabetically" : "dm 7/19/2018 12:06",
+		"testDeleteNonexistentCalendar" : "dm 7/22/2018 15:29",
 		"testEmptySelectionIsRemembered" : "dm 7/19/2018 11:54",
 		"testEventAdding" : "dm 7/19/2018 11:54",
 		"testEventEditOnDoubleClick" : "dm 7/19/2018 11:54",
