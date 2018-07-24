@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CALShowEventDialog",
+	"pools" : [
+		 ],
+	"super" : "CALEventDialog",
+	"type" : "normal" }

@@ -9,6 +9,6 @@ buildEventListWith: aBuilder
 		list: #eventNames;
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
-		doubleClick: #openEditEventDialog;
+		doubleClick: #openEventDetails;
 		frame: (0 @ y corner: 1 @ (y + self relativeEventListHeight));
 		yourself
