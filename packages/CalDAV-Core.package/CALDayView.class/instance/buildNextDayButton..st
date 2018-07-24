@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildNextDayButton: aBuilder
 	
 	^ aBuilder pluggableActionButtonSpec new

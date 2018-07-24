@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 previousWeek
 
 	self day: (self day subtractDays: 7).

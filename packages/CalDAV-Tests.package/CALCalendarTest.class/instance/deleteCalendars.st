@@ -1,4 +1,4 @@
-as yet unclassified
+running
 deleteCalendars
 	
 	CALCalendar calendarDirectory deleteFileNamed: 'testCalendar'.

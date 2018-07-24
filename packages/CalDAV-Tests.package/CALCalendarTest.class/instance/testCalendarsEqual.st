@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCalendarsEqual
 	
 	self assert: (testCalendar1 ~= testCalendar2) description: 'different calendars should never be equal'.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hasDate
 
 	^ self date isNil not

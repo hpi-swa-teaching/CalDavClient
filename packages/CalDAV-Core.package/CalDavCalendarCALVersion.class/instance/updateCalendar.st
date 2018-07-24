@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateCalendar
 	
 	super updateCalendar.

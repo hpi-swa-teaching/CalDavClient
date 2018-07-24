@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildPreviousWeekButton: aBuilder
 	
 	^ aBuilder pluggableActionButtonSpec new

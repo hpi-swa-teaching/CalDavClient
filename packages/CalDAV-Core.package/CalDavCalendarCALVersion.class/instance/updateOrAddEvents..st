@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateOrAddEvents: updateInformation
 
 	updateInformation do: [ :rawEventData | | eventObject etag |

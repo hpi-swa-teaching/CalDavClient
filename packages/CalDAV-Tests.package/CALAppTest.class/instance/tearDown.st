@@ -1,4 +1,4 @@
-testing
+running
 tearDown
 	
 	[self app deleteCalendarNamed: 'testCalendar'] on: Error do: [].

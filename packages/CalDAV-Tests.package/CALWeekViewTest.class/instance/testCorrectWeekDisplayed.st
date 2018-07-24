@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCorrectWeekDisplayed
 	
 	self assert: weekPanel day = self firstOfMarch2018 description: 'day should be the one set in setUp'.

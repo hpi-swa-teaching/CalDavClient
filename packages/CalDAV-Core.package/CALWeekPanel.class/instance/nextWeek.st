@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 nextWeek
 
 	self day: (self day addDays: 7).

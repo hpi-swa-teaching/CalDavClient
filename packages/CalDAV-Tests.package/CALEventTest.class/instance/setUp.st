@@ -1,4 +1,4 @@
-setup and teardown
+running
 setUp
 
 	calendar := CALCalendar withName: 'testCalendar'.

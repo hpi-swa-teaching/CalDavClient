@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	testCalendar1 := CALCalendar withName: 'cal01'.

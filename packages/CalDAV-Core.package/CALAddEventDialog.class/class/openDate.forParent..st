@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 openDate: aDate forParent: aParent
 
 	| dialog datedEvent |

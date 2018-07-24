@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 widthFor: anEvent
 	
 	| todaysEvents overlappingEvents |

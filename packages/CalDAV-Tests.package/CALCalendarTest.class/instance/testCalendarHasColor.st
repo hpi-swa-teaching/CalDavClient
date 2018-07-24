@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCalendarHasColor
 
 	self assert: testCalendar1 color isNil not description: 'all calendars ahould be initialized with a color'.

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildSpec: aBuilder
 	
 	self subclassResponsibility 

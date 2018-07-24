@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildEventBlockFor: anEvent with: aBuilder
 
 	^ aBuilder pluggableActionButtonSpec new

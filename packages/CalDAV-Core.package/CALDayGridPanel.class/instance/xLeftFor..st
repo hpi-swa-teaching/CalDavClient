@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 xLeftFor: anEvent
 	
 	| rank todaysEvents overlappingEvents |

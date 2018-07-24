@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 newWithUrl: aUrl Username: aUsername Password: aPassword
 
 	^ self new

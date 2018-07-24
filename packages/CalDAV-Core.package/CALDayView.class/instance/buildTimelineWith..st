@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildTimelineWith: aBuilder
 
 	^ (CALTimeGridPanel new

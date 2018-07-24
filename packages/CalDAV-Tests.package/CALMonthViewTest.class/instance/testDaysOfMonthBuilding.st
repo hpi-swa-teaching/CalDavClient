@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDaysOfMonthBuilding
 
 	self assert: monthView days size equals: 42. "6 rows of 7 days"

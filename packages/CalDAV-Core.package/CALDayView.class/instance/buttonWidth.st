@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 buttonWidth
 	
 	^ 0.3
