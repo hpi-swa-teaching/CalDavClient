@@ -16,5 +16,6 @@ testEventComparison
 	self assert: (anEvent <= anotherEvent) description: 'Events with same begin and end should sort after title'.
 	self assert: ((anotherEvent <= anEvent) not).
 	anotherEvent title: self title.
+	anotherEvent location: 'woanders'.
 	self assert: (anEvent <= anotherEvent xor: anotherEvent <= anEvent) description: 'Events with same begin, end, title should have a sorting'.
 	self assert: (anEvent <= anEvent) description: 'less equal should be reflexive'

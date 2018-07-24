@@ -3,5 +3,5 @@ saveEvent
 	
 	self event isValid 
 		ifFalse: [self highlightErrors]
-		ifTrue: [	self parent addEvent: event.
+		ifTrue: [	self parent addEvent: self event.
 				self close]

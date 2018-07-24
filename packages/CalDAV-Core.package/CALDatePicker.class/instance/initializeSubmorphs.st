@@ -4,7 +4,7 @@ initializeSubmorphs
 	self addMorphBack: self buildYearRow;
 		 addMorphBack: self buildMonthRow;
 		 addMorphBack: self dayInitialsRow.
-	date month weeks
+	self date month weeks
 		do: [:week | 
 			weekRow := self newRow.
 			week dates
@@ -13,12 +13,12 @@ initializeSubmorphs
 					dateButton actionSelector: #date:; 
 						 target: self;
 						 arguments: {aDate}.
-					date = aDate
+					self date = aDate
 						ifTrue: [dateButton
 								color: (self color
 										mixed: 0.5
 										with: (self color adjustSaturation: 1 brightness: 1))].
-					date month ~= aDate month
+					self date month ~= aDate month
 						ifTrue: [dateButton color: self color.
 							(dateButton findA: StringMorph)
 								color: Color gray].
