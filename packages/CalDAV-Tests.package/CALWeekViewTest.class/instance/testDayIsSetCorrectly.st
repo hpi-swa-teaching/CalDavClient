@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDayIsSetCorrectly
 
 	weekView day: self firstOfMarch2018.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 client
 
 	[^ super client] on: Error do: [^ self defaultClient]

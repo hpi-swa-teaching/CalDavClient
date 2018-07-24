@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 yPositionFor: anHour and: aMinute
 	
 	| relativeHeight yPosition |

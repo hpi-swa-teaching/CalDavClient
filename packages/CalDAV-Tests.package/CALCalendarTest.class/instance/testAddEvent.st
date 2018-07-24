@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testAddEvent
 
 	testCalendar1 addEvent: self demoEvent.

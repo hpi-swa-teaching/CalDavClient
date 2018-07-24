@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 dayLabelHeight
 
 	^ 1/25

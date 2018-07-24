@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEventPropertiesChanges
 
 	eventDialog event: self demoEvent.

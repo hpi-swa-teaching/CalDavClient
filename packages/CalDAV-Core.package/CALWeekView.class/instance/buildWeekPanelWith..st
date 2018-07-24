@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWeekPanelWith: aBuilder
 
 	^ (CALWeekPanel new

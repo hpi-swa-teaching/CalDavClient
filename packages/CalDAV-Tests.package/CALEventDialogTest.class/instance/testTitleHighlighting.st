@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTitleHighlighting
 
 	addDialog event: self demoEvent.

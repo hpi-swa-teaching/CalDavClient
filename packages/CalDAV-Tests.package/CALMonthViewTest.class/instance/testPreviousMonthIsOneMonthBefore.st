@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testPreviousMonthIsOneMonthBefore
 	
 	monthView firstOfMonth: self firstOfMarch2018.

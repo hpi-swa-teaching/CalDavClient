@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 yBeginPositionFor: anEvent
 	
 	| relativeHeight yPosition |

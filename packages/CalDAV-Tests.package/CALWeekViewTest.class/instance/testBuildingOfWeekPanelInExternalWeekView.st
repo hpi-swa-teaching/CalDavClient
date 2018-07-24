@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testBuildingOfWeekPanelInExternalWeekView
 
 	| panel |

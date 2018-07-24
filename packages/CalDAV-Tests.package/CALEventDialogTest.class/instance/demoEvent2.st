@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 demoEvent2
 
 	^ CALEvent new

@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 responseContent
 
 	^ '<?xml version="1.0"?>

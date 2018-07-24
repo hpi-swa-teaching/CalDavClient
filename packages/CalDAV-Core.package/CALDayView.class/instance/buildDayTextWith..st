@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildDayTextWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

@@ -1,4 +1,4 @@
-as yet unclassified
+positioning
 timeLabelWidth
 
 	^ 0.1
