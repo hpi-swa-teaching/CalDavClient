@@ -3,6 +3,11 @@ importWebDAVCalendar
 	
 	| username password url |
 	
+	url := UIManager default
+			request: 'Enter Url'
+			initialAnswer: ''.
+	url = '' ifTrue: [^ self].
+	
 	username := UIManager default 
 			request: 'Enter Username'
 			initialAnswer: ''.
@@ -10,11 +15,6 @@ importWebDAVCalendar
 			
 	password := UIManager default
 			requestPassword: 'Enter Password'.
-			
-	url := UIManager default
-			request: 'Enter Url'
-			initialAnswer: ''.
-	url = '' ifTrue: [^ self].
 	
 	[self addCalendar:
 		(CALWebDAVCalendar 
