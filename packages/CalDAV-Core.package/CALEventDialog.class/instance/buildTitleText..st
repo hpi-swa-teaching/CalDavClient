@@ -10,4 +10,4 @@ buildTitleText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Title';
-		frame: (0.01 @ 0.01 corner: self borderRight @ 0.1)
+		frame: (self borderLeft @ self spacing corner: self borderRight @ self lineHeight)

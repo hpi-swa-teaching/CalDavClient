@@ -1,6 +1,9 @@
 toolbuilding
 buildBeginHourText: aBuilder
 
+	| height |
+	
+	height := (self lineHeight * 3) + (self spacing * 3).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventBeginHour;
@@ -8,4 +11,4 @@ buildBeginHourText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'hh';
-		frame: (0.73 @ 0.32 corner: 0.78 @ 0.42)
+		frame: (0.73 @ height corner: 0.78 @ (height + self lineHeight))

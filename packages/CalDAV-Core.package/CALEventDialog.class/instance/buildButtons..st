@@ -1,45 +1,50 @@
 toolbuilding
 buildButtons: aBuilder
  
-	| editButton deleteButton buttons beginPickerButton endPickerButton |
+	| editButton deleteButton buttons beginPickerButton endPickerButton height |
 	
 	buttons := OrderedCollection new.
 	
+	height := (self spacing * 7) + (self lineHeight * 7).
 	editButton := aBuilder pluggableActionButtonSpec new.
 	editButton
 		model: self;
 		action: #saveEvent;
 		label: 'Save Event';
-		frame: ((self borderRight / 2 + 0.01) @ 0.76 corner: self borderRight @ 0.86);
+		frame: ((self borderRight / 2 + 0.01) @ height corner: self borderRight @ (height + self lineHeight));
 		enabled: self isReadOnly not.
 	buttons add: editButton.
 	
+	height := (self spacing * 7) + (self lineHeight * 7).
 	deleteButton := aBuilder pluggableActionButtonSpec new.
 	deleteButton
 		model: self;
 		action: #deleteEvent;
 		label: 'Delete Event';
-		frame: (0.01 @ 0.76 corner: (self borderRight / 2) @ 0.86);
+		frame: (self borderLeft @ height corner: (self borderRight / 2) @ (height + self lineHeight));
 		enabled: self isReadOnly not.
 	buttons add: deleteButton.
 	
+	height := (self spacing * 3) + (self lineHeight * 3).
 	beginPickerButton := aBuilder pluggableActionButtonSpec new.
 	beginPickerButton
 		model: self;
 		label: 'Pick Begin Date';
 		action: #pickBeginDate;
-		frame: (self borderLeft@0.32 corner: 0.2@0.42);
+		frame: (self borderLeft @ height corner: 0.2 @ (height + self lineHeight));
 		enabled: self isReadOnly not.
 	buttons add: beginPickerButton.
-		
+	
+	height := (self spacing * 4) + (self lineHeight * 4).
 	endPickerButton := aBuilder pluggableActionButtonSpec new.
 	endPickerButton
 		model: self;
 		label: 'Pick End Date';
 		action: #pickEndDate;
-		frame: (self borderLeft @ 0.43 corner: 0.2 @ 0.53);
+		frame: (self borderLeft @ height corner: 0.2 @ (height + self lineHeight));
 		enabled: self isReadOnly not.
 	buttons add: endPickerButton.
 	
 	buttons add: (self buildFullDayButton: aBuilder).
+	
 	^ buttons
