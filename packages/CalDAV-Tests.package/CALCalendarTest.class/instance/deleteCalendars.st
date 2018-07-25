@@ -1,7 +1,6 @@
 running
 deleteCalendars
-	
-	CALCalendar calendarDirectory deleteFileNamed: 'testCalendar'.
-	CALCalendar calendarDirectory deleteFileNamed: (testCalendar1 name).
-	CALCalendar calendarDirectory deleteFileNamed: (testCalendar2 name).
-	CALCalendar calendarDirectory deleteFileNamed: (testCalendar3 name)
+
+	CALCalendar calendarDirectory deleteFileNamed: (self demoCalendar1 name).
+	CALCalendar calendarDirectory deleteFileNamed: (self demoCalendar2 name).
+	CALCalendar calendarDirectory deleteFileNamed: (self demoCalendar3 name)

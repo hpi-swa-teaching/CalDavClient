@@ -6,7 +6,7 @@ testllistFramesDontIntersect
 	frames := OrderedCollection new.
 	1 to: 6 do: [ :row | 
 		1 to: 7 do: [ :column | 
-				frames add: (monthView listFrameWith: row and: column)
+				frames add: (self monthView listFrameWith: row and: column)
 			]
 		].
 	[frames size > 0] whileTrue:[

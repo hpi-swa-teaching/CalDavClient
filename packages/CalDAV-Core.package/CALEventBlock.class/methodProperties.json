@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"<=" : "jz 7/24/2018 19:35",
-		"buildWith:" : "jz 7/24/2018 18:35",
+		"app" : "jz 7/25/2018 12:05",
+		"app:" : "jz 7/25/2018 12:05",
+		"buildWith:" : "jz 7/25/2018 12:06",
 		"collidesWith:" : "jz 7/24/2018 19:36",
 		"color" : "jz 7/24/2018 16:44",
 		"color:" : "jz 7/24/2018 16:44",
@@ -13,5 +15,6 @@
 		"frame:" : "jz 7/24/2018 18:37",
 		"increaseColumnSpan:" : "jz 7/24/2018 19:44",
 		"initialize" : "jz 7/24/2018 18:38",
+		"openEventDetails" : "jz 7/25/2018 12:06",
 		"placed" : "jz 7/24/2018 17:31",
 		"placed:" : "jz 7/24/2018 17:31" } }

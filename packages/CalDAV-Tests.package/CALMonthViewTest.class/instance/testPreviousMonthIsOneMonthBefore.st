@@ -1,6 +1,6 @@
 testing
 testPreviousMonthIsOneMonthBefore
 	
-	monthView firstOfMonth: self firstOfMarch2018.
-	monthView previousMonth.
-	self assert: (monthView monthText = 'February 2018')
+	self monthView firstOfMonth: self firstOfMarch2018.
+	self monthView previousMonth.
+	self assert: (self monthView monthText = 'February 2018')

@@ -4,6 +4,6 @@ initialize
 	self 
 		calendars: (SortedCollection new sortBlock: [ :a :b | a name <= b name ]);
 		monthPanel: (CALMonthPanel new
-			parent: self);
+			app: self);
 		weekPanel: (CALWeekPanel new 
-			parent: self)
+			app: self)

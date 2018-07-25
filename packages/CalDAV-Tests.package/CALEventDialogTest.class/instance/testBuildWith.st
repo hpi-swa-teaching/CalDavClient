@@ -6,6 +6,6 @@ testBuildWith
 	self assert: (CALEventDialog  selectors anySatisfy: [ :each| each = 'buildWith:']).
 	dialog := CALAddEventDialog new.
 	spec := dialog 
-		parent: app;
+		app: self app;
 		buildWith: (ToolBuilder default).
 	self assert: (spec model = dialog)

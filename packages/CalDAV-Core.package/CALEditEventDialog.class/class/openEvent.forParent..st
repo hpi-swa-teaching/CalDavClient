@@ -5,7 +5,7 @@ openEvent: anEvent forParent: aParent
 	
 	dialog := self new.
 	dialog
-		parent: aParent;
+		app: aParent;
 		event: anEvent;
 		oldEvent: anEvent.
 		

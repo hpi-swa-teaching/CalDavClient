@@ -1,14 +1,13 @@
 running
 setUp
 	
-	cal := CALSubscriptionICSCalendar new.
-	cal 
-		name: 'testCalendar';
+	self calendar: CALSubscriptionICSCalendar new.
+	self calendar 
+		name: 'subscriptionTest';
 		caldavLink: 'test';
 		storeLink;
 		caldavLink: '';
 		restoreLink.
 	
-	cal calendarDirectory deleteFileNamed: 'testCalendar'.
-	self assert: cal caldavLink = 'test'
+	self assert: self calendar caldavLink = 'test'
 	

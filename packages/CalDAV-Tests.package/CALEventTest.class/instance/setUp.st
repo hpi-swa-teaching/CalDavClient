@@ -1,5 +1,5 @@
 running
 setUp
 
-	calendar := CALCalendar withName: 'testCalendar'.
-	calendar addEvent: CALEvent new
+	self calendar: (CALCalendar withName: 'testCalendar').
+	self calendar addEvent: CALEvent new

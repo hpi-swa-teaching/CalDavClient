@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"firstOfMarch2018" : "kk 6/21/2018 14:48",
-		"setUp" : "jz 7/4/2018 01:32",
-		"testDaysOfMonthBuilding" : "jz 7/4/2018 01:41",
-		"testFillMonthIsCorrect" : "jz 7/2/2018 11:59",
-		"testFirstMonthIsCurrentMonth" : "dm 6/13/2018 15:55",
-		"testNextMonthIsOneMonthAfter" : "kk 6/21/2018 14:48",
-		"testPreviousMonthIsOneMonthBefore" : "kk 6/21/2018 14:48",
-		"testllistFramesDontIntersect" : "dm 6/13/2018 16:54",
-		"testtextFramesDontIntersect" : "dm 6/13/2018 16:54" } }
+		"monthView" : "jz 7/25/2018 16:28",
+		"monthView:" : "jz 7/25/2018 16:28",
+		"setUp" : "jz 7/25/2018 16:28",
+		"testDaysOfMonthBuilding" : "jz 7/25/2018 16:28",
+		"testFillMonthIsCorrect" : "jz 7/25/2018 16:28",
+		"testFirstMonthIsCurrentMonth" : "jz 7/25/2018 16:28",
+		"testNextMonthIsOneMonthAfter" : "jz 7/25/2018 16:28",
+		"testPreviousMonthIsOneMonthBefore" : "jz 7/25/2018 16:29",
+		"testllistFramesDontIntersect" : "jz 7/25/2018 16:29",
+		"testtextFramesDontIntersect" : "jz 7/25/2018 16:29" } }

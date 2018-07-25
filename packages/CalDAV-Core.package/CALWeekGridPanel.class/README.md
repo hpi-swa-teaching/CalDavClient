@@ -1,1 +1,1 @@
-I am a panel containing seven consecutive day grids
+I am a panel containing seven consecutive event grids

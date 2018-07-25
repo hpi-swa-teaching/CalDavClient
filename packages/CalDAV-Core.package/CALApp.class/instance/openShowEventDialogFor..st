@@ -1,4 +1,4 @@
-toolbuilder
+subwindows
 openShowEventDialogFor: anEvent
 
 	| dialogWindow |

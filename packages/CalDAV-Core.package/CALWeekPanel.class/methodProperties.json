@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"app" : "jz 7/25/2018 13:31",
+		"app:" : "jz 7/25/2018 13:31",
 		"buildNextWeekButton:" : "jz 7/16/2018 13:49",
 		"buildPreviousWeekButton:" : "jz 7/16/2018 13:49",
 		"buildSpec:" : "jz 7/4/2018 00:51",
 		"buildTimelineWith:" : "kk 7/5/2018 16:15",
-		"buildWeekGridWith:" : "jz 7/9/2018 14:46",
+		"buildWeekGridWith:" : "jz 7/25/2018 13:31",
 		"buildWeekTextWith:" : "kk 7/5/2018 16:15",
 		"buttonHeight" : "PS 6/14/2018 15:58",
 		"buttonWidth" : "PS 6/14/2018 16:18",
@@ -16,8 +18,6 @@
 		"dayLabelHeight" : "PS 6/21/2018 11:43",
 		"initialize" : "jz 7/4/2018 00:54",
 		"nextWeek" : "jz 7/9/2018 14:46",
-		"parent" : "PS 6/14/2018 15:53",
-		"parent:" : "PS 6/14/2018 15:53",
 		"previousWeek" : "PS 6/21/2018 11:21",
 		"rebuildWeekGrid" : "jz 7/9/2018 13:40",
 		"startDay" : "jz 7/9/2018 14:49",

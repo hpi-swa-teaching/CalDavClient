@@ -7,8 +7,8 @@ testButtonPresence
 	buttons := Dictionary newFrom:
 	{'Add Calendar' -> #openAddCalendarDialog.
 	  'Delete Calendar' -> #openDeleteCalendarDialog.
-	  'Import ICS Calendar' -> #importCalendar.
-	  'Import CalDAV Calendar' -> #importSyncCalendar.
+	  'Import ICS Calendar' -> #importSubscriptionCalendar.
+	  'Import CalDAV Calendar' -> #importWebDAVCalendar.
 	  'Refresh' -> #refreshCalendars}.
 	
 	buttons associationsDo: [ :each | self assert: spec hasButtonLabeled: each key performing: each value]

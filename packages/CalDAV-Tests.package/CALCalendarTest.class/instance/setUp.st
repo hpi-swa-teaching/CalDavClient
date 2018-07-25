@@ -1,7 +1,7 @@
 running
 setUp
 
-	testCalendar1 := CALCalendar withName: 'cal01'.
-	testCalendar2 := CALCalendar withName: 'cal02'.
-	testCalendar3 := CALCalendar withName: 'cal03'
+	self demoCalendar1: (CALCalendar withName: 'cal01').
+	self demoCalendar2: (CALCalendar withName: 'cal02').
+	self demoCalendar3: (CALCalendar withName: 'cal03')
 	

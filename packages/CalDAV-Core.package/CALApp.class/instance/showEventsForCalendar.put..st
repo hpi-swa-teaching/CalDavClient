@@ -1,4 +1,4 @@
-toolbuilder
+event management
 showEventsForCalendar: aCalendarIndex put: aBoolean
 
 	| calendarName |

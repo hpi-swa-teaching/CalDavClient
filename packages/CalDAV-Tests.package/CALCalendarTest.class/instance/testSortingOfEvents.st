@@ -1,10 +1,7 @@
 testing
 testSortingOfEvents
 	
-	| calendar |
-	
-	calendar := CALCalendar withName: 'testCalendar'.
-	calendar 
+	self demoCalendar1
 		addEvent: self demoEvent2;
 		addEvent: self demoEvent.
-	self assert: (calendar events first = self demoEvent)
+	self assert: (self demoCalendar1 events first = self demoEvent)

@@ -5,7 +5,7 @@ buildWeekGridWith: aBuilder
 	
 	 y := self buttonHeight.
 	 ^ (CALWeekGridPanel new
-			parent: self parent;
+			app: self app;
 			startDay: self startDay;
 			buildSpec: aBuilder)
 			frame: (self timeLabelWidth @ y corner: 1 @ 1)

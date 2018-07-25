@@ -4,14 +4,14 @@ testChangeEventCalendar
 	| event |
 	
 	event := self demoEvent.
-	app calendarIndex: 1.
-	app addEvent: event.
-	editDialog
-		parent: app;
+	self app calendarIndex: 1.
+	self app addEvent: event.
+	self editDialog
+		app: app;
 		event: event;
 		oldEvent: event.
-	app calendarIndex: 2.
-	editDialog saveEvent.
+	self app calendarIndex: 2.
+	self editDialog saveEvent.
 		
-	self assert: ((app calendars at: 2) includes: event).
-	self assert: ((app calendars at: 1) includes: event) not.
+	self assert: ((self app calendars at: 2) includes: event).
+	self assert: ((self app calendars at: 1) includes: event) not.

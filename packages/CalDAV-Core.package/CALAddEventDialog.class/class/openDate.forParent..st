@@ -8,7 +8,7 @@ openDate: aDate forParent: aParent
 		begin: aDate start;
 		end: aDate start.
 	dialog
-		parent: aParent;
+		app: aParent;
 		event: datedEvent.
 		
 	 ^ ToolBuilder default open: dialog

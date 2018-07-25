@@ -1,4 +1,4 @@
-toolbuilder
+subwindows
 openEventDetailsFor: anEvent
 
 	((self findCalendarFor: anEvent) isReadOnly)

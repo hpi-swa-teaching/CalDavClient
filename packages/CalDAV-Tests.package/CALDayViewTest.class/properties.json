@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "kk 6/21/2018 17:40",
 	"instvars" : [
-		"monthView",
 		"dayView",
 		"spec" ],
 	"name" : "CALDayViewTest",

@@ -1,4 +1,4 @@
 open windows
 openAddEventDialog
 	
-	self parent openAddEventDialogFor: self date
+	self app openAddEventDialogFor: self date

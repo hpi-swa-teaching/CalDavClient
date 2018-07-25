@@ -5,5 +5,5 @@ buildDaysOfMonthWith: aBuilder
 		model: self;
 		name: 'daysOfMonth';
 		frame: (0 @ self buttonHeight corner: 1 @ 1);
-		children: (self buildDayLists: aBuilder);
+		children: (self buildDayGrid: aBuilder);
 		yourself

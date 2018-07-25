@@ -7,8 +7,8 @@
 	"commentStamp" : "jz 7/25/2018 11:21",
 	"instvars" : [
 		"date",
-		"parent",
-		"currentIndex" ],
+		"currentIndex",
+		"app" ],
 	"name" : "CALDay",
 	"pools" : [
 		 ],

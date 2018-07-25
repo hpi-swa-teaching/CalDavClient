@@ -5,8 +5,8 @@ buildDayGridNumber: aNumber with: aBuilder
 	
 	x := self dayGridWidth * (aNumber - 1).
 	y := self dayLabelHeight.
-	model := CALDayGridPanel new
-				parent: self parent;
+	model := CALEventGridPanel new
+				app: self app;
 				day: (self dayGridDateFor: aNumber).
 	spec := model buildSpec: aBuilder.
 	^ spec frame: (x @ y corner: (x + self dayGridWidth) @ 1)

@@ -1,6 +1,6 @@
-running
+testing
 setUp
 	
-	weekPanel := CALWeekPanel new.
-	weekPanel day: self firstOfMarch2018.
-	weekPanel parent: CALApp new
+	self weekPanel: CALWeekPanel new.
+	self weekPanel day: self firstOfMarch2018.
+	self weekPanel app: CALApp new

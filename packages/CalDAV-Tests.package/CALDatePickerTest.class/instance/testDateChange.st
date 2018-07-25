@@ -1,6 +1,6 @@
 testing
 testDateChange
 
-	datePicker date: Date tomorrow.
-	self assert: datePicker date = Date tomorrow.
-	self assert: self date = datePicker date start
+	self datePicker date: Date tomorrow.
+	self assert: self datePicker date = Date tomorrow.
+	self assert: self date = self datePicker date start

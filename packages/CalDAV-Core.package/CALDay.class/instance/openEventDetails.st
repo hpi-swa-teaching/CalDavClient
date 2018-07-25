@@ -1,4 +1,4 @@
 open windows
 openEventDetails
 	
-	self parent openEventDetailsFor: self currentlySelectedEvent
+	self app openEventDetailsFor: self currentlySelectedEvent

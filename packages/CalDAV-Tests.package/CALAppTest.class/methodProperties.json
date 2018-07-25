@@ -16,7 +16,7 @@
 		"tearDown" : "dm 7/19/2018 15:13",
 		"testAtLeastOneCalendar" : "jz 7/18/2018 14:47",
 		"testBuildWith" : "dm 7/19/2018 11:52",
-		"testButtonPresence" : "PS 7/24/2018 18:18",
+		"testButtonPresence" : "jz 7/25/2018 11:57",
 		"testCalendarAddingAndRemoval" : "dm 7/19/2018 11:53",
 		"testCalendarsAreSortedAlphabetically" : "dm 7/19/2018 12:06",
 		"testDeleteNonexistentCalendar" : "dm 7/22/2018 15:29",

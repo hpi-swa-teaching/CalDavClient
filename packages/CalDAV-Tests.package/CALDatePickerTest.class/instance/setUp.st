@@ -1,5 +1,5 @@
 running
 setUp
 
-	datePicker := CALDatePicker new.
-	datePicker when: #dateChanged send: #dateChanged: to: self
+	self datePicker: CALDatePicker new.
+	self datePicker when: #dateChanged send: #dateChanged: to: self

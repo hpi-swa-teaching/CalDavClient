@@ -4,20 +4,20 @@ testFullDayButton
 	| de1 |
 	
 	de1 := self demoEvent.
-	app addEvent: de1.
+	self app addEvent: de1.
 	
-	editDialog
-		parent: app;
+	self editDialog
+		app: self app;
 		event: de1;
 		oldEvent: de1.
 	
-	self assert: editDialog isFullDaySelected not.
-	self assert: editDialog event isFullDay not.
+	self assert: self editDialog isFullDaySelected not.
+	self assert: self editDialog event isFullDay not.
 		
-	editDialog switchFullDaySelected .
+	self editDialog switchFullDaySelected .
 		
-	self assert: editDialog isFullDaySelected.
-	self assert: editDialog event isFullDay.
+	self assert: self editDialog isFullDaySelected.
+	self assert: self editDialog event isFullDay.
 	
-	editDialog switchFullDaySelected.
-	self assert: editDialog isFullDaySelected not.
+	self editDialog switchFullDaySelected.
+	self assert: self editDialog isFullDaySelected not

@@ -1,5 +1,5 @@
 running
 tearDown
 	
-	cal calendarDirectory deleteFileNamed: 'testCalendar'.
+	self calendar calendarDirectory deleteFileNamed: 'subscriptionTest'.
 	

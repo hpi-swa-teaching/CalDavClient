@@ -1,6 +1,6 @@
 running
 tearDown
 
-	datePicker
+	self datePicker
 		release;
 		abandon

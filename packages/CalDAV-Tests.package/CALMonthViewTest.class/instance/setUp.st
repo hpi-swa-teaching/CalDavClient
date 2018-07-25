@@ -1,5 +1,5 @@
 running
 setUp
 	
-	monthView := CALMonthPanel new.
-	monthView buildSpec: ToolBuilder default
+	self monthView: CALMonthPanel new.
+	self monthView buildSpec: ToolBuilder default

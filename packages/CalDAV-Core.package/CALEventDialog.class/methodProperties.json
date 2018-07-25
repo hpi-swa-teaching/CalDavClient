@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"openForApp:" : "kk 7/5/2018 16:03" },
+		"openForApp:" : "jz 7/25/2018 13:31" },
 	"instance" : {
+		"app" : "jz 7/25/2018 13:31",
+		"app:" : "jz 7/25/2018 13:31",
 		"beginDateChanged:" : "jz 5/30/2018 14:53",
 		"borderLeft" : "jz 5/10/2018 13:18",
 		"borderRight" : "jz 5/10/2018 13:18",
@@ -11,7 +13,7 @@
 		"buildBeginMonthText:" : "kk 7/5/2018 16:09",
 		"buildBeginYearText:" : "kk 7/5/2018 16:09",
 		"buildButtons:" : "dm 7/24/2018 19:23",
-		"buildCalendarList:" : "dm 7/24/2018 19:13",
+		"buildCalendarList:" : "jz 7/25/2018 13:31",
 		"buildDescriptionText:" : "kk 7/5/2018 16:09",
 		"buildEndDayText:" : "kk 7/5/2018 16:09",
 		"buildEndHourText:" : "kk 7/5/2018 16:09",
@@ -67,8 +69,6 @@
 		"isFullDaySelected" : "kk 6/21/2018 10:39",
 		"isFullDaySelected:" : "kk 6/21/2018 10:43",
 		"isReadOnly" : "dm 7/24/2018 19:12",
-		"parent" : "jz 5/10/2018 14:11",
-		"parent:" : "jz 5/10/2018 14:11",
 		"pickBeginDate" : "jz 5/30/2018 14:53",
 		"pickEndDate" : "kk 7/5/2018 15:28",
 		"reloadDates" : "kk 7/5/2018 15:29",

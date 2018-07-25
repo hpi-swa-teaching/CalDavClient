@@ -5,6 +5,6 @@ openForApp: aParent
 	
 	dialog := self new.
 	dialog
-		parent: aParent.	
+		app: aParent.	
 		
 	 ^ ToolBuilder default open: dialog

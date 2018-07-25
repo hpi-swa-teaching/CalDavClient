@@ -1,5 +1,5 @@
 running
 setUp
 
-	dayView := CALDayView new.
-	dayView when: #dateChanged send: #dateChanged: to: self
+	self dayView: CALDayView new.
+	self dayView when: #dateChanged send: #dateChanged: to: self

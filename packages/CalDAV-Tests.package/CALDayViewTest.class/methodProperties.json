@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "dm 6/13/2018 14:14",
-		"testBuildWith" : "jz 7/8/2018 16:38",
-		"testButtonsExistence" : "dm 6/13/2018 14:21" } }
+		"dayView" : "jz 7/25/2018 15:41",
+		"dayView:" : "jz 7/25/2018 15:41",
+		"setUp" : "jz 7/25/2018 15:42",
+		"spec" : "jz 7/25/2018 15:41",
+		"spec:" : "jz 7/25/2018 15:41",
+		"testBuildWith" : "jz 7/25/2018 15:43",
+		"testButtonsExistence" : "jz 7/25/2018 15:43" } }

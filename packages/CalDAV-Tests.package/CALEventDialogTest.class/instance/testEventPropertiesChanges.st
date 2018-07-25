@@ -1,26 +1,26 @@
 testing
 testEventPropertiesChanges
 
-	eventDialog event: self demoEvent.
+	self eventDialog event: self demoEvent.
 	
-	eventDialog eventBeginDay: 1.
-	self assert: eventDialog eventBeginDay = 1 asString.
-	eventDialog eventBeginMonth: 2.
-	self assert: eventDialog eventBeginMonth = 2 asString.
-	eventDialog eventBeginYear: 1999.
-	self assert: eventDialog eventBeginYear = 1999 asString.
-	eventDialog eventBeginHour: 5.
-	self assert: eventDialog eventBeginHour = 5 asString.
-	eventDialog eventBeginMinute: 6.
-	self assert: eventDialog eventBeginMinute = 6 asString.
+	self eventDialog eventBeginDay: 1.
+	self assert: self eventDialog eventBeginDay = 1 asString.
+	self eventDialog eventBeginMonth: 2.
+	self assert: self eventDialog eventBeginMonth = 2 asString.
+	self eventDialog eventBeginYear: 1999.
+	self assert: self eventDialog eventBeginYear = 1999 asString.
+	self eventDialog eventBeginHour: 5.
+	self assert: self eventDialog eventBeginHour = 5 asString.
+	self eventDialog eventBeginMinute: 6.
+	self assert: self eventDialog eventBeginMinute = 6 asString.
 	
-	eventDialog eventEndDay: 10.
-	self assert: eventDialog eventEndDay = 10 asString.
-	eventDialog eventEndMonth: 8.
-	self assert: eventDialog eventEndMonth = 8 asString.
-	eventDialog eventEndYear: 2002.
-	self assert: eventDialog eventEndYear = 2002 asString.
-	eventDialog eventEndHour: 7.
-	self assert: eventDialog eventEndHour = 7 asString.
-	eventDialog eventEndMinute: 8.
-	self assert: eventDialog eventEndMinute = 8 asString.
+	self eventDialog eventEndDay: 10.
+	self assert: self eventDialog eventEndDay = 10 asString.
+	self eventDialog eventEndMonth: 8.
+	self assert: self eventDialog eventEndMonth = 8 asString.
+	self eventDialog eventEndYear: 2002.
+	self assert: self eventDialog eventEndYear = 2002 asString.
+	self eventDialog eventEndHour: 7.
+	self assert: self eventDialog eventEndHour = 7 asString.
+	self eventDialog eventEndMinute: 8.
+	self assert: self eventDialog eventEndMinute = 8 asString.

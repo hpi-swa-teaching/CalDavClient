@@ -2,7 +2,7 @@ toolbuilding
 buildCalendarList: aBuilder
 
 	^ aBuilder pluggableListSpec new
-		model: self parent;
+		model: self app;
 		list: #editableCalendarNames;
 		getIndex: #calendarIndex;
 		setIndex: #calendarIndex:;
