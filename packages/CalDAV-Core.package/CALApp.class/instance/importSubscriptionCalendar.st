@@ -8,4 +8,4 @@ importSubscriptionCalendar
 			initialAnswer: ''.
 	[self addCalendar: (CALSubscriptionICSCalendar newFromLink: url)] 
 		on: Error do: [:each | UIManager inform: ('Encounterd Error getting the Calendar: ' , each messageText).
-							UIManager inform:  'Aborting importing calendar']
+	UIManager inform:  'Aborting importing calendar']
