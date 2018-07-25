@@ -1,6 +1,9 @@
 toolbuilding
 buildLocationText: aBuilder
 
+	| height |
+	
+	height := (self lineHeight * 5) + (self spacing * 5).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventLocation;
@@ -8,4 +11,4 @@ buildLocationText: aBuilder
 		indicateUnacceptedChanges: false;
 		help: 'Location';
 		readOnly: self isReadOnly;
-		frame: (0.01 @ 0.54 corner: self borderRight @ 0.64)
+		frame: (0.01 @ height corner: self borderRight @ (height + self lineHeight))

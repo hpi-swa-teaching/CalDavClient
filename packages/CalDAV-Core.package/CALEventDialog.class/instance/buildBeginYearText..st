@@ -1,6 +1,9 @@
 toolbuilding
 buildBeginYearText: aBuilder
 
+	| height |
+	
+	height := (self lineHeight * 3) + (self spacing * 3).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventBeginYear;
@@ -8,4 +11,4 @@ buildBeginYearText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Year';
-		frame: (0.21 @ 0.32 corner: 0.3 @ 0.42)
+		frame: (0.21 @ height corner: 0.3 @ (height + self lineHeight))
