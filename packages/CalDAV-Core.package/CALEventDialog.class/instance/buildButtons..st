@@ -42,5 +42,4 @@ buildButtons: aBuilder
 	buttons add: endPickerButton.
 	
 	buttons add: (self buildFullDayButton: aBuilder).
-	
 	^ buttons

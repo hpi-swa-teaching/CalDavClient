@@ -26,4 +26,5 @@ buildButtons: aBuilder
 		add: saveButton;
 		add: beginPickerButton;
 		add: endPickerButton;
+		add: (self buildFullDayButton: aBuilder);
 		yourself
