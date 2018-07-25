@@ -1,5 +1,5 @@
-as yet unclassified
-getButtonsForEventGroup: aCollection
+event block layouting
+getButtonsForEventGroup: aCollection with: aBuilder
 
 	| eventWidth buttons |
 	
@@ -11,6 +11,6 @@ getButtonsForEventGroup: aCollection
 		buttonsOfColumn := column collect: [ :eventBlock | 
 			self setInitialFrameFor: eventBlock in: index with: eventWidth.
 			self expand: eventBlock in: aCollection after: index by: eventWidth.
-			eventBlock buildWith: ToolBuilder default].
+			eventBlock buildWith: aBuilder].
 		buttons addAll: buttonsOfColumn].
 	^ buttons

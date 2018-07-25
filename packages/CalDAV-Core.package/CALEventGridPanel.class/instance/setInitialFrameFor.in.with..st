@@ -1,4 +1,4 @@
-as yet unclassified
+event block layouting
 setInitialFrameFor: anEventBlock in: aColumnIndex with: anEventWidth
 
 	| x |

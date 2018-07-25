@@ -1,25 +1,9 @@
-as yet unclassified
+event block layouting
 buildEventBlocks: aBuilder
 
-	| eventBlocks columns buttons |
+	| eventBlocks |
 	
-	buttons := OrderedCollection new.
-	eventBlocks := (self app eventsIn: self day) collect: [ :each | self buildEventBlockFor: each].
+	eventBlocks := (self app eventsIn: self day) collect: [ :each | self getEventBlockFor: each].
 	"sort events first by start time and then by end time"
-	eventBlocks sort.	
-	columns := OrderedCollection new.	
-	eventBlocks do: [ :each | 
-		| lastEventEnding |
-		"check if event group is complete"
-		(lastEventEnding isNil not and: [each event begin >= lastEventEnding])
-			ifTrue: [buttons addAll: (self getButtonsForEventGroup: columns). columns := OrderedCollection new. lastEventEnding := nil].
-		"try to place event in existing columns"
-		self tryPlacing: each in: columns.
-		"create new column if needed"
-		each placed ifFalse: [columns add: OrderedCollection new. columns last add: each].
-		"remember latest event end time of current group"
-		(lastEventEnding isNil or: [each event end > lastEventEnding])
-			ifTrue: [lastEventEnding := each event end]].
-	columns isEmpty not
-		ifTrue: [buttons addAll: (self getButtonsForEventGroup: columns)].
-	^ buttons
+	eventBlocks sort.
+	^ self layoutEventBlocksIn: eventBlocks with: aBuilder

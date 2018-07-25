@@ -1,4 +1,4 @@
-positioning
+event block layouting
 yEndPositionFor: anEvent
 	
 	| relativeHeight yPosition |

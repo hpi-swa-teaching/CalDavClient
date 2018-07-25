@@ -1,4 +1,4 @@
-as yet unclassified
+event block layouting
 tryPlacing: anEvent in: aCollection
 
 	| possibleColumn |

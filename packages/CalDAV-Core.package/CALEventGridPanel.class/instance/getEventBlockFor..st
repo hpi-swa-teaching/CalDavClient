@@ -1,5 +1,5 @@
-as yet unclassified
-buildEventBlockFor: anEvent
+event block layouting
+getEventBlockFor: anEvent
 
 	^ CALEventBlock new
 		app: self app;

@@ -1,4 +1,4 @@
-as yet unclassified
+event block layouting
 expand: anEventBlock in: aCollection after: anIndex by: aWidth
 
 	(anIndex + 1) to: aCollection size do: [ :index | 
