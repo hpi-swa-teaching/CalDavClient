@@ -1,1 +1,1 @@
-I am a panel that contains the WeekView
+I am a panel containing the week view

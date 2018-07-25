@@ -1,1 +1,1 @@
-i am a panel that contains the MonthView
+i am a panel that containing the Month View

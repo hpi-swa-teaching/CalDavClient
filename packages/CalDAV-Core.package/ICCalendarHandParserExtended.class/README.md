@@ -1,1 +1,1 @@
-I am an IC Calendar Hand Parser
+I parse a web response containing a calendar in ical format, modified to use GeneratorExtended 

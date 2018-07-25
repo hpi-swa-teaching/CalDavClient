@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "kk 7/24/2018 18:43",
+	"commentStamp" : "jz 7/25/2018 11:44",
 	"instvars" : [
-		"username",
-		"password" ],
-	"name" : "SabreDAVClient",
+		 ],
+	"name" : "CALPublicCalDAVClient",
 	"pools" : [
 		 ],
 	"super" : "CalDavClient",

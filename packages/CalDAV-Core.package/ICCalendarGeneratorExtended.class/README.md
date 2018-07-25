@@ -1,1 +1,1 @@
-I am an IC Calendar Generator
+I generate an ICCalendar from a web response, extended by attendees

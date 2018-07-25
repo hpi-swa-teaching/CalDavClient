@@ -1,1 +1,0 @@
-I am a public CalDAV Client

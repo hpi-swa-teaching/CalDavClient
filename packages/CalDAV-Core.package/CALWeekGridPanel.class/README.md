@@ -1,1 +1,1 @@
-I am a panel that contains a week grid, containing 7 days
+I am a panel containing seven consecutive day grids

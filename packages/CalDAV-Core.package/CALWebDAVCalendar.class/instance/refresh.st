@@ -2,11 +2,11 @@ updating
 refresh
 
 	self localCalendarCopy: (CalDavCalendarCALVersion new
-		url: self caldavLink;
-		username: self username;
-		password: self password;
-		update;
-		yourself).
+								url: self caldavLink;
+								username: self username;
+								password: self password;
+								update;
+								yourself).
 	self name: self localCalendarCopy calendarName.
 	self events 
 		removeAll; 

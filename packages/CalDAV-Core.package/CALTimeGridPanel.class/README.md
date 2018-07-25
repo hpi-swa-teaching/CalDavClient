@@ -1,1 +1,1 @@
-I am a panel that contains a time grid
+I am a panel containing labels for all 24 hours from top to bottom

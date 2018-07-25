@@ -1,1 +1,1 @@
-I am a panel, that contains a grid of days
+I am a panel containing the events of one day as event blocks

@@ -1,1 +1,1 @@
-I am a special calendar: a Web DAV Calendar
+I am a special calendar for importing a calendar via webDAV, I need credentials and url
