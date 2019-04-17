@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'packages\/CalDavClient-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/CalDavClient-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfCalDavClient.package' : #SquotCypressCodeSerializer
+}

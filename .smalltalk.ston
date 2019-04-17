@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'CalDavClient',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ]
+}
