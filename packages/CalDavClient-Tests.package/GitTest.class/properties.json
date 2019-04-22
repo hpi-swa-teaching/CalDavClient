@@ -1,0 +1,14 @@
+{
+	"category" : "CalDavClient-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GitTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
