@@ -1,0 +1,16 @@
+{
+	"category" : "CalDavClient-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"password",
+		"url" ],
+	"name" : "LoginScreen",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

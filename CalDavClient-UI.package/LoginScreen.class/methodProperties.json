@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"open" : "TSP 4/22/2019 18:04" },
+	"instance" : {
+		"buildPasswordInputFieldWith:" : "TSP 4/22/2019 18:01",
+		"buildSignInButtonWith:" : "TSP 4/22/2019 18:02",
+		"buildTestFieldWith:" : "TSP 4/22/2019 18:02",
+		"buildUrlInputFieldWith:" : "TSP 4/22/2019 18:02",
+		"buildUsernameInputFieldWith:" : "TSP 4/22/2019 18:02",
+		"buildWith:" : "TSP 4/22/2019 18:02",
+		"initialize" : "TSP 4/22/2019 18:01",
+		"password" : "TSP 4/22/2019 18:00",
+		"password:" : "TSP 4/22/2019 18:00",
+		"updatePassword:" : "TSP 4/22/2019 18:03",
+		"updateUrl:" : "TSP 4/22/2019 18:03",
+		"updateUsername:" : "TSP 4/22/2019 18:03",
+		"url" : "TSP 4/22/2019 18:01",
+		"url:" : "TSP 4/22/2019 18:01",
+		"username" : "TSP 4/22/2019 18:00",
+		"username:" : "TSP 4/22/2019 18:00" } }
