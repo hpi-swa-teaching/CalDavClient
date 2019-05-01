@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kk 7/24/2018 18:39",
+	"instvars" : [
+		 ],
+	"name" : "CALPanel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

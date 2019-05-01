@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClientRegistry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDavClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

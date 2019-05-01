@@ -1,0 +1,19 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url",
+		"etag",
+		"serverData",
+		"calendar",
+		"serverCalendar",
+		"dirty" ],
+	"name" : "CalDavEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

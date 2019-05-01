@@ -1,0 +1,1 @@
+I am a caldav client for servers using sabre dav (like owncloud) with basic authentication

@@ -1,0 +1,4 @@
+persistence
+store
+	
+	self storeEvents

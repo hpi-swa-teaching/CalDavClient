@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Cal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CalDavGenericException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

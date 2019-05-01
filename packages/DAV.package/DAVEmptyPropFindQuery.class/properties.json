@@ -1,0 +1,14 @@
+{
+	"category" : "DAV-Web",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DAVEmptyPropFindQuery",
+	"pools" : [
+		 ],
+	"super" : "DAVPropFindQuery",
+	"type" : "normal" }

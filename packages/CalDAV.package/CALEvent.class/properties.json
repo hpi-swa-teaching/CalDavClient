@@ -1,0 +1,27 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kk 5/15/2018 12:11",
+	"instvars" : [
+		"beginYear",
+		"beginMonth",
+		"beginDay",
+		"beginHour",
+		"beginMinute",
+		"endYear",
+		"endMonth",
+		"endDay",
+		"endHour",
+		"endMinute",
+		"title",
+		"description",
+		"participants",
+		"location" ],
+	"name" : "CALEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

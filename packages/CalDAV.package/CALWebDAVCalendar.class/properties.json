@@ -1,0 +1,17 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jz 7/25/2018 11:25",
+	"instvars" : [
+		"caldavLink",
+		"localCalendarCopy",
+		"username",
+		"password" ],
+	"name" : "CALWebDAVCalendar",
+	"pools" : [
+		 ],
+	"super" : "CALCalendar",
+	"type" : "normal" }
