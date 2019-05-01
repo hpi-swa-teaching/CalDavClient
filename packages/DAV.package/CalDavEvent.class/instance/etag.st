@@ -1,4 +1,0 @@
-accessing
-etag
-
-	^ etag

@@ -1,4 +1,0 @@
-ui
-highlightErrors
-
-	self highlightTitle

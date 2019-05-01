@@ -1,8 +1,0 @@
-as yet unclassified
-queryCurrentUser
-
-	^ '<d:propfind xmlns:d="DAV:">
-	      <d:prop>
-              <d:current-user-principal />
-            </d:prop>
-            </d:propfind>'

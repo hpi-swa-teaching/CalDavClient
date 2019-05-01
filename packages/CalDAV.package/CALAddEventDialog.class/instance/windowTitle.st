@@ -1,4 +1,0 @@
-toolbuilding
-windowTitle
-
-	^ 'New Event'

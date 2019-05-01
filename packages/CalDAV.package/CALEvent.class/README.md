@@ -1,1 +1,0 @@
-I am an event and can be added to a calendar

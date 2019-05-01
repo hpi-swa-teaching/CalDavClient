@@ -1,4 +1,0 @@
-CalendarMorph
-maximumStepTime
-
-	^ 200

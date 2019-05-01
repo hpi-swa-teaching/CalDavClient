@@ -1,4 +1,0 @@
-requests
-fetchEventDataQuery 
-
-	^ DAVPropFindQuery empty

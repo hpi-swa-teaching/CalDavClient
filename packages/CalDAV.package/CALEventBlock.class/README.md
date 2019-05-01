@@ -1,1 +1,0 @@
-I am a colored button for an event in a day grid
