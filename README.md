@@ -12,5 +12,5 @@ SWT19 - Group 12
 
     Metacello new
         baseline: 'CalDAV';
-        repository: 'github://hpi-swa-teaching/SWT18-Project-05:master/packages';
+        repository: 'github://hpi-swa-teaching/CalDavClient:master/packages';
         load.
