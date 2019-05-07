@@ -10,7 +10,7 @@ baseline: spec
 						className: 'ConfigurationOfICal';
 						repository: 'github://codezeilen/ical-smalltalk/repository'];
 				package: 'DAV' with: [
-					spec repository: 'github://codezeilen/DAV-smalltalk/repository'];
+					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
 				package: 'CalDAV-Core' with: [spec requires: #('ICal' 'DAV')];
 				package: 'CalDAV-Tests' with: [spec requires: #('CalDAV-Core')];
 				yourself.
