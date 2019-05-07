@@ -1,4 +1,0 @@
-requests
-handleResponse: aResponse
-
-	^ aResponse

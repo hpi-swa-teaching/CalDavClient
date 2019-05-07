@@ -1,4 +1,0 @@
-authorization
-assumesAuthorization
-
-	self subclassResponsibility

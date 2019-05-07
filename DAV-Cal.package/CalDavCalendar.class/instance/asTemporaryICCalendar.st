@@ -1,4 +1,0 @@
-accessing
-asTemporaryICCalendar
-
-	^ ICCalendar new

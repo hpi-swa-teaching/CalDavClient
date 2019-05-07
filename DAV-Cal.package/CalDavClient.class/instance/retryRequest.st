@@ -1,4 +1,0 @@
-requests
-retryRequest
-
-	CalDavRetryException signal

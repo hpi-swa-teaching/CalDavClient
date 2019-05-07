@@ -1,4 +1,0 @@
-accessing
-setClean
-
-	dirty := false.
