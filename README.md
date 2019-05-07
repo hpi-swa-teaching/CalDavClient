@@ -1,4 +1,12 @@
-# SWT18-Project-05 [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-05.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT18-Project-05)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT18-Project-05/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT18-Project-05?branch=master)
+# CalDavClient [![Build Status][travis_badge]][travis_url]
+SWT19 - Group 12
+
+
+
+<!-- References -->
+[travis_badge]: https://travis-ci.org/hpi-swa-teaching/CalDavClient.svg?branch=master
+[travis_url]: https://travis-ci.org/hpi-swa-teaching/CalDavClient
+
 
 ## Installation
 
@@ -6,7 +14,3 @@
         baseline: 'CalDAV';
         repository: 'github://hpi-swa-teaching/SWT18-Project-05:master/packages';
         load.
-
-[Zeiterfassung](https://docs.google.com/spreadsheets/d/1dj4SpqwGRc0vceZKTeiQqER_g5aR3-BoUz4oO5T2MIw/edit#gid=281207454)
-
-[Präsentation](https://docs.google.com/presentation/d/1D59Daqjp01A0MHEx4JH3pOsvUvObdAKe30bwfzYYl84/edit?usp=sharing)
