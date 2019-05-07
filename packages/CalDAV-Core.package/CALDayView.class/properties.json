@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jz 7/25/2018 11:21",
+	"instvars" : [
+		"day",
+		"parent" ],
+	"name" : "CALDayView",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

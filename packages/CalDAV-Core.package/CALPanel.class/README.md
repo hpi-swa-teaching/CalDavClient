@@ -1,0 +1,1 @@
+I am a panel, i am a part of a window
