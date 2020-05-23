@@ -1,4 +1,4 @@
 as yet unclassified
 open
 	
-	^ self new openInWindowLabeled: 'NDDAV-Client '
+	^ self new openInWindowLabeled: 'Calendar '
