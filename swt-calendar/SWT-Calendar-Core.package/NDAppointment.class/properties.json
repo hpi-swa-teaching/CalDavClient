@@ -1,0 +1,19 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"startTime",
+		"endTime",
+		"description",
+		"place",
+		"tags" ],
+	"name" : "NDAppointment",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

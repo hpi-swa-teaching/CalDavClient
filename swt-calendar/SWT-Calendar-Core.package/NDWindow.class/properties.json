@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NDWindow",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
