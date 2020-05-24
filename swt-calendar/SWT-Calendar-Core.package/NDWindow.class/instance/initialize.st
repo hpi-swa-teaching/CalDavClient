@@ -7,8 +7,8 @@ self withLayout.
 
 "self layoutFrame:"
 
-self color: Color white;
-	vertical:  false.
+self color: Color gray;
+	vertical:  true.
 
 self extent: 800@600.
 "self position: 400@400."
