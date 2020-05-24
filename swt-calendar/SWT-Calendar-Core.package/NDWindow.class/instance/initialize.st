@@ -10,7 +10,7 @@ self withLayout.
 self color: Color gray;
 	vertical:  true.
 
-self extent: 800@600.
+self extent: 50@200.
 "self position: 400@400."
 0 to: 9 do:[:x| actualDay:= NDDayButton new.
 actualDay text: (Date today + x days) asString.
