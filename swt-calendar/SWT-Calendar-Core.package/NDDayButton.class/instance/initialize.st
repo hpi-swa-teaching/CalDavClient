@@ -2,6 +2,5 @@ initialize-release
 initialize
 
 super initialize.
-self text: 'Connect to Google Account'.
-self color: Color blue.
+self color: Color green.
 self when: #clicked send: #openDialog to: self. 

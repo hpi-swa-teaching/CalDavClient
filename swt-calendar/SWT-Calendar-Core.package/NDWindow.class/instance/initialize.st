@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-
+|actualDay|
 super initialize.
 "self withPadding."
 self withLayout.
@@ -12,6 +12,7 @@ self color: Color white;
 
 self extent: 800@600.
 "self position: 400@400."
-
+0 to: 9 do:[:x| actualDay:= NDDayButton new.
+actualDay text: (Date today + x days) asString.
+self add: actualDay withLayout.].
 self add: NDGoogleButton new withLayout.
-self add: NDDayList new withLayout.
