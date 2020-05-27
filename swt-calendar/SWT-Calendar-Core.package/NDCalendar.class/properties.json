@@ -3,12 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GoogleClient" ],
-	"commentStamp" : "simon 5/24/2020 11:24",
+		"Calendar",
+		"GoogleCalDAVClient" ],
+	"commentStamp" : "simon 5/24/2020 10:52",
 	"instvars" : [
-		"googleClient" ],
-	"name" : "NDGoogleButton",
+		 ],
+	"name" : "NDCalendar",
 	"pools" : [
 		 ],
-	"super" : "PHButton",
+	"super" : "Object",
 	"type" : "normal" }

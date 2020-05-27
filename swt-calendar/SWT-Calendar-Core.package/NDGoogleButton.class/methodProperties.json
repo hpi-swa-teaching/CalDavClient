@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"GoogleClient" : "simon 5/27/2020 15:09" },
 	"instance" : {
+		"assumeSigningIn:" : "simon 5/26/2020 10:41",
 		"initialize" : "JS 5/20/2020 17:28",
-		"openDialog" : "JS 5/20/2020 17:37" } }
+		"openDialog" : "simon 5/24/2020 12:29",
+		"signIn" : "simon 5/27/2020 15:11" } }
