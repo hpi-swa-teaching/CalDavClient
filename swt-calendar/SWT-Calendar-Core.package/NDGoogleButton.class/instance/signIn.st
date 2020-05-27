@@ -18,6 +18,7 @@ signIn
 			GoogleClient 
 				accessToken: (resultData at: #access_token);
 				refreshToken: (resultData at: #refresh_token).
-			self label text: 'Anmeldung erfolgreich'
-			] on: Error do: [self label text: 'Anmeldung war nicht erfolgreich'].];
-		ifRejected: [label text: 'Fehler: Konnte Verbindung nicht herstellen.']
+			UIManager default inform: 'Connection to Google was successful'.
+			self label text: 'Already connected to Google'
+			] on: Error do: [UIManager default inform: 'Signing in was unsucessful'].];
+		ifRejected: [UIManager default inform: 'Signing in was interrupted']
