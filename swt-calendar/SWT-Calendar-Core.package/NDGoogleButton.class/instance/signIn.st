@@ -1,7 +1,7 @@
 as yet unclassified
 signIn
 		| authorizationData dialog  user_code url urlButton|
-	authorizationData := googleClient getAuthorizationData.
+	authorizationData := GoogleClient getAuthorizationData.
 	url := authorizationData at: #verification_url.
 	user_code :=  authorizationData at: #user_code.
 	urlButton := PHButton label: 'Copy URL'.
@@ -13,9 +13,9 @@ signIn
 	
 	(dialog openFor: self)
 		then: [|resultData|
-			[resultData := googleClient getTokens: authorizationData.
+			[resultData := GoogleClient getTokens: authorizationData.
 	
-			googleClient 
+			GoogleClient 
 				accessToken: (resultData at: #access_token);
 				refreshToken: (resultData at: #refresh_token).
 			self label text: 'Anmeldung erfolgreich'
