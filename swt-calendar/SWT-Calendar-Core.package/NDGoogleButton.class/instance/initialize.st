@@ -2,6 +2,7 @@ initialize-release
 initialize
 
 super initialize.
+self class GoogleClient.
 self text: 'Already connected to Google'.
 (GoogleClient accessToken isNil or: [GoogleClient refreshToken isNil])
 		ifTrue: [self text: 'Connect to Google'.].
