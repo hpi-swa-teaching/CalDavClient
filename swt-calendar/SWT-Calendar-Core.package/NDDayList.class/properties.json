@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"numberOfDays" ],
 	"name" : "NDDayList",
 	"pools" : [
 		 ],
-	"super" : "PHListGroup",
+	"super" : "OrderedCollection",
 	"type" : "normal" }

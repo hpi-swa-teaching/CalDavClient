@@ -1,4 +1,4 @@
 as yet unclassified
 open
 	
-	^ self new openInWindowLabeled: 'Calendar '
+	^ self new openInWindowLabeled: 'Calendar'
