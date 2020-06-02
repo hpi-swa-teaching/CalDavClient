@@ -1,14 +1,15 @@
 {
-	"category" : "SWT-Calendar-Core",
+	"category" : "SWT-Calendar-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "NDGoogleClient",
+		"numberOfDays",
+		"dList" ],
+	"name" : "NDDayListTests",
 	"pools" : [
 		 ],
-	"super" : "GoogleCalDAVClient",
+	"super" : "TestCase",
 	"type" : "normal" }
