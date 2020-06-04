@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dList" ],
-	"name" : "NDDayListTests",
+		"window" ],
+	"name" : "NDWindowTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "NDTestCases",
 	"type" : "normal" }

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"DList" ],
+		 ],
 	"name" : "NameOfSubclass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "NDTestCases",
 	"type" : "normal" }

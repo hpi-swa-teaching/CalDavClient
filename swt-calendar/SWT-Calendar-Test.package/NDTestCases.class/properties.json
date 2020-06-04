@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dList" ],
-	"name" : "NDDayListTests",
+		 ],
+	"name" : "NDTestCases",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNumberOfDays
 
-self assert: dList numberOfDays equals: 10.
+	self assert: dList numberOfDays equals: 10.
