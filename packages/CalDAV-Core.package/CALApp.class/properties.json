@@ -1,0 +1,19 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kk 5/15/2018 12:13",
+	"instvars" : [
+		"calendars",
+		"calendarIndex",
+		"monthPanel",
+		"weekPanel",
+		"calendarsToShow",
+		"selectionFileName" ],
+	"name" : "CALApp",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

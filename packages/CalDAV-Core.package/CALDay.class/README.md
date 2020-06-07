@@ -1,0 +1,1 @@
+I am a model for one day in the month view, with number button, + button and event list for that day

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"responseContent" : "dm 7/23/2018 18:00",
+		"sabreDAVClient" : "dm 7/19/2018 15:54",
+		"sabreDAVClient:" : "dm 7/19/2018 15:54",
+		"setUp" : "jz 7/25/2018 15:23",
+		"testAccessors" : "dm 7/19/2018 15:56",
+		"testAddAuthorizationInformation" : "dm 7/19/2018 16:04",
+		"testParseEventsInformation" : "dm 7/23/2018 18:03" } }

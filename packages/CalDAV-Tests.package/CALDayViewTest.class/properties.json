@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kk 6/21/2018 17:40",
+	"instvars" : [
+		"dayView",
+		"spec" ],
+	"name" : "CALDayViewTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

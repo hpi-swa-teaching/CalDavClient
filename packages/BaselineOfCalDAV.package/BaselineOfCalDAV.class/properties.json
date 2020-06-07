@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCalDAV",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCalDAV",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getDescription" : "JS 5/20/2020 19:06",
+		"getDescription:" : "JS 5/20/2020 19:06",
+		"getEndTime" : "JS 5/20/2020 19:04",
+		"getStartTime" : "JS 5/20/2020 19:05",
+		"initialize" : "JS 5/20/2020 21:07",
+		"setDescription:" : "JS 5/20/2020 19:07",
+		"setEndTime:" : "JS 5/20/2020 19:04",
+		"setStartTime:" : "JS 5/20/2020 19:05" } }

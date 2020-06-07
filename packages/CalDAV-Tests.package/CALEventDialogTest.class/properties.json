@@ -1,0 +1,17 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kk 6/21/2018 17:41",
+	"instvars" : [
+		"addDialog",
+		"editDialog",
+		"eventDialog",
+		"app" ],
+	"name" : "CALEventDialogTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I am a new window displaying an event

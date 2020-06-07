@@ -1,0 +1,1 @@
+I am a special calendar with a subscription url to a remote ICS calendar file

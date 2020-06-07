@@ -1,0 +1,1 @@
+I am an event dialog that only shows infos

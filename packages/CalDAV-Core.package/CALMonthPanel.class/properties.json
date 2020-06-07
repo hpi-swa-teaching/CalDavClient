@@ -1,0 +1,17 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jz 7/25/2018 11:35",
+	"instvars" : [
+		"fields",
+		"days",
+		"firstOfMonth",
+		"parent" ],
+	"name" : "CALMonthPanel",
+	"pools" : [
+		 ],
+	"super" : "CALPanel",
+	"type" : "normal" }
