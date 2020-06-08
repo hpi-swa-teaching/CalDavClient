@@ -8,6 +8,7 @@ openDialog
 	eventsCollection := Collection new.
 	eventsData := ICEvent new.
 	startTime := String new.
+	Transcript clear.
 	Transcript show: 'Appointments for ', self text, ': ';cr;cr.
 	googleAppointments do:[:each |
 		eventsDict := each.
