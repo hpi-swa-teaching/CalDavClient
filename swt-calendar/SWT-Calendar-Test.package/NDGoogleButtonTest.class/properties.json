@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"googleClientButton" ],
+	"name" : "NDGoogleButtonTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
