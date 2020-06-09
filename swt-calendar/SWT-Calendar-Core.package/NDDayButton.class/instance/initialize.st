@@ -4,8 +4,8 @@ initialize
 super initialize.
 self color: Color grape.
 self size: 100@100.
-self textLabel: 'PneisVagniaPneis'.
-"self attach: (PHPopover new add: ((PHLabel text: 'Moop')
+"self textLabel: 'BesterTestText ever'.
+self attach: (PHPopover new add: ((PHLabel text: 'Moop')
 				minSize: 300 asPoint))."
 self when: #clicked send: #openDialog to: self.
-Transcript show: self textLabel.
+"Transcript show: self textLabel."
