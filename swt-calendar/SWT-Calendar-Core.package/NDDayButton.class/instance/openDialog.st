@@ -2,7 +2,6 @@ as yet unclassified
 openDialog
 	|googleAppointments eventsDict eventsICCal eventsCollection eventsData startTime|
 	 googleAppointments := NDFetchAppointments fetchFromGoogle.
-	
 	eventsDict := Dictionary new.	
 	eventsICCal := ICCalendar new.
 	eventsCollection := Collection new.

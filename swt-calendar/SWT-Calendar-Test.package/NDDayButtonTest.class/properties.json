@@ -1,14 +1,14 @@
 {
-	"category" : "SWT-Calendar-Core",
+	"category" : "SWT-Calendar-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textLabel" ],
-	"name" : "NDDayButton",
+		"dayButton" ],
+	"name" : "NDDayButtonTest",
 	"pools" : [
 		 ],
-	"super" : "PHButton",
+	"super" : "TestCase",
 	"type" : "normal" }
