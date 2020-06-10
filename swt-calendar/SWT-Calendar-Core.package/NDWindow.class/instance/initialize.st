@@ -16,5 +16,7 @@ self extent: 50@200.
 "self position: 400@400."
 
 "fügt eine 10-tätige Liste ein"
-self addAll: NDDayList new initialize.
+dayList:=NDDayList new initialize.
+self addAll: dayList.
+dayList window: self.
 self add: NDGoogleButton new withLayout.
