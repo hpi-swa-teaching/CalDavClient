@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createDaysCollection:" : "H.M. 6/10/2020 17:06",
+		"createDaysCollection:" : "Neo 6/11/2020 13:12",
 		"initialize" : "Neo 6/8/2020 01:11",
+		"label" : "Neo 6/11/2020 12:17",
+		"label:" : "Neo 6/11/2020 12:17",
 		"listOfDays" : "H.M. 6/10/2020 09:34",
-		"listOfDays:" : "H.M. 6/10/2020 09:34",
+		"listOfDays:" : "Neo 6/11/2020 12:06",
 		"numberOfDays" : "H.M. 6/2/2020 19:17",
 		"numberOfDays:" : "H.M. 6/2/2020 19:15",
 		"window" : "H.M. 6/10/2020 11:21",

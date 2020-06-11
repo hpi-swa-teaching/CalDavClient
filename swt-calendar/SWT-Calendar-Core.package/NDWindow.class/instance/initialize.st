@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-
+ | buttonToRefresh |
 super initialize.
 "self withPadding."
 self withLayout.
@@ -20,3 +20,8 @@ dayList:=NDDayList new initialize.
 self addAll: dayList.
 dayList window: self.
 self add: NDGoogleButton new withLayout.
+buttonToRefresh := PHButton new.
+buttonToRefresh text: 'Refresh Appointments'.
+buttonToRefresh color: Color red.
+"buttonToRefresh when: #clicked send: #openDialog to: NDDayButton."
+self add: buttonToRefresh withPadding.

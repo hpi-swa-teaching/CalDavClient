@@ -3,10 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"DayList" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"textLabel" ],
+		"textLabel",
+		"date",
+		"eventLabel" ],
 	"name" : "NDDayButton",
 	"pools" : [
 		 ],
