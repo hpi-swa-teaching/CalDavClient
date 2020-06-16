@@ -11,7 +11,6 @@ openCalendarDialog
 	
 	dialog content: (PHLabel new text: 'Date:'; position: 0@0).
 	dialog content: (cal).
-	"dialog content: (cal date: '15 June 2009')."
 	dialog content: (PHLabel new text: self selectedCalDate).
 	dialog content: (PHButton new withPadding; text: 'OK').
 

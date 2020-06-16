@@ -2,11 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getDescription" : "JS 5/20/2020 19:06",
-		"getDescription:" : "JS 5/20/2020 19:06",
-		"getEndTime" : "JS 5/20/2020 19:04",
-		"getStartTime" : "JS 5/20/2020 19:05",
-		"initialize" : "JS 5/20/2020 21:07",
-		"setDescription:" : "JS 5/20/2020 19:07",
-		"setEndTime:" : "JS 5/20/2020 19:04",
-		"setStartTime:" : "JS 5/20/2020 19:05" } }
+		"description" : "JS 6/16/2020 22:33",
+		"description:" : "JS 6/16/2020 22:33",
+		"endTime" : "JS 6/16/2020 22:33",
+		"endTime:" : "JS 6/16/2020 22:33",
+		"initialize" : "JS 6/16/2020 22:30",
+		"place" : "JS 6/16/2020 22:33",
+		"place:" : "JS 6/16/2020 22:33",
+		"startTime" : "JS 6/16/2020 22:33",
+		"startTime:" : "JS 6/16/2020 22:33",
+		"tags" : "JS 6/16/2020 22:33",
+		"tags:" : "JS 6/16/2020 22:33",
+		"title" : "JS 6/16/2020 22:32",
+		"title:" : "JS 6/16/2020 22:32" } }
