@@ -20,8 +20,10 @@ dayList:=NDDayList new initialize.
 self addAll: dayList.
 dayList window: self.
 self add: NDGoogleButton new withLayout.
+self add: NDAppointmentButton new withLayout.
 buttonToRefresh := PHButton new.
 buttonToRefresh text: 'Refresh Appointments'.
 buttonToRefresh color: Color red.
 "buttonToRefresh when: #clicked send: #openDialog to: NDDayButton."
+
 self add: buttonToRefresh withPadding.

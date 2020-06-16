@@ -3,17 +3,16 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Date",
+		"EndTime",
+		"Label",
+		"StartTime",
+		"Title" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"startTime",
-		"endTime",
-		"description",
-		"place",
-		"tags" ],
-	"name" : "NDAppointment",
+		 ],
+	"name" : "NDMockData",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "Object",
 	"type" : "normal" }

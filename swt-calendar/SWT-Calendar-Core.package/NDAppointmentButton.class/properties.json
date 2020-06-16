@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"startTime",
-		"endTime",
-		"description",
-		"place",
-		"tags" ],
-	"name" : "NDAppointment",
+		"selectedCalDate" ],
+	"name" : "NDAppointmentButton",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "PHButton",
 	"type" : "normal" }
