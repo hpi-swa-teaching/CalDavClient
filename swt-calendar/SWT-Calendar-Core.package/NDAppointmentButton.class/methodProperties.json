@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"calDialog" : "H.M. 6/17/2020 11:43",
+		"calDialog:" : "H.M. 6/17/2020 11:43",
 		"initialize" : "JS 6/16/2020 11:17",
-		"openCalendarDialog" : "JS 6/16/2020 21:53",
+		"openCalendarDialog" : "H.M. 6/17/2020 12:03",
 		"openDialog" : "JS 6/16/2020 12:08",
 		"selectedCalDate" : "JS 6/16/2020 12:19",
 		"selectedCalDate:" : "JS 6/16/2020 22:36" } }

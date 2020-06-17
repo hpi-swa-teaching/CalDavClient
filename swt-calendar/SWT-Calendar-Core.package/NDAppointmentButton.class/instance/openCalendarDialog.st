@@ -1,17 +1,16 @@
 as yet unclassified
 openCalendarDialog
 
-	| dialog cal |
-	cal := CalendarMorph new.
+	| cal |
+	cal := NDCalendarMorph new.
+	cal appointmentButton: self.
+	self selectedCalDate: (Date today) asString.
 	cal position: 300@0.
-	self selectedCalDate: (cal date) asString.
 	
-	dialog := PHDialog new.
-	dialog title: 'Choose Date...'.
+	calDialog := PHDialog new.
+	calDialog title: 'Choose Date...'.
 	
-	dialog content: (PHLabel new text: 'Date:'; position: 0@0).
-	dialog content: (cal).
-	dialog content: (PHLabel new text: self selectedCalDate).
-	dialog content: (PHButton new withPadding; text: 'OK').
+	calDialog content: (cal).
+	calDialog content: (PHButton new withPadding; text: 'OK').
 
-	dialog openFor: self.
+	calDialog openFor: self.

@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Text" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedCalDate",
-		"calDialog" ],
-	"name" : "NDAppointmentButton",
+		 ],
+	"name" : "NDNewAppointmentButton",
 	"pools" : [
 		 ],
 	"super" : "PHButton",

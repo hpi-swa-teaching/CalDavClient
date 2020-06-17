@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedCalDate",
-		"calDialog" ],
-	"name" : "NDAppointmentButton",
+		"appointmentButton" ],
+	"name" : "NDCalendarMorph",
 	"pools" : [
 		 ],
-	"super" : "PHButton",
+	"super" : "CalendarMorph",
 	"type" : "normal" }
