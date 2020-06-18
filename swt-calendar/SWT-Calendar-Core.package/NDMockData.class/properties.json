@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"AppointmentTitle",
 		"Date",
 		"EndTime",
 		"Label",
-		"StartTime",
-		"Title" ],
+		"StartTime" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

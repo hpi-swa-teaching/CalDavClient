@@ -9,9 +9,12 @@
 		"appointmentTitle",
 		"startTime",
 		"endTime",
-		"date" ],
-	"name" : "NDAppointment",
+		"selectedCalDate",
+		"titleArea",
+		"startTimeArea",
+		"endTimeArea" ],
+	"name" : "NDAppointmentDialog",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "PHDialog",
 	"type" : "normal" }
