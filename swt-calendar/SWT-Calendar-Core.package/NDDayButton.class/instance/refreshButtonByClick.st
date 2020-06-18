@@ -1,5 +1,5 @@
 as yet unclassified
-openDialog
+refreshButtonByClick
 	| googleAppointments eventNames|
 	googleAppointments := NDFetchAppointments fetchFromGoogle.
 	googleAppointments := googleAppointments collect: [:each | (each at: #calendarData) events first].

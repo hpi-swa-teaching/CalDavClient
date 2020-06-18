@@ -1,4 +1,4 @@
 as yet unclassified
-openDialog 
+openDialog
 	(GoogleClient accessToken isNil or: [GoogleClient refreshToken isNil])
 		ifTrue: [self signIn]

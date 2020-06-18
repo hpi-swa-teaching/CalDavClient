@@ -8,7 +8,7 @@
 	"instvars" : [
 		"numberOfDays",
 		"listOfDays",
-		"label" ],
+		"window" ],
 	"name" : "NDDayList",
 	"pools" : [
 		 ],

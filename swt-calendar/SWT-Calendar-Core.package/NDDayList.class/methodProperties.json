@@ -2,13 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createDaysCollection:" : "Neo 6/11/2020 13:12",
+		"createDaysCollection:" : "Neo 6/18/2020 12:57",
 		"initialize" : "Neo 6/8/2020 01:11",
-		"label" : "Neo 6/11/2020 12:17",
-		"label:" : "Neo 6/11/2020 12:17",
-		"listOfDays" : "H.M. 6/10/2020 09:34",
-		"listOfDays:" : "Neo 6/11/2020 12:06",
+		"listOfDays" : "Neo 6/18/2020 12:44",
+		"listOfDays:" : "Neo 6/18/2020 12:44",
 		"numberOfDays" : "H.M. 6/2/2020 19:17",
 		"numberOfDays:" : "H.M. 6/2/2020 19:15",
-		"window" : "H.M. 6/10/2020 11:21",
-		"window:" : "H.M. 6/10/2020 11:21" } }
+		"window" : "Neo 6/18/2020 12:46",
+		"window:" : "Neo 6/18/2020 12:46" } }

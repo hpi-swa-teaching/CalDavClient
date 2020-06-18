@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
- | buttonToRefresh |
+ | buttonToRefresh|
 super initialize.
 "self withPadding."
 self withLayout.
@@ -24,6 +24,5 @@ self add: NDAppointmentButton new withLayout.
 buttonToRefresh := PHButton new.
 buttonToRefresh text: 'Refresh Appointments'.
 buttonToRefresh color: Color red.
-"buttonToRefresh when: #clicked send: #openDialog to: NDDayButton."
-
+buttonToRefresh when: #clicked send: #refreshFetch to: self.
 self add: buttonToRefresh withPadding.

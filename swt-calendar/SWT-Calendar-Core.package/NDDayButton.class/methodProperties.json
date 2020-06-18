@@ -4,8 +4,7 @@
 		"dayList:" : "H.M. 6/10/2020 16:44" },
 	"instance" : {
 		"date" : "Neo 6/10/2020 10:38",
-		"date:" : "Neo 6/10/2020 18:47",
-		"initialize" : "Neo 6/10/2020 19:41",
-		"openDialog" : "Neo 6/10/2020 20:09",
-		"textLabel" : "Neo 6/10/2020 09:50",
-		"textLabel:" : "JS 6/10/2020 20:48" } }
+		"date:" : "Neo 6/11/2020 16:54",
+		"eventLabel:" : "Neo 6/18/2020 11:53",
+		"initialize" : "Neo 6/18/2020 12:40",
+		"refreshButtonByClick" : "Neo 6/18/2020 12:39" } }

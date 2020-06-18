@@ -1,4 +1,0 @@
-initialize-release
-textLabel
-
- ^ textLabel
