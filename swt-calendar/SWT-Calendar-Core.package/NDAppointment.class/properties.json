@@ -6,14 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
+		"appointmentTitle",
 		"startTime",
 		"endTime",
-		"description",
-		"place",
-		"tags" ],
+		"date" ],
 	"name" : "NDAppointment",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Dictionary",
 	"type" : "normal" }

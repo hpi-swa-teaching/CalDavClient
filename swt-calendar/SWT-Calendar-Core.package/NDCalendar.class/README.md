@@ -1,1 +1,0 @@
-This class will be used for saving and interacting with the calendar. It will be based on CalDavCalendar

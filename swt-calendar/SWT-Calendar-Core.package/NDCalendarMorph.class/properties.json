@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"appointmentButton" ],
+	"name" : "NDCalendarMorph",
+	"pools" : [
+		 ],
+	"super" : "CalendarMorph",
+	"type" : "normal" }

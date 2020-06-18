@@ -1,0 +1,15 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedCalDate",
+		"calDialog" ],
+	"name" : "NDAppointmentButton",
+	"pools" : [
+		 ],
+	"super" : "PHButton",
+	"type" : "normal" }

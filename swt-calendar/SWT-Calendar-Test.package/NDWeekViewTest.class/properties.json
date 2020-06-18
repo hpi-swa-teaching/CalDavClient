@@ -1,0 +1,15 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"weeklyList",
+		"dayList" ],
+	"name" : "NDWeekViewTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

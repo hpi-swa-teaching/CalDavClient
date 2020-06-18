@@ -1,0 +1,20 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"appointmentTitle",
+		"startTime",
+		"endTime",
+		"selectedCalDate",
+		"titleArea",
+		"startTimeArea",
+		"endTimeArea" ],
+	"name" : "NDAppointmentDialog",
+	"pools" : [
+		 ],
+	"super" : "PHDialog",
+	"type" : "normal" }

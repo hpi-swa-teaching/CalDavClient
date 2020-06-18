@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"numberOfDays" ],
+		"numberOfDays",
+		"listOfDays",
+		"window" ],
 	"name" : "NDDayList",
 	"pools" : [
 		 ],

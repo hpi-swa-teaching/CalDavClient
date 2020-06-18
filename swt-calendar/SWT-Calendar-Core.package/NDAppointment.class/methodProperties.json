@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getDescription" : "JS 5/20/2020 19:06",
-		"getDescription:" : "JS 5/20/2020 19:06",
-		"getEndTime" : "JS 5/20/2020 19:04",
-		"getStartTime" : "JS 5/20/2020 19:05",
+		"appointmentTitle" : "JS 6/18/2020 11:12",
+		"appointmentTitle:" : "JS 6/18/2020 11:12",
+		"date" : "JS 6/18/2020 11:13",
+		"date:" : "JS 6/18/2020 11:13",
+		"endTime" : "JS 6/18/2020 11:12",
+		"endTime:" : "JS 6/18/2020 11:12",
 		"initialize" : "JS 5/20/2020 21:07",
-		"setDescription:" : "JS 5/20/2020 19:07",
-		"setEndTime:" : "JS 5/20/2020 19:04",
-		"setStartTime:" : "JS 5/20/2020 19:05" } }
+		"startTime" : "JS 6/18/2020 11:12",
+		"startTime:" : "JS 6/18/2020 11:12" } }

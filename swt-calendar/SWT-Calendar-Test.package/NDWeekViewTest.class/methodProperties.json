@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"dayCheck:" : "nb 6/18/2020 15:50",
+		"setUp" : "nb 6/18/2020 15:00",
+		"testLastDate" : "nb 6/18/2020 15:55",
+		"testLastDatePlusOne" : "nb 6/18/2020 15:56",
+		"testTodaysDate" : "nb 6/18/2020 15:54",
+		"testTomorrowsDate" : "nb 6/18/2020 15:50",
+		"testYesterdaysDate" : "nb 6/18/2020 16:00" } }
