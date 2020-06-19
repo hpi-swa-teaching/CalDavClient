@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"appointmentDictionary" : "H.M. 6/18/2020 13:13",
 		"open" : "JS 6/11/2020 17:26" },
 	"instance" : {
 		"dayList" : "H.M. 6/10/2020 09:40",
 		"dayList:" : "H.M. 6/10/2020 09:40",
-		"initialize" : "Neo 6/18/2020 16:03",
+		"initialize" : "Neo 6/18/2020 12:54",
 		"refreshFetch" : "Neo 6/18/2020 12:35" } }

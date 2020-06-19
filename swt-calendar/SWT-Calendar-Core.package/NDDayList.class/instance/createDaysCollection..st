@@ -5,7 +5,6 @@ createDaysCollection: aNumber
 	1 to: aNumber do: [:x | 
 		dayButton := NDDayButton new.
 		NDDayButton dayList: self.
-		listOfDays := PHListGroupItem label: (Date today + x days - 1 days)weekday, ' ' , (Date today + x days - 1 days).
+		listOfDays := PHListGroupItem label: (Date today + x days - 1 days)weekday.", ' ' , (Date today + x days - 1 days)."
 		listOfDays add: (dayButton date:  Date today + x days - 1 days).
-		listOfDays vertical: false.
 		self add: listOfDays.].

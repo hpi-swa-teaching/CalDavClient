@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"weeklyList",
 		"dayList" ],
 	"name" : "NDWeekViewTest",
 	"pools" : [
