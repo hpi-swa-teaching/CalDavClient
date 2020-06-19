@@ -13,8 +13,6 @@ openDateDialog
 	dialog content: (PHLabel new text: 'Date:'; position: 0@0).
 	
 	dialog content: (cal).
-
-	dialog content: (PHLabel new text: (selectedCalDate asString)).
 	
 	dialog content: (PHButton new withPadding; text: 'OK'; when: #clicked send: #accept: to: dialog with: nil).
 	

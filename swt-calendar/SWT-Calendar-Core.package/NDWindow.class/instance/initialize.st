@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
- | buttonToRefresh|
+|fetchFromGoogleButton|
 super initialize.
 "self withPadding."
 self withLayout.
@@ -21,8 +21,6 @@ self addAll: dayList.
 dayList window: self.
 self add: NDGoogleButton new withLayout.
 self add: NDAppointmentButton new withLayout.
-buttonToRefresh := PHButton new.
-buttonToRefresh text: 'Refresh Appointments'.
-buttonToRefresh color: Color red.
-buttonToRefresh when: #clicked send: #refreshFetch to: self.
-self add: buttonToRefresh withPadding.
+fetchFromGoogleButton := NDFetchFromGoogleButton new withLayout.
+fetchFromGoogleButton dayList: dayList.
+self add: fetchFromGoogleButton.

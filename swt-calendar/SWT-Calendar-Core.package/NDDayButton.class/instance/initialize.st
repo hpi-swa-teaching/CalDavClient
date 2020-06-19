@@ -3,6 +3,7 @@ initialize
 
 super initialize.
 self date: Date today.
+self text: 'Show Events'.
 eventLabel := (PHLabel new)
 				minSize: 300 asPoint.
 self color: Color grape.
