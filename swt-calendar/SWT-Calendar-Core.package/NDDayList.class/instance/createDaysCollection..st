@@ -1,6 +1,8 @@
 as yet unclassified
 createDaysCollection: aNumber
-	| dayButton|
+
+	| dayButton |
+	
 	self listOfDays: PHListGroupItem new.
 	1 to: aNumber do: [:x | 
 		dayButton := NDDayButton new.

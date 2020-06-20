@@ -1,3 +1,0 @@
-accessing
-endTimeArea
-	^ endTimeArea
