@@ -24,3 +24,4 @@ self add: NDAppointmentButton new withLayout.
 fetchFromGoogleButton := NDFetchFromGoogleButton new withLayout.
 fetchFromGoogleButton dayList: dayList.
 self add: fetchFromGoogleButton.
+"Transcript show: AppointmentDictionary."
