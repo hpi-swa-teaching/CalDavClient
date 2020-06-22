@@ -1,14 +1,15 @@
 {
-	"category" : "SWT-Calendar-Core",
+	"category" : "SWT-Calendar-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "NDAppointmentButton",
+		"weeklyList",
+		"dayList" ],
+	"name" : "NDWeekViewTest",
 	"pools" : [
 		 ],
-	"super" : "PHButton",
+	"super" : "TestCase",
 	"type" : "normal" }

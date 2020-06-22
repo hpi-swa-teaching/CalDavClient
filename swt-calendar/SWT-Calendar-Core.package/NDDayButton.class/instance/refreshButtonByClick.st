@@ -1,6 +1,7 @@
 as yet unclassified
 refreshButtonByClick
-	| googleAppointments eventNames|
+
+	| googleAppointments eventNames |
 	googleAppointments := NDFetchAppointments fetchFromGoogle.
 	googleAppointments := googleAppointments collect: [:each | (each at: #calendarData) events first].
 	googleAppointments := googleAppointments select: [:each | 

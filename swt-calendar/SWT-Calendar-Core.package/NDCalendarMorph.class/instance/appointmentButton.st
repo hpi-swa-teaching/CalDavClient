@@ -1,4 +1,3 @@
 accessing
 appointmentButton
-
 	^ appointmentButton

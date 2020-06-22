@@ -10,11 +10,7 @@
 		"StartTime" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"appointmentTitle",
-		"date",
-		"endTime",
-		"label",
-		"startTime" ],
+		 ],
 	"name" : "NDMockData",
 	"pools" : [
 		 ],

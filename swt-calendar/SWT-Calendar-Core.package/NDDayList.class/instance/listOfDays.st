@@ -1,4 +1,3 @@
 accessing
 listOfDays
-
 	^ listOfDays

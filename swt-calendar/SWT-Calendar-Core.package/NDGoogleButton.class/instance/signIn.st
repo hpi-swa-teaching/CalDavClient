@@ -1,6 +1,8 @@
 as yet unclassified
 signIn
-		| authorizationData dialog  user_code url urlButton|
+
+	| authorizationData dialog user_code url urlButton |
+	
 	authorizationData := GoogleClient getAuthorizationData.
 	url := authorizationData at: #verification_url.
 	user_code :=  authorizationData at: #user_code.

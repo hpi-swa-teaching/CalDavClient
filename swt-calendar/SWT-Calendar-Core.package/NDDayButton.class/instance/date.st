@@ -1,4 +1,3 @@
 initialize-release
 date
-
 	^date

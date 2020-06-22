@@ -1,4 +1,3 @@
 accessing
 numberOfDays
-
 	^ numberOfDays
