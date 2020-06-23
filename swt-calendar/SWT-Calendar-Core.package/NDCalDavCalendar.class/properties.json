@@ -1,0 +1,15 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CalendarURL",
+		"NDCal" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "NDCalDavCalendar",
+	"pools" : [
+		 ],
+	"super" : "CalDavCalendar",
+	"type" : "normal" }

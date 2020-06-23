@@ -3,6 +3,7 @@ refreshFetch
 	| googleAppointments collectedEvents eventNames dayList currentButton intermediateStep|
 		
 		googleAppointments := NDFetchAppointments fetchFromGoogle.
+		NDCalDavCalendar nDCal: (NDCalDavCalendar new updateOrCreateEventsFrom: googleAppointments).
 		googleAppointments := googleAppointments collect: [:each | (each at: #calendarData) events first].
 		dayList := self dayList.
 		dayList do: [:outerEach |
