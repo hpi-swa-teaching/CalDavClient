@@ -3,7 +3,7 @@ saveData
 
 	| mock client cal|
 	cal:=CalDavCalendar new initialize.
-	cal url: GoogleCalDAVClient calendarUrl.
+	cal url: GoogleCalDAVClient calendarURL.
 	"mock := ICEvent new."
 	mock:=cal newEvent.
 	mock summary: self titleArea textArea text.

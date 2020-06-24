@@ -4,5 +4,5 @@ initialize
 	super initialize.
 	self dayList: ''.
 	self text: 'Refresh Appointments'.
-	self color: Color red.
+	self color: Color green dansDarker dansDarker darker.
 	self when: #clicked send: #refreshFetch to: self.
