@@ -1,6 +1,6 @@
 as yet unclassified
 events: anOrderedCollection
-	|delButton showButton eventTitles|
+	|delButton eventItem eventTitles|
 	events := anOrderedCollection.
 	self submorphs size > 1
 				ifTrue:[ 
@@ -8,17 +8,17 @@ events: anOrderedCollection
 						self submorphs last abandon].
 					].
 	anOrderedCollection isEmpty
-		ifFalse: [
-			delButton := PHButton new.
-			showButton := NDDayButton new.
-			delButton text: 'delete Events'.
-			delButton color: Color red darker.
-			showButton date: self date.
-			eventTitles := events collect: #summary.
-			showButton eventLabel: (eventTitles joinSeparatedBy: '
-').
-			self add: showButton.
-			self add: delButton.]
+		ifFalse:[			
+			events do: [:each|
+				eventItem := PHListGroupItem new.
+				eventTitles := PHLabel new;  text: each summary asString.
+				eventTitles minSize: 100@10.
+				delButton := PHButton new; text: 'delete'.
+				delButton color: Color red darker.
+				eventItem add: eventTitles.
+				eventItem add: delButton.
+				self add: eventItem.
+				delButton when: #clicked send: #deleteEventDialog to: self].]
 		ifTrue: [
 			| noEventsLabel |
 			noEventsLabel := PHLabel new.
