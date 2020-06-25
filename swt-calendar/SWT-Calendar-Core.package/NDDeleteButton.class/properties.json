@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icEvent" ],
+	"name" : "NDDeleteButton",
+	"pools" : [
+		 ],
+	"super" : "PHButton",
+	"type" : "normal" }
