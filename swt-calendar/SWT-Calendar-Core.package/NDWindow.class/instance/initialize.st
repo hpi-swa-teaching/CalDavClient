@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-|fetchFromGoogleButton|
+|fetchFromGoogleButton newAppointmentButton|
 super initialize.
 "self withPadding."
 self withLayout.
@@ -20,7 +20,9 @@ dayList:=NDDayListCreator new initialize.
 self addAll: dayList.
 dayList window: self.
 self add: NDGoogleButton new withLayout.
-self add: NDAppointmentButton new withLayout.
+newAppointmentButton := NDAppointmentButton new withLayout.
+newAppointmentButton dayList: dayList.
+self add: newAppointmentButton.
 fetchFromGoogleButton := NDFetchFromGoogleButton new withLayout.
 fetchFromGoogleButton dayList: dayList.
 self add: fetchFromGoogleButton.

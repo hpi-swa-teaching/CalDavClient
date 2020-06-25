@@ -19,15 +19,16 @@ refreshFetch
 			waitDialog abandon.
 			googleAppointments := NDFetchAppointments fetchFromGoogle.].
 
+		NDCalDavCalendar nDCal: nil.
 		NDCalDavCalendar nDCal: (NDCalDavCalendar new updateOrCreateEventsFrom: googleAppointments).
-		googleAppointments := googleAppointments collect: [:each | (each at: #calendarData) events first].
+		googleAppointments := NDCalDavCalendar nDCal eventsDictionary asOrderedCollection. 
 		dayList := self dayList.
 		dayList do: [:outerEach |
 					currentButton := outerEach.
 					intermediateStep := currentButton submorphs.
 					currentButton := intermediateStep last.
 					collectedEvents := googleAppointments select: [:innerEach | 
-						innerEach start asDate asString = outerEach date asString]. 
+						(innerEach serverData) start asDate asString = outerEach date asString]. 
 					"eventNames := collectedEvents collect: #summary. 
 					currentButton eventLabel: (eventNames joinSeparatedBy: '.
 ')."

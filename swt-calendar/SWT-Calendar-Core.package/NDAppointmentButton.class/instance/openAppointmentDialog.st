@@ -1,3 +1,6 @@
 as yet unclassified
 openAppointmentDialog
- 	^ NDAppointmentDialog new openInHand.
+	|dialog|
+	dialog := NDAppointmentDialog new.
+	dialog dayList: dayList.
+	dialog openInHand.

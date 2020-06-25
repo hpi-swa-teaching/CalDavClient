@@ -12,7 +12,8 @@
 		"selectedCalDate",
 		"titleArea",
 		"startTimeArea",
-		"endTimeArea" ],
+		"endTimeArea",
+		"dayList" ],
 	"name" : "NDAppointmentDialog",
 	"pools" : [
 		 ],

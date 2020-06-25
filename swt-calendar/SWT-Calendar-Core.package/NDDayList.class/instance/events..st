@@ -12,14 +12,15 @@ events: anOrderedCollection
 			|eventItem|			
 			events do: [:each|
 				eventItem := PHListGroupItem new.
-				eventTitles := PHLabel new;  text: each summary asString.
+				eventTitles := PHLabel new;  text: (each serverData) summary asString.
 				eventTitles minSize: 100@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: each.
 				delButton color: Color red darker.
 				eventItem add: eventTitles.
 				eventItem add: delButton.
-				self add: eventItem.]
+				self add: eventItem.
+				delButton listItem: eventItem.]
 		]
 		ifTrue: [
 			| noEventsLabel |

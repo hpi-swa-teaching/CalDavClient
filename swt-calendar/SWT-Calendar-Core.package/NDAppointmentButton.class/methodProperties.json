@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JS 6/18/2020 10:09",
-		"openAppointmentDialog" : "JS 6/20/2020 11:06" } }
+		"dayList" : "Neo 6/25/2020 12:04",
+		"dayList:" : "Neo 6/25/2020 12:04",
+		"initialize" : "Neo 6/25/2020 12:27",
+		"openAppointmentDialog" : "Neo 6/25/2020 12:29" } }
