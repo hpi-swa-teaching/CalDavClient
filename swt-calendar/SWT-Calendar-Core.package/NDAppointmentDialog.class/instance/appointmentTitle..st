@@ -1,3 +1,3 @@
 accessing
-appointmentTitle: anObject
-	appointmentTitle := anObject
+appointmentTitle: aString
+	appointmentTitle := aString

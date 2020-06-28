@@ -1,4 +1,4 @@
 as yet unclassified
-dayList: anObject
+dayList: aDayList
 
-	dayList := anObject
+	dayList := aDayList

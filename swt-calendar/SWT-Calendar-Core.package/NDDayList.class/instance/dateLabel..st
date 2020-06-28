@@ -1,3 +1,3 @@
 accessing
-dateLabel: anObject
-	dateLabel text: anObject asString.
+dateLabel: aDate
+	dateLabel text: aDate asString.

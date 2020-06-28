@@ -1,3 +1,3 @@
 accessing
-numberOfDays: anObject
-	numberOfDays := anObject
+numberOfDays: aNumber
+	numberOfDays := aNumber

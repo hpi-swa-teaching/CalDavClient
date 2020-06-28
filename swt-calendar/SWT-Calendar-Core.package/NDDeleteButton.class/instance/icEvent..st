@@ -1,3 +1,3 @@
 accessing
-icEvent: anObject
-	icEvent := anObject
+icEvent: anEvent
+	icEvent := anEvent

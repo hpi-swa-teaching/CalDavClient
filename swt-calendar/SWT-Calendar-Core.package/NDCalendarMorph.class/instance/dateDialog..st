@@ -1,3 +1,3 @@
 accessing
-dateDialog: anObject
-	dateDialog := anObject
+dateDialog: aDialog
+	dateDialog := aDialog

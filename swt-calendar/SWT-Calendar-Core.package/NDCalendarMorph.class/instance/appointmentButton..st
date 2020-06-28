@@ -1,3 +1,3 @@
 accessing
-appointmentButton: anObject
-	appointmentButton := anObject
+appointmentButton: aButton
+	appointmentButton := aButton

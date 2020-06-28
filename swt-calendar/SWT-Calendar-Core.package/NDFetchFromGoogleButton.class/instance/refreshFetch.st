@@ -29,7 +29,4 @@ refreshFetch
 					currentButton := intermediateStep last.
 					collectedEvents := googleAppointments select: [:innerEach | 
 						(innerEach serverData) start asDate asString = outerEach date asString]. 
-					"eventNames := collectedEvents collect: #summary. 
-					currentButton eventLabel: (eventNames joinSeparatedBy: '.
-')."
 					outerEach events: collectedEvents.].

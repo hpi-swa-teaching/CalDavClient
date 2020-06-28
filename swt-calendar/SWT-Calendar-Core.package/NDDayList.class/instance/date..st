@@ -1,3 +1,3 @@
 accessing
-date: anObject
-	date := anObject
+date: aDate
+	date := aDate

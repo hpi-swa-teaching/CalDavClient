@@ -1,3 +1,3 @@
 accessing
-titleArea: anObject
-	titleArea := anObject
+titleArea: aTextArea
+	titleArea := aTextArea

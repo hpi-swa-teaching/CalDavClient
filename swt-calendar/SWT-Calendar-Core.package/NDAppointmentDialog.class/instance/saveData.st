@@ -4,10 +4,8 @@ saveData
 	| mock client cal|
 	cal:= NDCalDavCalendar nDCal.
 	cal url: GoogleCalDAVClient calendarURL.
-	"mock := ICEvent new."
 	mock:=cal newEvent.
 	mock summary: self titleArea textArea text.
-	"mock url: GoogleCalDAVClient calendarUrl."
 	mock start: Date today.
 	mock end: Date today.
 	client:=NDGoogleButton GoogleClient.

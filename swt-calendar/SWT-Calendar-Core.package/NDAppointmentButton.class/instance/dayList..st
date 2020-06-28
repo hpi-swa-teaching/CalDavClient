@@ -1,3 +1,3 @@
 accessing
-dayList: anObject
-	dayList := anObject
+dayList: aDayList
+	dayList := aDayList
