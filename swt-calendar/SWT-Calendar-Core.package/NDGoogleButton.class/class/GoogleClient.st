@@ -1,3 +1,3 @@
 as yet unclassified
 GoogleClient
-	^ GoogleClient ifNil: [GoogleClient := GoogleCalDAVClient new]
+	^ GoogleClient ifNil: [GoogleClient := NDGoogleCalDavClient new]

@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-|fetchFromGoogleButton newAppointmentButton|
+|fetchFromGoogleButton newAppointmentButton dayListItem buttonListItem|
 super initialize.
 "self withPadding."
 self withLayout.
@@ -15,13 +15,19 @@ self color: Color gray;
 self extent: 50@200.
 "self position: 400@400."
 
+dayListItem := PHListGroupItem new.
+
 "fügt eine 10-tätige Liste ein"
 dayList:=NDDayListCreator new initialize.
 self addAll: dayList.
-self add: NDGoogleButton new withLayout.
+
+buttonListItem := PHListGroupItem new.
+buttonListItem vertical: true.
+buttonListItem add: NDGoogleButton new withLayout.
 newAppointmentButton := NDAppointmentButton new withLayout.
 newAppointmentButton dayList: dayList.
-self add: newAppointmentButton.
+buttonListItem add: newAppointmentButton.
 fetchFromGoogleButton := NDFetchFromGoogleButton new withLayout.
 fetchFromGoogleButton dayList: dayList.
-self add: fetchFromGoogleButton.
+buttonListItem add: fetchFromGoogleButton.
+self add: buttonListItem.

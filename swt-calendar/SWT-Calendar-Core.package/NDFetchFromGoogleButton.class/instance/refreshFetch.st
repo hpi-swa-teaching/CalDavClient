@@ -1,23 +1,9 @@
 as yet unclassified
 refreshFetch
 	| googleAppointments collectedEvents dayList currentButton intermediateStep|
-		
-		[googleAppointments := NDFetchFromGoogleButton fetchFromGoogle.] on: ConnectionClosed do: [
-			|waitDialog|
-			waitDialog := PHDialog new.
-			waitDialog content: (PHLabel new; text: 'Connection was closed, please wait 5 seconds. Calendar will be automatically refreshed.'); openInHand.
-			Transcript show: ''.
-			(Delay forSeconds:5)wait.
-			waitDialog abandon.
-			googleAppointments := NDFetchFromGoogleButton fetchFromGoogle.] 
-		on: CalDavRetryException do: [
-			|waitDialog|
-			waitDialog := PHDialog new.
-			waitDialog content: (PHLabel new; text: 'Rety error, please wait 7 seconds. Calendar will be automatically refreshed.'); openInHand.
-			Transcript show: ''.
-			(Delay forSeconds:7)wait.
-			waitDialog abandon.
-			googleAppointments := NDFetchFromGoogleButton fetchFromGoogle.].
+	
+	self class testConnection.
+	googleAppointments := self class fetchFromGoogle.
 
 		NDCalDavCalendar nDCal: nil.
 		NDCalDavCalendar nDCal: (NDCalDavCalendar new updateOrCreateEventsFrom: googleAppointments).

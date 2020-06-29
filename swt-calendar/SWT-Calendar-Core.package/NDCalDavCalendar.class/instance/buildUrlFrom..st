@@ -1,4 +1,4 @@
 as yet unclassified
 buildUrlFrom: aHref
 	 
-	^(self class calendarURL, '/', aHref, '.ics')asURI.
+	^(NDGoogleCalDavClient calendarURL, '/', aHref, '.ics')asURI.

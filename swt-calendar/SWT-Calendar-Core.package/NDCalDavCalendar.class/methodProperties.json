@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"calendarURL" : "Neo 6/23/2020 21:47",
-		"calendarURL:" : "Neo 6/23/2020 21:48",
 		"nDCal" : "Neo 6/25/2020 00:34",
 		"nDCal:" : "Neo 6/23/2020 21:35" },
 	"instance" : {
-		"buildUrlFrom:" : "Neo 6/23/2020 22:24",
+		"buildUrlFrom:" : "Neo 6/29/2020 01:30",
 		"initialize" : "Neo 6/23/2020 23:19",
 		"updateOrCreateEventsFrom:" : "Neo 6/25/2020 00:12" } }

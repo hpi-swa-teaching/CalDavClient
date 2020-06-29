@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"CalendarURL",
 		"NDCal" ],
 	"commentStamp" : "",
 	"instvars" : [

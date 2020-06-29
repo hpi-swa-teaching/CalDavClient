@@ -1,14 +1,12 @@
 as yet unclassified
 fetchFromGoogle
 
-	|calendarUrl client eventsICalData externalCalendarURL |" eventsDict eventsICCal eventsCollection eventsData|"
+	|calendarUrl client eventsICalData|
 
 	"client must be already set up"
 	client := NDGoogleButton GoogleClient.
 
-	externalCalendarURL := GoogleCalDAVClient new.
-	calendarUrl := externalCalendarURL calendarUrl.
+	calendarUrl := NDGoogleCalDavClient calendarURL.
 	
 	eventsICalData := client fetchEventsICalDataFrom: calendarUrl.
 	^eventsICalData.
-	

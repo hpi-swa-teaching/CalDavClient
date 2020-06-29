@@ -3,14 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"CalendarID",
+		"CalendarURL" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"date",
-		"dateLabel",
-		"events" ],
-	"name" : "NDDayList",
+		 ],
+	"name" : "NDGoogleCalDavClient",
 	"pools" : [
 		 ],
-	"super" : "PHListGroupItem",
+	"super" : "GoogleCalDAVClient",
 	"type" : "normal" }

@@ -1,3 +1,0 @@
-accessing
-calendarURL
-	^ GoogleCalDAVClient calendarURL.
