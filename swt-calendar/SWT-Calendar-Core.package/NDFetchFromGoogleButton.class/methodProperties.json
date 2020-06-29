@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"checkIfEmptyDay:" : "Neo 6/29/2020 21:19",
 		"fetchFromGoogle" : "Neo 6/29/2020 09:03",
 		"testConnection" : "Neo 6/29/2020 09:01" },
 	"instance" : {

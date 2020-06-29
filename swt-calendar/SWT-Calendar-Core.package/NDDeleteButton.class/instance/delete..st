@@ -10,6 +10,7 @@ delete: anDialog
 	client deleteEvent: icEvent.
 	client forceDeleteEvent: icEvent.
 	listItem abandon.
+	"NDFetchFromGoogleButton checkIfEmptyDay: listItem."
 	anDialog abandon.
 	
 	

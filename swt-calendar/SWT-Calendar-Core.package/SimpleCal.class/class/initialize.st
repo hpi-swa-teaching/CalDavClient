@@ -1,4 +1,4 @@
 running
 initialize
 
-	TheWorldMenu registerOpenCommand: {'SimpleCal'. {self. #open}}
+	TheWorldMenu registerOpenCommand: {'Calvid-19'. {self. #open}}

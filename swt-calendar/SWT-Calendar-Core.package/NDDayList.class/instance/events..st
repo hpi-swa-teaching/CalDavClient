@@ -1,6 +1,6 @@
 as yet unclassified
 events: anOrderedCollection
-	|delButton eventTitles|
+
 	events := anOrderedCollection.
 	self submorphs size > 1
 				ifTrue:[ 
@@ -9,10 +9,11 @@ events: anOrderedCollection
 					].
 	anOrderedCollection isEmpty
 		ifFalse:[
-			|eventItem|			
+			|eventItem delButton eventTitles|			
 			events do: [:each|
 				eventItem := PHListGroupItem new.
-				eventTitles := PHLabel new;  text: (each serverData) summary asString.
+				eventTitles := PHLabel new;  text: 'Title: ', (each serverData) summary asString, '
+Start: ', ((each serverData) start) asTime asString.
 				eventTitles minSize: 100@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: each.
@@ -23,7 +24,10 @@ events: anOrderedCollection
 				delButton listItem: eventItem.]
 		]
 		ifTrue: [
-			| noEventsLabel |
+			| noEventsLabel noEventsItem |
+			noEventsItem := PHListGroupItem new.
+			noEventsItem minSize: 100@10.
 			noEventsLabel := PHLabel new.
 			noEventsLabel text: '- There are no events for this day'.
-			self add: noEventsLabel.].
+			self add: noEventsLabel.
+			"self add: noEventsItem."].

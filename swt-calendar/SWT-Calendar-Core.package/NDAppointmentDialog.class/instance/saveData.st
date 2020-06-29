@@ -22,13 +22,21 @@ saveData
 			ifTrue: [
 				|delButton eventTitles eventItem|
 				eventItem := PHListGroupItem new.
-				eventTitles := PHLabel new;  text: (mock serverData) summary asString.
-				eventTitles minSize: 100@10.
+				eventTitles := PHLabel new;  text: 'Title: ', (mock serverData) summary asString, '
+Start: ', ((mock serverData) start) asTime asString.
+				eventTitles minSize: 150@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: mock.
 				delButton color: Color red darker.
 				eventItem add: eventTitles.
 				eventItem add: delButton.
+					each submorphs size > 1
+						ifTrue: [
+							each submorphs second class = PHLabel
+							ifTrue: [
+								each submorphs second text = '- There are no events for this day'
+								ifTrue: [
+									each submorphs second abandon.].].].
 				each add: eventItem.
 				delButton listItem: eventItem]
 			].
