@@ -13,7 +13,10 @@
 		"titleArea",
 		"startTimeArea",
 		"endTimeArea",
-		"dayList" ],
+		"dayList",
+		"startDayArea",
+		"startMonthArea",
+		"startYearArea" ],
 	"name" : "NDAppointmentDialog",
 	"pools" : [
 		 ],

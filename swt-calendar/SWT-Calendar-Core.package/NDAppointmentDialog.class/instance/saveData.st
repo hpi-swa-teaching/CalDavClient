@@ -1,13 +1,16 @@
 as yet unclassified
 saveData
 
-	| mock client cal|
+	| mock client cal startDate|
+	
 	cal:= NDCalDavCalendar nDCal.
 	cal url: NDGoogleCalDavClient calendarURL.
 	mock:=cal newEvent.
 	mock summary: self titleArea textArea text.
-	mock start: Date today.
-	mock end: Date today.
+	(mock summary size)=0 ifTrue: [self handleMissingTitle. ^nil].
+	startDate:= ((self startDayArea textArea text),' ',(self startMonthArea textArea text),' ',(self startYearArea textArea text)).
+	[mock start: (startDate) asDate.
+	mock end: (startDate) asDate.] on: Error do: [self handleInvalidDate. ^nil.].
 	client:=NDGoogleButton GoogleClient.
 	
 	NDFetchFromGoogleButton testConnection.
@@ -16,6 +19,7 @@ saveData
 	client forcePushEvent: mock.
 	
 	self accept: self.
+	mock inspect.
 	
 	dayList do: [:each|
 		each date asString = mock start asString
