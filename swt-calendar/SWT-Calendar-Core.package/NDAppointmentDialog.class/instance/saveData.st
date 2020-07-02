@@ -1,25 +1,47 @@
 as yet unclassified
 saveData
 
-	| mock client cal startDate|
+	|filter mock client cal startDate startDay startMonth startYear|
 	
-	cal:= NDCalDavCalendar nDCal.
+	cal := NDCalDavCalendar nDCal.
 	cal url: NDGoogleCalDavClient calendarURL.
-	mock:=cal newEvent.
-	mock summary: self titleArea textArea text.
-	(mock summary size)=0 ifTrue: [self handleMissingTitle. ^nil].
-	startDate:= ((self startDayArea textArea text),' ',(self startMonthArea textArea text),' ',(self startYearArea textArea text)).
-	[mock start: (startDate) asDate.
-	mock end: (startDate) asDate.] on: Error do: [self handleInvalidDate. ^nil.].
-	client:=NDGoogleButton GoogleClient.
 	
+	mock := cal newEvent.
+	mock summary: self titleArea text.
+	(mock summary size) = 0 
+		ifTrue: [self handleError:'Please enter a title for the appointment'. ^nil].
+		
+	filter := NDDateFormatter new.
+	filter appointmentDialog: self.
+	startDay := self startDayArea textArea text.
+	startMonth := self startMonthArea textArea text.
+	startYear := self startYearArea textArea text.
+	
+	startDay := filter filterDay: startDay.
+	startDay = false ifTrue:[^nil].
+	
+	startMonth := (filter convertMonth: startMonth).
+	startMonth=false ifTrue:[^nil].
+	
+	startYear := filter filterYear: startYear.
+	startYear = false ifTrue:[^nil].
+	
+	startDate := (startDay asString,' ', startMonth,' ',startYear asString).
+	[mock start: (startDate) asDate.
+	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
+
+	mock inspect.
+	
+	client := NDGoogleButton GoogleClient.
 	NDFetchFromGoogleButton testConnection.
 	
 	client pushEvent: mock.
 	client forcePushEvent: mock.
 	
 	self accept: self.
-	mock inspect.
+
+	
+	
 	
 	dayList do: [:each|
 		each date asString = mock start asString

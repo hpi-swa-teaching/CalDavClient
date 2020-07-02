@@ -1,18 +1,22 @@
 as yet unclassified
 initialize
 
+	| titleLabel |
+
 	super initialize.
 
 	self title: 'New Appointment...'.
 	
-	self titleArea: (PHTextAreaWithLabel new withPadding; text: 'Title:').
+	titleLabel := ((PHLabel new) text:'Enter Title:'; pointSize: 25).
+	self titleArea: (((PHTextArea new) withPadding)).
+	
 	self startDayArea: (PHTextAreaWithLabel new withPadding; text: 'Enter Day:').
 	self startMonthArea:  (PHTextAreaWithLabel new withPadding; text: 'Enter Month:').
 	self startYearArea:  (PHTextAreaWithLabel new withPadding; text: 'Enter Year:').
 	
-
+	self content: titleLabel.
 	self content: (titleArea).
-	self content: ((PHLabel new) text:'Enter Date(e.g. 20 June 1998):';pointSize: 25).
+	self content: ((PHLabel new) text:'Enter Date: ';pointSize: 25).
 	self content: (startDayArea).
 	self content: (startMonthArea).
 	self content: (startYearArea).
