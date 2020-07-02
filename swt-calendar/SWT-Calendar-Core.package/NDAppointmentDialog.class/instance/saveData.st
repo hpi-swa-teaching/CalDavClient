@@ -30,7 +30,7 @@ saveData
 	[mock start: (startDate) asDate.
 	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
 
-	mock inspect.
+	"mock inspect."
 	
 	client := NDGoogleButton GoogleClient.
 	NDFetchFromGoogleButton testConnection.
