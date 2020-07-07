@@ -1,7 +1,7 @@
 as yet unclassified
 saveData
 
-	|filter mock client cal startDate startDay startMonth startYear|
+	| filter mock client cal startDate startDay startMonth startYear startHour startMinute startTime |
 	
 	cal := NDCalDavCalendar nDCal.
 	cal url: NDGoogleCalDavClient calendarURL.
@@ -11,26 +11,39 @@ saveData
 	(mock summary size) = 0 
 		ifTrue: [self handleError:'Please enter a title for the appointment'. ^nil].
 		
-	filter := NDDateFormatter new.
+	filter := NDFilter new.
 	filter appointmentDialog: self.
+	
 	startDay := self startDayArea textArea text.
 	startMonth := self startMonthArea textArea text.
 	startYear := self startYearArea textArea text.
+	startHour := self startHourArea textArea text.
+	startMinute := self startMinuteArea textArea text.
 	
 	startDay := filter filterDay: startDay.
 	startDay = false ifTrue:[^nil].
 	
 	startMonth := (filter convertMonth: startMonth).
-	startMonth=false ifTrue:[^nil].
+	startMonth= false ifTrue:[^nil].
 	
 	startYear := filter filterYear: startYear.
 	startYear = false ifTrue:[^nil].
 	
+	startHour := filter filterHour: startHour.
+	startHour = false ifTrue:[^nil].
+	
+	startMinute := filter filterMinute: startMinute.
+	startMinute = false ifTrue:[^nil].
+		
 	startDate := (startDay asString,' ', startMonth,' ',startYear asString).
+	startTime := (startHour asString, ':', startMinute asString).
 	[mock start: (startDate) asDate.
 	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
 
-	"mock inspect."
+	mock inspect.
+	
+	
+	self halt.
 	
 	client := NDGoogleButton GoogleClient.
 	NDFetchFromGoogleButton testConnection.
