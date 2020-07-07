@@ -1,4 +1,4 @@
 running
 setUp
 
-	dList := NDDayList new initialize.
+	dList := NDDayListCreator new initialize.

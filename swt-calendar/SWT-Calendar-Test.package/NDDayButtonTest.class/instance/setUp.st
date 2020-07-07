@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	dayButton := NDDayButton new.
+	appointmentButton:= NDAppointmentButton new.
