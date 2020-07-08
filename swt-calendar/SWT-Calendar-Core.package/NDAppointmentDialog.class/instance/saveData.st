@@ -1,7 +1,7 @@
 as yet unclassified
 saveData
 
-	| filter mock client cal startDate startDay startMonth startYear startHour startMinute startTime |
+	| filter mock client cal startDate startDay startMonth startYear startHour startMinute startDateAndTime |
 	
 	cal := NDCalDavCalendar nDCal.
 	cal url: NDGoogleCalDavClient calendarURL.
@@ -17,8 +17,8 @@ saveData
 	startDay := self startDayArea textArea text.
 	startMonth := self startMonthArea textArea text.
 	startYear := self startYearArea textArea text.
-	startHour := self startHourArea textArea text.
-	startMinute := self startMinuteArea textArea text.
+	startHour := self startHourArea text.
+	startMinute := self startMinuteArea text.
 	
 	startDay := filter filterDay: startDay.
 	startDay = false ifTrue:[^nil].
@@ -36,14 +36,16 @@ saveData
 	startMinute = false ifTrue:[^nil].
 		
 	startDate := (startDay asString,' ', startMonth,' ',startYear asString).
-	startTime := (startHour asString, ':', startMinute asString).
-	[mock start: (startDate) asDate.
+	"startDateAndTime := (startHour asString, ' hours', ' + ' ,startMinute asString, ' minutes', ' + ', '  + ', DateAndTime localOffset)."
+	startDateAndTime := ((startDate asDate) + startHour hours + startMinute minutes + DateAndTime localOffset) asDateAndTime.
+	
+	[mock start: startDateAndTime.
+	
 	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
 
-	mock inspect.
+	"mock inspect."
 	
-	
-	self halt.
+	"self halt."
 	
 	client := NDGoogleButton GoogleClient.
 	NDFetchFromGoogleButton testConnection.
@@ -57,12 +59,12 @@ saveData
 	
 	
 	dayList do: [:each|
-		each date asString = mock start asString
+		each date asString = ((mock start)asDate) asString
 			ifTrue: [
 				|delButton eventTitles eventItem|
 				eventItem := PHListGroupItem new.
 				eventTitles := PHLabel new;  text: 'Title: ', (mock serverData) summary asString, '
-Start: ', ((mock serverData) start) asTime asString.
+Start: ', ((mock serverData) start - (DateAndTime localOffset)) asTime asString.
 				eventTitles minSize: 150@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: mock.

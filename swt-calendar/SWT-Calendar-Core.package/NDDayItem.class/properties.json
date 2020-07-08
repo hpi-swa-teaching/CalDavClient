@@ -3,16 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"AppointmentTitle",
-		"Date",
-		"EndTime",
-		"Label",
-		"StartTime" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "NDMockData",
+		"date",
+		"dateLabel",
+		"events" ],
+	"name" : "NDDayItem",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PHListGroupItem",
 	"type" : "normal" }

@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"date" : "Neo 6/24/2020 12:07",
-		"date:" : "H.M. 6/28/2020 11:01",
-		"dateLabel:" : "H.M. 6/28/2020 11:01",
-		"events:" : "Neo 6/29/2020 21:32",
-		"initialize" : "Neo 6/29/2020 14:32" } }
+		"createDaysCollection:" : "H.M. 7/5/2020 11:14",
+		"initialize" : "JS 6/20/2020 11:07",
+		"numberOfDays" : "JS 6/20/2020 11:07",
+		"numberOfDays:" : "H.M. 6/28/2020 10:59" } }
