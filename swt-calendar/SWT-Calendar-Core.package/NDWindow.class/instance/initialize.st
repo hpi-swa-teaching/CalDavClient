@@ -18,7 +18,7 @@ self extent: 50@200.
 dayListItem := PHListGroupItem new.
 
 "fügt eine 10-tätige Liste ein"
-dayList:=NDDayListCreator new initialize.
+dayList:=NDDayList new initialize.
 self addAll: dayList.
 
 buttonListItem := PHListGroupItem new.

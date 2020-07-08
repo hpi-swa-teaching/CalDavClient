@@ -8,7 +8,7 @@ createDaysCollection: aNumber
 		allEvents add: each serverData.].
 	1 to: aNumber do: [:x | 
 		dayEvents := OrderedCollection new.
-		ndDayList := NDDayList new.
+		ndDayList := NDDayItem new.
 		ndDayList dateLabel: (Date today + x days - 1 days)weekday, ' ' , (Date today + x days - 1 days).
 		allEvents do: [:each | 
 			each start asDate asString = (Date today + x days - 1 days)asString

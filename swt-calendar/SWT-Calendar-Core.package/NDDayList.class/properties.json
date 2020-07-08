@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"date",
-		"dateLabel",
-		"events" ],
+		"numberOfDays",
+		"listOfDays",
+		"window" ],
 	"name" : "NDDayList",
 	"pools" : [
 		 ],
-	"super" : "PHListGroupItem",
+	"super" : "OrderedCollection",
 	"type" : "normal" }

@@ -43,9 +43,9 @@ saveData
 	
 	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
 
-	mock inspect.
+	"mock inspect."
 	
-	self halt.
+	"self halt."
 	
 	client := NDGoogleButton GoogleClient.
 	NDFetchFromGoogleButton testConnection.
@@ -59,12 +59,12 @@ saveData
 	
 	
 	dayList do: [:each|
-		each date asString = mock start asString
+		each date asString = ((mock start)asDate) asString
 			ifTrue: [
 				|delButton eventTitles eventItem|
 				eventItem := PHListGroupItem new.
 				eventTitles := PHLabel new;  text: 'Title: ', (mock serverData) summary asString, '
-Start: ', ((mock serverData) start) asTime asString.
+Start: ', ((mock serverData) start - (DateAndTime localOffset)) asTime asString.
 				eventTitles minSize: 150@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: mock.
