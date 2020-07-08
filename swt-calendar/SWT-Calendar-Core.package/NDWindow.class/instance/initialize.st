@@ -15,14 +15,10 @@ self color: Color gray;
 self extent: 50@200.
 "self position: 400@400."
 
-dayListItem := PHListGroupItem new.
-
-"fügt eine 10-tätige Liste ein"
 dayList:=NDDayList new initialize.
-self addAll: dayList.
 
 buttonListItem := PHListGroupItem new.
-buttonListItem vertical: true.
+buttonListItem vertical: false.
 buttonListItem add: NDGoogleButton new withLayout.
 newAppointmentButton := NDAppointmentButton new withLayout.
 newAppointmentButton dayList: dayList.
@@ -31,3 +27,9 @@ fetchFromGoogleButton := NDFetchFromGoogleButton new withLayout.
 fetchFromGoogleButton dayList: dayList.
 buttonListItem add: fetchFromGoogleButton.
 self add: buttonListItem.
+
+dayListItem := PHListGroupItem new.
+
+"fügt eine 10-tätige Liste ein"
+
+self addAll: dayList.
