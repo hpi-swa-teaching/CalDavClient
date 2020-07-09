@@ -2,6 +2,11 @@ as yet unclassified
 initialize
 |fetchFromGoogleButton newAppointmentButton dayListItem buttonListItem|
 
+(NDGoogleCalDavClient establishedConnection) isNil
+		ifTrue: [NDGoogleCalDavClient establishedConnection: 0.
+				NDGoogleButton GoogleClientSetNil.
+				NDGoogleCalDavClient calendarID: nil].
+
 super initialize.
 "self withPadding."
 self withLayout.

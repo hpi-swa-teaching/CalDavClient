@@ -2,10 +2,7 @@ accessing
 refreshOnStartup
 
 	| googleAppointments collectedEvents dayList currentButton intermediateStep |
-	(NDGoogleCalDavClient establishedConnection) isNil
-		ifTrue: [NDGoogleCalDavClient establishedConnection: 0.
-				NDGoogleButton GoogleClientSetNil.
-				NDGoogleCalDavClient calendarID: nil].
+	
 	(NDGoogleCalDavClient establishedConnection) = 4
 	ifTrue: [
 	NDFetchFromGoogleButton testConnection.
