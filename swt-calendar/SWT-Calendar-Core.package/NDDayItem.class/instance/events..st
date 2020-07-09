@@ -9,11 +9,21 @@ events: anOrderedCollection
 					].
 	anOrderedCollection isEmpty
 		ifFalse:[
-			|eventItem delButton eventTitles|			
+			|eventItem delButton eventTitles durationCalculator|
 			events do: [:each|
+				
 				eventItem := PHListGroupItem new.
 				eventTitles := PHLabel new;  text: 'Title: ', (each serverData) summary asString, '
-Start: ', ((each serverData) start) asTime asString.
+Start: ', ((each serverData) start) asTime asString, '
+Duration: '.
+				durationCalculator := ((each serverData) end  - (each serverData) start).
+				(durationCalculator days) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator days asString, 'd '].
+				(durationCalculator hours) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator hours asString, 'h '].
+				(durationCalculator minutes) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator minutes asString, 'm '].
+
 				eventTitles minSize: 100@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: each.
@@ -30,4 +40,4 @@ Start: ', ((each serverData) start) asTime asString.
 			noEventsLabel := PHLabel new.
 			noEventsLabel text: '- There are no events for this day'.
 			self add: noEventsLabel.
-			"self add: noEventsItem."].
+			"self add: noEventsItem. "].
