@@ -12,8 +12,11 @@ initialize
 	self titleArea: (((PHTextArea new) withPadding)).
 	
 	self startDayArea: (PHTextAreaWithLabel new withPadding; text: 'Enter Day:').
+	self startDayArea placeholder: '5'.
 	self startMonthArea:  (PHTextAreaWithLabel new withPadding; text: 'Enter Month:').
+	self startMonthArea placeholder: 'July'.
 	self startYearArea:  (PHTextAreaWithLabel new withPadding; text: 'Enter Year:').
+	self startYearArea placeholder: '2020'.
 	
 	self startHourArea: ((PHTextArea new) withPadding).
 	self startHourArea 

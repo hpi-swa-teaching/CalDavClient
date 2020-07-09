@@ -20,7 +20,7 @@ signIn
 			GoogleClient 
 				accessToken: (resultData at: #access_token);
 				refreshToken: (resultData at: #refresh_token).
-			UIManager default inform: 'Connection to Google was successful'.
+			calendarIDDialog openFor: self.		
 			self label text: 'Already connected to Google'
-			] on: Error do: [UIManager default inform: 'Signing in was unsucessful'].];
-		ifRejected: [UIManager default inform: 'Signing in was interrupted']
+			] on: Error do: [UIManager default inform: 'Signing in was unsucessful'. NDGoogleButton GoogleClientSetNil].];
+		ifRejected: [UIManager default inform: 'Signing in was interrupted'].
