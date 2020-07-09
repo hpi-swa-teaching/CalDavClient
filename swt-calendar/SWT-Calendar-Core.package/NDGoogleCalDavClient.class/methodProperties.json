@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"calendarID" : "Neo 6/29/2020 10:04",
-		"calendarID:" : "Neo 6/29/2020 01:15",
+		"calendarID:" : "Neo 7/9/2020 15:35",
 		"calendarURL" : "Neo 6/29/2020 09:53",
+		"establishedConnection" : "Neo 7/9/2020 14:47",
+		"establishedConnection:" : "Neo 7/9/2020 14:53",
 		"getCalendarID" : "Neo 7/8/2020 23:53" },
 	"instance" : {
 		"clientId" : "Neo 7/8/2020 22:49",

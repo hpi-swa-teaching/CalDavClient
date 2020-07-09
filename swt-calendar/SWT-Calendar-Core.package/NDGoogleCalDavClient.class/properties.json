@@ -4,7 +4,8 @@
 		 ],
 	"classvars" : [
 		"CalendarID",
-		"CalendarURL" ],
+		"CalendarURL",
+		"EstablishedConnection" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

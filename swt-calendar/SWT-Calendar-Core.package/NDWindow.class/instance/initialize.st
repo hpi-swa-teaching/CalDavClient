@@ -1,6 +1,7 @@
 as yet unclassified
 initialize
 |fetchFromGoogleButton newAppointmentButton dayListItem buttonListItem|
+
 super initialize.
 "self withPadding."
 self withLayout.
@@ -33,3 +34,4 @@ dayListItem := PHListGroupItem new.
 "fügt eine 10-tätige Liste ein"
 
 self addAll: dayList.
+self refreshOnStartup.
