@@ -1,4 +1,6 @@
 as yet unclassified
 open
-	
-	^ self new openInWindowLabeled: 'Calendar'.
+	|pluggableWindow|
+	pluggableWindow := self new openInWindowLabeled: 'Calendar'.
+	(pluggableWindow instVarNamed: 'label') color: Color black.
+	^ pluggableWindow
