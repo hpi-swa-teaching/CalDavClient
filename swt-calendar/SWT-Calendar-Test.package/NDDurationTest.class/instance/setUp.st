@@ -19,3 +19,5 @@ mockEvent3 createMockEventWithStart: (DateAndTime year: 2020 month: 7 day: 20 ho
 eventCollection3:= OrderedCollection new.
 eventCollection3 add: mockEvent3.
 
+emptyCollection:= OrderedCollection new.
+

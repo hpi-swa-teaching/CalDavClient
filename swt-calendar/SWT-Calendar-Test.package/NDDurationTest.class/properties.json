@@ -8,7 +8,8 @@
 	"instvars" : [
 		"eventCollection1",
 		"eventCollection2",
-		"eventCollection3" ],
+		"eventCollection3",
+		"emptyCollection" ],
 	"name" : "NDDurationTest",
 	"pools" : [
 		 ],
