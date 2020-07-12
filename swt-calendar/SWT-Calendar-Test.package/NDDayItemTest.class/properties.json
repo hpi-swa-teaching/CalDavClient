@@ -10,7 +10,7 @@
 		"eventCollection2",
 		"eventCollection3",
 		"emptyCollection" ],
-	"name" : "NDDurationTest",
+	"name" : "NDDayItemTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
