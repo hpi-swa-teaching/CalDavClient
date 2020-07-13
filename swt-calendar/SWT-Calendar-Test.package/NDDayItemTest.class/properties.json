@@ -1,0 +1,17 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eventCollection1",
+		"eventCollection2",
+		"eventCollection3",
+		"emptyCollection" ],
+	"name" : "NDDayItemTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

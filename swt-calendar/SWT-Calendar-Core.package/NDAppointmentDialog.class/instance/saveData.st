@@ -41,7 +41,7 @@ saveData
 	
 	[mock start: startDateAndTime.
 	
-	mock end: mock start.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
+	mock end: mock start + 1 hours.] on: Error do: [self handleError: 'Please enter a valid date'. ^nil.].
 
 	"mock inspect."
 	
@@ -61,10 +61,21 @@ saveData
 	dayList do: [:each|
 		each date asString = ((mock start)asDate) asString
 			ifTrue: [
-				|delButton eventTitles eventItem|
+				|delButton eventTitles eventItem durationCalculator|
 				eventItem := PHListGroupItem new.
 				eventTitles := PHLabel new;  text: 'Title: ', (mock serverData) summary asString, '
 Start: ', ((mock serverData) start - (DateAndTime localOffset)) asTime asString.
+
+				durationCalculator := ((mock serverData) end  - (mock serverData) start).
+				(durationCalculator asSeconds) >= 60
+					ifTrue: [eventTitles text: eventTitles text, ' 
+Duration: '].
+				(durationCalculator days) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator days asString, 'd '].
+				(durationCalculator hours) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator hours asString, 'h '].
+				(durationCalculator minutes) >= 1
+					ifTrue: [eventTitles text: eventTitles text, durationCalculator minutes asString, 'm '].
 				eventTitles minSize: 150@10.
 				delButton := NDDeleteButton new; text: 'delete'.
 				delButton icEvent: mock.
