@@ -37,7 +37,7 @@ saveData
 		
 	startDate := (startDay asString,' ', startMonth,' ',startYear asString).
 	"startDateAndTime := (startHour asString, ' hours', ' + ' ,startMinute asString, ' minutes', ' + ', '  + ', DateAndTime localOffset)."
-	startDateAndTime := ((startDate asDate) + startHour hours + startMinute minutes + DateAndTime localOffset) asDateAndTime.
+	startDateAndTime := ((startDate asDate) + startHour hours + startMinute minutes) asDateAndTime.
 	
 	[mock start: startDateAndTime.
 	
@@ -64,7 +64,7 @@ saveData
 				|delButton eventTitles eventItem durationCalculator|
 				eventItem := PHListGroupItem new.
 				eventTitles := PHLabel new;  text: 'Title: ', (mock serverData) summary asString, '
-Start: ', ((mock serverData) start - (DateAndTime localOffset)) asTime asString.
+Start: ', ((mock serverData) start) asTime asString.
 
 				durationCalculator := ((mock serverData) end  - (mock serverData) start).
 				(durationCalculator asSeconds) >= 60
