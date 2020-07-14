@@ -1,0 +1,22 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"appointmentTitle",
+		"selectedCalDate",
+		"titleArea",
+		"dayList",
+		"startDayArea",
+		"startMonthArea",
+		"startYearArea",
+		"startHourArea",
+		"startMinuteArea" ],
+	"name" : "SCAppointmentDialog",
+	"pools" : [
+		 ],
+	"super" : "PHDialog",
+	"type" : "normal" }

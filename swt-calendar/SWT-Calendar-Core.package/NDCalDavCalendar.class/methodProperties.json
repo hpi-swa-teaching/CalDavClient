@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"nDCal" : "Neo 6/25/2020 00:34",
-		"nDCal:" : "Neo 6/23/2020 21:35" },
-	"instance" : {
-		"addEvent:" : "H.M. 7/9/2020 09:28",
-		"buildUrlFrom:" : "H.M. 7/2/2020 23:24",
-		"initialize" : "Neo 6/23/2020 23:19",
-		"updateOrCreateEventsFrom:" : "Neo 6/25/2020 00:12" } }

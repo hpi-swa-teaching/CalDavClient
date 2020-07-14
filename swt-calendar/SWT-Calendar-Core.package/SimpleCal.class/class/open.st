@@ -1,4 +1,0 @@
-running
-open
-
-	^ NDWindow open

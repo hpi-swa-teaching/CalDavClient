@@ -1,0 +1,16 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"date",
+		"dateLabel",
+		"events" ],
+	"name" : "SCDayItem",
+	"pools" : [
+		 ],
+	"super" : "PHListGroupItem",
+	"type" : "normal" }

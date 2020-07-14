@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dayList" ],
+	"name" : "SCWindow",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

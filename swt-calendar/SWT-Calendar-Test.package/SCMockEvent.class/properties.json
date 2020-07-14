@@ -1,0 +1,16 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"end",
+		"start",
+		"summary" ],
+	"name" : "SCMockEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

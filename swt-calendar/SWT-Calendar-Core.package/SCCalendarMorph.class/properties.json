@@ -1,0 +1,15 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"appointmentButton",
+		"dateDialog" ],
+	"name" : "SCCalendarMorph",
+	"pools" : [
+		 ],
+	"super" : "CalendarMorph",
+	"type" : "normal" }

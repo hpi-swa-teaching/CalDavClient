@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dList" ],
+	"name" : "SCDayListTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

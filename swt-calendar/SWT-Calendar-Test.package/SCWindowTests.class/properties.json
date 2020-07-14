@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window" ],
+	"name" : "SCWindowTests",
+	"pools" : [
+		 ],
+	"super" : "SCTestCases",
+	"type" : "normal" }
