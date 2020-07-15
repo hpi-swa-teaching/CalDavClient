@@ -21,7 +21,7 @@ signIn
 				accessToken: (resultData at: #access_token);
 				refreshToken: (resultData at: #refresh_token).
 			calendarIDDialog openFor: self.	
-			SCGoogleCalDavClient establishedConnection: (SCGoogleCalDavClient establishedConnection) + 1.	
+			SCGoogleCalDavClient establishedConnection: (SCGoogleCalDavClient establishedConnection + 1).	
 			self label text: 'Already connected to Google'
 			] on: Error do: [UIManager default inform: 'Signing in was unsucessful'. SCGoogleButton GoogleClientSetNil].];
 		ifRejected: [UIManager default inform: 'Signing in was interrupted'].

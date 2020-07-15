@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 |fetchFromGoogleButton newAppointmentButton dayListItem buttonListItem|
 
-(SCGoogleCalDavClient establishedConnection) isNil
+((SCGoogleCalDavClient establishedConnection) isNil  or: [SCGoogleCalDavClient establishedConnection < 0 ])
 		ifTrue: [SCGoogleCalDavClient establishedConnection: 0.
 				SCGoogleButton GoogleClientSetNil.
 				SCGoogleCalDavClient calendarID: nil].
