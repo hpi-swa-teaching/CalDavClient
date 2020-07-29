@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dayList" ],
+	"name" : "SCFetchFromSabreButton",
+	"pools" : [
+		 ],
+	"super" : "PHButton",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 as yet unclassified
 buildUrlFrom: aHref
 	 
-	^((SCGoogleCalDavClient calendarURL)asString, '/', aHref, '.ics')asUrl.
+	^(((SCSabreButton sabreClient) url)asString, aHref, '.ics')asUrl.

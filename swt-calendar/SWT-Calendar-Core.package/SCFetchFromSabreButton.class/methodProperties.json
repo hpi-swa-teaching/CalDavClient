@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"checkIfEmptyDay:" : "H.M. 7/29/2020 21:55",
+		"fetchFromSabre" : "H.M. 7/29/2020 22:36",
+		"refreshFetch" : "H.M. 7/29/2020 22:22",
+		"testConnection" : "H.M. 7/29/2020 22:29" },
+	"instance" : {
+		"dayList" : "H.M. 7/29/2020 21:53",
+		"dayList:" : "H.M. 7/29/2020 21:53",
+		"initialize" : "H.M. 7/29/2020 21:53",
+		"refreshFetch" : "H.M. 7/29/2020 22:03" } }

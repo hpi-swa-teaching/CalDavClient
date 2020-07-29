@@ -2,10 +2,10 @@ accessing
 delete: anDialog
 	
 	|client cal|
-	client := SCGoogleButton GoogleClient.
+	client := SCSabreButton sabreClient.
 	cal := SCCalDavCalendar nDCal.
 	
-	SCFetchFromGoogleButton testConnection.
+	SCFetchFromSabreButton testConnection.
 	
 	client deleteEvent: icEvent.
 	client forceDeleteEvent: icEvent.

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"SabreClientSetNil" : "H.M. 7/29/2020 21:52",
+		"sabreClient" : "H.M. 7/29/2020 21:49",
+		"sabreClient:" : "H.M. 7/29/2020 21:49" },
+	"instance" : {
+		"dialog" : "H.M. 7/29/2020 22:41",
+		"dialog:" : "H.M. 7/29/2020 22:41",
+		"initialize" : "H.M. 7/29/2020 22:08",
+		"openDialog" : "H.M. 7/29/2020 22:41",
+		"passwordArea" : "H.M. 7/29/2020 22:18",
+		"passwordArea:" : "H.M. 7/29/2020 22:18",
+		"saveClient" : "H.M. 7/29/2020 22:43",
+		"urlArea" : "H.M. 7/29/2020 22:18",
+		"urlArea:" : "H.M. 7/29/2020 22:18",
+		"usernameArea" : "H.M. 7/29/2020 22:18",
+		"usernameArea:" : "H.M. 7/29/2020 22:18" } }

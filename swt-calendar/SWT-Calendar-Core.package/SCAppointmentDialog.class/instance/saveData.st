@@ -4,7 +4,7 @@ saveData
 	| filter mock client cal startDate startDay startMonth startYear startHour startMinute startDateAndTime |
 	
 	cal := SCCalDavCalendar nDCal.
-	cal url: SCGoogleCalDavClient calendarURL.
+	cal url: SCSabreButton sabreClient url.
 	
 	mock := cal newEvent.
 	mock summary: self titleArea text.
@@ -47,8 +47,8 @@ saveData
 	
 	"self halt."
 	
-	client := SCGoogleButton GoogleClient.
-	SCFetchFromGoogleButton testConnection.
+	client := SCSabreButton sabreClient.
+	SCFetchFromSabreButton testConnection.
 	
 	client pushEvent: mock.
 	client forcePushEvent: mock.

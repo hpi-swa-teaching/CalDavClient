@@ -3,14 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GoogleClient",
 		"SabreClient" ],
-	"commentStamp" : "simon 5/24/2020 11:24",
+	"commentStamp" : "",
 	"instvars" : [
-		"googleClient",
-		"calendarID",
-		"calendarIDDialog" ],
-	"name" : "SCGoogleButton",
+		"urlArea",
+		"usernameArea",
+		"passwordArea",
+		"dialog" ],
+	"name" : "SCSabreButton",
 	"pools" : [
 		 ],
 	"super" : "PHButton",

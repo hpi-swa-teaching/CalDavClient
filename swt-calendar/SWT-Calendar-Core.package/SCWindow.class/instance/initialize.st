@@ -1,11 +1,7 @@
 as yet unclassified
 initialize
-|fetchFromGoogleButton newAppointmentButton dayListItem buttonListItem|
+|fetchFromSabreButton newAppointmentButton sabreButton dayListItem buttonListItem|
 
-((SCGoogleCalDavClient establishedConnection) isNil  or: [SCGoogleCalDavClient establishedConnection < 0 ])
-		ifTrue: [SCGoogleCalDavClient establishedConnection: 0.
-				SCGoogleButton GoogleClientSetNil.
-				SCGoogleCalDavClient calendarID: nil].
 super initialize.
 "self withPadding."
 self withLayout.
@@ -24,13 +20,14 @@ dayList:=SCDayList new initialize.
 
 buttonListItem := PHListGroupItem new.
 buttonListItem vertical: false.
-buttonListItem add: SCGoogleButton new withLayout.
+sabreButton:=SCSabreButton new withLayout.
+buttonListItem add: sabreButton.
 newAppointmentButton := SCAppointmentButton new withLayout.
 newAppointmentButton dayList: dayList.
 buttonListItem add: newAppointmentButton.
-fetchFromGoogleButton := SCFetchFromGoogleButton new withLayout.
-fetchFromGoogleButton dayList: dayList.
-buttonListItem add: fetchFromGoogleButton.
+fetchFromSabreButton := SCFetchFromSabreButton new withLayout.
+fetchFromSabreButton dayList: dayList.
+buttonListItem add: fetchFromSabreButton.
 self add: buttonListItem.
 
 dayListItem := PHListGroupItem new.
@@ -38,4 +35,4 @@ dayListItem := PHListGroupItem new.
 "fügt eine 10-tätige Liste ein"
 
 self addAll: dayList.
-self refreshOnStartup.
+SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
