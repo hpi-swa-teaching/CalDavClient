@@ -1,0 +1,1 @@
+SabreCalDavClient managing the Communication between Squeak and a Calendar Server, including fetching, pushing and deleting appointments.

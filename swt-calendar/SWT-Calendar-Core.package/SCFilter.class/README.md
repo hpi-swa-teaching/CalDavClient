@@ -1,0 +1,1 @@
+Object that gets activated by clicking 'OK' in an SCApppointmentDialog checking the input for syntactical correctness.

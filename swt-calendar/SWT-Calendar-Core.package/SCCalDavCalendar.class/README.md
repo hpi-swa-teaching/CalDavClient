@@ -1,0 +1,1 @@
+CalDavCalendar to save the fetched appointments locally and create new appoitments for an SCAppointmentDialog.

@@ -1,0 +1,1 @@
+PHButton shown in an SCWindow, opening a Dialog in which the user can set his username, password and calendar Url when clicked.

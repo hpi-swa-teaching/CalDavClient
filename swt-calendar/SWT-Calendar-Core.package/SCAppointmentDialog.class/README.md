@@ -1,0 +1,1 @@
+PHDialog which opens after clicking an SCAppointmentButton. The Dialog shows input fields for the title and the start time of the new appointment and an PHButton to confirm the input. After cllicking the Button the Dialog checks the syntax of the input and pushes a new appointment to the Server using an SCSabreClient if it is syntactically correct.

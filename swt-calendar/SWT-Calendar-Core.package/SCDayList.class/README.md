@@ -1,0 +1,1 @@
+OrderedCollection saving the SCDayItems for the following days and the number of day items to show. 

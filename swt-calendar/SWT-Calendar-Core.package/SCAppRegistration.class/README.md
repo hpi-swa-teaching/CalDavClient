@@ -1,0 +1,1 @@
+Object that adds SimpleCal to the 'Apps'-Tab of the DockingBarMenu.

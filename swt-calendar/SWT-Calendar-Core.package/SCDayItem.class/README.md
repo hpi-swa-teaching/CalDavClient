@@ -1,0 +1,1 @@
+PHListGroupItem shown in SCWindow for every day of the next ten days, containing the label of the Date and a PHListGroupItem for every appointment saved in the SCCalDavCalendar for the Date with its title, time and an SCDeleteButton.

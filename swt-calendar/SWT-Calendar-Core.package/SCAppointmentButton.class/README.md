@@ -1,0 +1,1 @@
+PHButton shown in an SCWindow that opens an SCAppointmentDialog when clicked.
