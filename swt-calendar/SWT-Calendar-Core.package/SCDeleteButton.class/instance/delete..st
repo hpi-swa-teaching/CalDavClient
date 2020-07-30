@@ -7,10 +7,8 @@ delete: anDialog
 	
 	SCFetchFromSabreButton testConnection.
 	
-	[client deleteEvent: icEvent.
-	client forceDeleteEvent: icEvent.] on: Warning do:[
+	client deleteEvent: icEvent.
 	listItem abandon.
-	"NDFetchFromGoogleButton checkIfEmptyDay: listItem."
-	anDialog abandon.]
+	anDialog abandon.
 	
 	
