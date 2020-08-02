@@ -7,7 +7,7 @@ refreshFetch
 
 		SCCalDavCalendar nDCal: nil.
 		SCCalDavCalendar nDCal: (SCCalDavCalendar new updateOrCreateEventsFrom: sabreAppointments).
-		sabreAppointments := SCCalDavCalendar nDCal eventsDictionary asOrderedCollection. 
+		sabreAppointments := SCCalDavCalendar nDCal eventsDictionary asOrderedCollection.
 		dayList := self dayList.
 		dayList do: [:outerEach |
 					currentButton := outerEach.

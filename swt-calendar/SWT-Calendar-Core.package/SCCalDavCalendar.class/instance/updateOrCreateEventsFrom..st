@@ -9,7 +9,6 @@ updateOrCreateEventsFrom: iCalData
 		uid := firstElem uid.
 		url := self buildUrlFrom: uid.
 		etag := elem at: #'getetag'.
-		 
 		event := self eventsDictionary at: (elem at: #urlLocalPart ) ifAbsent: [
 			CalDavEvent newIn: self withUrl: url.].
 		event etag: etag.

@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 setDateAndTime
 
 	startDay := self startDayArea textArea text.
