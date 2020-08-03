@@ -2,6 +2,9 @@ as yet unclassified
 initialize
 |fetchFromSabreButton newAppointmentButton sabreButton dayListItem buttonListItem|
 
+SCSabreCalDavClient establishedConnection ~~ true
+ifTrue: [SCSabreButton SabreClientSetNil].
+
 super initialize.
 "self withPadding."
 self withLayout.
@@ -36,3 +39,5 @@ dayListItem := PHListGroupItem new.
 
 self addAll: dayList.
 SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
+SCSabreCalDavClient establishedConnection = true
+ifTrue: self refreshOnStartup.

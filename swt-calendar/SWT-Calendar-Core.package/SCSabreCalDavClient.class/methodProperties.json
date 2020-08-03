@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"establishedConnection" : "Neo 8/3/2020 16:41",
+		"establishedConnection:" : "Neo 8/3/2020 16:41",
+		"url:username:password:" : "Neo 8/3/2020 16:54" },
 	"instance" : {
 		"url" : "H.M. 7/29/2020 22:31",
 		"url:" : "H.M. 7/29/2020 22:31" } }
