@@ -2,6 +2,8 @@ as yet unclassified
 refreshFetch
 	| sabreAppointments collectedEvents dayList currentButton intermediateStep|
 	
+	(SCSabreCalDavClient establishedConnection) = true
+	ifTrue: [
 	self class testConnection.
 	sabreAppointments := self class fetchFromSabre.
 
@@ -15,4 +17,4 @@ refreshFetch
 					currentButton := intermediateStep last.
 					collectedEvents := sabreAppointments select: [:innerEach | 
 						(innerEach serverData) start asDate asString = outerEach date asString]. 
-					outerEach events: collectedEvents.].
+					outerEach events: collectedEvents.].].

@@ -39,5 +39,4 @@ dayListItem := PHListGroupItem new.
 
 self addAll: dayList.
 SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
-SCSabreCalDavClient establishedConnection = true
-ifTrue: self refreshOnStartup.
+fetchFromSabreButton refreshFetch.
