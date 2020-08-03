@@ -13,9 +13,7 @@ events: anOrderedCollection
 			events do: [:each|
 				
 				eventItem := PHListGroupItem new.
-				eventTitles := PHLabel new;  text: 'Title: ', (each serverData) summary asString, '
-Start: ', ((each serverData) start) asTime asString, '
-Duration: '.
+				eventTitles := PHLabel new;  text: 'Title: ', (each serverData) summary asString, (String with: Character cr) , 'Start: ', ((each serverData) start) asTime asString, (String with: Character cr) , 'Duration: '.
 				durationCalculator := ((each serverData) end  - (each serverData) start).
 				(durationCalculator days) >= 1
 					ifTrue: [eventTitles text: eventTitles text, durationCalculator days asString, 'd '].
