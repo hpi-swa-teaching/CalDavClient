@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	appointmentButton:= NDAppointmentButton new.
+	appointmentButton:= SCAppointmentButton new.

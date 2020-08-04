@@ -3,7 +3,7 @@ testDuration1
 
 |dayItem label|
 
-dayItem:= NDDayItem new.
+dayItem:= SCDayItem new.
 dayItem events: eventCollection1.
 
 label:= ((dayItem submorphs at: 2) submorphs at: 1) text.

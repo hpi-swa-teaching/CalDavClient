@@ -1,0 +1,14 @@
+{
+	"category" : "SWT-Calendar-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockDialog" ],
+	"name" : "SCNewAppointmentTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

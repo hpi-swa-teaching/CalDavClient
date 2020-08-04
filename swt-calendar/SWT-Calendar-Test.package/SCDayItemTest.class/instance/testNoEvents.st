@@ -3,7 +3,7 @@ testNoEvents
 
 |dayItem label|
 
-dayItem:= NDDayItem new.
+dayItem:= SCDayItem new.
 dayItem events: emptyCollection.
 
 label:= (dayItem submorphs at: 2) text.

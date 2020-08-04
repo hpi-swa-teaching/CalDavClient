@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "kh 8/4/2020 23:19",
+		"testCorrectDate" : "kh 8/4/2020 22:46",
+		"testLongYear" : "kh 8/4/2020 22:46",
+		"testNoDay" : "kh 8/4/2020 22:46",
+		"testNoHour" : "kh 8/4/2020 22:46",
+		"testNoMinute" : "kh 8/4/2020 22:46",
+		"testNoMonth" : "kh 8/4/2020 22:46",
+		"testNoYear" : "kh 8/4/2020 22:46",
+		"testStupidDay" : "kh 8/4/2020 22:47",
+		"testStupidHour" : "kh 8/4/2020 22:47",
+		"testStupidMonth" : "kh 8/4/2020 22:47",
+		"testStupidYear" : "kh 8/4/2020 22:47",
+		"testWrongDay" : "kh 8/4/2020 22:47",
+		"testWrongHour" : "kh 8/4/2020 22:47",
+		"testWrongMinute" : "kh 8/4/2020 22:47",
+		"testWrongMonth" : "kh 8/4/2020 22:47" } }

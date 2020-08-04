@@ -1,4 +1,4 @@
 running
 setUp
 
-window := NDWindow open.
+window := SCWindow open.
