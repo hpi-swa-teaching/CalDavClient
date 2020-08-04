@@ -1,9 +1,13 @@
 {
 	"class" : {
-		"nDCal" : "Neo 6/25/2020 00:34",
-		"nDCal:" : "Neo 6/23/2020 21:35" },
+		 },
 	"instance" : {
 		"addEvent:" : "H.M. 8/2/2020 21:21",
 		"buildUrlFrom:" : "H.M. 7/29/2020 23:23",
-		"initialize" : "Neo 6/23/2020 23:19",
+		"eventsInWindow" : "H.M. 8/4/2020 18:13",
+		"eventsInWindow:" : "H.M. 8/4/2020 18:13",
+		"handleDeleteAppointment:" : "H.M. 8/4/2020 19:28",
+		"handleNewAppointment:" : "H.M. 8/4/2020 19:54",
+		"initialize" : "H.M. 8/4/2020 19:56",
+		"refreshEventsInWindow" : "H.M. 8/4/2020 19:50",
 		"updateOrCreateEventsFrom:" : "H.M. 8/2/2020 21:22" } }

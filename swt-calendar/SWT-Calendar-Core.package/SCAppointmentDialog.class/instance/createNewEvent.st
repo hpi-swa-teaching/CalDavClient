@@ -1,11 +1,10 @@
 creation
 createNewEvent
 
-	| cal startDateAndTime |
+	| startDateAndTime |
 
-	cal := SCCalDavCalendar nDCal.
-	cal url: SCSabreButton sabreClient url.
-	mock := cal newEvent.
+	
+	mock := calendar newEvent.
 	mock summary: self titleArea text.
 	(mock summary size) = 0 
 		ifTrue: [self handleError:'Please enter a title for the appointment'. ^nil].

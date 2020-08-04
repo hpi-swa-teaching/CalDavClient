@@ -6,10 +6,9 @@ refreshFetch
 	ifTrue: [
 	self class testConnection.
 	sabreAppointments := self class fetchFromSabre.
-
-		SCCalDavCalendar nDCal: nil.
-		SCCalDavCalendar nDCal: (SCCalDavCalendar new updateOrCreateEventsFrom: sabreAppointments).
-		sabreAppointments := SCCalDavCalendar nDCal eventsDictionary asOrderedCollection.
+		calendar eventsDictionary removeAll.
+		calendar updateOrCreateEventsFrom: sabreAppointments.
+		sabreAppointments := calendar eventsDictionary asOrderedCollection.
 		dayList := self dayList.
 		dayList do: [:outerEach |
 					currentButton := outerEach.
@@ -18,3 +17,4 @@ refreshFetch
 					collectedEvents := sabreAppointments select: [:innerEach | 
 						(innerEach serverData) start asDate asString = outerEach date asString]. 
 					outerEach events: collectedEvents.].].
+			calendar refreshEventsInWindow.

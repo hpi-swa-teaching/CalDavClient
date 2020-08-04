@@ -8,7 +8,8 @@
 	"instvars" : [
 		"date",
 		"dateLabel",
-		"events" ],
+		"events",
+		"calendar" ],
 	"name" : "SCDayItem",
 	"pools" : [
 		 ],

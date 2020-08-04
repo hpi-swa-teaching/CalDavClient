@@ -7,7 +7,8 @@
 	"commentStamp" : "H.M. 7/30/2020 17:00",
 	"instvars" : [
 		"icEvent",
-		"listItem" ],
+		"listItem",
+		"calendar" ],
 	"name" : "SCDeleteButton",
 	"pools" : [
 		 ],

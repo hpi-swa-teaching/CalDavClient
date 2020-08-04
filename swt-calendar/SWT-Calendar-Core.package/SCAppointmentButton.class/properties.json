@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "H.M. 7/30/2020 16:47",
 	"instvars" : [
-		"dayList" ],
+		"dayList",
+		"calendar" ],
 	"name" : "SCAppointmentButton",
 	"pools" : [
 		 ],

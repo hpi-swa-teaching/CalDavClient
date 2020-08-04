@@ -2,10 +2,11 @@
 	"class" : {
 		"checkIfEmptyDay:" : "H.M. 7/29/2020 21:55",
 		"fetchFromSabre" : "H.M. 7/29/2020 22:36",
-		"refreshFetch" : "H.M. 7/29/2020 22:22",
 		"testConnection" : "H.M. 7/29/2020 22:29" },
 	"instance" : {
+		"calendar" : "H.M. 8/4/2020 18:57",
+		"calendar:" : "H.M. 8/4/2020 18:57",
 		"dayList" : "H.M. 7/29/2020 21:53",
 		"dayList:" : "H.M. 7/29/2020 21:53",
 		"initialize" : "H.M. 7/29/2020 21:53",
-		"refreshFetch" : "Neo 8/3/2020 17:08" } }
+		"refreshFetch" : "H.M. 8/4/2020 20:26" } }
