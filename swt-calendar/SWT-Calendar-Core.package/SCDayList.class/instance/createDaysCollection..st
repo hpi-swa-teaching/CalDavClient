@@ -1,14 +1,14 @@
 as yet unclassified
 createDaysCollection: aNumber
-	| listOfDays ndDayList ndCal allEvents dayEvents| 
+	| listOfDays ndDayList allEvents dayEvents| 
 	listOfDays := PHListGroupItem new.
-	ndCal := SCCalDavCalendar nDCal.
 	allEvents := OrderedCollection new.
-	ndCal eventsDictionary do:[:each | 
+	calendar eventsDictionary do:[:each | 
 		allEvents add: each serverData.].
 	1 to: aNumber do: [:x | 
 		dayEvents := OrderedCollection new.
 		ndDayList := SCDayItem new.
+		ndDayList calendar: calendar.
 		ndDayList dateLabel: (Date today + x days - 1 days)weekday, ' ' , (Date today + x days - 1 days).
 		allEvents do: [:each | 
 			each start asDate asString = (Date today + x days - 1 days)asString

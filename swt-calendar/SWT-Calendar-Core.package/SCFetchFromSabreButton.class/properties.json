@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "H.M. 7/30/2020 17:04",
 	"instvars" : [
-		"dayList" ],
+		"dayList",
+		"calendar" ],
 	"name" : "SCFetchFromSabreButton",
 	"pools" : [
 		 ],

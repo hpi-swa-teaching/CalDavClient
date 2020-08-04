@@ -24,6 +24,7 @@ events: anOrderedCollection
 
 				eventTitles minSize: 100@10.
 				delButton := SCDeleteButton new; text: 'delete'.
+				delButton calendar: calendar.
 				delButton icEvent: each.
 				delButton color: Color red darker.
 				eventItem add: eventTitles.

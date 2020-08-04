@@ -6,3 +6,4 @@ openAppointmentDialog
 	dialog := SCAppointmentDialog new.
 	dialog dayList: dayList.
 	dialog openInHand.
+	dialog calendar: calendar.

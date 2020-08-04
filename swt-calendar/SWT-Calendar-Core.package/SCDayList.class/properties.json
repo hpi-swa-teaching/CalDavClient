@@ -8,7 +8,8 @@
 	"instvars" : [
 		"numberOfDays",
 		"listOfDays",
-		"window" ],
+		"window",
+		"calendar" ],
 	"name" : "SCDayList",
 	"pools" : [
 		 ],

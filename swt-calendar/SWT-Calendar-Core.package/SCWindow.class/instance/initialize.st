@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-|fetchFromSabreButton newAppointmentButton sabreButton dayListItem buttonListItem|
+|fetchFromSabreButton newAppointmentButton sabreButton dayListItem buttonListItem calendar|
 
 SCSabreCalDavClient establishedConnection ~~ true
 ifTrue: [SCSabreButton SabreClientSetNil].
@@ -19,7 +19,10 @@ self color: Color gray;
 self extent: 50@200.
 "self position: 400@400."
 
-dayList:=SCDayList new initialize.
+dayList:=SCDayList new.
+calendar:= SCCalDavCalendar new.
+dayList calendar: calendar.
+dayList initialize.
 
 buttonListItem := PHListGroupItem new.
 buttonListItem vertical: false.
@@ -39,4 +42,6 @@ dayListItem := PHListGroupItem new.
 
 self addAll: dayList.
 SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
+newAppointmentButton calendar: calendar.
+fetchFromSabreButton calendar: calendar.
 fetchFromSabreButton refreshFetch.

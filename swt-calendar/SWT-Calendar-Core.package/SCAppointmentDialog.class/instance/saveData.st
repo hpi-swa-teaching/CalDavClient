@@ -10,5 +10,6 @@ saveData
 	client forcePushEvent: mock.
 	self accept: self.
 	self addEventToLocalDayList.
+	calendar handleNewAppointment: mock.
 	
 	
