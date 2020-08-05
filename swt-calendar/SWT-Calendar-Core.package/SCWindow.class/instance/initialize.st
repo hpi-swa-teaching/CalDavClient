@@ -27,6 +27,7 @@ dayList initialize.
 buttonListItem := PHListGroupItem new.
 buttonListItem vertical: false.
 sabreButton:=SCSabreButton new withLayout.
+SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
 buttonListItem add: sabreButton.
 newAppointmentButton := SCAppointmentButton new withLayout.
 newAppointmentButton dayList: dayList.
@@ -41,7 +42,6 @@ dayListItem := PHListGroupItem new.
 "fügt eine 10-tätige Liste ein"
 
 self addAll: dayList.
-SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
 newAppointmentButton calendar: calendar.
 fetchFromSabreButton calendar: calendar.
 fetchFromSabreButton refreshFetch.
