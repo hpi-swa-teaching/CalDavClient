@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "H.M. 7/30/2020 17:10",
 	"instvars" : [
-		"dayList",
-		"buttonListItem",
 		"connectToSabreButton",
 		"newAppointmentButton",
 		"fetchFromSabreButton" ],

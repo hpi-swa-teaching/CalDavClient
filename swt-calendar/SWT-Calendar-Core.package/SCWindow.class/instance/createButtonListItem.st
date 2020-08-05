@@ -1,6 +1,7 @@
 drawing
 createButtonListItem
 
+	| buttonListItem | 
 	buttonListItem := PHListGroupItem new.
 	buttonListItem vertical: false.
 	buttonListItem add: connectToSabreButton.

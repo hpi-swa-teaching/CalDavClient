@@ -2,9 +2,7 @@
 	"class" : {
 		"open" : "simon 7/11/2020 13:19" },
 	"instance" : {
-		"createButton:" : "j 8/5/2020 21:02",
-		"createButtonListItem" : "j 8/5/2020 21:10",
-		"dayList" : "Neo 6/24/2020 13:43",
-		"dayList:" : "H.M. 6/28/2020 10:57",
-		"initialize" : "j 8/5/2020 21:13",
+		"createButton:with:and:" : "Neo 8/5/2020 22:05",
+		"createButtonListItem" : "Neo 8/5/2020 22:07",
+		"initialize" : "Neo 8/5/2020 22:05",
 		"setWindowStyles" : "j 8/5/2020 21:06" } }
