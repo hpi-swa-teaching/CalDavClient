@@ -19,7 +19,7 @@ testConnection
 			|waitDialog|
 			waitDialog := PHDialog new; title: 'Retry Error!'.
 			waitDialog content: (PHLabel new; text: 'Retry error, please wait 7 seconds. Calendar will be automatically refreshed.'); openInHand.
-			Transcript show: ''.
-			(Delay forSeconds: 7 ) wait. "otherwise the next abandon command will be executed before delay is over"
+			Transcript show: ''."otherwise the next abandon command will be executed before delay is over"
+			(Delay forSeconds: 7 ) wait. 
 			waitDialog abandon.
 			calData := client fetchCalendarDataFrom: calendarUrl.].

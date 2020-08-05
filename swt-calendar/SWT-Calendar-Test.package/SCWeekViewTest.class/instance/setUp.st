@@ -1,4 +1,9 @@
 as yet unclassified
 setUp	
-
-	dayList := SCDayList new initialize
+	
+	|calendarMock|
+	
+	dayList := SCDayList new.
+	calendarMock := SCCalDavCalendar new.
+	dayList calendar: calendarMock.
+	dayList initialize.

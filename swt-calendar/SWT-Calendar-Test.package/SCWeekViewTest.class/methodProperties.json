@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"dayCheck:" : "nb 7/7/2020 23:12",
-		"setUp" : "kh 8/4/2020 21:54",
-		"testLastDate" : "nb 6/18/2020 15:55",
-		"testLastDatePlusOne" : "nb 7/5/2020 13:27",
+		"dayCheck:" : "Neo 8/5/2020 21:27",
+		"setUp" : "Neo 8/5/2020 21:20",
+		"testLastDate" : "Neo 8/5/2020 21:34",
+		"testLastDatePlusOne" : "Neo 8/5/2020 21:33",
 		"testTodaysDate" : "nb 6/18/2020 15:54",
 		"testTomorrowsDate" : "nb 6/18/2020 15:50",
 		"testYesterdaysDate" : "nb 7/7/2020 22:55" } }

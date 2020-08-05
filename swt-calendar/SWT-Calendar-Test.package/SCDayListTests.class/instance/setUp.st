@@ -1,4 +1,7 @@
 running
 setUp
-
-	dList := SCDayList new initialize.
+	|calendarMock|
+	dList := SCDayList new.
+	calendarMock := SCCalDavCalendar new.
+	dList calendar: calendarMock.
+	dList initialize.
