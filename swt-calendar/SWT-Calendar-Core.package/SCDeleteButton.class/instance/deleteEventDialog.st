@@ -7,4 +7,4 @@ deleteEventDialog
 	dialog content: (PHLabel new withPadding; text: 'To delete this event click ok.').
 	dialog content: (PHButton new withPadding; text: 'OK'; when: #clicked send: #delete: to: self with: dialog).
 	dialog content: (PHButton new withPadding; text: 'cancel'; when: #clicked send: #abandon to: dialog).
-	dialog openInHand.
+	dialog openFor: dialog.
