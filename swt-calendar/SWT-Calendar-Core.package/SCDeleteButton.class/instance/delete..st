@@ -8,7 +8,6 @@ delete: anDialog
 	
 	client deleteEvent: icEvent.
 	calendar handleDeleteAppointment: icEvent.
-	listItem abandon.
 	anDialog abandon.
 	
 	

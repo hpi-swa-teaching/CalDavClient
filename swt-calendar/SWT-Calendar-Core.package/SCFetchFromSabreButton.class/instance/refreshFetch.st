@@ -1,6 +1,6 @@
 as yet unclassified
 refreshFetch
-	| sabreAppointments collectedEvents dayList currentButton intermediateStep|
+	| sabreAppointments collectedEvents|
 	
 	(SCSabreCalDavClient establishedConnection) = true
 	ifTrue: [
@@ -9,12 +9,10 @@ refreshFetch
 		calendar eventsDictionary removeAll.
 		calendar updateOrCreateEventsFrom: sabreAppointments.
 		sabreAppointments := calendar eventsDictionary asOrderedCollection.
-		dayList := self dayList.
-		dayList do: [:outerEach |
-					currentButton := outerEach.
-					intermediateStep := currentButton submorphs.
-					currentButton := intermediateStep last.
+		calendar refreshEventsInWindow.
+		dayList showEvents.
+		"dayList do: [:outerEach |
 					collectedEvents := sabreAppointments select: [:innerEach | 
 						(innerEach serverData) start asDate asString = outerEach date asString]. 
-					outerEach events: collectedEvents.].].
-			calendar refreshEventsInWindow.
+					outerEach events: collectedEvents.].]."
+ "Period or right bracket expected ->" "Period or right bracket expected ->"]

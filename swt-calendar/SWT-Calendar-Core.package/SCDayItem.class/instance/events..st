@@ -7,7 +7,7 @@ events: anOrderedCollection
 					2 to: self submorphs size do: [:each |
 						self submorphs last abandon].
 					].
-	anOrderedCollection isEmpty
+	events isEmpty
 		ifFalse:[
 			|eventItem delButton eventTitles durationCalculator|
 			events do: [:each|

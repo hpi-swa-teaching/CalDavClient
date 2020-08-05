@@ -23,6 +23,7 @@ dayList:=SCDayList new.
 calendar:= SCCalDavCalendar new.
 dayList calendar: calendar.
 dayList initialize.
+calendar dayList: dayList.
 
 buttonListItem := PHListGroupItem new.
 buttonListItem vertical: false.
