@@ -1,3 +1,3 @@
 accessing
-establishedConnection: anObject
-	EstablishedConnection := anObject
+establishedConnection: aValue
+	EstablishedConnection := aValue

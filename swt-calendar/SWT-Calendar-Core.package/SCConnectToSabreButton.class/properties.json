@@ -10,7 +10,7 @@
 		"usernameArea",
 		"passwordArea",
 		"dialog" ],
-	"name" : "SCSabreButton",
+	"name" : "SCConnectToSabreButton",
 	"pools" : [
 		 ],
 	"super" : "PHButton",

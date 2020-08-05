@@ -8,7 +8,7 @@ filterMinute: anInteger
 	(input isInteger)
 		ifFalse: [appointmentDialog handleError: 'Wrong input format. Please enter a correct number.'.^false]
 		ifTrue: [
-			((input >= 0) and: (input <= 59))
+			((input >= self minimumMinutes) and: (input <= self maximumMinutes))
 				ifFalse: [appointmentDialog handleError: 'Wrong minute format. Please enter a correct number.'.^false]
 				ifTrue: [^input]
 			]

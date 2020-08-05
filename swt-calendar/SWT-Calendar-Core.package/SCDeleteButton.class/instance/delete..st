@@ -2,7 +2,7 @@ accessing
 delete: anDialog
 	
 	|client|
-	client := SCSabreButton sabreClient.
+	client := SCConnectToSabreButton sabreClient.
 	
 	SCFetchFromSabreButton testConnection.
 	

@@ -1,48 +1,44 @@
 as yet unclassified
 initialize
-|fetchFromSabreButton newAppointmentButton sabreButton dayListItem buttonListItem calendar|
+	|fetchFromSabreButton newAppointmentButton connectToSabreButton buttonListItem calendar|
 
-SCSabreCalDavClient establishedConnection ~~ true
-ifTrue: [SCSabreButton SabreClientSetNil].
+	"check if first time use or false status of stablished connection --> resets connection"
+	SCSabreCalDavClient establishedConnection ~~ true
+		ifTrue: [SCConnectToSabreButton SabreClientSetNil].
 
-super initialize.
-"self withPadding."
-self withLayout.
-self styleContext addClass: #window.
-self addStyleClass: #withPadding.
+	super initialize.
+	self withLayout.
+	self styleContext addClass: #window.
+	self addStyleClass: #withPadding.
+	self color: Color gray;
+		vertical:  true.
+	self extent: 50@200.
 
-"self layoutFrame:"
+	dayList:=SCDayList new.
+	calendar:= SCCalDavCalendar new.
+	dayList calendar: calendar.
+	dayList initialize.
+	calendar dayList: dayList.
 
-self color: Color gray;
-	vertical:  true.
+	connectToSabreButton := SCConnectToSabreButton new withLayout.
+	SCConnectToSabreButton sabreClient ifNil:[connectToSabreButton openDialog.].
 
-self extent: 50@200.
-"self position: 400@400."
+	newAppointmentButton := SCAppointmentButton new withLayout.
+	newAppointmentButton dayList: dayList.
+	newAppointmentButton calendar: calendar.
 
-dayList:=SCDayList new.
-calendar:= SCCalDavCalendar new.
-dayList calendar: calendar.
-dayList initialize.
-calendar dayList: dayList.
+	fetchFromSabreButton := SCFetchFromSabreButton new withLayout.
+	fetchFromSabreButton dayList: dayList.
+	fetchFromSabreButton calendar: calendar.
 
-buttonListItem := PHListGroupItem new.
-buttonListItem vertical: false.
-sabreButton:=SCSabreButton new withLayout.
-SCSabreButton sabreClient ifNil:[sabreButton openDialog.].
-buttonListItem add: sabreButton.
-newAppointmentButton := SCAppointmentButton new withLayout.
-newAppointmentButton dayList: dayList.
-buttonListItem add: newAppointmentButton.
-fetchFromSabreButton := SCFetchFromSabreButton new withLayout.
-fetchFromSabreButton dayList: dayList.
-buttonListItem add: fetchFromSabreButton.
-self add: buttonListItem.
+	buttonListItem := PHListGroupItem new.
+	buttonListItem vertical: false.
+	buttonListItem add: connectToSabreButton.
+	buttonListItem add: newAppointmentButton.
+	buttonListItem add: fetchFromSabreButton.
 
-dayListItem := PHListGroupItem new.
+	self add: buttonListItem.
+	self addAll: dayList.
 
-"fügt eine 10-tätige Liste ein"
-
-self addAll: dayList.
-newAppointmentButton calendar: calendar.
-fetchFromSabreButton calendar: calendar.
-fetchFromSabreButton refreshFetch.
+	"auto refresh on startup"
+	fetchFromSabreButton refreshFetch.

@@ -1,4 +1,4 @@
 tests
 testNumberOfDays
 
-	self assert: dList numberOfDays equals: 10.
+	self assert: dList numberOfDaysInDayList equals: 10.

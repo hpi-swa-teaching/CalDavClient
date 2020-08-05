@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "H.M. 7/30/2020 16:54",
 	"instvars" : [
-		"numberOfDays",
+		"numberOfDaysInDayList",
 		"listOfDays",
 		"window",
 		"calendar" ],

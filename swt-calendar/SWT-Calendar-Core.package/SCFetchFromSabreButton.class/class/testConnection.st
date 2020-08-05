@@ -3,7 +3,7 @@ testConnection
 
 	|calendarUrl client calData|
 
-	client := SCSabreButton sabreClient.
+	client := SCConnectToSabreButton sabreClient.
 
 	calendarUrl := client url.
 	
@@ -11,8 +11,8 @@ testConnection
 			|waitDialog|
 			waitDialog := PHDialog new; title: 'Connection Closed!'.
 			waitDialog content: (PHLabel new; text: 'Connection was closed, please wait 4 seconds. Calendar will be automatically refreshed.'); openInHand.
-			Transcript show: ''.
-			(Delay forSeconds:4)wait.
+			(Delay forSeconds: 4 ) wait.
+			Transcript show: ''. "otherwise the next abandon command will be executed before delay is over"
 			waitDialog abandon.
 			calData := client fetchCalendarDataFrom: calendarUrl..] 
 		on: CalDavRetryException do: [
@@ -20,6 +20,6 @@ testConnection
 			waitDialog := PHDialog new; title: 'Retry Error!'.
 			waitDialog content: (PHLabel new; text: 'Retry error, please wait 7 seconds. Calendar will be automatically refreshed.'); openInHand.
 			Transcript show: ''.
-			(Delay forSeconds:7)wait.
+			(Delay forSeconds: 7 ) wait. "otherwise the next abandon command will be executed before delay is over"
 			waitDialog abandon.
 			calData := client fetchCalendarDataFrom: calendarUrl.].

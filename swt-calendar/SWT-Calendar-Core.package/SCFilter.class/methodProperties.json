@@ -4,8 +4,17 @@
 	"instance" : {
 		"appointmentDialog" : "JS 7/2/2020 10:52",
 		"appointmentDialog:" : "JS 7/2/2020 10:52",
-		"convertMonth:" : "JS 7/2/2020 11:50",
-		"filterDay:" : "H.M. 7/29/2020 22:48",
-		"filterHour:" : "JS 7/7/2020 20:20",
-		"filterMinute:" : "JS 7/7/2020 20:20",
-		"filterYear:" : "JS 7/2/2020 11:26" } }
+		"convertMonth:" : "Neo 8/5/2020 18:57",
+		"filterDay:" : "Neo 8/5/2020 19:00",
+		"filterHour:" : "Neo 8/5/2020 18:59",
+		"filterMinute:" : "Neo 8/5/2020 19:01",
+		"filterYear:" : "JS 7/2/2020 11:26",
+		"maximumDays" : "Neo 8/5/2020 18:59",
+		"maximumHours" : "Neo 8/5/2020 18:59",
+		"maximumMinutes" : "Neo 8/5/2020 19:00",
+		"maximumMonths" : "Neo 8/5/2020 18:54",
+		"minimumDays" : "Neo 8/5/2020 18:58",
+		"minimumHours" : "Neo 8/5/2020 18:58",
+		"minimumMinutes" : "Neo 8/5/2020 19:00",
+		"minimumMonths" : "Neo 8/5/2020 18:58",
+		"neededMinimum" : "Neo 8/5/2020 18:57" } }
