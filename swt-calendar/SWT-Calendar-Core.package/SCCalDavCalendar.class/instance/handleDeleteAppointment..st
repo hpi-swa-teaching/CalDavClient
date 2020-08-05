@@ -1,4 +1,4 @@
-as yet unclassified
+events handling
 handleDeleteAppointment: anEvent
 
 eventsInWindow do:[:event|

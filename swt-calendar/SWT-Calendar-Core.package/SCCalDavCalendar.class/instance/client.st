@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 client
 
 	^ CalDavClient registeredClientFor: (self url) asUrl

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 	|fetchFromSabreButton newAppointmentButton connectToSabreButton buttonListItem calendar|
 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 url
 
 	^(SCConnectToSabreButton sabreClient url).

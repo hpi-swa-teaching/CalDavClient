@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 refreshEventsInWindow
 
 self eventsInWindow: OrderedCollection new. 
