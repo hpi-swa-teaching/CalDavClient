@@ -2,7 +2,13 @@
 	"class" : {
 		"open" : "simon 7/11/2020 13:19" },
 	"instance" : {
+		"connectToSabreButton" : "H.M. 8/5/2020 21:49",
+		"connectToSabreButton:" : "H.M. 8/5/2020 21:49",
 		"createButton:with:and:" : "Neo 8/5/2020 22:05",
 		"createButtonListItem" : "Neo 8/5/2020 22:07",
+		"fetchFromSabreButton" : "H.M. 8/5/2020 21:49",
+		"fetchFromSabreButton:" : "H.M. 8/5/2020 21:49",
 		"initialize" : "Neo 8/5/2020 22:05",
+		"newAppointmentButton" : "H.M. 8/5/2020 21:49",
+		"newAppointmentButton:" : "H.M. 8/5/2020 21:49",
 		"setWindowStyles" : "j 8/5/2020 21:06" } }
