@@ -1,6 +1,8 @@
 creation
 createDaysCollection: aNumber
-	| listOfDays ndDayList allEvents dayEvents| 
+	
+	| listOfDays ndDayList allEvents dayEvents | 
+	
 	listOfDays := PHListGroupItem new.
 	allEvents := OrderedCollection new.
 	calendar eventsDictionary do:[:each | 

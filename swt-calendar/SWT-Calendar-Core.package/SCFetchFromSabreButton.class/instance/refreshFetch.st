@@ -1,5 +1,6 @@
 event handling
 refreshFetch
+
 	| sabreAppointments |
 	
 	(SCSabreCalDavClient establishedConnection) = true

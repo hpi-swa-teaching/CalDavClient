@@ -1,4 +1,3 @@
 accessing
 url
-
-	^(SCConnectToSabreButton sabreClient url).
+	^ (SCConnectToSabreButton sabreClient url).

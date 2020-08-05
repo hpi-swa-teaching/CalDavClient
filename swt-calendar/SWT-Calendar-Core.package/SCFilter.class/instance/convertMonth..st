@@ -1,5 +1,6 @@
 filtering
 convertMonth: aMonth
+
 	| input monthList |
 	
 	input := aMonth.

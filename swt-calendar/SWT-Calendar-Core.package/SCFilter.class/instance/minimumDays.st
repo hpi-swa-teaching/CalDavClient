@@ -1,4 +1,4 @@
 filtering
 minimumDays
-	^1
+	^ 1
 

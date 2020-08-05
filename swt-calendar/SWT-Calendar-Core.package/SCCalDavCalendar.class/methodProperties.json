@@ -3,16 +3,16 @@
 		 },
 	"instance" : {
 		"addEvent:" : "Neo 8/5/2020 18:46",
-		"buildUrlFrom:" : "Neo 8/5/2020 19:14",
-		"client" : "H.M. 8/5/2020 12:21",
+		"buildUrlFrom:" : "j 8/5/2020 20:55",
+		"client" : "j 8/5/2020 20:54",
 		"dayList" : "H.M. 8/5/2020 13:33",
 		"dayList:" : "H.M. 8/5/2020 13:33",
 		"eventsInWindow" : "H.M. 8/4/2020 18:13",
 		"eventsInWindow:" : "H.M. 8/4/2020 18:13",
-		"handleDeleteAppointment:" : "H.M. 8/5/2020 13:35",
-		"handleNewAppointment:" : "j 8/5/2020 20:31",
+		"handleDeleteAppointment:" : "j 8/5/2020 20:54",
+		"handleNewAppointment:" : "j 8/5/2020 20:53",
 		"initialize" : "Neo 8/5/2020 18:46",
-		"refreshEventsInWindow" : "Neo 8/5/2020 19:08",
+		"refreshEventsInWindow" : "j 8/5/2020 20:53",
 		"updateOrCreateEventsFrom:" : "H.M. 8/2/2020 21:22",
-		"url" : "Neo 8/5/2020 19:14",
-		"urlPathPosition" : "Neo 8/5/2020 18:46" } }
+		"url" : "j 8/5/2020 20:55",
+		"urlPathPosition" : "j 8/5/2020 20:55" } }

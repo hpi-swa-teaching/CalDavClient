@@ -1,4 +1,4 @@
 filtering
 minimumMinutes
-	^0
+	^ 0
 

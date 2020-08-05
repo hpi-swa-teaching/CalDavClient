@@ -1,4 +1,4 @@
 filtering
 maximumHours
-	^23
+	^ 23
 

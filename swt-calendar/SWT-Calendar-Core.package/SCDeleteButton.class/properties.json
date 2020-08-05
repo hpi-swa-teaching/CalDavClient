@@ -8,7 +8,8 @@
 	"instvars" : [
 		"icEvent",
 		"listItem",
-		"calendar" ],
+		"calendar",
+		"calDavEvent" ],
 	"name" : "SCDeleteButton",
 	"pools" : [
 		 ],

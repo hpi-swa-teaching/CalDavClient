@@ -1,4 +1,4 @@
 filtering
 minimumMonths
-	^1
+	^ 1
 

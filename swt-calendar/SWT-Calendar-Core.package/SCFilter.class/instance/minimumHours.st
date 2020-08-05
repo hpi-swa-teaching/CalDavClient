@@ -1,4 +1,4 @@
 filtering
 minimumHours
-	^0
+	^ 0
 

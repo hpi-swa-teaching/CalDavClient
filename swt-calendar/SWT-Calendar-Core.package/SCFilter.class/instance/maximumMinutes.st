@@ -1,4 +1,4 @@
 filtering
 maximumMinutes
-	^59
+	^ 59
 

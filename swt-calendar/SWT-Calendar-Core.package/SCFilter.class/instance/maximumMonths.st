@@ -1,3 +1,3 @@
 filtering
 maximumMonths
-	^12
+	^ 12
