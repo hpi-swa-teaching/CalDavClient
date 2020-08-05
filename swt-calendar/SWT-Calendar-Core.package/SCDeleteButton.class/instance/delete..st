@@ -1,13 +1,13 @@
 accessing
 delete: anDialog
 	
-	|client|
-	client := SCConnectToSabreButton sabreClient.
+	| client |
 	
+	client := SCConnectToSabreButton sabreClient.
 	SCFetchFromSabreButton testConnection.
 	
-	client deleteEvent: icEvent.
-	calendar handleDeleteAppointment: icEvent.
+	client deleteEvent: calDavEvent.
+	calendar handleDeleteAppointment: calDavEvent.
 	anDialog abandon.
 	
 	

@@ -1,5 +1,6 @@
-as yet unclassified
+filtering
 convertMonth: aMonth
+
 	| input monthList |
 	
 	input := aMonth.

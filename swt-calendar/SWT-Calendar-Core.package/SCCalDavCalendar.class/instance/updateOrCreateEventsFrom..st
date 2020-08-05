@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateOrCreateEventsFrom: iCalData
 
 	iCalData do: [ :elem |

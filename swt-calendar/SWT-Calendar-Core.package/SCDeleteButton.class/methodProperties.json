@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"calDavEvent" : "j 8/5/2020 20:49",
+		"calDavEvent:" : "j 8/5/2020 20:48",
 		"calendar" : "H.M. 8/4/2020 19:27",
 		"calendar:" : "H.M. 8/4/2020 19:27",
-		"delete:" : "Neo 8/5/2020 19:14",
-		"deleteEventDialog" : "Neo 6/29/2020 20:54",
-		"icEvent" : "Neo 6/25/2020 10:37",
-		"icEvent:" : "H.M. 6/28/2020 10:59",
+		"delete:" : "j 8/5/2020 20:57",
+		"deleteEventDialog" : "j 8/5/2020 20:57",
 		"initialize" : "Neo 6/25/2020 10:11",
 		"listItem" : "Neo 6/25/2020 11:53",
 		"listItem:" : "Neo 6/25/2020 11:53" } }

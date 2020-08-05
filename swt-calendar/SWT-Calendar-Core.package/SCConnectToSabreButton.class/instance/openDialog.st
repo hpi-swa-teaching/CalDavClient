@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 openDialog
 
 dialog:=PHDialog new.

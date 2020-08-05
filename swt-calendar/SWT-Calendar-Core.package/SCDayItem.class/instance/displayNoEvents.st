@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 displayNoEvents
 
 	| noEventsLabel noEventsItem |

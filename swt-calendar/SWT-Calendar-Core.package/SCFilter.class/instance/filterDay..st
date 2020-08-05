@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 filterDay: aDay
 	
 	| input |

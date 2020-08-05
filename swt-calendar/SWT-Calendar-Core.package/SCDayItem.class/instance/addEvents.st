@@ -1,7 +1,7 @@
-as yet unclassified
+event handling
 addEvents
 
-	|eventItem delButton eventTitle|
+	| eventItem delButton eventTitle |
 	events do: [:each|
 		eventItem := PHListGroupItem new.
 		eventTitle:= self setEventTitle: each.

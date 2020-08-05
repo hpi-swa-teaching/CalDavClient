@@ -1,8 +1,8 @@
-as yet unclassified
+displaying
 setDeleteButton: anEvent
 
 	| delButton |
 	delButton := SCDeleteButton new; text: 'delete'.
-	delButton icEvent: anEvent.
+	delButton calDavEvent anEvent.
 	delButton color: Color red darker.
 	^delButton
