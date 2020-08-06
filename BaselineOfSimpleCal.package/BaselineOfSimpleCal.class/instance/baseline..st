@@ -6,7 +6,7 @@ baseline: spec
 		do: [
 			spec
 				baseline: 'Pheno' with: [
-					spec repository: 'github://tom95/Pheno/src'];
+					spec repository: 'github://tom95/Pheno:master/src'];
 				package: 'DAV' with: [
 					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
 				package: 'SWT-Calendar-Core' with: [spec 
