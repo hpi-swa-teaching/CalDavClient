@@ -1,3 +1,0 @@
-CalendarMorph
-date
-	^ date

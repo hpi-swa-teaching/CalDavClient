@@ -1,1 +1,0 @@
-I am a panel containing the events of one day as event blocks

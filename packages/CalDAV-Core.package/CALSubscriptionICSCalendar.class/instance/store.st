@@ -1,4 +1,0 @@
-accessing
-store
-
-	self storeLink

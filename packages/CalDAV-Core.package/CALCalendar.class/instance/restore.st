@@ -1,4 +1,0 @@
-persistence
-restore
-
-	self restoreEvents 

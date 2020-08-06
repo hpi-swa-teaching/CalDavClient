@@ -1,4 +1,0 @@
-accessing
-isReadOnly 
-
-	^ true
