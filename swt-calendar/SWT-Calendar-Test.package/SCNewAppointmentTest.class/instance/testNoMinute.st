@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testNoMinute
 
-mockDialog fillOutAppointmentDialogWithYear:'2020' Month:'March' Day:'18' Hour:'20' Minute:''.
+	mockDialog fillOutAppointmentDialogWithYear:'2020' Month:'March' Day:'18' Hour:'20' Minute:''.
 
-self assert: mockDialog filterDateAndTime = false.
+	self assert: mockDialog filterDateAndTime = false.

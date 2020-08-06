@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "nb 7/14/2020 23:58",
-		"testDeleteButtonLabel" : "kh 8/4/2020 20:27",
-		"testDuration1" : "kh 8/4/2020 20:27",
-		"testDuration2" : "kh 8/4/2020 20:27",
-		"testDuration3" : "kh 8/4/2020 20:27",
-		"testNoEvents" : "kh 8/4/2020 20:27" } }
+		"setUp" : "nb 8/6/2020 23:42",
+		"testDeleteButtonLabel" : "nb 8/7/2020 00:11",
+		"testDuration1" : "nb 8/7/2020 00:16",
+		"testDuration2" : "nb 8/7/2020 00:18",
+		"testDuration3" : "nb 8/7/2020 00:18",
+		"testNoEvents" : "nb 8/7/2020 00:12" } }

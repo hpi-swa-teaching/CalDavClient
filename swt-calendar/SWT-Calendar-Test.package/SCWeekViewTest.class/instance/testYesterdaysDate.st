@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testYesterdaysDate
 
 	self assert: (self dayCheck: (Date today - 1 days)) ~~ true.

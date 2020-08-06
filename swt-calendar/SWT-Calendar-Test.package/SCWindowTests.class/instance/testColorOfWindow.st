@@ -1,3 +1,3 @@
-running
+testing
 testColorOfWindow
 	self assert: Color black equals: ((window instVarNamed: 'label') color)
