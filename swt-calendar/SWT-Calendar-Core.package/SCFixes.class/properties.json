@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "j 8/6/2020 11:18",
+	"commentStamp" : "",
 	"instvars" : [
-		"dayList",
-		"calendar" ],
-	"name" : "SCWindow",
+		 ],
+	"name" : "SCFixes",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "Object",
 	"type" : "normal" }

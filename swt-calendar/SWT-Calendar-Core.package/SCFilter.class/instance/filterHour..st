@@ -8,7 +8,7 @@ filterHour: anInteger
 	(input isInteger)
 		ifFalse: [appointmentDialog handleError: 'Wrong input format. Please enter a correct number.'.^false]
 		ifTrue: [
-			((input >= self minimumHours) and: (input <= self maximumHours))
+			(input between: self minimumHours and: self maximumHours)
 				ifFalse: [appointmentDialog handleError: 'Wrong hour format. Please enter a correct number.'.^false]
 				ifTrue: [^input]
 			]

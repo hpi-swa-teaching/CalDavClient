@@ -3,7 +3,7 @@ refreshFetch
 
 	| sabreAppointments |
 	
-	(SCSabreCalDavClient establishedConnection) = true
+	SCSabreCalDavClient establishedConnection = true
 	ifTrue: [
 	self class testConnection.
 	sabreAppointments := self class fetchFromSabre.

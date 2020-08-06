@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addEvents" : "j 8/5/2020 20:56",
-		"calculateDuration:event:" : "H.M. 7/30/2020 22:17",
+		"calculateDuration:event:" : "H.M. 8/6/2020 22:53",
 		"calendar" : "H.M. 8/4/2020 19:25",
 		"calendar:" : "H.M. 8/4/2020 19:25",
 		"date" : "j 8/5/2020 20:56",
@@ -13,4 +13,4 @@
 		"events:" : "H.M. 8/5/2020 22:21",
 		"initialize" : "j 8/5/2020 20:56",
 		"setDeleteButton:" : "Neo 8/5/2020 23:29",
-		"setEventTitle:" : "H.M. 8/5/2020 22:28" } }
+		"setEventTitle:" : "H.M. 8/6/2020 22:53" } }
