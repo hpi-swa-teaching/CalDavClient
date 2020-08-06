@@ -2,19 +2,12 @@
 	"class" : {
 		"open" : "simon 7/11/2020 13:19" },
 	"instance" : {
-		"buttonListItem" : "Neo 8/5/2020 23:07",
-		"buttonListItem:" : "Neo 8/5/2020 23:07",
 		"calendar" : "Neo 8/5/2020 23:08",
 		"calendar:" : "Neo 8/5/2020 23:08",
-		"connectToSabreButton" : "H.M. 8/5/2020 21:49",
-		"connectToSabreButton:" : "H.M. 8/5/2020 21:49",
 		"createButton:with:and:" : "Neo 8/5/2020 22:05",
 		"createButtonListItem" : "Neo 8/5/2020 22:07",
+		"createButtonListItem:with:and:" : "H.M. 8/6/2020 22:39",
 		"dayList" : "Neo 8/5/2020 23:07",
 		"dayList:" : "Neo 8/5/2020 23:07",
-		"fetchFromSabreButton" : "H.M. 8/5/2020 21:49",
-		"fetchFromSabreButton:" : "H.M. 8/5/2020 21:49",
-		"initialize" : "Neo 8/6/2020 00:35",
-		"newAppointmentButton" : "H.M. 8/5/2020 21:49",
-		"newAppointmentButton:" : "H.M. 8/5/2020 21:49",
+		"initialize" : "H.M. 8/6/2020 22:44",
 		"setWindowStyles" : "j 8/5/2020 21:06" } }

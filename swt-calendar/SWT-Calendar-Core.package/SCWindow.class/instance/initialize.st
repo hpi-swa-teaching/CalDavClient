@@ -1,6 +1,7 @@
 initialize-release
 initialize
 
+	| connectToSabreButton fetchFromSabreButton newAppointmentButton buttonListItem |
 	SCSabreCalDavClient establishedConnection ~~ true
 		ifTrue: [SCConnectToSabreButton SabreClientSetNil].
 
@@ -13,12 +14,12 @@ initialize
 	dayList initialize.
 	calendar dayList:  dayList.
 
-	self connectToSabreButton: (SCConnectToSabreButton new withLayout).
+	connectToSabreButton:=(SCConnectToSabreButton new withLayout).
 
-	self newAppointmentButton: (self createButton: SCAppointmentButton with: calendar and: dayList).
-	self fetchFromSabreButton: (self createButton: SCFetchFromSabreButton with: calendar and: dayList).
+	newAppointmentButton:=(self createButton: SCAppointmentButton with: calendar and: dayList).
+	fetchFromSabreButton:=(self createButton: SCFetchFromSabreButton with: calendar and: dayList).
 
-	self buttonListItem: self createButtonListItem.
+	buttonListItem:=(self createButtonListItem: connectToSabreButton with: fetchFromSabreButton and: newAppointmentButton).
 
 	self add: buttonListItem.
 	self addAll: dayList.
