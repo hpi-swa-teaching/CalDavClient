@@ -10,7 +10,7 @@ baseline: spec
                 package: 'Pheno' with: [
                     spec repository: 'github://tom95/Pheno:master/src'];
                 package: 'SWT-Calendar-Core' with: [spec requires: #('DAV' 'Pheno')];
-                package: 'SWT-Calendar-Tests' with: [spec requires: #('DAV' 'Pheno')];
+                package: 'SWT-Calendar-Tests' with: [spec requires: #('SWT-Calendar-Core')];
                 yourself.
             spec
                 group: 'default' with: #('SWT-Calendar-Core');
