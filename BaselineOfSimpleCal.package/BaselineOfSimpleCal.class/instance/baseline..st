@@ -11,10 +11,12 @@ baseline: spec
 					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
 				package: 'SWT-Calendar-Core' with: [spec 
 					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
-					requires: #('DAV')];
-				"package: 'SWT-Calendar-Tests' with: [spec requires: #('SWT-Calendar-Core')];"
+					requires: #('Pheno' 'DAV')];
+				"package: 'SWT-Calendar-Tests' with: [spec 
+					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
+					requires: #('SWT-Calendar-Core')];"
 				yourself.
 			spec
 				group: 'default' with: #('SWT-Calendar-Core')];
 				"group: 'tests' with: #('SWT-Calendar-Tests')];"
-				yourself "Period or right bracket expected ->"
+				yourself
