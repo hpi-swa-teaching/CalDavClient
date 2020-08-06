@@ -12,11 +12,11 @@ baseline: spec
 				package: 'SWT-Calendar-Core' with: [spec 
 					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
 					requires: #('Pheno' 'DAV')];
-				"package: 'SWT-Calendar-Tests' with: [spec 
+				package: 'SWT-Calendar-Tests' with: [spec 
 					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
-					requires: #('SWT-Calendar-Core')];"
+					requires: #('SWT-Calendar-Core')];
 				yourself.
 			spec
-				group: 'default' with: #('SWT-Calendar-Core')];
-				"group: 'tests' with: #('SWT-Calendar-Tests')];"
+				group: 'default' with: #('SWT-Calendar-Core');
+				group: 'tests' with: #('SWT-Calendar-Tests')];
 				yourself
