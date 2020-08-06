@@ -5,7 +5,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'Pheno' with: [
+				baseline: 'Pheno' with: [
 					spec repository: 'github://tom95/Pheno/master/src'];
 				package: 'DAV' with: [
 					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
