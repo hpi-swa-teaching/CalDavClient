@@ -3,5 +3,6 @@ OrderedDictionary {
 	'packages\/CalDAV-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/CalDAV-Tests.package' : #SquotCypressCodeSerializer,
 	'swt-calendar\/SWT-Calendar-Core.package' : #SquotCypressCodeSerializer,
-	'swt-calendar\/SWT-Calendar-Test.package' : #SquotCypressCodeSerializer
+	'swt-calendar\/SWT-Calendar-Test.package' : #SquotCypressCodeSerializer,
+	'BaselineOfSimpleCal.package' : #SquotCypressCodeSerializer
 }

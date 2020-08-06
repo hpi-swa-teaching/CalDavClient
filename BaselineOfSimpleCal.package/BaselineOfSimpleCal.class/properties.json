@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSimpleCal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSimpleCal",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
