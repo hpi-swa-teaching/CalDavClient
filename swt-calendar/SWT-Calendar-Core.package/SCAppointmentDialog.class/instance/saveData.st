@@ -1,11 +1,12 @@
 creation
 saveData
 
-	| client |
+	| client eventCreated |
 	
 	client := SCConnectToSabreButton sabreClient.
 	SCFetchFromSabreButton testConnection.
-	self createNewEvent.
+	eventCreated := self createNewEvent.
+	eventCreated = false ifTrue:[^nil].
 	client pushEvent: mock.
 	client forcePushEvent: mock.
 	self accept: self.
