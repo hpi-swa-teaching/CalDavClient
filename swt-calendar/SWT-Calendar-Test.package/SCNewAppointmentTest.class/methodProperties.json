@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "kh 8/4/2020 23:19",
+		"setUp" : "nb 8/6/2020 19:55",
+		"tearDown" : "nb 8/6/2020 20:00",
 		"testCorrectDate" : "kh 8/4/2020 22:46",
 		"testLongYear" : "kh 8/4/2020 22:46",
 		"testNoDay" : "kh 8/4/2020 22:46",
@@ -12,7 +13,7 @@
 		"testNoYear" : "kh 8/4/2020 22:46",
 		"testStupidDay" : "kh 8/4/2020 22:47",
 		"testStupidHour" : "kh 8/4/2020 22:47",
-		"testStupidMonth" : "kh 8/4/2020 22:47",
+		"testStupidMonth" : "nb 8/6/2020 19:07",
 		"testStupidYear" : "kh 8/4/2020 22:47",
 		"testWrongDay" : "kh 8/4/2020 22:47",
 		"testWrongHour" : "kh 8/4/2020 22:47",

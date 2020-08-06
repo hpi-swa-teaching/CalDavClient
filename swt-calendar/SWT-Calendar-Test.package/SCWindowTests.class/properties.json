@@ -10,5 +10,5 @@
 	"name" : "SCWindowTests",
 	"pools" : [
 		 ],
-	"super" : "SCTestCases",
+	"super" : "TestCase",
 	"type" : "normal" }
