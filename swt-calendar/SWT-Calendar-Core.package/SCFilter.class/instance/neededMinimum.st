@@ -1,4 +1,0 @@
-filtering
-neededMinimum
-	^ 1
-
