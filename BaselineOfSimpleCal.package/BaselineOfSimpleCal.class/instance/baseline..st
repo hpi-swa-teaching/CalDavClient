@@ -5,13 +5,17 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
+				project: 'ICal' with: [
+					spec 
+						className: 'ConfigurationOfICal';
+						repository: 'github://codezeilen/ical-smalltalk/repository'];
 				baseline: 'Pheno' with: [
 					spec repository: 'github://tom95/Pheno:master/src'];
 				package: 'DAV' with: [
 					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
 				package: 'SWT-Calendar-Core' with: [spec 
 					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
-					requires: #('Pheno' 'DAV')];
+					requires: #('ICal' 'Pheno' 'DAV')];
 				package: 'SWT-Calendar-Tests' with: [spec 
 					repository: 'github://hpi-swa-teaching/CalDavClient:development/swt-calendar';
 					requires: #('SWT-Calendar-Core')];
