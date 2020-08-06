@@ -15,6 +15,6 @@ addContent
 	self content: startDayArea.
 	self content: startMonthArea.
 	self content: startYearArea.
-	self content: (PHLabel new text:'Enter Time';pointSize: 25).
+	self content: (PHLabel new text:'Enter Time (24-hour-format)';pointSize: 25).
 	self content: timePage.
 	self content: (PHButton new withPadding; text: 'OK'; when: #clicked send: #saveData to: self).
