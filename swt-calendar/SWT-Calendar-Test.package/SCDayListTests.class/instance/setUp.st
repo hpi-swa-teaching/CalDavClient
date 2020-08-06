@@ -1,5 +1,6 @@
 running
 setUp
+
 	|calendarMock|
 	dList := SCDayList new.
 	calendarMock := SCCalDavCalendar new.

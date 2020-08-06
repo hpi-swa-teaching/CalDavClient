@@ -1,11 +1,11 @@
-as yet unclassified
+testing
 testNoEvents
 
-|dayItem label|
+	|dayItem label|
 
-dayItem:= SCDayItem new.
-dayItem events: emptyCollection.
+	dayItem:= SCDayItem new.
+	dayItem events: emptyCollection.
 
-label:= (dayItem submorphs at: 2) text.
+	label:= (dayItem submorphs at: 2) text.
 
-self assert: '- There are no events for this day' equals: label.
+	self assert: '- There are no events for this day' equals: label.

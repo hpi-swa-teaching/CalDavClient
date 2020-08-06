@@ -1,4 +1,4 @@
 running
 tearDown
 
-window ifNotNil: #abandon.
+	window ifNotNil: [:x | x abandon].

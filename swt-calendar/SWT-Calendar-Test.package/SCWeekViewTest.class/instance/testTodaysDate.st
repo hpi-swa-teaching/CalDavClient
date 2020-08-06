@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testTodaysDate
 
 	self assert: (self dayCheck: (Date today)) = true.

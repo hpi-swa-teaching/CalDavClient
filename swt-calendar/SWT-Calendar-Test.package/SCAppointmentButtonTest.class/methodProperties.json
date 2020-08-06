@@ -4,4 +4,5 @@
 	"instance" : {
 		"setUp" : "kh 8/4/2020 21:53",
 		"tearDown" : "Neo 7/7/2020 23:16",
-		"testColorOfDayButton" : "Neo 7/7/2020 23:16" } }
+		"testColorOfDayButton" : "Neo 7/7/2020 23:16",
+		"testTextOnAppointmentButton" : "nb 8/6/2020 20:41" } }

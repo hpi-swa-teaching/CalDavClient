@@ -1,5 +1,5 @@
-as yet unclassified
+creatMock
 createMockEventWithStart: aStartDate End: aEndDate
 
-start:= aStartDate.
-end:= aEndDate.
+	start:= aStartDate.
+	end:= aEndDate.

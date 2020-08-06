@@ -1,6 +1,6 @@
-as yet unclassified
+initialize-release
 initialize
 
-super initialize.
+	super initialize.
 
-summary:= 'testEvent'.
+	summary:= 'testEvent'.
