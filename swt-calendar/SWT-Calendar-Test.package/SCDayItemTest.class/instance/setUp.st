@@ -3,21 +3,21 @@ setUp
 
 	|mockEvent1 mockEvent2 mockEvent3|
 
-	mockEvent1:= SCMockEvent new.
+	mockEvent1 := SCMockEvent new.
 	mockEvent1 createMockEventWithStart: (DateAndTime year: 2020 month: 7 day: 20 hour: 6 minute: 0) End: (DateAndTime year: 2020 month: 7 day: 21 hour: 6 minute: 0).
-	eventCollection1:= OrderedCollection new.
+	eventCollection1 := OrderedCollection new.
 	eventCollection1 add: mockEvent1.
 
-	mockEvent2:= SCMockEvent new.
+	mockEvent2 := SCMockEvent new.
 	mockEvent2 createMockEventWithStart: (DateAndTime year: 2020 month: 7 day: 20 hour: 6 minute: 0) End: (DateAndTime year: 2020 month: 7 day: 21 hour: 8 minute: 0).
-	eventCollection2:= OrderedCollection new.
+	eventCollection2 := OrderedCollection new.
 	eventCollection2 add: mockEvent2.
 
 
-	mockEvent3:= SCMockEvent new.
+	mockEvent3 := SCMockEvent new.
 	mockEvent3 createMockEventWithStart: (DateAndTime year: 2020 month: 7 day: 20 hour: 6 minute: 0) End: (DateAndTime year: 2020 month: 7 day: 21 hour: 6 minute: 30).
-	eventCollection3:= OrderedCollection new.
+	eventCollection3 := OrderedCollection new.
 	eventCollection3 add: mockEvent3.
 
-	emptyCollection:= OrderedCollection new.
+	emptyCollection := OrderedCollection new.
 

@@ -3,9 +3,9 @@ filterMinute: anInteger
 
 	| input |
 	
-	input := (anInteger asInteger).
+	input := anInteger asInteger.
 	
-	(input isInteger)
+	input isInteger
 		ifFalse: [appointmentDialog handleError: 'Wrong input format. Please enter a correct number.'.^false]
 		ifTrue: [
 			(input between: self minimumMinutes and: self maximumMinutes)

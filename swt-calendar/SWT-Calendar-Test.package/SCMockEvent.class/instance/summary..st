@@ -1,4 +1,4 @@
 accessing
 summary: aTitle
 
-	summary:= aTitle.
+	summary := aTitle.

@@ -1,3 +1,3 @@
 accessing
 client
-	^ CalDavClient registeredClientFor: (self url) asUrl
+	^ CalDavClient registeredClientFor: self url asUrl

@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 
-	summary:= 'testEvent'.
+	summary := 'testEvent'.

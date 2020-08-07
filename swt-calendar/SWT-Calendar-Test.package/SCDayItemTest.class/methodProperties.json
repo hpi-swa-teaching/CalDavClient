@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "nb 8/6/2020 23:42",
-		"testDeleteButtonLabel" : "nb 8/7/2020 00:11",
-		"testDuration1" : "nb 8/7/2020 00:16",
-		"testDuration2" : "nb 8/7/2020 00:18",
-		"testDuration3" : "nb 8/7/2020 00:18",
-		"testNoEvents" : "nb 8/7/2020 00:12" } }
+		"setUp" : "H.M. 8/7/2020 17:27",
+		"tearDown" : "H.M. 8/7/2020 17:45",
+		"testDeleteButtonLabel" : "H.M. 8/7/2020 17:27",
+		"testDuration1" : "H.M. 8/7/2020 17:52",
+		"testDuration2" : "H.M. 8/7/2020 17:53",
+		"testDuration3" : "H.M. 8/7/2020 17:53",
+		"testNoEvents" : "H.M. 8/7/2020 17:33" } }
