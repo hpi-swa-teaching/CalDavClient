@@ -6,12 +6,12 @@ filterDateAndTime
 	filter := SCFilter new.
 	filter appointmentDialog: self.
 	startDay := filter filterDay: startDay.
-	startDay = false ifTrue:[^false].
+	startDay ifFalse: [^false].
 	startMonth := (filter convertMonth: startMonth).
-	startMonth= false ifTrue:[^false].
+	startMonth ifFalse: [^false].
 	startYear := filter filterYear: startYear.
-	startYear = false ifTrue:[^false].
+	startYear ifFalse: [^false].
 	startHour := filter filterHour: startHour.
-	startHour = false ifTrue:[^false].
+	startHour ifFalse: [^false].
 	startMinute := filter filterMinute: startMinute.
-	startMinute = false ifTrue:[^false].
+	startMinute ifFalse: [^false].

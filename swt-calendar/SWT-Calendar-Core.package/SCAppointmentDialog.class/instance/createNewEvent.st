@@ -10,8 +10,8 @@ createNewEvent
 		ifTrue: [self handleError:'Please enter a title for the appointment'. ^false].
 	self setDateAndTime.
 	filtered:=self filterDateAndTime.
-	filtered=false ifTrue:[^false].
+	filtered ifFalse: [^false].
 	startDate := (startDay asString,' ', startMonth,' ',startYear asString).
-	[startDateAndTime := ((startDate asDate) + startHour hours + startMinute minutes) asDateAndTime] on: Error do: [self handleError: 'Please enter a valid date'. ^false.].
+	[startDateAndTime := (startDate asDate + startHour hours + startMinute minutes) asDateAndTime] on: Error do: [self handleError: 'Please enter a valid date'. ^false.].
 	mock start: startDateAndTime.
 	mock end: mock start + self standardDuration.

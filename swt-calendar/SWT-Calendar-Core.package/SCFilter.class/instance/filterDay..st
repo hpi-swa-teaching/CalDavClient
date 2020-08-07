@@ -2,9 +2,9 @@ filtering
 filterDay: aDay
 	
 	| input |
-	input := (aDay asInteger).
+	input := aDay asInteger.
 	
-	(input isInteger)
+	input isInteger
 		ifTrue: [
 			(input between: self minimumDays and: self maximumDays)
 				ifTrue: [^input]

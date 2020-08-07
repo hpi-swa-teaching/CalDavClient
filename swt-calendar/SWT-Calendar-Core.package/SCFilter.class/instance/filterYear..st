@@ -3,11 +3,11 @@ filterYear: aYear
 
 	| input |
 	
-	input := (aYear asInteger).
+	input := aYear asInteger.
 	
-	(input isInteger)
+	input isInteger
 		ifTrue: [
-			((input asString) size > 4)
+			(input asString size > 4)
 				ifTrue: [appointmentDialog handleError: 'Wrong year format. Please choose a year between 0-9999.'. ^false]
 				ifFalse: [^input]
 		]
