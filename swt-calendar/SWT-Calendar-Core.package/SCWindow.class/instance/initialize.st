@@ -16,8 +16,8 @@ initialize
 
 	connectToSabreButton:=(SCConnectToSabreButton new withLayout).
 
-	newAppointmentButton:=(self createButton: SCAppointmentButton with: calendar and: dayList).
-	fetchFromSabreButton:=(self createButton: SCFetchFromSabreButton with: calendar and: dayList).
+	newAppointmentButton:=(self createButton: SCAppointmentButton).
+	fetchFromSabreButton:=(self createButton: SCFetchFromSabreButton).
 
 	buttonListItem:=(self createButtonListItem: connectToSabreButton with: fetchFromSabreButton and: newAppointmentButton).
 
