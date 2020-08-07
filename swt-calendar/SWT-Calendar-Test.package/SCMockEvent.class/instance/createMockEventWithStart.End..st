@@ -1,4 +1,4 @@
-creatMock
+create mock
 createMockEventWithStart: aStartDate End: aEndDate
 
 	start:= aStartDate.
