@@ -1,4 +1,4 @@
 testing
 testTodaysDate
 
-	self assert: (self dayCheck: (Date today)) = true.
+	self assert: (self dayCheck: Date today) = true.

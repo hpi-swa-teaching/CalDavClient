@@ -1,5 +1,5 @@
 creation
-handleError:aString
+handleError: aString
 
 	| dialog |
 	

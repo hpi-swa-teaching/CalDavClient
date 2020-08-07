@@ -1,4 +1,4 @@
 accessing
 summary
 
-	^summary
+	^ summary

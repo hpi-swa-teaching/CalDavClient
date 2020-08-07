@@ -1,0 +1,4 @@
+mock
+handleError: aString
+
+	^ nil
