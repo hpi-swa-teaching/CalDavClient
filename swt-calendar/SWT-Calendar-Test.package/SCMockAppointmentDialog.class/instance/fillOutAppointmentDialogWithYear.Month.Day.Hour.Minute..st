@@ -1,4 +1,4 @@
-as yet unclassified
+mock
 fillOutAppointmentDialogWithYear: aYear Month: aMonth Day: aDay Hour: aHour Minute: aMinute
 
 	self startYearArea textArea text: aYear.
