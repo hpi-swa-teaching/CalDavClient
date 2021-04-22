@@ -1,5 +1,5 @@
 # CalDavClient [![Build Status][travis_badge]][travis_url]
-SWT19 - Group 12
+SWT21 - Group 15
 
 
 
