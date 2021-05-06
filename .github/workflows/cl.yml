@@ -14,7 +14,7 @@ jobs:
         # Select platform(s)
         os: [ubuntu-latest, macos-latest, windows-latest]
         # Select compatible Smalltalk image(s)
-        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2, Squeak64-5.1]
+        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2]
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
@@ -22,13 +22,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Setup smalltalkCI
-        uses: hpi-swa/setup-smalltalkCI@1.1.0
+      - uses: hpi-swa/setup-smalltalkCI@v1
         with:
-          smalltalk-version: ${{ matrix.smalltalk }}
-      - name: Test ChangesBrowser
-        run: smalltalkci -s ${{ matrix.smalltalk }}
-        shell: bash
+          smalltalk-image: ${{ matrix.smalltalk }}
+      - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
         env:
+          # for uploading coverage reports
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
