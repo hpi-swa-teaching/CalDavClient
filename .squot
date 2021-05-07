@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/BaselineOfCalDAV.package' : #SquotCypressCodeSerializer,
-	'packages\/CalDAV-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/CalDAV-Tests.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfCalDAV.package' : #SquotCypressCodeSerializer,
+	'packages/CalDAV-Core.package' : #SquotCypressCodeSerializer,
+	'packages/CalDAV-Tests.package' : #SquotCypressCodeSerializer
 }

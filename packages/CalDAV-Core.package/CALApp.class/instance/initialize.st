@@ -6,4 +6,6 @@ initialize
 		monthPanel: (CALMonthPanel new
 			app: self);
 		weekPanel: (CALWeekPanel new 
-			app: self)
+			app: self);
+		deadlinesPanel: (CALDeadlinesPanel new
+			app: self).
