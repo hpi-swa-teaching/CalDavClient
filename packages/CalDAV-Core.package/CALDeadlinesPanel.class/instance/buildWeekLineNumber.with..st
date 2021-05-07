@@ -1,12 +1,12 @@
 as yet unclassified
 buildWeekLineNumber: aNumber with: aBuilder
 
-	| y |
+	| x y model spec |
 	
+	x := 0.
 	y := self weekGridHeight * aNumber.
-	^ aBuilder pluggableButtonSpec new
-		model: self;
-		enabled: false;
-		label: y asString;
-		frame: (0 @ y corner: self weekLabelWidth @ (y+ self weekGridHeight));
-		yourself
+	model := CALDeadlinesEventPanel new
+				app: self app;
+				week: (self weekLineDateFor: (aNumber+1)).
+	spec := model buildSpec: aBuilder.
+	^ spec frame: (x @ y corner: x @ (y + self weekGridHeight))
