@@ -2,7 +2,7 @@ as yet unclassified
 buildEventNumber: aNumber with: aBuilder
 	| x |
 	
-	x := self dayGridWidth * aNumber.
+	"x := self dayGridWidth * aNumber."
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		enabled: false;

@@ -3,5 +3,5 @@ layoutDeadlinesEventBlocksIn: eventBlocks with: aBuilder
 	| eventGrids |
 	
 	eventGrids := OrderedCollection new.
-	1 to: eventBlocks length do: [ :each | eventGrids add: (self buildEventNumber: each with: aBuilder)].
+	1 to: eventBlocks size do: [ :each | eventGrids add: (self buildEventNumber: each with: aBuilder)].
 	^ eventGrids

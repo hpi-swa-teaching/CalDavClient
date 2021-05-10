@@ -2,12 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addDays:" : "yk 5/10/2021 19:20",
 		"app" : "yk 5/7/2021 19:24",
 		"app:" : "yk 5/7/2021 19:23",
 		"buildSpec:" : "yk 5/7/2021 20:19",
-		"buildWeekLineNumber:with:" : "yk 5/7/2021 20:30",
+		"buildWeekLineNumber:with:" : "yk 5/10/2021 20:10",
 		"buildWeekLineWith:" : "yk 5/7/2021 20:28",
+		"calculateDaysOfWeek:" : "yk 5/10/2021 19:55",
+		"day" : "yk 5/10/2021 19:26",
 		"startDay" : "yk 5/7/2021 20:56",
 		"weekGridHeight" : "yk 5/7/2021 19:49",
 		"weekLabelWidth" : "yk 5/7/2021 19:58",
-		"weekLineDateFor:" : "yk 5/7/2021 21:07" } }
+		"weekLineDateFor:" : "yk 5/10/2021 19:39" } }

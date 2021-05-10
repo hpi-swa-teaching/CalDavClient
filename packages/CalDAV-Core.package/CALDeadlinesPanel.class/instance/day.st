@@ -1,3 +1,3 @@
 as yet unclassified
-week
-	^week
+day
+	^Date today

@@ -7,6 +7,6 @@ buildWeekLineNumber: aNumber with: aBuilder
 	y := self weekGridHeight * aNumber.
 	model := CALDeadlinesEventPanel new
 				app: self app;
-				week: (self weekLineDateFor: (aNumber+1)).
+				days: (self calculateDaysOfWeek: (aNumber+1)).
 	spec := model buildSpec: aBuilder.
-	^ spec frame: (x @ y corner: x @ (y + self weekGridHeight))
+	^ spec frame: (x @ y corner: 1 @ (y + self weekGridHeight))
