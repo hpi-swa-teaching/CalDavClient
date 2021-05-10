@@ -9,8 +9,10 @@ buildSpec: aBuilder
 		name: 'deadlineEvents';
 		children: OrderedCollection new.
 		
+		
 	content children
 		addAll: (self buildDeadlinesEventBlocks: aBuilder).
+		
 	
 	^ content
 			
