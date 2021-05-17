@@ -8,7 +8,7 @@ openDeadlinesView
 	builder 
 		buildAll: {(self buildDeadlinesPanel: builder)} 
 		in: self topView.
-	self changed: #isDeadlinesViewActive
+	self changed: #isDeadlinesViewNotActive
 
 
 

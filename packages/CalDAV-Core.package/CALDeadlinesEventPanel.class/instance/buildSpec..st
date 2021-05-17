@@ -7,6 +7,7 @@ buildSpec: aBuilder
 	content
 		model: self;
 		name: 'deadlineEvents';
+		padding:  20;
 		children: OrderedCollection new.
 		
 		
