@@ -1,3 +1,3 @@
 accessing
-caldavLink: anObject
-	caldavLink := anObject
+caldavLink: aLink 
+	caldavLink := aLink 

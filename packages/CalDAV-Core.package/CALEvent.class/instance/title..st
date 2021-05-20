@@ -1,3 +1,3 @@
 accessing
-title: anObject
-	title := anObject
+title: aString
+	title := aString 

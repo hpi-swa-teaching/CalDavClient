@@ -1,3 +1,3 @@
 accessing
-beginMinute: anObject
-	beginMinute := anObject
+beginMinute: aMinute 
+	beginMinute := aMinute 

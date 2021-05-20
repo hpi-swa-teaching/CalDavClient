@@ -1,3 +1,3 @@
 accessing
-endYear: anObject
-	endYear := anObject
+endYear: aYear
+	endYear := aYear 

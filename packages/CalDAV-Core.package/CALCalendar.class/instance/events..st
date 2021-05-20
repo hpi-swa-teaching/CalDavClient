@@ -1,3 +1,3 @@
 accessing
-events: anObject
-	events := anObject
+events: aSortedCollection
+	events := aSortedCollection 

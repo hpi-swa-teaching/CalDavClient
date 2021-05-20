@@ -1,3 +1,3 @@
 accessing
-app: anObject
-	parent := anObject
+app: aCALApp
+	parent := aCALApp
