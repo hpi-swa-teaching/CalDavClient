@@ -1,1 +1,0 @@
-I generate an ICCalendar from a web response, extended by attendees

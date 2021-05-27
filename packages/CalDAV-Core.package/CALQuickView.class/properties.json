@@ -1,0 +1,18 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"date",
+		"currentIndex",
+		"app",
+		"day",
+		"parent" ],
+	"name" : "CALQuickView",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
