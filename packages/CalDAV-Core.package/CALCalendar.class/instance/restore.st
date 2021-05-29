@@ -1,4 +1,4 @@
 persistence
 restore
 
-	self restoreEvents 
+	self restoreCalendar
