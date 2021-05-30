@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parent",
-		"days" ],
-	"name" : "CALDeadlinesEventPanel",
+		"parent" ],
+	"name" : "CALDeadlinesWindow",
 	"pools" : [
 		 ],
 	"super" : "CALPanel",

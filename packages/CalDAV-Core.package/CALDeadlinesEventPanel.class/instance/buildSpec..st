@@ -7,12 +7,10 @@ buildSpec: aBuilder
 	content
 		model: self;
 		name: 'deadlineEvents';
-		padding:  20;
 		children: OrderedCollection new.
 		
 		
-	content children
-		addAll: (self buildDeadlinesEventBlocks: aBuilder).
+	content children add: (self buildEventList: aBuilder).
 		
 	
 	^ content

@@ -1,16 +1,15 @@
 {
 	"class" : {
-		 },
+		"open" : "LM 5/27/2021 13:36" },
 	"instance" : {
 		"addDays:" : "yk 5/10/2021 19:20",
 		"app" : "yk 5/7/2021 19:24",
 		"app:" : "yk 5/7/2021 19:23",
-		"buildSpec:" : "yk 5/10/2021 21:24",
-		"buildWeekLineNumber:with:" : "yk 5/10/2021 20:10",
+		"buildSpec:" : "LM 5/27/2021 14:47",
+		"buildWeekLineNumber:with:" : "LM 5/27/2021 14:50",
 		"buildWeekLineWith:" : "yk 5/7/2021 20:28",
 		"calculateDaysOfWeek:" : "yk 5/10/2021 19:55",
 		"day" : "yk 5/10/2021 19:26",
 		"startDay" : "yk 5/7/2021 20:56",
-		"weekGridHeight" : "yk 5/7/2021 19:49",
-		"weekLabelWidth" : "yk 5/7/2021 19:58",
+		"weekGridHeight" : "LM 5/27/2021 14:47",
 		"weekLineDateFor:" : "yk 5/10/2021 19:39" } }
