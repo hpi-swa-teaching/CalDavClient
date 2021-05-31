@@ -7,5 +7,5 @@ buildEventListWith: aBuilder
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
 		doubleClick: #openEventDetails;
-		frame: (0 @ 0 corner: 1 @ 1 );
+		frame: (0 @ 0 corner: 1 @ 1);
 		yourself

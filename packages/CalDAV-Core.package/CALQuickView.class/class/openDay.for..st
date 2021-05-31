@@ -6,6 +6,6 @@ openDay: aDate for: anApp
 	aDate start: (aDate start offset: DateAndTime localOffset).
 	quickView := CALQuickView new
 		app: anApp;
-		day: aDate.
+		date: aDate.
 	
 	^ ToolBuilder default open: quickView
