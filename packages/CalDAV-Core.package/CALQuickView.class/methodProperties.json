@@ -5,7 +5,7 @@
 	"instance" : {
 		"app" : "yk 5/26/2021 13:12",
 		"app:" : "yk 5/26/2021 13:12",
-		"buildEventListWith:" : "yk 5/31/2021 09:47",
+		"buildEventListWith:" : "yk 6/3/2021 14:03",
 		"buildWith:" : "yk 5/30/2021 10:15",
 		"currentIndex" : "yk 5/26/2021 13:25",
 		"currentIndex:" : "yk 5/26/2021 13:25",
@@ -13,6 +13,7 @@
 		"date:" : "yk 5/26/2021 13:23",
 		"dateText" : "yk 5/26/2021 13:23",
 		"eventNames" : "yk 5/26/2021 13:20",
-		"events" : "yk 5/26/2021 13:23",
+		"events" : "yk 6/3/2021 15:15",
+		"filterOut15EventsIn:" : "yk 6/3/2021 15:14",
 		"initialize" : "yk 5/26/2021 13:25",
 		"openDay:for:" : "yk 5/26/2021 13:16" } }

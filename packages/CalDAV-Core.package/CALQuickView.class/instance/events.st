@@ -4,8 +4,9 @@ events
 	| events |
 	
 	events:= OrderedCollection new.
-	self date ifNotNil: [
-		events addAll: (self app eventsIn: self date).
+	0 to: 365 do: [:day| events addAll:
+		(self app eventNamesIn: (self date addDays: day)).
 		].
-	^ events
+	
+	^ self filterOut15EventsIn: events
 	

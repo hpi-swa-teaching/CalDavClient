@@ -3,7 +3,7 @@ buildEventListWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		list: #eventNames;
+		list: #events;
 		getIndex: #currentIndex;
 		setIndex: #currentIndex:;
 		doubleClick: #openEventDetails;
