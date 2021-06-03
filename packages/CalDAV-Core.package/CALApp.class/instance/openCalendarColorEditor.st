@@ -1,17 +1,11 @@
 subwindows
 openCalendarColorEditor
 	
-	| dropDown argCollection |
-	argCollection := OrderedCollection new.
-	dropDown := DropDownChoiceMorph new.
-	argCollection add: dropDown; yourself.
-	dropDown 
-		contents: 'choose calendar to edit';
-		target: self; 
-		getItemsSelector: #calendarNames;
-		getItemsArgs: Array empty;
-		arguments: argCollection;
-		actionSelector: #deleteDropDown:AndSetColorOf:;
-		position: self topView position + (160 @ 300);
-		yourself.
-	dropDown openInWorld
+	| calendarName calendarNameIndex |
+	calendarNameIndex := UIManager default 
+		chooseFrom: self calendarNames title: 'Choose a calendar'.  
+	
+	calendarNameIndex = 0 ifFalse: [ 
+		calendarName := self calendarNames at: calendarNameIndex. 
+		calendarName isEmpty not 
+			ifTrue: [self setColorOf: calendarName]]

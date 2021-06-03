@@ -5,7 +5,8 @@ testButtonPresence
 	
 	spec := self app buildWith: ToolBuilder default.
 	buttons := Dictionary newFrom:
-	{'Add Calendar' -> #openAddCalendarDialog.
+	{'Edit Calendar' -> #openCalendarColorEditor.
+	'Add Calendar' -> #openAddCalendarDialog.
 	  'Delete Calendar' -> #openDeleteCalendarDialog.
 	  'Import ICS Calendar' -> #importSubscriptionCalendar.
 	  'Import CalDAV Calendar' -> #importWebDAVCalendar.
