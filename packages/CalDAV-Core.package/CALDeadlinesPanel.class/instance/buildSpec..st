@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildSpec: aBuilder
 
 	| content |
@@ -7,10 +7,8 @@ buildSpec: aBuilder
 	content
 		model: self;
 		name: 'deadlinesGrid';
-		frame: (0@0 corner: 1@1);
+		frame: (0 @ 0 corner: 1 @ 1);
 		children: OrderedCollection new.
-		
 	content children
 		addAll: (self buildWeekLineWith: aBuilder).
-	
 	^ content

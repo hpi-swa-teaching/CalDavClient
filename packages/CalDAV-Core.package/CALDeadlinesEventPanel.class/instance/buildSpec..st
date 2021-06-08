@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildSpec: aBuilder
 
 	| content |
@@ -8,10 +8,6 @@ buildSpec: aBuilder
 		model: self;
 		name: 'deadlineEvents';
 		children: OrderedCollection new.
-		
-		
 	content children add: (self buildEventList: aBuilder).
-		
-	
 	^ content
 			

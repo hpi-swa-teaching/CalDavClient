@@ -1,3 +1,3 @@
-as yet unclassified
-days: anObject
-	days := anObject
+accessing
+days: aCollection
+	days := aCollection

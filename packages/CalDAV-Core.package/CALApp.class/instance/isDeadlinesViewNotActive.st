@@ -1,3 +1,3 @@
 toolbuilder
 isDeadlinesViewNotActive
-	^self isDeadlinesViewActive not
+	^ self isDeadlinesViewActive not

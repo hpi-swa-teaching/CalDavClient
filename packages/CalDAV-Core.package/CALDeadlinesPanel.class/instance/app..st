@@ -1,3 +1,3 @@
-as yet unclassified
-app: anObject
-	parent := anObject
+accessing
+app: aCALApp
+	app := aCALApp

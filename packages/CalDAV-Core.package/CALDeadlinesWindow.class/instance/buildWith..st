@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 
 	| windowSpec |
@@ -9,8 +9,6 @@ buildWith: aBuilder
 		label: 'CALDeadlinesWindow';
 		extent: 400@400;
 		children: OrderedCollection new.
-
 	windowSpec children
 		add: (self buildPanelWith: aBuilder).
-	
 	^ aBuilder build: windowSpec

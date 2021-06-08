@@ -10,7 +10,6 @@
 		"calendarIndex",
 		"monthPanel",
 		"weekPanel",
-		"deadlinesPanel",
 		"calendarsToShow",
 		"selectionFileName" ],
 	"name" : "CALApp",

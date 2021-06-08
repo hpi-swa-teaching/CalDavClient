@@ -1,8 +1,8 @@
-as yet unclassified
-openWith: anApp
+initialize-release
+openWith: aCALApp
 
-	| app |
+	| deadlineWindow |
 	
-	app := CALDeadlinesWindow new.
-	app app: anApp.
-	^ ToolBuilder default open: app
+	deadlineWindow := CALDeadlinesWindow new.
+	deadlineWindow app: aCALApp.
+	^ ToolBuilder default open: deadlineWindow

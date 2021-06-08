@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 day
-	^Date today
+	^ Date today

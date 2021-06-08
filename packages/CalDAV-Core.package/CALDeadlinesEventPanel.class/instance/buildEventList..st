@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildEventList: aBuilder
 
 	| content |
@@ -8,9 +8,6 @@ buildEventList: aBuilder
 		model: self;
 		name: 'deadlineList';
 		list: #buildDeadlineEvents;
-		frame: (0@0 corner:1@1).
-
-		
-	
+		frame: (0 @ 0 corner: 1 @ 1).
 	^ content
 			

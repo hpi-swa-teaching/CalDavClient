@@ -1,3 +1,3 @@
 running
 setUp
-	self deadlineEventPanel: (CALDeadlinesEventPanel new app: CALApp new prepareCalendars)
+	self deadlinesEventPanel: (CALDeadlinesEventPanel new app: CALApp new prepareCalendars)

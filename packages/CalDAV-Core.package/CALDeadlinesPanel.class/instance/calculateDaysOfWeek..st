@@ -1,8 +1,8 @@
-as yet unclassified
+toolbuilder
 calculateDaysOfWeek: aNumber
 
 	|startDate days|
-	startDate := self weekLineDateFor: aNumber .
+	startDate := self startDateForWeek: aNumber.
 	days := OrderedCollection new.
-	0 to: 6 do: [:each| days add: (startDate addDays: each)].
-	^days
+	0 to: 6 do: [:each | days add: (startDate addDays: each)].
+	^ days

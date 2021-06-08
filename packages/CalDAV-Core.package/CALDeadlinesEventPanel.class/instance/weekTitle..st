@@ -1,5 +1,5 @@
-as yet unclassified
+layouting
 weekTitle: eventBlocks
-	^(Month nameOfMonth:(eventBlocks first event beginMonth)) asString, 
+	^ (Month nameOfMonth:(eventBlocks first event beginMonth)) asString, 
 		' Week: ',  
-		(((eventBlocks first event beginDay)/7) roundUpTo: 1) asString
+		(((eventBlocks first event beginDay) / 7) roundUpTo: 1) asString

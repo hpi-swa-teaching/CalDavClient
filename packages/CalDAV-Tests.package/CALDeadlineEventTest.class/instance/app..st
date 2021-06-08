@@ -1,3 +1,3 @@
 accessing
-app: anObject
-	app := anObject
+app: aCALApp
+	app := aCALApp

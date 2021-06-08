@@ -1,3 +1,3 @@
 toolbuilder
 isMonthViewNotActive
-	^self isMonthViewActive not
+	^ self isMonthViewActive not

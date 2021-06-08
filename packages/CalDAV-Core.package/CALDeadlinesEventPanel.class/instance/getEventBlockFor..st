@@ -1,4 +1,4 @@
-as yet unclassified
+layouting
 getEventBlockFor: anEvent
 
 	^ CALEventBlock new

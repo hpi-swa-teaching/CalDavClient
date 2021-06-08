@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 weekGridHeight 
 
 	^ 1 / 3
