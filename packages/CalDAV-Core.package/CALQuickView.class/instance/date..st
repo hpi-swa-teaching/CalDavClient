@@ -1,7 +1,7 @@
-as yet unclassified
-date: anObject
+accessing
+date: aDate
 	
-	date := anObject.
+	date := aDate.
 	self 
 		changed: #eventNames;
 		changed: #dateText

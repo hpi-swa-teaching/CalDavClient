@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 
 	| windowSpec |
@@ -8,9 +8,8 @@ buildWith: aBuilder
 		model: self;
 		label: 'CALQuickView';
 		extent: 200 @ 200;
-		children: OrderedCollection new.
-		
+		children: OrderedCollection new;
+		yourself.
 	windowSpec children
 		add: (self buildEventListWith: aBuilder).
-	
 	^ aBuilder build: windowSpec

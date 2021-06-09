@@ -1,6 +1,6 @@
-as yet unclassified
-currentIndex: anObject
+accessing
+currentIndex: aNumber
 
-	anObject = 0
-		ifFalse: [currentIndex := anObject.
+	aNumber = 0
+		ifFalse: [currentIndex := aNumber.
 				self changed: #currentIndex]

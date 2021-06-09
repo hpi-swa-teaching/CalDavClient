@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 openDay: aDate for: anApp
 
 	| quickView |
@@ -6,6 +6,6 @@ openDay: aDate for: anApp
 	aDate start: (aDate start offset: DateAndTime localOffset).
 	quickView := CALQuickView new
 		app: anApp;
-		day: aDate.
-	
+		day: aDate;
+		yourself.
 	^ ToolBuilder default open: quickView

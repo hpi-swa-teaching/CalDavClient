@@ -1,6 +1,8 @@
-as yet unclassified
+toolbuilder
 filterOut15EventsIn: eventBlocks 
-	| filteredEventBlock|
+
+	| filteredEventBlock |
+	
 	filteredEventBlock := OrderedCollection new.
-	1 to: {eventBlocks size . 15} min do: [:each| filteredEventBlock add: (eventBlocks at: each)].
+	1 to: {eventBlocks size . 15} min do: [:each | filteredEventBlock add: (eventBlocks at: each)].
 	^ filteredEventBlock
