@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"app",
+		"days" ],
+	"name" : "CALDeadlinesEventPanel",
+	"pools" : [
+		 ],
+	"super" : "CALPanel",
+	"type" : "normal" }

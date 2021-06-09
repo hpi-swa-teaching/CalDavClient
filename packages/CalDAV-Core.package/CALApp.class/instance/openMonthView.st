@@ -8,7 +8,7 @@ openMonthView
 	builder 
 		buildAll: {(self buildMonthPanel: builder)} 
 		in: self topView.
-	self changed: #isMonthViewActive
+	self changed: #isMonthViewNotActive
 
 
 
