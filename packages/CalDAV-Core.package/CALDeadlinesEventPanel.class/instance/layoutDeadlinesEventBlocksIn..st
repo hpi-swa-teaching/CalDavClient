@@ -1,6 +1,7 @@
 layouting
 layoutDeadlinesEventBlocksIn: eventBlocks 
-	| eventGrids filteredEventBlock|
+
+	| eventGrids filteredEventBlock |
 	eventGrids := OrderedCollection new.
 	filteredEventBlock := OrderedCollection new.
 	eventBlocks ifNotEmpty: [eventGrids addAll: {self weekTitle: eventBlocks. ' '}].

@@ -1,6 +1,9 @@
 toolbuilder
 buildPanelWith: aBuilder
-	|model|
+
+	| model |
+	
 	model := CALDeadlinesPanel new
-				app: self app.
+				app: self app;
+				yourself.
 	^ model buildSpec: aBuilder
