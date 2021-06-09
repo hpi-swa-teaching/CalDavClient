@@ -11,5 +11,7 @@ buildWith: aBuilder
 		children: OrderedCollection new;
 		yourself.
 	windowSpec children
-		add: (self buildEventListWith: aBuilder).
+		add: (self buildEventListWith: aBuilder);
+		add: (self buildDeadlinesViewButtonWith: aBuilder);
+		add: (self buildAppButtonWith: aBuilder).
 	^ aBuilder build: windowSpec

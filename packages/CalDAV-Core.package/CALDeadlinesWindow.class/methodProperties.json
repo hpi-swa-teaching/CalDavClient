@@ -4,5 +4,9 @@
 	"instance" : {
 		"app" : "LM 6/8/2021 21:36",
 		"app:" : "MD 6/9/2021 15:23",
-		"buildPanelWith:" : "MD 6/9/2021 15:24",
-		"buildWith:" : "MD 6/9/2021 15:24" } }
+		"buildAppButtonWith:" : "LM 6/9/2021 16:47",
+		"buildPanelWith:" : "LM 6/9/2021 16:46",
+		"buildQuickViewButtonWith:" : "LM 6/9/2021 16:38",
+		"buildWith:" : "LM 6/9/2021 16:47",
+		"openApp" : "LM 6/9/2021 16:49",
+		"openQuickView" : "LM 6/9/2021 16:39" } }

@@ -5,8 +5,10 @@
 	"instance" : {
 		"app" : "MD 6/9/2021 15:45",
 		"app:" : "MD 6/9/2021 15:45",
-		"buildEventListWith:" : "yk 6/3/2021 14:03",
-		"buildWith:" : "MD 6/9/2021 15:54",
+		"buildAppButtonWith:" : "LM 6/9/2021 16:52",
+		"buildDeadlinesViewButtonWith:" : "LM 6/9/2021 16:54",
+		"buildEventListWith:" : "LM 6/9/2021 16:55",
+		"buildWith:" : "LM 6/9/2021 16:52",
 		"currentIndex" : "MD 6/9/2021 15:49",
 		"currentIndex:" : "MD 6/9/2021 15:49",
 		"date" : "MD 6/9/2021 15:46",
@@ -16,4 +18,6 @@
 		"events" : "MD 6/9/2021 15:52",
 		"filterOut15EventsIn:" : "MD 6/9/2021 15:54",
 		"initialize" : "yk 5/26/2021 13:25",
-		"openDay:for:" : "MD 6/9/2021 15:55" } }
+		"openApp" : "LM 6/9/2021 16:52",
+		"openDay:for:" : "MD 6/9/2021 15:55",
+		"openDeadlinesView" : "LM 6/9/2021 16:55" } }
