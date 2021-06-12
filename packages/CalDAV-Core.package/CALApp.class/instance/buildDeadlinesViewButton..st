@@ -5,6 +5,6 @@ buildDeadlinesViewButton: aBuilder
 		model: self;
 		action: #openDeadlinesView;
 		label: 'DeadlinesView';
-		enabled: #isDeadlinesViewNotActive;
+		enabled: true;
 		frame: (0 @ 0.2 corner: 0.1 @ 0.3);
 		yourself
