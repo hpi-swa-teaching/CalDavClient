@@ -4,4 +4,5 @@ openQuickView
 	| date |
 	
  	date := Time current asDate.
-	CALQuickView openDay: date for: self app
+	CALQuickView openDay: date for: self app.
+	self myDependents first abandon

@@ -7,7 +7,7 @@ buildWith: aBuilder
 	windowSpec
 		model: self;
 		label: 'CALQuickView';
-		extent: 200 @ 200;
+		extent: 300 @ 200;
 		children: OrderedCollection new;
 		yourself.
 	windowSpec children
