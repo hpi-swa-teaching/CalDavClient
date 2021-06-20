@@ -2,17 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"app" : "LM 6/8/2021 21:44",
-		"app:" : "LM 6/8/2021 21:44",
-		"buildDeadlineEvents" : "MD 6/12/2021 13:58",
-		"buildEventList:" : "LM 6/8/2021 21:30",
+		"app" : "LM 6/17/2021 11:35",
+		"app:" : "LM 6/17/2021 11:35",
+		"buildDeadlineListOf:" : "LM 6/20/2021 20:35",
+		"buildEventList:" : "LM 6/20/2021 20:02",
 		"buildSpec:" : "LM 6/8/2021 21:28",
 		"dayOfYear" : "MD 6/12/2021 14:49",
 		"days" : "LM 6/8/2021 21:44",
 		"days:" : "LM 6/8/2021 21:29",
+		"deadlineList" : "LM 6/20/2021 20:10",
+		"events" : "LM 6/20/2021 20:01",
 		"getEventBlockFor:" : "yk 5/10/2021 19:30",
 		"index" : "MD 6/12/2021 14:08",
 		"index:" : "MD 6/12/2021 14:08",
-		"layoutDeadlinesEventBlocksIn:" : "MD 6/12/2021 15:04",
 		"weekOfYear" : "MD 6/12/2021 15:03",
-		"weekTitle:" : "MD 6/12/2021 14:47" } }
+		"weekTitle" : "LM 6/18/2021 19:38" } }

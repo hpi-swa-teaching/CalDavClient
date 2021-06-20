@@ -1,4 +1,4 @@
 layouting
-weekTitle: eventBlocks
+weekTitle
 
 	^ 'Week ', self weekOfYear
