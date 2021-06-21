@@ -1,3 +1,4 @@
 accessing
-calendars: anObject
-	calendars := anObject
+calendars: aSortedCollection
+
+	calendars := aSortedCollection

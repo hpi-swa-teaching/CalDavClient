@@ -1,8 +1,8 @@
 accessing
-end: anDate
+end: aDate
 
-	self endYear: (anDate year).
-	self endMonth: (anDate month).
-	self endDay: (anDate dayOfMonth).
-	self endHour: (anDate  hour).
-	self endMinute: (anDate  minute)
+	self endYear: (aDate year).
+	self endMonth: (aDate month).
+	self endDay: (aDate dayOfMonth).
+	self endHour: (aDate  hour).
+	self endMinute: (aDate  minute)

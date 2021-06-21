@@ -1,6 +1,6 @@
 validation
-endsIn: aDay
+endsIn: aDate
 
-	^ self endYear = aDay year 
-	and: self endMonth = aDay monthIndex 
-	and: self endDay = aDay dayOfMonth
+	^ self endYear = aDate year 
+	and: self endMonth = aDate monthIndex 
+	and: self endDay = aDate dayOfMonth

@@ -1,9 +1,9 @@
 accessing
-calendarIndex: anObject
+calendarIndex: aNumber
 
-	anObject = 0
+	aNumber = 0
 		ifTrue: [self error: 'calendarIndex should not be 0']
-		ifFalse: [calendarIndex := anObject.
+		ifFalse: [calendarIndex := aNumber.
 				self changed: #calendarIndex.
 				self changed: #calendarNames.
 				self updateView]

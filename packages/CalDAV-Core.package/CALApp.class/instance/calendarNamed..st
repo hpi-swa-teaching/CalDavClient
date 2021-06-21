@@ -1,4 +1,4 @@
 calendar management
-calendarNamed: aName
+calendarNamed: aString
 
-	^ self calendars detect: [ :each | each name = aName] ifNone: [self error: 'There is no calendar named ', aName, ' in calendars collection']
+	^ self calendars detect: [ :each | each name = aString] ifNone: [self error: 'There is no calendar named ', aString, ' in calendars collection']

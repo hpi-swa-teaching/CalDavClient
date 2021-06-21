@@ -13,7 +13,8 @@ buildSpec: aBuilder
 		add: (self buildNextMonthButton: aBuilder);
 		add: (self buildPreviousMonthButton: aBuilder);
 		add: (self buildMonthTextWith: aBuilder);
-		add: (self buildDaysOfMonthWith: aBuilder).
+		add: (self buildWeekdaysWith: aBuilder);
+		add: (self buildDaysOfMonthWith: aBuilder).  
 	
 	^ newPanel
 			

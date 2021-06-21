@@ -1,4 +1,4 @@
 calendar management
-storeCalendar: aCalendar
+storeCalendar: aCALCalendar
 	
-	(aCalendar calendarDirectory fileExists: aCalendar name) ifFalse: [aCalendar store]
+	(aCALCalendar calendarDirectory fileExists: aCALCalendar name) ifFalse: [aCALCalendar store]

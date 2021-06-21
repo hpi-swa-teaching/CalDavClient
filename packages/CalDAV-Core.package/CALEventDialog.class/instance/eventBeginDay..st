@@ -1,5 +1,5 @@
 accessing
-eventBeginDay: anObject
+eventBeginDay: aValue 
 
-	self event beginDay: anObject asNumber.
+	self event beginDay: aValue asNumber.
 	self updateBegin

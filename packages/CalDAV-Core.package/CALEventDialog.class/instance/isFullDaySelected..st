@@ -1,5 +1,5 @@
 accessing
-isFullDaySelected: anObject
+isFullDaySelected: aBool
 
-	isFullDaySelected := anObject.
+	isFullDaySelected := aBool.
 	self changed: #isFullDaySelected 
