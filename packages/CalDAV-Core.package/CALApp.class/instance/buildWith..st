@@ -18,6 +18,8 @@ buildWith: aBuilder
 		add: (self buildICSCalendarButton: aBuilder);
 		add: (self buildMonthViewButton: aBuilder);
 		add: (self buildWeekViewButton: aBuilder);
+		add: (self buildDeadlinesViewButton: aBuilder);
+		add: (self buildQuickViewButton: aBuilder);
 		add: (self buildImportCalendarButton: aBuilder);
 		add: (self buildRefreshButton: aBuilder).
 	

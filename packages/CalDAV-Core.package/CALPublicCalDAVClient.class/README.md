@@ -1,1 +1,0 @@
-I am a caldav client for downloading files in ical format from direct links without authorization
