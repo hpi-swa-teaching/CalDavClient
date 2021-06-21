@@ -1,4 +1,7 @@
 accessing
 calendarNames
 
-	 ^ self calendars collect: [:calendar | calendar name]
+	| calendarnames |
+	calendarnames := OrderedCollection new.
+	self calendars do: [ :each | calendarnames add: each name].
+	^ calendarnames

@@ -12,3 +12,5 @@ buildEventListWith: aBuilder
 		doubleClick: #openEventDetails;
 		frame: (0 @ y corner: 1 @ (y + self relativeEventListHeight));
 		yourself
+		
+	

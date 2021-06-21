@@ -5,5 +5,5 @@ storeEvents
 	
 	filestream := FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name).
 	filestream
-		nextPutAll: self eventsData;
+		nextPutAll: self calendarData;
 		close

@@ -1,4 +1,4 @@
 persistence
 eventsData
 
-	^ STON toString: self events asOrderedCollection
+	^ self events asOrderedCollection

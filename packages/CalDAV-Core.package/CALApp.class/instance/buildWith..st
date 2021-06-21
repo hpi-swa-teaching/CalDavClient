@@ -12,6 +12,7 @@ buildWith: aBuilder
 		
 	windowSpec children
 		add: (self buildAddCalendarButton: aBuilder);
+		add: (self buildEditCalendarButton: aBuilder); 
 		add: (self buildMonthPanel: aBuilder);
 		add: (self buildCalendarList: aBuilder);
 		add: (self buildDeleteCalendarButton: aBuilder);
