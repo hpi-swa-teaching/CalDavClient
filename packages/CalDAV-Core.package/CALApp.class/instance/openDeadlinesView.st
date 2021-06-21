@@ -1,8 +1,5 @@
 subwindows
 openDeadlinesView
 	
-	CALDeadlinesWindow openWith: self
-
-
-
-
+	CALDeadlinesWindow openWith: self.
+	self myDependents first abandon

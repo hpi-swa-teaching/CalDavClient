@@ -1,8 +1,10 @@
 initialize-release
 openWith: aCALApp
 
-	| deadlineWindow |
+	| deadlineWindow deadlineWindowMorph |
 	
 	deadlineWindow := CALDeadlinesWindow new.
 	deadlineWindow app: aCALApp.
-	^ ToolBuilder default open: deadlineWindow
+	deadlineWindowMorph := ToolBuilder default open: deadlineWindow.
+	deadlineWindowMorph position: (deadlineWindowMorph world right - deadlineWindowMorph width) @ 0.
+	^ deadlineWindowMorph

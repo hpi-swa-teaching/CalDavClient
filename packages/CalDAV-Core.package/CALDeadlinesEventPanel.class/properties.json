@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"app",
-		"days" ],
+		"days",
+		"index" ],
 	"name" : "CALDeadlinesEventPanel",
 	"pools" : [
 		 ],
