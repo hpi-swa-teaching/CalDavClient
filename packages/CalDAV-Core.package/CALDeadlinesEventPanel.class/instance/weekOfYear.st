@@ -2,6 +2,7 @@ constants
 weekOfYear
 
 	| firstDayOfYear index |
+	
 	index := -1.
 	firstDayOfYear := Date year: Date today year day: 1.
 	"firstDayOfYear := Date year: (Date today subtractDays: 365) year day: 1."

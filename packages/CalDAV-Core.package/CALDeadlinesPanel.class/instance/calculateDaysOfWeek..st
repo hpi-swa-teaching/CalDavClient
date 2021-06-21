@@ -2,6 +2,7 @@ toolbuilder
 calculateDaysOfWeek: aNumber
 
 	| startDate days |
+	
 	startDate := self startDateForWeek: aNumber.
 	days := OrderedCollection new.
 	aNumber = 1

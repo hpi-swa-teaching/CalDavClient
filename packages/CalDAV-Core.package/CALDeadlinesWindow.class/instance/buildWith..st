@@ -7,7 +7,7 @@ buildWith: aBuilder
 	windowSpec
 		model: self;
 		label: 'CALDeadlinesWindow';
-		extent: 400@400;
+		extent: 400 @ 400;
 		children: OrderedCollection new.
 	windowSpec children
 		add: (self buildPanelWith: aBuilder);
