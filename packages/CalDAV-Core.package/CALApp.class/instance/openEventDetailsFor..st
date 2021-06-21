@@ -1,6 +1,6 @@
 subwindows
-openEventDetailsFor: anEvent
+openEventDetailsFor: aCALEvent
 
-	((self findCalendarFor: anEvent) isReadOnly)
-		ifTrue: [self openShowEventDialogFor: anEvent]
-		ifFalse: [self openEditEventDialogFor: anEvent]
+	((self findCalendarFor: aCALEvent) isReadOnly)
+		ifTrue: [self openShowEventDialogFor: aCALEvent]
+		ifFalse: [self openEditEventDialogFor: aCALEvent]

@@ -1,4 +1,4 @@
 accessing
-eventLocation: anObject
+eventLocation: aLocation
 
-	self event location: anObject asString
+	self event location: aLocation asString

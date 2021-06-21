@@ -1,5 +1,5 @@
 errors
-= aCalendar
+= aCALCalendar
 	
-	(aCalendar class canUnderstand: #events) ifFalse: [^ false].
-	^ ((self events = aCalendar events) and: (self name = aCalendar name))
+	(aCALCalendar class canUnderstand: #events) ifFalse: [^ false].
+	^ ((self events = aCALCalendar events) and: (self name = aCALCalendar name))

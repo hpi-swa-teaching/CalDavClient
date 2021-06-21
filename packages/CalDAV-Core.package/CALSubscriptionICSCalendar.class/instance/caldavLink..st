@@ -1,3 +1,4 @@
 accessing
-caldavLink: aLink 
-	caldavLink := aLink 
+caldavLink: aString 
+
+	caldavLink := aString 

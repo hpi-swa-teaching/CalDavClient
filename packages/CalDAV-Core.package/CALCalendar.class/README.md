@@ -12,4 +12,4 @@ name
 	- name of the calendar to describe it and distinguish it from other calendars 
 
 events 
-	- a SortedCollecting containing the events in the calendar
+	- a SortedCollection containing the events in the calendar

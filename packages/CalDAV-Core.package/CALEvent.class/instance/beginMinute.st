@@ -1,3 +1,4 @@
 accessing
 beginMinute
+
 	^ beginMinute

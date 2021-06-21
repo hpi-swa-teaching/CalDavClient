@@ -1,3 +1,4 @@
 accessing
-oldEvent: anEvent 
-	oldEvent := anEvent
+oldEvent: aCALEvent 
+
+	oldEvent := aCALEvent

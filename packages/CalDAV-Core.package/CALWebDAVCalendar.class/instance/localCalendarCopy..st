@@ -1,3 +1,4 @@
 accessing
-localCalendarCopy: anObject
-	localCalendarCopy := anObject
+localCalendarCopy: aCalDavCalendarCALVersion
+
+	localCalendarCopy := aCalDavCalendarCALVersion

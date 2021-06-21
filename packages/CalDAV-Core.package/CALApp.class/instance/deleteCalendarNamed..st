@@ -1,5 +1,5 @@
 calendar management
-deleteCalendarNamed: aName
+deleteCalendarNamed: aString
 
-	self calendarIndex: (self calendars indexOf: (self calendarNamed: aName)).
+	self calendarIndex: (self calendars indexOf: (self calendarNamed: aString)).
 	self deleteSelectedCalendar

@@ -1,12 +1,10 @@
 toolbuilder
 buildWeekDayOrderWith: aBuilder day: aWeekday
 
-	| height width x y frame |
+	| x y frame |
 	
-	width := 1 / 7.
-	height := 1 / 8.
-	x := self monthViewFrame left + ((aWeekday - 1) * width).
+	x := self monthViewFrame left + ((aWeekday - 1) * self weekdayWidth).
 	y := self monthViewFrame top.
-	frame := x @ y corner: (x + width) @ (y + height).
+	frame := x @ y corner: (x + self weekdayWidth) @ (y + self weekdayHeight).
 	^ self buildWeekdayWith: aBuilder day: aWeekday frame: frame
 	 
