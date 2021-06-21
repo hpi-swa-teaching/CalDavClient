@@ -1,4 +1,4 @@
 accessing
-endMonth: aMonth 
+endMonth: aNumber 
 
-	endMonth := aMonth 
+	endMonth := aNumber 

@@ -1,4 +1,4 @@
 accessing
-endYear: aYear
+endYear: aNumber
 
-	endYear := aYear 
+	endYear := aNumber 

@@ -1,4 +1,4 @@
 accessing
-endMinute: aMinute 
+endMinute: aNumber 
 
-	endMinute := aMinute 
+	endMinute := aNumber 

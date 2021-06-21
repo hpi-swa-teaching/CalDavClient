@@ -1,4 +1,4 @@
 accessing
-endHour: anHour 
+endHour: aNumber 
 
-	endHour := anHour 
+	endHour := aNumber 

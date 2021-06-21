@@ -1,4 +1,4 @@
 accessing
-beginDay: aDay
+beginDay: aNumber
 
-	beginDay := aDay 
+	beginDay := aNumber 
