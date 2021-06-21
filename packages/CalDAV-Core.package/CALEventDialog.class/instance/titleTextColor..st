@@ -1,5 +1,5 @@
 accessing
-titleTextColor: anObject
+titleTextColor: aColor
 
-	titleTextColor := anObject.
+	titleTextColor := aColor.
 	self changed: #titleTextColor

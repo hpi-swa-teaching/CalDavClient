@@ -1,1 +1,1 @@
-I am a window for editing an existing event
+CALEditEventDialog is a CALEventDialog window for editing an existing event. 

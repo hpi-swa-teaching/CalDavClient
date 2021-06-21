@@ -1,0 +1,3 @@
+accessing
+deadlinesEventPanel: aCALDeadlinesEventPanel
+	deadlinesEventPanel := aCALDeadlinesEventPanel

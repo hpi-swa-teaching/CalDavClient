@@ -1,6 +1,6 @@
 accessing
-eventBeginHour: anObject
+eventBeginHour: aValue
 
-	(anObject asNumber < 24 and: anObject asNumber >= 0)
-		ifTrue: [self event beginHour: anObject asNumber].
+	(aValue asNumber < 24 and: aValue asNumber >= 0)
+		ifTrue: [self event beginHour: aValue asNumber].
 	self updateBegin

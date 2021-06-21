@@ -1,5 +1,5 @@
 accessing
-deleteEvent: anEvent
+deleteEvent: aCALEvent
 
-	self events remove: anEvent ifAbsent: [self errorEventNotInCalendar: anEvent].
+	self events remove: aCALEvent ifAbsent: [self errorEventNotInCalendar: aCALEvent].
 	self store

@@ -1,3 +1,4 @@
 accessing
-endHour: anObject
-	endHour := anObject
+endHour: aNumber 
+
+	endHour := aNumber 

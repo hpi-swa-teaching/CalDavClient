@@ -1,4 +1,4 @@
 accessing
-includes: anEvent
+includes: aCALEvent
 
-	^ self events includes: anEvent
+	^ self events includes: aCALEvent

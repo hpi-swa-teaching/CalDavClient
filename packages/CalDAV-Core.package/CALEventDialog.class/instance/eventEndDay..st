@@ -1,5 +1,5 @@
 accessing
-eventEndDay: anObject
+eventEndDay: aValue
 
-	self event endDay: anObject asNumber.		
+	self event endDay: aValue asNumber.		
 	self updateEnd

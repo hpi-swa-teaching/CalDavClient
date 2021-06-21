@@ -1,3 +1,4 @@
 accessing
-beginMonth: anObject
-	beginMonth := anObject
+beginMonth: aNumber
+
+	beginMonth := aNumber 

@@ -1,3 +1,4 @@
 accessing
-endDay: anObject
-	endDay := anObject
+endDay: aNumber
+
+	endDay := aNumber

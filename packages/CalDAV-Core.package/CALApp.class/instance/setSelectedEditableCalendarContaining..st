@@ -1,7 +1,7 @@
 event management
-setSelectedEditableCalendarContaining: anEvent
+setSelectedEditableCalendarContaining: aCALEvent
 
 	| calendar |
 	
-	calendar := self findCalendarFor: anEvent.
+	calendar := self findCalendarFor: aCALEvent.
 	self calendarIndex: (self editableCalendars indexOf: calendar)

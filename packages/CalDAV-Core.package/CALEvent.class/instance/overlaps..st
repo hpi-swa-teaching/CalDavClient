@@ -1,6 +1,6 @@
 comparing
-overlaps: anEvent
+overlaps: aCALEvent
 	
-	^ (self begin < anEvent end) 
-		and: (self end > anEvent begin)
-		and: (self isFullDay = anEvent isFullDay)
+	^ (self begin < aCALEvent end) 
+		and: (self end > aCALEvent begin)
+		and: (self isFullDay = aCALEvent isFullDay)

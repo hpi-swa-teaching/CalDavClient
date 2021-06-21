@@ -1,3 +1,4 @@
 accessing
-beginHour: anObject
-	beginHour := anObject
+beginHour: aNumber 
+
+	beginHour := aNumber

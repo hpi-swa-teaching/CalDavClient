@@ -1,3 +1,4 @@
 accessing
-monthPanel: anObject
-	monthPanel := anObject
+monthPanel: aCALMonthPanel
+
+	monthPanel := aCALMonthPanel

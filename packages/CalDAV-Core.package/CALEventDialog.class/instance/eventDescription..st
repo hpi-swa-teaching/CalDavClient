@@ -1,4 +1,4 @@
 accessing
-eventDescription: anObject
+eventDescription: aDescription
 
-	self event description: anObject asString
+	self event description: aDescription asString

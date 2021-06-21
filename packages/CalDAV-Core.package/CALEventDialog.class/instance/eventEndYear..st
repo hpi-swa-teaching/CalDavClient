@@ -1,6 +1,6 @@
 accessing
-eventEndYear: anObject
+eventEndYear: aValue
 
-	self event endYear: anObject asNumber.
+	self event endYear: aValue asNumber.
 	self updateEnd
 	

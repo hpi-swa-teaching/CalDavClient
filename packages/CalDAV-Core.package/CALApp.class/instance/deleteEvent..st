@@ -1,5 +1,5 @@
 event management
-deleteEvent: anEvent
+deleteEvent: aCALEvent
 
-	(self findCalendarFor: anEvent) deleteEvent: anEvent.
+	(self findCalendarFor: aCALEvent) deleteEvent: aCALEvent.
 	self updateView

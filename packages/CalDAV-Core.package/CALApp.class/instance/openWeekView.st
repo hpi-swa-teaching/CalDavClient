@@ -8,5 +8,5 @@ openWeekView
 	builder 
 		buildAll: {(self buildWeekPanel: builder)} 
 		in: self topView.
-	self changed: #isWeekViewActive
+	self changed: #isWeekViewNotActive
 
