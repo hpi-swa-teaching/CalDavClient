@@ -1,8 +1,7 @@
 subwindows
 openQuickView
 
-	| date |
-	
- 	date := Time current asDate.
-	CALQuickView openDay: date for: self.
-	self myDependents first abandon
+	CALQuickView 
+		openDay: Time current asDate
+		for: self.
+	self window abandon

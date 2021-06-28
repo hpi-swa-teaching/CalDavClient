@@ -1,4 +1,4 @@
 event management
-isShowingEventsFor: anIndex
+isShowingEventsFor: aNumber
 
-	^ self calendarsToShow includes: (self nameOfCalendarAt: anIndex)
+	^ self calendarsToShow includes: (self nameOfCalendarAt: aNumber)

@@ -1,7 +1,4 @@
 constants
 fileDirectory
 
-	| delimiter |
-	
-	delimiter := FileDirectory pathNameDelimiter.
-	^ (FileDirectory default directoryNamed: 'CalDAV', delimiter) assureExistence
+	^ (FileDirectory default directoryNamed: 'CalDAV', FileDirectory pathNameDelimiter) assureExistence

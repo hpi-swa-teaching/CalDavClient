@@ -3,7 +3,7 @@ testCalendarColorCorrectlyStoredAndRestored
 	
 	| file calendarDirectory delimiter dataCollection colorCollection openedCALApp |
 	openedCALApp := CALApp open.
-	self app change: 'testCalendar' Color: 'yellow'.
+	self app change: 'testCalendar' color: 'yellow'.
 	self app addEvent: 'Test1'. 
 	openedCALApp delete. 
 	openedCALApp := CALApp open. 
