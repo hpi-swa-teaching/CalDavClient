@@ -9,7 +9,7 @@ buildWith: aBuilder
 		label: 'CALApp';
 		extent: 1000 @ 700;
 		children: OrderedCollection new.
-		
+	self buildAddCalendarButton.	
 	windowSpec children
 		add: (self buildAddCalendarButton: aBuilder);
 		add: (self buildMonthPanel: aBuilder);

@@ -6,6 +6,7 @@
 	"instance" : {
 		"addCalendar:" : "LB 6/21/2021 17:21",
 		"addEvent:" : "LB 6/21/2021 17:21",
+		"buildAddCalendarButton" : "MD 6/28/2021 21:08",
 		"buildAddCalendarButton:" : "jz 7/12/2018 19:02",
 		"buildCalendarList:" : "jz 7/18/2018 15:44",
 		"buildDeadlinesViewButton:" : "MD 6/12/2021 15:09",
@@ -19,7 +20,7 @@
 		"buildRefreshButton:" : "jz 7/12/2018 19:01",
 		"buildWeekPanel:" : "jz 7/4/2018 00:50",
 		"buildWeekViewButton:" : "yk 5/17/2021 15:51",
-		"buildWith:" : "LM 6/9/2021 16:25",
+		"buildWith:" : "MD 6/28/2021 21:20",
 		"calendarIndex" : "kk 7/4/2018 23:18",
 		"calendarIndex:" : "LB 6/21/2021 18:38",
 		"calendarNamed:" : "LB 6/21/2021 18:44",
