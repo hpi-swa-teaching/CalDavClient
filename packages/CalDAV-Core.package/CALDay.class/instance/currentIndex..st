@@ -1,6 +1,6 @@
 accessing
-currentIndex: anObject
+currentIndex: aNumber
 
-	anObject = 0
-		ifFalse: [currentIndex := anObject.
-				self changed: #currentIndex]
+	aNumber = 0
+		ifFalse: [currentIndex := aNumber. 
+			self changed: #currentIndex]

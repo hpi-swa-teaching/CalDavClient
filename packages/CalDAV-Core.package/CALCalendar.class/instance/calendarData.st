@@ -2,6 +2,7 @@ persistence
 calendarData
 	
 	| dataCollection |
+	
 	dataCollection := OrderedCollection new.
 	dataCollection 
 		add: self color; 

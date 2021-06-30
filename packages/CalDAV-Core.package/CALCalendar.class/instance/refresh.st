@@ -1,3 +1,4 @@
 persistence
 refresh
 	
+	self subclassResponsibility

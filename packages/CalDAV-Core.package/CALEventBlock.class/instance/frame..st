@@ -1,3 +1,4 @@
 accessing
-frame: anObject
-	frame := anObject
+frame: aRectangle 
+
+	frame := aRectangle

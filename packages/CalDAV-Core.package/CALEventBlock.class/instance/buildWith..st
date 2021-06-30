@@ -6,4 +6,5 @@ buildWith: aBuilder
 		label: self event title;
 		action: #openEventDetails;
 		color: self color;
-		frame: self frame
+		frame: self frame;
+		yourself 

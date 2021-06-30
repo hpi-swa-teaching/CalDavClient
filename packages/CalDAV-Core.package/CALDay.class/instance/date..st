@@ -1,7 +1,7 @@
 accessing
-date: anObject
+date: aDate
 	
-	date := anObject.
+	date := aDate.
 	self 
 		changed: #eventNames;
 		changed: #dateText

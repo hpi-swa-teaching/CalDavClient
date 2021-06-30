@@ -1,9 +1,6 @@
 persistence
 storeEvents
-	
-	| filestream |
-	
-	filestream := FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name).
-	filestream
+
+	(FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name))
 		nextPutAll: self calendarData;
 		close

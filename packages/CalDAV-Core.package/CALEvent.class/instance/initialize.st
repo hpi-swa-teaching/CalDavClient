@@ -6,6 +6,7 @@ initialize
 		beginMonth: 0;
 		beginDay: 0;
 		beginHour: 0;
-		beginMinute: 0
+		beginMinute: 0;
+		yourself 
 	
 	

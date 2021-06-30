@@ -7,8 +7,8 @@ newFromICEvent: anEvent
 	participants := String new.
 	attendees := anEvent attendees asOrderedCollection.
 	attendees ifNotEmpty: [ 
-		attendees allButLastDo: [ :each | participants := participants , each , ', ' ].
-		participants := participants , attendees last ].
+		attendees allButLastDo: [:each | participants := participants , each , ', '].
+		participants := participants, attendees last].
 	anEvent isFullDayEvent
 		ifTrue: [event 
 					begin: anEvent start start;
@@ -23,4 +23,3 @@ newFromICEvent: anEvent
 		location: anEvent location;
 		participants: participants.
 	^ event
-	

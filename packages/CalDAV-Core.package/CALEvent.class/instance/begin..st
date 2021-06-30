@@ -1,10 +1,12 @@
 accessing
 begin: beginDate
 
-	self beginYear: (beginDate year).
-	self beginMonth: (beginDate month).
-	self beginDay: (beginDate dayOfMonth).
-	self beginHour: (beginDate hour).
-	self beginMinute: (beginDate minute)
+	self 
+		beginYear: (beginDate year); 
+		beginMonth: (beginDate month); 
+		beginDay: (beginDate dayOfMonth);
+		beginHour: (beginDate hour);
+		beginMinute: (beginDate minute);
+		yourself 
 	
 	
