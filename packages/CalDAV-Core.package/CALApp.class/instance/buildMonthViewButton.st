@@ -1,11 +1,11 @@
 toolbuilder
-buildAddCalendarButton
-	
+buildMonthViewButton
+
 	| icon |
 	icon := CALIcon new
 		app: self;
-		name: 'add';
+		name: 'm';
 		size: 20 @ 20;
-		functionName: #openAddCalendarDialog.
+		functionName: #openMonthView.
 	icon loadIcon.
 	^ icon

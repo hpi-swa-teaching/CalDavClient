@@ -1,11 +1,11 @@
 toolbuilder
-buildAddCalendarButton
-	
+buildWeekViewButton
+
 	| icon |
 	icon := CALIcon new
 		app: self;
-		name: 'add';
+		name: 'w';
 		size: 20 @ 20;
-		functionName: #openAddCalendarDialog.
+		functionName: #openWeekView.
 	icon loadIcon.
 	^ icon

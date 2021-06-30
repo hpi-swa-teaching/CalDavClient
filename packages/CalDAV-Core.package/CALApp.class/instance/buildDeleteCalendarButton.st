@@ -1,11 +1,11 @@
 toolbuilder
-buildAddCalendarButton
-	
+buildDeleteCalendarButton
+
 	| icon |
 	icon := CALIcon new
 		app: self;
-		name: 'add';
+		name: 'minus';
 		size: 20 @ 20;
-		functionName: #openAddCalendarDialog.
+		functionName: #openDeleteCalendarDialog.
 	icon loadIcon.
 	^ icon

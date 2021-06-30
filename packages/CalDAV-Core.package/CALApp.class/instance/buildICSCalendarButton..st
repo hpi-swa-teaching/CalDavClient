@@ -1,9 +1,11 @@
 toolbuilder
 buildICSCalendarButton: aBuilder
 	
+	| anchorToImage |
+	anchorToImage := TextAnchor new anchoredMorph: self buildICSCalendarButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #importSubscriptionCalendar;
-		label: 'Import ICS Calendar';
-		frame: (0 @ 0.7 corner: 0.1 @ 0.8);
+		label: ('{1}' asText format: {Character startOfHeader asText addAttribute: anchorToImage});
+		frame: (0.105 @ 0 corner: 0.135 @ 0.05);
 		yourself

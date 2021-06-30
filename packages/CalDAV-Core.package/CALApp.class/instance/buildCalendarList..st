@@ -6,5 +6,5 @@ buildCalendarList: aBuilder
 		list: #calendarNames;
 		getSelectionList: #isShowingEventsFor:;
 		setSelectionList: #showEventsForCalendar:put:;
-		frame: (0.1 @ 0 corner: 0.3 @ 1);
+		frame: (0 @ 0.06 corner: 0.15 @ 1);
 		yourself
