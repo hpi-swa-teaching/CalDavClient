@@ -1,4 +1,8 @@
 accessing
 loadIcon
-
-	self image: ((GMImageLoader new resourceFromDrive:  FileDirectory slash, 'Applications', FileDirectory slash, 'SWT-2021.app', FileDirectory slash , 'Contents', FileDirectory slash , 'Resources' , FileDirectory slash , 'CalDAV' , FileDirectory slash, 'icons', FileDirectory slash, self name, '.png') scaledToSize: self size).
+	
+	| delimiter |
+	delimiter := FileDirectory pathNameDelimiter.
+	self image: ((GMImageLoader new 
+					resourceFromDrive: 'CalDAV' , delimiter, 'icons', delimiter, self name, '.png') 
+			scaledToSize: self size).
