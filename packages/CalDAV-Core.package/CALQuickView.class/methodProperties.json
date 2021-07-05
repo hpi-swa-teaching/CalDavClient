@@ -1,14 +1,16 @@
 {
 	"class" : {
 		"fileDirectory" : "yk 5/26/2021 13:11",
-		"openDay:for:" : "MD 6/12/2021 13:22" },
+		"openDay:for:" : "MD 6/12/2021 13:22",
+		"updateQuickView" : "yk 7/5/2021 11:29" },
 	"instance" : {
 		"app" : "MD 6/9/2021 15:45",
 		"app:" : "MD 6/9/2021 15:45",
-		"buildAppButtonWith:" : "LM 6/21/2021 15:24",
-		"buildDeadlinesViewButtonWith:" : "LM 6/9/2021 16:54",
+		"buildAddButtonWith:" : "yk 7/5/2021 11:43",
+		"buildAppButtonWith:" : "yk 7/5/2021 10:10",
+		"buildDeadlinesViewButtonWith:" : "yk 7/5/2021 10:11",
 		"buildEventListWith:" : "LM 6/9/2021 16:55",
-		"buildWith:" : "MD 6/12/2021 13:25",
+		"buildWith:" : "yk 7/5/2021 10:13",
 		"currentIndex" : "MD 6/9/2021 15:49",
 		"currentIndex:" : "MD 6/9/2021 15:49",
 		"date" : "MD 6/9/2021 15:46",
@@ -18,6 +20,8 @@
 		"events" : "MD 6/9/2021 15:52",
 		"filterOut15EventsIn:" : "MD 6/9/2021 15:54",
 		"initialize" : "yk 5/26/2021 13:25",
+		"openAddEventDialog" : "yk 7/5/2021 10:23",
 		"openApp" : "LM 6/21/2021 15:19",
 		"openDay:for:" : "MD 6/9/2021 15:55",
-		"openDeadlinesView" : "MD 6/12/2021 13:13" } }
+		"openDeadlinesView" : "MD 6/12/2021 13:13",
+		"updateQuickView" : "yk 7/5/2021 11:27" } }

@@ -6,5 +6,5 @@ buildDeadlinesViewButtonWith: aBuilder
 		action: #openDeadlinesView;
 		label: 'DeadlinesView';
 		enabled: true;
-		frame: (0 @ 0 corner: 0.5 @ 0.1);
+		frame: (0.4 @ 0 corner: 0.7 @ 0.1);
 		yourself

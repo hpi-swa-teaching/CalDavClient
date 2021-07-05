@@ -7,11 +7,12 @@ buildWith: aBuilder
 	windowSpec
 		model: self;
 		label: 'CALQuickView';
-		extent: 300 @ 200;
+		extent: 400 @ 400;
 		children: OrderedCollection new;
 		yourself.
 	windowSpec children
 		add: (self buildEventListWith: aBuilder);
+		add: (self buildAddButtonWith: aBuilder);
 		add: (self buildDeadlinesViewButtonWith: aBuilder);
 		add: (self buildAppButtonWith: aBuilder).
 	^ aBuilder build: windowSpec
