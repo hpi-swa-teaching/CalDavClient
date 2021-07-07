@@ -3,7 +3,7 @@ buildSpec: aBuilder
 
 	| content |
 	
-	content := aBuilder pluggablePanelSpec new.
+	content := aBuilder pluggableScrollPaneSpec new.
 	content
 		model: self;
 		name: 'deadlinesPanel';

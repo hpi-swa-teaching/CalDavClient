@@ -1,3 +1,3 @@
 constants
 day
-	^ Date today
+	^ Date year: Date today year day: 1
