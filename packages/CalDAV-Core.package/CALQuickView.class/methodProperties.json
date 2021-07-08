@@ -5,12 +5,12 @@
 	"instance" : {
 		"app" : "MD 6/9/2021 15:45",
 		"app:" : "MD 6/9/2021 15:45",
-		"buildAppButton" : "RL 7/5/2021 17:16",
-		"buildAppButtonWith:" : "RL 7/5/2021 17:19",
-		"buildDeadlinesViewButton" : "RL 7/5/2021 17:17",
-		"buildDeadlinesViewButtonWith:" : "RL 7/5/2021 15:48",
-		"buildEventListWith:" : "RL 7/5/2021 17:25",
-		"buildWith:" : "MD 6/12/2021 13:25",
+		"buildAddButtonWith:" : "yk 7/8/2021 09:59",
+		"buildAppButtonWith:" : "yk 7/5/2021 10:10",
+		"buildDeadlinesViewButtonWith:" : "yk 7/5/2021 10:11",
+		"buildEventListWith:" : "LM 6/9/2021 16:55",
+		"buildRefreshButtonWith:" : "yk 7/8/2021 10:00",
+		"buildWith:" : "yk 7/8/2021 10:01",
 		"currentIndex" : "MD 6/9/2021 15:49",
 		"currentIndex:" : "MD 6/9/2021 15:49",
 		"date" : "MD 6/9/2021 15:46",
@@ -20,6 +20,8 @@
 		"events" : "MD 6/9/2021 15:52",
 		"filterOut15EventsIn:" : "MD 6/9/2021 15:54",
 		"initialize" : "yk 5/26/2021 13:25",
+		"openAddEventDialog" : "yk 7/8/2021 09:56",
 		"openApp" : "LM 6/21/2021 15:19",
 		"openDay:for:" : "MD 6/9/2021 15:55",
-		"openDeadlinesView" : "MD 6/12/2021 13:13" } }
+		"openDeadlinesView" : "MD 6/12/2021 13:13",
+		"updateQuickView" : "yk 7/8/2021 10:29" } }
