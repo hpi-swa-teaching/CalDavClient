@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"firstOfMarch2018" : "yk 7/8/2021 10:20",
+		"setUp" : "yk 7/8/2021 10:22",
+		"testButtonsExistence" : "yk 7/8/2021 10:25",
+		"testDayIsSetCorrectly" : "yk 7/8/2021 10:21",
+		"testHasBuildSpec" : "yk 7/8/2021 10:26" } }
