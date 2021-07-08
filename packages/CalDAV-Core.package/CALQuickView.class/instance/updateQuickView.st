@@ -3,7 +3,9 @@ updateQuickView
 
 	| builder |
 	
-	(self events) delete.
-	builder := ToolBuilder default.	
+	(self dependents at:2) abandon.
+	
+	
+	builder := ToolBuilder default.
 	builder buildAll: {(self buildEventListWith: builder)} in: self topView.
-	"self triggerEvent: #eventsChanged"
+	self triggerEvent: #eventsChanged

@@ -6,5 +6,5 @@ buildAddButtonWith: aBuilder
 		action: #openAddEventDialog;
 		enabled: true;
 		label: '+';
-		frame: (0.0 @ 0 corner: 0.4 @ 0.1);
+		frame: (0.0 @ 0 corner: 0.3 @ 0.1);
 		yourself
