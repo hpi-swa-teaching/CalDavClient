@@ -1,11 +1,11 @@
 layouting
-buildDeadlineListOf: eventBlock
+buildDeadlineListOf: anEventBlock
 
 	| eventNameList |
 
 	eventNameList := {self weekTitle. ' '} asOrderedCollection.
 	eventNameList
-		addAll: ((eventBlock
+		addAll: ((anEventBlock
 				collect: [:each | each event title])
 				select: [:each | '*deadline*' match: each]).
 	^ eventNameList

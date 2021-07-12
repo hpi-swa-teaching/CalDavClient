@@ -4,7 +4,6 @@ buildButtons: aBuilder
 	| buttons |
 	
 	buttons := OrderedCollection new.
-	
 	buttons add: (self buildEditButton: aBuilder).
 	buttons add: (self buildDeleteButton: aBuilder).
 	buttons add: (self buildBeginPickerButton: aBuilder).

@@ -1,5 +1,5 @@
 accessing
 nextDay
 
-	self day: (self day addDays: 1).
+	self day: (self firstDay addDays: 1).
 	self updateDay

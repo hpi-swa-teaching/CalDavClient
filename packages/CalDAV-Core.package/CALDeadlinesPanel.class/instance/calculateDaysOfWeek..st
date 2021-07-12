@@ -1,11 +1,11 @@
 toolbuilder
 calculateDaysOfWeek: aNumber
 
-	| startDate days |
+	| days numberOfDays |
 	
-	startDate := self startDateForWeek: aNumber.
 	days := OrderedCollection new.
 	aNumber = 1
-		ifTrue: [0 to: 6 - self differenceToMonday do: [:each | days add: (startDate addDays: each)]]
-		ifFalse: [0 to: 6 do: [:each | days add: (startDate addDays: each)]].
+		ifTrue: [numberOfDays := 6 - self differenceToMonday]  
+		ifFalse: [numberOfDays := 6].
+	0 to: numberOfDays do: [:each | days add: ((self startDateForWeek: aNumber) addDays: each)].
 	^ days

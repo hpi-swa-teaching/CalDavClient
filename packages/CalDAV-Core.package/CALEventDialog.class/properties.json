@@ -7,10 +7,10 @@
 	"commentStamp" : "LB 5/11/2021 09:59",
 	"instvars" : [
 		"event",
-		"parent",
 		"titleColor",
 		"isFullDaySelected",
-		"titleTextColor" ],
+		"titleTextColor",
+		"app" ],
 	"name" : "CALEventDialog",
 	"pools" : [
 		 ],

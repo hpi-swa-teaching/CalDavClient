@@ -1,4 +1,4 @@
 accessing
-eventParticipants: anObject
+eventParticipants: aValue
 
-	self event participants: anObject asString
+	self event participants: aValue asString

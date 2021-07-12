@@ -4,7 +4,7 @@ buildEventList: aBuilder
 	| content weekColor |
 
 	weekColor := Color white.
-	(self index = (CALDeadlinesWindow weekOfYear)) ifTrue: [weekColor := Color lightBlue.].
+	(self index = (CALDeadlinesWindow weekOfYear)) ifTrue: [weekColor := Color lightBlue].
 	content := aBuilder pluggableListSpec new.
 	content
 		model: self;

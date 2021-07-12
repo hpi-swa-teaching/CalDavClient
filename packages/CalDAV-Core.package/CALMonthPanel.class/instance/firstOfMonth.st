@@ -1,3 +1,4 @@
 accessing
 firstOfMonth
+
 	^ firstOfMonth

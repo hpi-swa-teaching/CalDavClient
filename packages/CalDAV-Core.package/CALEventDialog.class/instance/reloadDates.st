@@ -3,8 +3,8 @@ reloadDates
 	
 	| fields |
 	
-	fields := { #eventBeginDay . #eventBeginMonth . #eventBeginYear . 
+	fields := {#eventBeginDay . #eventBeginMonth . #eventBeginYear . 
 				#eventBeginHour . #eventBeginMinute . 
 				#eventEndDay . #eventEndMonth . #eventEndYear . 
 				#eventEndHour . #eventEndMinute}.
-	fields do: [ :each | self changed: each ]
+	fields do: [:each | self changed: each]

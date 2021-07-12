@@ -1,4 +1,4 @@
 accessing
 dayText
 	
-	^ self day asString
+	^ self firstDay asString

@@ -1,9 +1,6 @@
 toolbuilding
 buildEndDayText: aBuilder
 
-	| height |
-	
-	height := (self lineHeight * 4) + (self spacing * 4).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventEndDay;
@@ -11,4 +8,4 @@ buildEndDayText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Day';
-		frame: (0.62 @ height corner: 0.72 @ (height + self lineHeight))
+		frame: (0.62 @ (self lineOffsetOf: 4) corner: 0.72 @ ((self lineOffsetOf: 4) + self lineHeight))

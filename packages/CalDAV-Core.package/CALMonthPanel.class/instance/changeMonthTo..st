@@ -6,5 +6,3 @@ changeMonthTo: aDate
 		changed: #monthText;
 		clearDaysOfMonth;
 		rebuildDaysOfMonth
-	
-	
