@@ -1,3 +1,4 @@
 accessing
-startDay: anObject
-	startDay := anObject
+startDay: aDate
+
+	startDay := aDate
