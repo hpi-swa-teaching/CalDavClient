@@ -3,15 +3,16 @@ testButtonsExistence
 
 	| button |
 	
-	button := self quickView buildAddButtonWith: ToolBuilder default.
-	self assert: ((button label includesSubstring: '+') and: [button action = #openAddEventDialog]).
 	
-	button := self quickView buildAppButtonWith: ToolBuilder default.
-	self assert: ((button label includesSubstring: 'App') and: [button action = #openApp]).
+	button := ((self quickView buildAddEventButtonWith: ToolBuilder default) buildWith: ToolBuilder default).
+	self assert: (((button label submorphs at: 1) name = 'add') and: [button actionSelector = #openAddEventDialog]).
 	
-	button := self quickView buildDeadlinesViewButtonWith: ToolBuilder default.
-	self assert: ((button label includesSubstring: 'DeadlinesView') and: [button action = #openDeadlinesView]).
+	button := ((self quickView buildAppButtonWith: ToolBuilder default) buildWith: ToolBuilder default).
+	self assert: (((button label submorphs at: 1) name = 'calendar') and: [button actionSelector = #openApp]).
 	
-	button := self quickView buildAddButtonWith: ToolBuilder default.
-	self assert: ((button label includesSubstring: 'Refresh') and: [button action = #updateQuickView]).
+	button := ((self quickView buildDeadlinesViewButtonWith: ToolBuilder default) buildWith: ToolBuilder default).
+	self assert: (((button label submorphs at: 1) name = 'hourglass') and: [button actionSelector = #openDeadlinesView]).
+	
+	button := ((self quickView buildRefreshButtonWith: ToolBuilder default) buildWith: ToolBuilder default).
+	self assert: (((button label submorphs at: 1) name = 'refresh') and: [button actionSelector = #refreshCalendars]).
 	

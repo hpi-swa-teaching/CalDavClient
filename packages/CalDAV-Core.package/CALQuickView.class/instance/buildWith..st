@@ -12,7 +12,7 @@ buildWith: aBuilder
 		yourself.
 	windowSpec children
 		add: (self buildEventListWith: aBuilder);
-		add: (self buildAddButtonWith: aBuilder);
+		add: (self buildAddEventButtonWith: aBuilder);
 		add: (self buildRefreshButtonWith: aBuilder);
 		add: (self buildDeadlinesViewButtonWith: aBuilder);
 		add: (self buildAppButtonWith: aBuilder).

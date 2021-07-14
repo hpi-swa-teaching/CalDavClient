@@ -1,5 +1,5 @@
 toolbuilding
-buildAddButtonWith: aBuilder
+buildAddEventButtonWith: aBuilder
 
 	| y |
 	

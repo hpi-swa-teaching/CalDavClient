@@ -8,5 +8,5 @@ buildDeadlinesViewButtonWith: aBuilder
 		action: #openDeadlinesView;
 		label: ('{1}' asText format: {Character startOfHeader asText addAttribute: anchorToImage});
 		enabled: true;
-		frame: (0.4 @ 0 corner: 0.7 @ 0.1);
+		frame: (0.5 @ 0 corner: 0.75 @ 0.1);
 		yourself
