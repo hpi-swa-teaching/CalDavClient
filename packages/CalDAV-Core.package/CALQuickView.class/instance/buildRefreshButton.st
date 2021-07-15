@@ -6,6 +6,6 @@ buildRefreshButton
 			app: self;
 			name: 'refresh';
 			size: 30 @ 30;
-			functionName: #refreshCalendars.
+			functionName: #updateQuickView.
 		icon loadIcon.
 		^ icon
