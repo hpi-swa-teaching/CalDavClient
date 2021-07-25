@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"openWith:" : "MD 6/12/2021 13:23" },
+		"dayOfYear" : "LM 7/5/2021 19:03",
+		"isFirstDayPartOfCalenderWeek" : "LM 7/7/2021 15:06",
+		"openWith:" : "LM 7/12/2021 17:01",
+		"weekOfYear" : "LM 7/12/2021 17:02" },
 	"instance" : {
-		"app" : "LM 6/8/2021 21:36",
+		"app" : "LM 7/12/2021 16:57",
 		"app:" : "MD 6/9/2021 15:23",
 		"buildAppButtonWith:" : "LM 6/21/2021 15:24",
-		"buildPanelWith:" : "LM 6/9/2021 16:46",
+		"buildPanelWith:" : "LM 7/7/2021 14:49",
 		"buildQuickViewButtonWith:" : "LM 6/9/2021 16:38",
-		"buildWith:" : "LM 6/21/2021 15:19",
+		"buildWith:" : "LM 7/5/2021 18:46",
 		"openApp" : "LM 6/21/2021 15:24",
-		"openQuickView" : "MD 6/12/2021 13:13" } }
+		"openQuickView" : "LM 7/12/2021 16:58" } }

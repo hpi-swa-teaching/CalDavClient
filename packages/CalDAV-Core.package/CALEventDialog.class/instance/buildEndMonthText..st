@@ -1,9 +1,6 @@
 toolbuilding
 buildEndMonthText: aBuilder
 
-	| height |
-	
-	height := (self lineHeight * 4) + (self spacing * 4).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventEndMonth;
@@ -11,4 +8,4 @@ buildEndMonthText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Month';
-		frame: (0.31 @ height corner: 0.61 @ (height + self lineHeight))
+		frame: (0.31 @ (self lineOffsetOf: 4) corner: 0.61 @ ((self lineOffsetOf: 4) + self lineHeight))

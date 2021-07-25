@@ -1,3 +1,4 @@
 accessing
-days: anObject
-	days := anObject
+days: aCollection
+
+	days := aCollection

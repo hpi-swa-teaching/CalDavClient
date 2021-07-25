@@ -1,10 +1,4 @@
 initialize
-openForApp: aParent
-
-	| dialog |
-	
-	dialog := self new.
-	dialog
-		app: aParent.	
+openForApp: aCALApp
 		
-	 ^ ToolBuilder default open: dialog
+	 ^ ToolBuilder default open: (self new app: aCALApp)

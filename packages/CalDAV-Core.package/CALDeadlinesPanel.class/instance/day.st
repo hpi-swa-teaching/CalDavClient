@@ -1,3 +1,0 @@
-constants
-day
-	^ Date today

@@ -1,4 +1,4 @@
 constants
 spaceForWeekDays
 
-	^ 1/12
+	^ 1 / 12

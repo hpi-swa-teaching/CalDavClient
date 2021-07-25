@@ -1,3 +1,4 @@
 accessing
-firstOfMonth: anObject
-	firstOfMonth := anObject.
+firstOfMonth: aDate
+
+	firstOfMonth := aDate

@@ -1,5 +1,5 @@
 actions
 nextWeek
 
-	self day: (self day addDays: 7).
+	self day: (self firstDay addDays: 7).
 	self updateWeek
