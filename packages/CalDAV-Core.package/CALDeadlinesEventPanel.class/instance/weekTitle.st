@@ -1,4 +1,4 @@
 layouting
 weekTitle
 
-	^ 'Week ', (self index asNumber + 1)
+	^ 'Week ', (self weekNumber asNumber + 1)
