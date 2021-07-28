@@ -5,8 +5,8 @@ fillMonth
 	1 to: 42 do: [:each | [(self days at: each) date: 
 		(Timespan
 			starting: (DateAndTime 
-				year: (firstOfMonth year)
-				month: (firstOfMonth monthIndex)
+				year: (self firstOfMonth year)
+				month: (self firstOfMonth monthIndex)
 				day: (self dayAt: each)
 				hour: 0
 				minute: 0) 
