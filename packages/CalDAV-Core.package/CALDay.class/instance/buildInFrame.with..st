@@ -13,6 +13,6 @@ buildInFrame: aFrame with: aBuilder
 	newPanel children
 		add: (self buildDayButtonWith: aBuilder);
 		add: (self buildEventListWith: aBuilder);	  	
-		add: (self buildAddButtonWith: aBuilder).
+		add: (self buildAddEventButtonWith: aBuilder).
 	
 	^ newPanel
