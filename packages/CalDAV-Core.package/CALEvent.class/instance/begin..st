@@ -8,5 +8,3 @@ begin: beginDate
 		beginHour: (beginDate hour);
 		beginMinute: (beginDate minute);
 		yourself 
-	
-	

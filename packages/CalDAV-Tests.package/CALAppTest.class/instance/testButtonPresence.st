@@ -12,4 +12,4 @@ testButtonPresence
 	  'Import CalDAV Calendar' -> #importWebDAVCalendar.
 	  'Refresh' -> #refreshCalendars}.
 	
-	buttons associationsDo: [ :each | self assert: spec hasButtonLabeled: each key performing: each value]
+	buttons associationsDo: [:each | self assert: spec hasButtonLabeled: each key performing: 	each value]

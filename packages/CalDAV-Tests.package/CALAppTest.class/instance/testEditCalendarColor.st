@@ -2,6 +2,7 @@ testing
 testEditCalendarColor 
 	
 	| file calendarDirectory delimiter dataCollection colorCollection |
+	
 	self app change: 'testCalendar' color: 'yellow'.
 	delimiter := FileDirectory pathNameDelimiter.
 	calendarDirectory := (FileDirectory default directoryNamed: 'CalDAV', delimiter, 'calendars', delimiter) assureExistence.

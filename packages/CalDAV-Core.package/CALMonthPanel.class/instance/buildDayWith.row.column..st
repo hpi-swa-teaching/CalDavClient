@@ -8,4 +8,3 @@ buildDayWith: aBuilder row: aRow column: aColumn
 	y := self monthViewFrame top + ((aRow - 1) * self dayHeight).  
 	frame := x @ y corner: (x + self dayWidth) @ (y + self dayHeight).
 	^ model buildInFrame: frame with: aBuilder
-	 

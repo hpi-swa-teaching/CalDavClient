@@ -8,5 +8,3 @@ initialize
 		beginHour: 0;
 		beginMinute: 0;
 		yourself 
-	
-	

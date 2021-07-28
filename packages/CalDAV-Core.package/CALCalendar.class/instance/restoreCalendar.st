@@ -9,4 +9,3 @@ restoreCalendar
 	eventCollection := self dataCollection select: [:each | each class == OrderedCollection].
 	eventCollection do: [:each | 
 		each do: [:event | self addEvent: event]]
-	

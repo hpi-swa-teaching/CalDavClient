@@ -9,4 +9,3 @@ calendarData
 		add: self eventsData; 
 		yourself.
 	^ STON toString: dataCollection asOrderedCollection
-	
