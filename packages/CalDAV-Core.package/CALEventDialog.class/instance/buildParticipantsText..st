@@ -1,9 +1,6 @@
 toolbuilding
 buildParticipantsText: aBuilder
 
-	| height |
-	
-	height := (self lineHeight * 6) + (self spacing * 6).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventParticipants;
@@ -11,4 +8,4 @@ buildParticipantsText: aBuilder
 		indicateUnacceptedChanges: false;
 		help: 'Participants';
 		readOnly: self isReadOnly; 
-		frame: (0.01 @ height corner: self borderRight @ (height +self lineHeight))
+		frame: (0.01 @ (self lineOffsetOf: 6) corner: self borderRight @ ((self lineOffsetOf: 6) + self lineHeight))

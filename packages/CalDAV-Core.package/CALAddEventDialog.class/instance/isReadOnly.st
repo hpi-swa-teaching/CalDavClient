@@ -1,3 +1,4 @@
 accessing
 isReadOnly
-	^false
+
+	^ false

@@ -14,6 +14,6 @@ buildStandardFields: aBuilder
 	self buildEndHourText: aBuilder.
 	self buildEndMinuteText: aBuilder.
 	self buildLocationText: aBuilder.
-	self buildParticipantsText: aBuilder.}
+	self buildParticipantsText: aBuilder}
 	
 	

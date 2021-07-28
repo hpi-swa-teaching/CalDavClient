@@ -7,7 +7,7 @@
 	"commentStamp" : "jz 7/25/2018 11:36",
 	"instvars" : [
 		"day",
-		"parent" ],
+		"app" ],
 	"name" : "CALWeekPanel",
 	"pools" : [
 		 ],

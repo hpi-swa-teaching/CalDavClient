@@ -9,8 +9,7 @@
 		"date",
 		"currentIndex",
 		"app",
-		"day",
-		"parent" ],
+		"day" ],
 	"name" : "CALQuickView",
 	"pools" : [
 		 ],

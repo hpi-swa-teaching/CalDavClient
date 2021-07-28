@@ -1,4 +1,4 @@
 accessing
-event: anObject
+event: aCALEvent
 	
-	event := anObject.
+	event := aCALEvent

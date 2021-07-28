@@ -7,9 +7,6 @@ buildSpec: aBuilder
 	content
 		model: self;
 		children: OrderedCollection new.
-		
 	content children
 		addAll: (self buildTimeLabels: aBuilder).
-	
 	^ content
-			

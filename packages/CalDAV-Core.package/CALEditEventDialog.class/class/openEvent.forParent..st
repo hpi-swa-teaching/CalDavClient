@@ -1,12 +1,11 @@
 initialize
-openEvent: anEvent forParent: aParent
+openEvent: anEvent forParent: aCALApp
 
 	| dialog |
 	
 	dialog := self new.
 	dialog
-		app: aParent;
+		app: aCALApp;
 		event: anEvent;
 		oldEvent: anEvent.
-		
 	 ^ ToolBuilder default open: dialog

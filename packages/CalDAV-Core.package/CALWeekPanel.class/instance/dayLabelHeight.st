@@ -1,4 +1,4 @@
-positioning
+constants
 dayLabelHeight
 
-	^ 1/25
+	^ 1 / 25

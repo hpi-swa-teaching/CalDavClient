@@ -8,9 +8,7 @@ buildSpec: aBuilder
 		model: self;
 		name: 'weekGrid';
 		children: OrderedCollection new.
-		
 	content children
 		addAll: (self buildDayLineWith: aBuilder);
 		addAll: (self buildDayGridsWith: aBuilder).
-	
 	^ content
