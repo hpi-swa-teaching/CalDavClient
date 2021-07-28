@@ -2,6 +2,7 @@ toolbuilder
 buildDeadlinesViewButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'hourglass';

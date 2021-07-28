@@ -2,6 +2,7 @@ toolbuilder
 buildDeadlinesViewButtonWith: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildDeadlinesViewButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

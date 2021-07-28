@@ -2,6 +2,7 @@ toolbuilder
 buildMonthViewButton: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildMonthViewButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

@@ -2,6 +2,7 @@ toolbuilder
 buildQuickViewButton: aBuilder
 
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildQuickViewButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

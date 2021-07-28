@@ -2,6 +2,7 @@ toolbuilder
 buildImportCalendarButton: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildImportCalendarButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

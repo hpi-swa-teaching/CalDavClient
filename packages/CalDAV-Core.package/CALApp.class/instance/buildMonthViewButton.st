@@ -2,6 +2,7 @@ toolbuilder
 buildMonthViewButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'm';

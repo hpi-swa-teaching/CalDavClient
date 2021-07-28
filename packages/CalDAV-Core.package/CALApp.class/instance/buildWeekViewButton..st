@@ -2,6 +2,7 @@ toolbuilder
 buildWeekViewButton: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildWeekViewButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

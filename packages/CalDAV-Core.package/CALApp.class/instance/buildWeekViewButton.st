@@ -2,6 +2,7 @@ toolbuilder
 buildWeekViewButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'w';

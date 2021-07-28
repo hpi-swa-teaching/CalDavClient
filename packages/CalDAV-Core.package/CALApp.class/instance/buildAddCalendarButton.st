@@ -2,6 +2,7 @@ toolbuilder
 buildAddCalendarButton
 	
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'add';

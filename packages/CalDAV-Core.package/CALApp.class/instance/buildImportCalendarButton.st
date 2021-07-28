@@ -2,6 +2,7 @@ toolbuilder
 buildImportCalendarButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'caldav-format';

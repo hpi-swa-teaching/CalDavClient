@@ -2,6 +2,7 @@ toolbuilder
 buildAddEventButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self app;
 		name: 'add';

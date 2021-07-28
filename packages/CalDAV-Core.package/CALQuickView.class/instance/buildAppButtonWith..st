@@ -2,6 +2,7 @@ toolbuilder
 buildAppButtonWith: aBuilder
 
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildAppButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

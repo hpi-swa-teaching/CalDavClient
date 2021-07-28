@@ -2,6 +2,7 @@ toolbuilder
 buildRefreshButtonWith: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildRefreshButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

@@ -2,6 +2,7 @@ toolbuilder
 buildDeleteCalendarButton: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildDeleteCalendarButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

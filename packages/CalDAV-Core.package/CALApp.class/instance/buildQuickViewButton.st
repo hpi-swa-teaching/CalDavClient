@@ -2,6 +2,7 @@ toolbuilder
 buildQuickViewButton
 
 	| icon |
+	
 	icon := CALIcon new
 		app: self;
 		name: 'list';

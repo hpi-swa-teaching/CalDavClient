@@ -2,6 +2,7 @@ toolbuilder
 buildAddEventButtonWith: aBuilder
 	
 	| anchorToImage |
+	
 	anchorToImage := TextAnchor new anchoredMorph: self buildAddEventButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;

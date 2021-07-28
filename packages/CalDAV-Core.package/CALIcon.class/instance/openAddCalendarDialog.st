@@ -5,4 +5,4 @@ openAddCalendarDialog
 	
 	calendarName := UIManager default
 		request: 'How should it be named?:'
-		initialAnswer: ''.
+		initialAnswer: ''
