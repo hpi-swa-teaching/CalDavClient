@@ -1,5 +1,5 @@
 event management
-addEvent: anEvent
+addEvent: aCALEvent
 
-	self selectedEditableCalendar addEvent: anEvent.
+	self selectedEditableCalendar addEvent: aCALEvent.
 	self updateView

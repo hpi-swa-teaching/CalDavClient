@@ -8,13 +8,10 @@ buildSpec: aBuilder
 		model: self;
 		name: 'weekPanel';
 		children: OrderedCollection new.
-		
 	content children
 		add: (self buildNextWeekButton: aBuilder);
 		add: (self buildPreviousWeekButton: aBuilder);
 		add: (self buildWeekTextWith: aBuilder);
 		add: (self buildTimelineWith: aBuilder);
 		add: (self buildWeekGridWith: aBuilder).
-	
 	^ content
-			

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"app" : "LM 6/17/2021 11:35",
+		"app:" : "LM 6/17/2021 11:35",
+		"buildDeadlineListOf:" : "LM 7/12/2021 16:32",
+		"buildEventList:" : "LM 7/25/2021 17:09",
+		"buildSpec:" : "LM 7/7/2021 14:53",
+		"dayOfYear" : "MD 6/12/2021 14:49",
+		"days" : "LM 7/12/2021 16:36",
+		"days:" : "LM 7/12/2021 16:37",
+		"deadlineList" : "LM 6/20/2021 20:10",
+		"events" : "LM 6/20/2021 20:01",
+		"getEventBlockFor:" : "yk 5/10/2021 19:30",
+		"weekNumber" : "LM 7/25/2021 17:09",
+		"weekNumber:" : "LM 7/25/2021 17:09",
+		"weekTitle" : "LM 7/25/2021 17:09" } }

@@ -1,6 +1,6 @@
 errors
-errorEventNotInCalendar: anEvent
+errorEventNotInCalendar: aCALEvent
 
 	^ (NotFound
-			object: anEvent;
+			object: aCALEvent;
 			messageText: 'Event to delete not in calendar') signal

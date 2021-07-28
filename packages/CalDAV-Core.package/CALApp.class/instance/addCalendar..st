@@ -1,8 +1,8 @@
 calendar management
-addCalendar: aCalendar
+addCalendar: aCALCalendar
 
-	self calendars detect: [:each | each name = aCalendar name] 
-		ifNone: [self calendars add: aCalendar.
-				self storeCalendar: aCalendar].
+	self calendars detect: [:each | each name = aCALCalendar name] 
+		ifNone: [self calendars add: aCALCalendar.
+				self storeCalendar: aCALCalendar].
 	self changed: #calendarNames
 	

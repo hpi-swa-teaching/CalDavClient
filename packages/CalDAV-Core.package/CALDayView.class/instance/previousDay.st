@@ -1,5 +1,5 @@
 accessing
 previousDay
 	
-	self day: (self day subtractDays: 1).
+	self day: (self firstDay subtractDays: 1).
 	self updateDay

@@ -1,4 +1,4 @@
 event management
-findCalendarFor: anEvent
+findCalendarFor: aCALEvent
 	
-	^ self calendars detect: [ :each | each events includes: anEvent] ifNone: [self error: 'No calendar with this event present']
+	^ self calendars detect: [ :each | each events includes: aCALEvent] ifNone: [self error: 'No calendar with this event present']

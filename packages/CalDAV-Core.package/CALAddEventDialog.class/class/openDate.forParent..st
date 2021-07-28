@@ -1,5 +1,5 @@
 initialize
-openDate: aDate forParent: aParent
+openDate: aDate forParent: aCALApp
 
 	| dialog datedEvent |
 	
@@ -8,7 +8,6 @@ openDate: aDate forParent: aParent
 		begin: aDate start;
 		end: aDate start.
 	dialog
-		app: aParent;
+		app: aCALApp;
 		event: datedEvent.
-		
 	 ^ ToolBuilder default open: dialog

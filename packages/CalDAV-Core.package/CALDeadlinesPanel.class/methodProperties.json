@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDays:" : "yk 5/10/2021 19:20",
+		"app" : "LM 7/12/2021 16:39",
+		"app:" : "LM 7/12/2021 16:40",
+		"buildSpec:" : "LM 7/5/2021 18:49",
+		"buildWeekLineNumber:with:" : "LM 7/25/2021 17:09",
+		"buildWeekLineWith:" : "LM 7/5/2021 18:18",
+		"calculateDaysOfWeek:" : "LM 7/12/2021 16:47",
+		"differenceToMonday" : "LM 7/12/2021 16:54",
+		"firstDay" : "LM 7/12/2021 16:54",
+		"startDateForWeek:" : "LM 7/12/2021 16:54",
+		"weekGridHeight" : "LM 7/5/2021 18:08" } }

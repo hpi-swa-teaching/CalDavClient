@@ -1,3 +1,4 @@
 accessing
-eventTitle: anObject
-	self event title: anObject asString
+eventTitle: aTitle
+
+	self event title: aTitle asString

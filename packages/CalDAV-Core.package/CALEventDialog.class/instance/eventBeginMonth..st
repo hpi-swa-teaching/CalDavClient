@@ -1,6 +1,6 @@
 accessing
-eventBeginMonth: anObject
+eventBeginMonth: aValue
 
-	(anObject asNumber <= 12 and: anObject asNumber >= 0)
-		ifTrue: [self event beginMonth: anObject asNumber].
+	(aValue asNumber <= 12 and: [aValue asNumber >= 0])
+		ifTrue: [self event beginMonth: aValue asNumber].
 	self updateBegin

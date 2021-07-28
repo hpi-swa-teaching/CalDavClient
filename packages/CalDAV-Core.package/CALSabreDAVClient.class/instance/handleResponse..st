@@ -1,4 +1,0 @@
-authorization
-handleResponse: aResponse
-
-	^ aResponse

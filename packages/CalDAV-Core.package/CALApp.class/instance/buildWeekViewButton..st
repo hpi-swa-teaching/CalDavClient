@@ -1,10 +1,13 @@
 toolbuilder
 buildWeekViewButton: aBuilder
 	
+	| anchorToImage |
+	
+	anchorToImage := TextAnchor new anchoredMorph: self buildWeekViewButton.
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #openWeekView;
-		label: 'Week View';
-		enabled: #isMonthViewActive;
-		frame: (0 @ 0.1 corner: 0.1 @ 0.2);
+		label: ('{1}' asText format: {Character startOfHeader asText addAttribute: anchorToImage});
+		enabled: #isWeekViewNotActive;
+		frame: (0.855 @ 0 corner: 0.885 @ 0.05);
 		yourself

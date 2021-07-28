@@ -6,5 +6,3 @@ buildPreviousMonthButton: aBuilder
 		action: #previousMonth;
 		label: 'previous';
 		frame: (0 @ 0 corner: self buttonWidth @ self buttonHeight)
-	
-	

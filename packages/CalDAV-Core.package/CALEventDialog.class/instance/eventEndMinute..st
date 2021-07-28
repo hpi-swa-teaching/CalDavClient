@@ -1,6 +1,6 @@
 accessing
-eventEndMinute: anObject
+eventEndMinute: aValue
 
-	(anObject asNumber < 60 and: anObject asNumber >= 0)
-		ifTrue: [self event endMinute: anObject asNumber].
+	(aValue asNumber < 60 and: [aValue asNumber >= 0])
+		ifTrue: [self event endMinute: aValue asNumber].
 	self updateEnd

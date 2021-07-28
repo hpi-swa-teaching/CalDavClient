@@ -9,5 +9,3 @@ textFrameWith: aRow and: aColumn
 	x := self monthViewFrame left + ((aColumn - 1) * width).
 	y := self monthViewFrame top + ((aRow - 1) * height).
 	^ (x @ y) corner: (x + width) @ (y + textHeight)
-	
-	

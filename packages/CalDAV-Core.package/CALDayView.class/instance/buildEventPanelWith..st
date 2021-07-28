@@ -3,6 +3,6 @@ buildEventPanelWith: aBuilder
 
 	^ (CALEventGridPanel new
 				app: self app;
-				day: self day;
+				day: self firstDay;
 				buildSpec: aBuilder)
 				frame: (self timeLabelWidth @ self buttonHeight corner: 1 @ 1)

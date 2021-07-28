@@ -1,4 +1,4 @@
 accessing
-calendarsToShow: anObject
+calendarsToShow: aSet 
 	
 	self shouldNotImplement

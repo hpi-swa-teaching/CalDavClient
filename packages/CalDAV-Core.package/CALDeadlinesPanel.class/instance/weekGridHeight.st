@@ -1,0 +1,4 @@
+constants
+weekGridHeight 
+
+	^ 2

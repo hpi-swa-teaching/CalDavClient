@@ -1,3 +1,4 @@
 accessing
-placed: anObject
-	placed := anObject
+placed: aBool
+
+	placed := aBool

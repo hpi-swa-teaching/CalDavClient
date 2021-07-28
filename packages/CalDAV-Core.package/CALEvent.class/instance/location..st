@@ -1,3 +1,4 @@
 accessing
-location: anObject
-	location := anObject
+location: aString
+
+	location := aString 

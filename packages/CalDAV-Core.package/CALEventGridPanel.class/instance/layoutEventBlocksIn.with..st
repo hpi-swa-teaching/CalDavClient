@@ -19,6 +19,5 @@ layoutEventBlocksIn: aCollection with: aBuilder
 		(lastEventEnding isNil or: [each event end > lastEventEnding])
 			ifTrue: [lastEventEnding := each event end]].
 	"get buttons for last event group if necessary"
-	columns isEmpty not
-		ifTrue: [buttons addAll: (self getButtonsForEventGroup: columns with: aBuilder)].
+	columns ifNotEmpty: [buttons addAll: (self getButtonsForEventGroup: columns with: aBuilder)].
 	^ buttons
