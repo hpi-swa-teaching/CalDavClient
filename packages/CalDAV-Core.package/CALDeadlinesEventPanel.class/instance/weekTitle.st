@@ -1,4 +1,4 @@
 layouting
 weekTitle
 
-	^ 'Week ', self weekOfYear
+	^ 'Week ', (self weekNumber asNumber + 1)

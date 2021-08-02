@@ -1,9 +1,6 @@
 toolbuilding
 buildEndMinuteText: aBuilder
 
-	| height |
-	
-	height := (self lineHeight * 4) + (self spacing * 4).
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #eventEndMinute;
@@ -11,4 +8,4 @@ buildEndMinuteText: aBuilder
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'mm';
-		frame: (0.79 @ height corner: self borderRight @ (height + self lineHeight))
+		frame: (0.79 @ (self lineOffsetOf: 4) corner: self borderRight @ ((self lineOffsetOf: 4) + self lineHeight))

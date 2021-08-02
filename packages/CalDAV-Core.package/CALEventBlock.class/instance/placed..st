@@ -1,4 +1,4 @@
 accessing
-placed: aBool 
+placed: aBool
 
-	placed := aBool 
+	placed := aBool

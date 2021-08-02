@@ -1,7 +1,7 @@
 toolbuilding
 windowFields: aBuilder
 	
-	|windowFields|
+	| windowFields |
 	
 	windowFields := OrderedCollection new.
 	windowFields 
@@ -9,6 +9,5 @@ windowFields: aBuilder
 	 	addAll: (self buildButtons: aBuilder);
 		addAll: (self buildFields: aBuilder);
 		yourself.
-		
 	^ windowFields
 	 

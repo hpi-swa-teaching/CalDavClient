@@ -1,4 +1,4 @@
 accessing
-frame: aRectangle 
+frame: aRectangle
 
 	frame := aRectangle
