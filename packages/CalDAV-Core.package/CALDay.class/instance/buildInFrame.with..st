@@ -9,10 +9,8 @@ buildInFrame: aFrame with: aBuilder
 		name: 'dayPanel';
 		frame: aFrame;
 		children: OrderedCollection new.
-		
 	newPanel children
 		add: (self buildDayButtonWith: aBuilder);
 		add: (self buildEventListWith: aBuilder);	  	
 		add: (self buildAddEventButtonWith: aBuilder).
-	
 	^ newPanel

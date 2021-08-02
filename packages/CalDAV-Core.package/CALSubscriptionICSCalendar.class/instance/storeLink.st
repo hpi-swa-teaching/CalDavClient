@@ -1,9 +1,6 @@
 accessing
 storeLink
 
-	| filestream |
-	
-	filestream := FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name).
-	filestream
+	(FileStream forceNewFileNamed: (self class calendarDirectory fullNameFor: self name))
 		nextPutAll: self caldavLink;
 		close

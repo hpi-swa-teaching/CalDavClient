@@ -2,5 +2,5 @@ accessing
 eventNames 
 	
 	self date 
-		ifNil: [^OrderedCollection new] 
+		ifNil: [^ OrderedCollection new] 
 		ifNotNil: [^ self app eventNamesIn: self date]

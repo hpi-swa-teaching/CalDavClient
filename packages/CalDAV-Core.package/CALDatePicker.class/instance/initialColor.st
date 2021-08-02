@@ -1,5 +1,6 @@
 CalendarMorph
 initialColor
+
 	"Answer the color to use for a new Calendar."
 
 	^  Color r: 0.516 g: 0.677 b: 1.0

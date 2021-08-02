@@ -8,7 +8,7 @@ buildWith: aBuilder
 		model: self;
 		label: 'CALApp';
 		extent: 1000 @ 700;
-		children: OrderedCollection new.
+		children: OrderedCollection new.	
 	windowSpec children
 		add: (self buildMonthPanel: aBuilder);
 		add: (self buildCalendarList: aBuilder);
@@ -21,5 +21,4 @@ buildWith: aBuilder
 		add: (self buildQuickViewButton: aBuilder);
 		add: (self buildImportCalendarButton: aBuilder);
 		add: (self buildRefreshButton: aBuilder).
-	
 	^ aBuilder build: windowSpec

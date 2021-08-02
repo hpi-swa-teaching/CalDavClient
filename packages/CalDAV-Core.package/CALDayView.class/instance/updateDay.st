@@ -5,5 +5,7 @@ updateDay
 	
 	(self topView submorphNamed: 'eventGrid') delete.
 	builder := ToolBuilder default.	
-	builder buildAll: {(self buildEventPanelWith: builder)} in: self topView.
+	builder 
+		buildAll: {self buildEventPanelWith: builder} 
+		in: self topView.
 	self changed: #dayText

@@ -1,6 +1,8 @@
 CalendarMorph
 initializeSubmorphs
+
 	| weekRow dateButton |
+	
 	self addMorphBack: self buildYearRow;
 		 addMorphBack: self buildMonthRow;
 		 addMorphBack: self dayInitialsRow.
@@ -9,10 +11,7 @@ initializeSubmorphs
 			weekRow := self newRow.
 			week dates
 				do: [:aDate | 
-					dateButton := self newDateButtonWithContents: aDate dayOfMonth asString.
-					dateButton actionSelector: #date:; 
-						 target: self;
-						 arguments: {aDate}.
+					dateButton := self newDateButtonWithContents: (aDate dayOfMonth asString) For: aDate. 
 					self date = aDate
 						ifTrue: [dateButton
 								color: (self color

@@ -5,13 +5,6 @@ dayInitialsRow
 
 	newRow := self newRow.
 	Week dayNames
-		do: [:dayName|
-			newRow addMorphBack: (TextMorph new 
-				contentsWrapped: dayName translated first asString;
-				textColor: self labelsDefaultColor;
-				autoFit: false;
-				width: 30;
-				centered;
-				lock)]
+		do: [:dayName | newRow addMorphBack: (self textOfDayName: dayName)]
 		separatedBy: [newRow addMorphBack: AlignmentMorph newVariableTransparentSpacer].
 	^ newRow 

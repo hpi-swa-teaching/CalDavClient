@@ -1,8 +1,9 @@
 open
 openQuickView
 
-	| app date |
+	| app |
 	
 	app := CALApp new prepareCalendars.
- 	date := Time current asDate.
-	CALQuickView openDay: date for: app
+	CALQuickView 
+		openDay: Time current asDate
+		for: app

@@ -6,6 +6,6 @@ openDay: aDate for: anApp
 	aDate start: (aDate start offset: DateAndTime localOffset).
 	dayView := CALDayView new
 		app: anApp;
-		day: aDate.
-	
+		day: aDate;
+		yourself.
 	^ ToolBuilder default open: dayView

@@ -1,5 +1,7 @@
 validation
 isEndDateValid
 	
-	[self end] on: Error do: [^ false].
+	[self end] 
+		on: Error 
+		do: [^ false].
 	^ true
