@@ -14,6 +14,8 @@
 		"demoEvent2" : "jz 7/4/2018 01:15",
 		"setUp" : "dm 7/19/2018 11:51",
 		"tearDown" : "dm 7/19/2018 15:13",
+		"testAppToDeadlinesView" : "MD 7/30/2021 12:36",
+		"testAppToQuickView" : "MD 7/30/2021 12:29",
 		"testAtLeastOneCalendar" : "jz 7/18/2018 14:47",
 		"testBuildWith" : "dm 7/19/2018 11:52",
 		"testButtonExistence" : "LB 7/28/2021 15:19",

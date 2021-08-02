@@ -1,0 +1,14 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"deadlinesView" ],
+	"name" : "CALDeadlinesWindowTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

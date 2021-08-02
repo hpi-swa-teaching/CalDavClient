@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDayIsSetCorrectly
 
 	self quickView date: self firstOfMarch2018.

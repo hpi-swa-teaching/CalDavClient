@@ -10,4 +10,6 @@
 		"testButtonsExistence" : "LB 7/28/2021 13:37",
 		"testDayIsSetCorrectly" : "yk 7/8/2021 10:21",
 		"testEventsDeletedCorrectly" : "LB 7/28/2021 13:40",
-		"testHasBuildSpec" : "LB 7/28/2021 13:40" } }
+		"testHasBuildSpec" : "LB 7/28/2021 13:40",
+		"testQuickViewToApp" : "MD 7/30/2021 13:00",
+		"testQuickViewToDeadlinesView" : "MD 7/30/2021 13:09" } }
