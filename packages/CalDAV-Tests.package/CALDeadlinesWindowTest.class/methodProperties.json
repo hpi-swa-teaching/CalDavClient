@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"app" : "LM 8/4/2021 17:48",
+		"app:" : "LM 8/4/2021 17:48",
 		"deadlinesView" : "MD 7/30/2021 12:41",
 		"deadlinesView:" : "MD 7/30/2021 12:40",
-		"setUp" : "MD 7/30/2021 12:49",
-		"testDeadlinesViewToApp" : "MD 7/30/2021 12:54",
-		"testDeadlinesViewToQuickView" : "MD 7/30/2021 12:52" } }
+		"setUp" : "LM 8/4/2021 17:26",
+		"testBuildWith" : "LM 8/4/2021 17:36",
+		"testButtonsExistence" : "LM 8/4/2021 17:46",
+		"testDeadlinesViewToApp" : "LM 8/4/2021 17:46",
+		"testDeadlinesViewToQuickView" : "LM 8/4/2021 17:43",
+		"testOpenWith" : "LM 8/4/2021 17:35",
+		"testPanelExistence" : "LM 8/4/2021 17:36" } }

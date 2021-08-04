@@ -11,5 +11,6 @@ testDeadlinesViewToApp
 	secondNumberOfDeadlinesViews := (world submorphs select: [:m | m model class = CALDeadlinesWindow]) size.
 	secondNumberOfApps := (world submorphs select: [:m | m model class = CALApp]) size.
 	self assert: ((firstNumberOfDeadlinesViews = (secondNumberOfDeadlinesViews + 1)) and: [firstNumberOfApps = (secondNumberOfApps - 1)]).
-	aMorph delete.
+	cal delete.
+	aMorph abandon.
 	CALApp allInstances last myDependents first abandon

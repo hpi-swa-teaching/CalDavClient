@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"deadlinesView",
+		"deadlinesPanel",
 		"app" ],
-	"name" : "CALDeadlinesWindowTest",
+	"name" : "CALDeadlinePanelTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
