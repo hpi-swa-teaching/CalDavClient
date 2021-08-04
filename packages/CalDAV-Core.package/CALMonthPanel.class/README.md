@@ -1,19 +1,15 @@
-i am a panel containing the Month View
+A CALMonthPanel is a CALPanel containing a month's events and buttons to switch between the months. 
 
 Instance Variables
-	fields:
-	days: <OrderedCollection>
-	firstOfMonth:
-	parent:
+	app: 			aCALApp 
+	days: 			aCollection 
+	firstOfMonth:	aDate 
 
-fields
-	-
+app
+	- the CALApp the MonthPanel is placed in 
 
 days
 	- an OrderedCollection of CALDays
 
 firstOfMonth
-	-
-
-parent
-	-
+	- the first Date of the month 

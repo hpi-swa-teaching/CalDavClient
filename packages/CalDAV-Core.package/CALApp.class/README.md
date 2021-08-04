@@ -1,15 +1,15 @@
 A CALApp is a Model which represents the main calendar application in which users can access different CALCalendars. 
 
 Instance Variables 
-	calendars			aSortedCollection 
-	calendarIndex		aNumber  
-	monthPanel		aCALMonthPanel
-	week Panel			aCALWeekPanel
-	calendarsToShow	aSet 
-	selectionFileName	aString 
+	calendars:			aSortedCollection 
+	calendarIndex:		aNumber  
+	monthPanel:		aCALMonthPanel
+	weekPanel:			aCALWeekPanel
+	calendarsToShow:	aSet 
+	selectionFileName:	aString 
 
 calendars 
-	- a sortedCollection of CALCalendars 
+	- a SortedCollection of CALCalendars 
 	
 calendarIndex 
 	- the index of a certain calendar, e.g., a calendar selected to be deleted

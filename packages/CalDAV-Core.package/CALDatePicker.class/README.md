@@ -1,9 +1,9 @@
 A DataPicker is a Morph that is used to change the data of an event when creating it. It is transferred from Squeak-EToys-CalendarMorph. 
 
 Instance Variables
-	date					aDate
-	shouldUpdate			aBool
-	stepTime				aNumber
+	date:					aDate
+	shouldUpdate:			aBool
+	stepTime: 				aNumber
 
 date
 	- represents the current date 

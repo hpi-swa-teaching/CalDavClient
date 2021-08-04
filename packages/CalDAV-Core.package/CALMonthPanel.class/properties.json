@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MD 5/14/2021 17:09",
+	"commentStamp" : "LB 8/4/2021 14:22",
 	"instvars" : [
-		"fields",
 		"days",
 		"firstOfMonth",
 		"app" ],

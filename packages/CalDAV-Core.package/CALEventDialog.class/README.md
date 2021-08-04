@@ -1,11 +1,11 @@
 A CALEventDialog is a Model that stands for a window displaying an event. It opens when we create a new CALEvent or edit an existing one. 
 
 Instance Variables
-	event				aCALEvent
-	parent 				aCALApp
-	titleColor 			aColor 
-	isFullDaySelected	aBool 
-	titleTextColor 		aColor 
+	event:				aCALEvent
+	parent: 			aCALApp
+	titleColor: 			aColor 
+	isFullDaySelected:	aBool 
+	titleTextColor: 		aColor 
 
 event 
 	- the CALEvent edited with the CALEventDialog 

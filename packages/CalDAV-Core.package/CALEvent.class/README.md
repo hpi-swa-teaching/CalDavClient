@@ -1,20 +1,20 @@
 A CALEvent is an Object that stands for an event which can be added to a calendar of the class CALCalendar. 
 
 Instance Variables
-	beginYear			aYear
-	beginMonth		aMonth
-	beginDay			aDay
-	beginHour 			anHour 
-	beginMinute		aMinute
-	endYear			aYear
-	endMonth 			aMonth
-	endDay 			aDay
-	endHour 			anHour 
-	endMinute			aMinute
-	title 				aString 
-	description			aString  
-	participations 		aString 
-	location 			aString 
+	beginYear:			aYear
+	beginMonth:		aMonth
+	beginDay:			aDay
+	beginHour: 			anHour 
+	beginMinute:		aMinute
+	endYear:			aYear
+	endMonth: 			aMonth
+	endDay: 			aDay
+	endHour: 			anHour 
+	endMinute:			aMinute
+	title: 				aString 
+	description:			aString  
+	participations: 		aString 
+	location: 			aString 
 		
 beginYear 
 	- the year of the event start date
