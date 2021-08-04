@@ -6,7 +6,6 @@ buildICSCalendarButton
 	icon := CALIcon new
 		app: self;
 		name: 'ics-format';
-		size: 30 @ 30;
-		functionName: #importSubscriptionCalendar.
+		size: 30 @ 30.
 	icon loadIcon.
 	^ icon

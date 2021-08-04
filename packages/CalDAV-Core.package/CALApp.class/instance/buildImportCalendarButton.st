@@ -6,7 +6,6 @@ buildImportCalendarButton
 	icon := CALIcon new
 		app: self;
 		name: 'caldav-format';
-		size: 30 @ 30;
-		functionName: #importWebDAVCalendar.
+		size: 30 @ 30.
 	icon loadIcon.
 	^ icon

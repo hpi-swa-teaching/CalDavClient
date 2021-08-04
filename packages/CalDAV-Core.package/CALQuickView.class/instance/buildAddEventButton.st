@@ -6,7 +6,6 @@ buildAddEventButton
 	icon := CALIcon new
 		app: self app;
 		name: 'add';
-		size: 30 @ 30;
-		functionName: #openApp.
+		size: 30 @ 30.
 	icon loadIcon.
 	^ icon

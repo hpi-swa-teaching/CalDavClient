@@ -1,4 +1,4 @@
 accessing
 handlesMouseDown: anEvent
 
-	^ true
+	^ false

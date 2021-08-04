@@ -20,5 +20,6 @@ buildWith: aBuilder
 		add: (self buildDeadlinesViewButton: aBuilder);
 		add: (self buildQuickViewButton: aBuilder);
 		add: (self buildImportCalendarButton: aBuilder);
+		add: (self buildEditCalendarButton: aBuilder);
 		add: (self buildRefreshButton: aBuilder).
 	^ aBuilder build: windowSpec
