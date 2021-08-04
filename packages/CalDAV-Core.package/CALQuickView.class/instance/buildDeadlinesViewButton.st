@@ -6,7 +6,6 @@ buildDeadlinesViewButton
 	icon := CALIcon new
 		app: self app;
 		name: 'hourglass';
-		size: 30 @ 30;
-		functionName: #openDeadlinesView.
+		size: 30 @ 30.
 	icon loadIcon.
 	^ icon

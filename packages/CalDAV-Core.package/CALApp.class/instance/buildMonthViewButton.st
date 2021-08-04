@@ -6,7 +6,6 @@ buildMonthViewButton
 	icon := CALIcon new
 		app: self;
 		name: 'm';
-		size: 20 @ 20;
-		functionName: #openMonthView.
+		size: 20 @ 20.
 	icon loadIcon.
 	^ icon

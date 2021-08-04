@@ -1,11 +1,11 @@
 toolbuilder
-buildWeekViewButton
+buildEditCalendarButton
 
 	| icon |
 	
 	icon := CALIcon new
 		app: self;
-		name: 'w';
-		size: 20 @ 20.
+		name: 'color-palette';
+		size: 25 @ 25.
 	icon loadIcon.
 	^ icon

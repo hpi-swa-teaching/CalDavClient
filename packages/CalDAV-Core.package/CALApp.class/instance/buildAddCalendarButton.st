@@ -6,7 +6,6 @@ buildAddCalendarButton
 	icon := CALIcon new
 		app: self;
 		name: 'add';
-		size: 20 @ 20;
-		functionName: #openAddCalendarDialog.
+		size: 20 @ 20.
 	icon loadIcon.
 	^ icon
