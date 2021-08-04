@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "kk 7/24/2018 18:26",
 	"instvars" : [
-		"eventGrid" ],
+		"eventGrid",
+		"app" ],
 	"name" : "CALEventGridPanelTest",
 	"pools" : [
 		 ],

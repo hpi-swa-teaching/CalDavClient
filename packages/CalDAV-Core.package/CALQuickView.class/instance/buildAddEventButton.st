@@ -7,6 +7,6 @@ buildAddEventButton
 		app: self app;
 		name: 'add';
 		size: 30 @ 30;
-		functionName: #openApp.
+		functionName: #openAddEventDialog.
 	icon loadIcon.
 	^ icon

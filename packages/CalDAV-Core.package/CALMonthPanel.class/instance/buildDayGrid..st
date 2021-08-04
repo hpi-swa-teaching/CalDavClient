@@ -1,5 +1,7 @@
 toolbuilder
 buildDayGrid: aBuilder
+
+	| fields |
 	
 	fields := OrderedCollection new.
 	self fillMonth.

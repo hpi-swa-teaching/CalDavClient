@@ -19,6 +19,7 @@
 		"testAtLeastOneCalendar" : "jz 7/18/2018 14:47",
 		"testBuildWith" : "dm 7/19/2018 11:52",
 		"testButtonExistence" : "LB 7/28/2021 15:19",
+		"testButtonPresence" : " 8/2/2021 14:22:10",
 		"testCalendarAddingAndRemoval" : "dm 7/19/2018 11:53",
 		"testCalendarColorCorrectlyStoredAndRestored" : "LB 7/28/2021 13:56",
 		"testCalendarsAreSortedAlphabetically" : "LB 7/28/2021 14:01",
