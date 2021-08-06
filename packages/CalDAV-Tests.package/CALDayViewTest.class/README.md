@@ -1,1 +1,5 @@
-I test the DayView
+CALDayViewTest includes the tests for CALDayView.
+
+Instance Variables 
+	dayView: 	aCALDayView 
+	spec:   
