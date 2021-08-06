@@ -1,5 +1,6 @@
 testing
 testAccessorsChangingEnd
+
 	| event |
 	
 	event := self demoEvent.
@@ -16,4 +17,4 @@ testAccessorsChangingEnd
 		assert: (event endMonth = 11);
 		assert: (event endYear = 1998);
 		assert: (event endHour = 12);
-		assert: (event endMinute = 12).
+		assert: (event endMinute = 12)

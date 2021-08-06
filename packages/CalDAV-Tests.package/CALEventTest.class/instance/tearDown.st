@@ -1,4 +1,4 @@
 running
 tearDown
 
-	CALCalendar calendarDirectory deleteFileNamed: (self calendar name).
+	CALCalendar calendarDirectory deleteFileNamed: (self calendar name)

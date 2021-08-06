@@ -1,5 +1,6 @@
 testing
 testTimespan
+
 	| event |
 	
 	event := self demoEvent.
