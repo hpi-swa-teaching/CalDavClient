@@ -14,3 +14,7 @@ SWT21 - Group 15
         baseline: 'CalDAV';
         repository: 'github://hpi-swa-teaching/CalDavClient:master/packages';
         load.
+
+## Icons 
+
+    Add the uncompressed icons folder into ...\Contents\Resources\CalDAV 
