@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "kk 6/21/2018 17:43",
+	"commentStamp" : "MD 8/6/2021 17:13",
 	"instvars" : [
 		"calendar" ],
 	"name" : "CALSubscriptionICSCalendarTest",

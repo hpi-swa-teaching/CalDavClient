@@ -1,3 +1,0 @@
-accessing
-sabreDAVClient
-	^ sabreDAVClient
