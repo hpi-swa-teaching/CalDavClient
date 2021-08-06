@@ -1,5 +1,6 @@
 testing
 testAccessors2
+
 	| event |
 	
 	event := self demoEvent.
@@ -13,4 +14,4 @@ testAccessors2
 	self assert: (event beginHour = self begin hour).
 	self assert: (event endHour = self end hour).
 	self assert: (event beginMinute = self begin minutes).
-	self assert: (event endMinute = self end minutes).
+	self assert: (event endMinute = self end minutes)

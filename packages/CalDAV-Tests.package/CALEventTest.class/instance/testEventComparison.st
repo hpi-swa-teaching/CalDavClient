@@ -1,5 +1,6 @@
 testing
 testEventComparison
+
 	| anEvent anotherEvent |
 	
 	anEvent := self demoEvent.

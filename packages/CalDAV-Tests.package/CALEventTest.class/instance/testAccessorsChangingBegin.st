@@ -1,5 +1,6 @@
 testing
 testAccessorsChangingBegin
+
 	| event |
 	
 	event := self demoEvent.
@@ -15,4 +16,4 @@ testAccessorsChangingBegin
 	self assert: (event beginMonth = 11).
 	self assert: (event beginYear = 1998).
 	self assert: (event beginHour = 12).
-	self assert: (event beginMinute = 12).
+	self assert: (event beginMinute = 12)

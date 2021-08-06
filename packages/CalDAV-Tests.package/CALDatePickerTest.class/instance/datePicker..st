@@ -1,4 +1,4 @@
 accessing
-datePicker: anObject
+datePicker: aCALDatePicker
 
-	datePicker := anObject
+	datePicker := aCALDatePicker
