@@ -1,5 +1,6 @@
 toolbuilder
 openApp
 	
-	CALApp open.
-	self myDependents first abandon
+	self myDependents first abandon.
+	^ CALApp open
+	

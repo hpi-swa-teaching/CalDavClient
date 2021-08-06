@@ -1,5 +1,6 @@
 toolbuilder
 openDeadlinesView
 	
-	CALDeadlinesWindow openWith: self app.
-	self myDependents first abandon
+	self myDependents first abandon.
+	^ CALDeadlinesWindow openWith: self app
+	

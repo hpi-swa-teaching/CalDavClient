@@ -1,5 +1,5 @@
 running
 setUp
 
-	self deadlinesView: CALDeadlinesWindow new.
-	self deadlinesView app: CALApp new prepareCalendars.
+	self app: CALApp new prepareCalendars.
+	self deadlinesView: (CALDeadlinesWindow new app: self app)

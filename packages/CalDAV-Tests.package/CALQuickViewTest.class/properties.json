@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"quickView" ],
+		"quickView",
+		"world" ],
 	"name" : "CALQuickViewTest",
 	"pools" : [
 		 ],
