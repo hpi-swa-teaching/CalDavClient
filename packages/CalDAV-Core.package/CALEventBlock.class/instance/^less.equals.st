@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 <= anEventBlock
 
 	^ self event <= anEventBlock event

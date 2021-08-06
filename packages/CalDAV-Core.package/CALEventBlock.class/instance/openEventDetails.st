@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 openEventDetails
 
 	self app openEventDetailsFor: self event

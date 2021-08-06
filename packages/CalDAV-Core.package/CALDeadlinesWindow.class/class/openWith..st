@@ -7,5 +7,5 @@ openWith: aCALApp
 	deadlineWindowMorph := ToolBuilder default open: deadlineWindow.
 	deadlineWindowMorph position: (deadlineWindowMorph world right - deadlineWindowMorph width) @ 0.
 	(deadlineWindowMorph submorphs detect: [:each | each nameOfObjectRepresented = 'deadlinesPanel'])
-		scrollBy: -1 * (0 @ (self weekOfYear + 1 * 80)).
+		scrollBy: -1 * (0 @ ((self weekOfYear + 1) * self heightOfWeek)).
 	^ deadlineWindowMorph

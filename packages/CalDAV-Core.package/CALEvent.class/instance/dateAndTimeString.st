@@ -1,13 +1,13 @@
 validation
 dateAndTimeString
 
-	^ (CALEvent numberToTwoDigitsString: self beginDay), '.',
-		(CALEvent numberToTwoDigitsString: self beginMonth), '.',
+	^ (self class numberToTwoDigitsString: self beginDay), '.',
+		(self class numberToTwoDigitsString: self beginMonth), '.',
 		(self beginYear), ' ' , 
-		(CALEvent numberToTwoDigitsString: self beginHour), ':' ,
-		(CALEvent numberToTwoDigitsString: self beginMinute), ' - ',
-		(CALEvent numberToTwoDigitsString: self endDay), '.',
-		(CALEvent numberToTwoDigitsString: self endMonth), '.',
+		(self class numberToTwoDigitsString: self beginHour), ':' ,
+		(self class numberToTwoDigitsString: self beginMinute), ' - ',
+		(self class numberToTwoDigitsString: self endDay), '.',
+		(self class numberToTwoDigitsString: self endMonth), '.',
 		(self endYear), ' ' , 
-		(CALEvent numberToTwoDigitsString: self endHour), ':', 
-		(CALEvent numberToTwoDigitsString: self endMinute)
+		(self class numberToTwoDigitsString: self endHour), ':', 
+		(self class numberToTwoDigitsString: self endMinute)

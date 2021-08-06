@@ -1,6 +1,5 @@
 CalendarMorph
 initialize
-	"One-time initialization of a new calendar."
 
 	super initialize.
 	self 
