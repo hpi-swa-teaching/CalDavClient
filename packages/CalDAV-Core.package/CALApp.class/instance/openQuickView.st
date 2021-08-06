@@ -1,7 +1,7 @@
 subwindows
 openQuickView
 
-	CALQuickView 
+	self window abandon.
+	^ CALQuickView 
 		openDay: Time current asDate
-		for: self.
-	self window abandon
+		for: self

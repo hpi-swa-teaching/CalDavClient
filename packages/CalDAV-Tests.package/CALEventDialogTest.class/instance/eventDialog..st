@@ -1,3 +1,4 @@
 accessing
-eventDialog: anObject
-	eventDialog := anObject
+eventDialog: aCALEventDIalpg
+
+	eventDialog := aCALEventDIalpg

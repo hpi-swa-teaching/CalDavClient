@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "LB 8/6/2021 16:38",
 	"instvars" : [
-		"app" ],
+		"app",
+		"world" ],
 	"name" : "CALAppTest",
 	"pools" : [
 		 ],

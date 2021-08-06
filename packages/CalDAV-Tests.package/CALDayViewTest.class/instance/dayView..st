@@ -1,3 +1,4 @@
 accessing
-dayView: anObject
-	dayView := anObject
+dayView: aCALDayView
+
+	dayView := aCALDayView

@@ -1,17 +1,13 @@
 testing
 testSaveNewEvent
 
-	| de1 de2 |
-	
-	de1 := self demoEvent.
-	de2 := self demoEvent2.
-	self app addEvent: de1.
+	self app addEvent: self demoEvent.
 	
 	self addDialog 
 		app: self app;
-		event: de2;
+		event: self demoEvent2;
 		saveEvent.
 		
-	self assert: (self app selectedCalendar events includes: de1).
-	self assert: (self app selectedCalendar events includes: de2)
+	self assert: (self app selectedCalendar events includes: self demoEvent).
+	self assert: (self app selectedCalendar events includes: self demoEvent2)
 	
