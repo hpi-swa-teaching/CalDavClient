@@ -10,5 +10,5 @@
 	"name" : "CALDeadlinesWindow",
 	"pools" : [
 		 ],
-	"super" : "CALPanel",
+	"super" : "Model",
 	"type" : "normal" }

@@ -1,3 +1,4 @@
 accessing
-weekPanel: anObject
-	weekPanel := anObject
+weekPanel: aCALWeekPanel
+
+	weekPanel := aCALWeekPanel
