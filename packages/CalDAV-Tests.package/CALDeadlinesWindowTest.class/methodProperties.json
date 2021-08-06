@@ -6,4 +6,6 @@
 		"deadlinesView:" : "MD 7/30/2021 12:40",
 		"setUp" : "MD 7/30/2021 12:49",
 		"testDeadlinesViewToApp" : "MD 7/30/2021 12:54",
-		"testDeadlinesViewToQuickView" : "MD 7/30/2021 12:52" } }
+		"testDeadlinesViewToQuickView" : "MD 7/30/2021 12:52",
+		"testIconAllocationForApp" : "RL 8/6/2021 13:55",
+		"testIconAllocationForQuickView" : "RL 8/5/2021 18:22" } }
