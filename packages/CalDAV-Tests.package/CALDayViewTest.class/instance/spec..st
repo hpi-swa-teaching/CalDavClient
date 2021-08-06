@@ -1,3 +1,4 @@
 accessing
-spec: anObject
-	spec := anObject
+spec: aPluggableSystemWindow
+
+	spec := aPluggableSystemWindow

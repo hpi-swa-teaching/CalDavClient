@@ -1,3 +1,4 @@
 accessing
-eventGrid: anObject
-	eventGrid := anObject
+eventGrid: aCALEventGridPanel
+
+	eventGrid := aCALEventGridPanel
