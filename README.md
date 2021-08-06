@@ -18,3 +18,7 @@ SWT21 - Group 15
 ## Icons
 
 Save uncompressed icons folder into ...\Contents\Resources\CalDAV
+
+## Getting started
+
+Further details on how to get started, the applied code standard or the current version of our class diagram can be found at the wiki section of the repository.
