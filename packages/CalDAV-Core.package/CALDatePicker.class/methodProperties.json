@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"openForDialog:color:label:" : "kk 7/5/2018 15:59" },
+		"openForDialog:color:label:" : "LB 8/6/2021 13:40" },
 	"instance" : {
 		"addDays:" : "dm 7/24/2018 19:41",
 		"addMonths:" : "dm 7/24/2018 19:41",
@@ -13,7 +13,7 @@
 		"fillStyle:" : "kk 7/5/2018 12:23",
 		"incrementStepTime" : "kk 7/5/2018 12:23",
 		"initialColor" : "LB 6/30/2021 16:44",
-		"initialize" : "LB 6/30/2021 16:48",
+		"initialize" : "LB 8/6/2021 15:04",
 		"initializeSubmorphs" : "LB 6/30/2021 16:56",
 		"labelsDefaultColor" : "kk 7/5/2018 12:30",
 		"localeChanged" : "kk 7/5/2018 12:30",

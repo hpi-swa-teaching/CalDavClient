@@ -3,7 +3,7 @@ timeString
 
 	self isFullDay 
 		ifTrue: [^ '[whole day]'] 
-		ifFalse: [^ (CALEvent numberToTwoDigitsString: self beginHour), ':', 
-					(CALEvent numberToTwoDigitsString: self beginMinute), ' - ', 
-					(CALEvent numberToTwoDigitsString: self endHour), ':' , 
-					(CALEvent numberToTwoDigitsString: self endMinute)]
+		ifFalse: [^ (self class numberToTwoDigitsString: self beginHour), ':', 
+					(self class numberToTwoDigitsString: self beginMinute), ' - ', 
+					(self class numberToTwoDigitsString: self endHour), ':' , 
+					(self class numberToTwoDigitsString: self endMinute)]

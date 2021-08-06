@@ -1,9 +1,9 @@
 toolbuilder
 events
 
-	| events |
+	| eventCollection |
 	
-	events := OrderedCollection new.
-	0 to: 365 do: [:day | events addAll:
+	eventCollection := OrderedCollection new.
+	0 to: 365 do: [:day | eventCollection addAll:
 		(self app eventNamesAndDatesIn: (self date addDays: day))].
-	^ self filterOut15EventsIn: events
+	^ self filterOut15EventsIn: eventCollection
