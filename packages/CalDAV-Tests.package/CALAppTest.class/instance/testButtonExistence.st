@@ -1,31 +1,12 @@
 testing
 testButtonExistence
 
-	| button |
-	
-	button := ((self app buildAddCalendarButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'add') and: [button actionSelector = #openAddCalendarDialog]).
-	
-	button := ((self app buildDeadlinesViewButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'hourglass') and: [button actionSelector = #openDeadlinesView]).
-	
-	button := ((self app buildDeleteCalendarButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'minus') and: [button actionSelector = #openDeleteCalendarDialog]).
-	
-	button := ((self app buildICSCalendarButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'ics-format') and: [button actionSelector = #importSubscriptionCalendar]).
-	
-	button := ((self app buildImportCalendarButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'caldav-format') and: [button actionSelector = #importWebDAVCalendar]).
-	
-	button := ((self app buildMonthViewButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'm') and: [button actionSelector = #openMonthView]).
-	
-	button := ((self app buildQuickViewButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'list') and: [button actionSelector = #openQuickView]).
-	
-	button := ((self app buildRefreshButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'refresh') and: [button actionSelector = #refreshCalendars]).
-	
-	button := ((self app buildWeekViewButton: ToolBuilder default) buildWith: ToolBuilder default).
-	self assert: (((button label submorphs at: 1) name = 'w') and: [button actionSelector = #openWeekView])
+	self testButtonsExistenceBy: #buildAddCalendarButton: with: 'add' and: #openAddCalendarDialog.
+	self testButtonsExistenceBy: #buildDeleteCalendarButton: with: 'minus' and: #openDeleteCalendarDialog.
+	self testButtonsExistenceBy: #buildQuickViewButton: with: 'list' and: #openQuickView.
+	self testButtonsExistenceBy: #buildDeadlinesViewButton: with: 'hourglass' and: #openDeadlinesView.
+	self testButtonsExistenceBy: #buildRefreshButton: with: 'refresh' and: #refreshCalendars.
+	self testButtonsExistenceBy: #buildICSCalendarButton: with: 'ics-format' and: #importSubscriptionCalendar.
+	self testButtonsExistenceBy: #buildImportCalendarButton: with: 'caldav-format' and: #importWebDAVCalendar.
+	self testButtonsExistenceBy: #buildMonthViewButton: with: 'm' and: #openMonthView.
+	self testButtonsExistenceBy: #buildWeekViewButton: with: 'w' and: #openWeekView.
