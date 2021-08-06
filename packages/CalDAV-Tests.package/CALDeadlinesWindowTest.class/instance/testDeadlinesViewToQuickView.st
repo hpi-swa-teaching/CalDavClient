@@ -2,6 +2,7 @@ testing
 testDeadlinesViewToQuickView
 
 	| aMorph world cal firstNumberOfDeadlinesViews firstNumberOfQuickViews secondNumberOfDeadlinesViews secondNumberOfQuickViews |
+	
 	aMorph := Morph new openInWorld.
 	world := aMorph world.
 	cal := CALDeadlinesWindow openWith: deadlinesView app.
@@ -11,6 +12,5 @@ testDeadlinesViewToQuickView
 	secondNumberOfDeadlinesViews := (world submorphs select: [:m | m model class = CALDeadlinesWindow]) size.
 	secondNumberOfQuickViews := (world submorphs select: [:m | m model class = CALQuickView]) size.
 	self assert: ((firstNumberOfDeadlinesViews = (secondNumberOfDeadlinesViews + 1)) and: [firstNumberOfQuickViews = (secondNumberOfQuickViews - 1)]).
-	cal delete.
 	aMorph abandon.
 	CALQuickView allInstances last myDependents first abandon
