@@ -1,1 +1,1 @@
-I test the Day
+CALDayTest includes the tests for CALDay. 
