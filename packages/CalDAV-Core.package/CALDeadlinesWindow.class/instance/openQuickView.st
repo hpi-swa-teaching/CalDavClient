@@ -1,7 +1,8 @@
 toolbuilder
 openQuickView
 
-	CALQuickView
+	self myDependents first abandon.
+	^ CALQuickView
 		openDay: Time current asDate
-		for: self app.
-	self myDependents first abandon
+		for: self app
+	

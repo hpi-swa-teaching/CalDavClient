@@ -1,5 +1,9 @@
 running
 setUp
 
-	self app: CALApp new prepareCalendars.
-	self deadlinesView: (CALDeadlinesWindow new app: self app)
+	| morph |
+	
+	self deadlinesView: (CALDeadlinesWindow new app: CALApp new prepareCalendars).
+	morph := Morph new openInWorld.
+	self world: morph world.
+	morph abandon
