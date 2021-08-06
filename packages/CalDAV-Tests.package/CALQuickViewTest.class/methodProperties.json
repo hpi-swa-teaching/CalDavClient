@@ -11,5 +11,8 @@
 		"testDayIsSetCorrectly" : "yk 7/8/2021 10:21",
 		"testEventsDeletedCorrectly" : "LB 7/28/2021 13:40",
 		"testHasBuildSpec" : "LB 7/28/2021 13:40",
+		"testIconAllocationForAddEvent" : "RL 8/6/2021 13:55",
+		"testIconAllocationForApp" : "RL 8/6/2021 13:55",
+		"testIconAllocationForDeadlinesView" : "RL 8/6/2021 12:36",
 		"testQuickViewToApp" : "MD 7/30/2021 13:00",
 		"testQuickViewToDeadlinesView" : "MD 7/30/2021 13:09" } }
