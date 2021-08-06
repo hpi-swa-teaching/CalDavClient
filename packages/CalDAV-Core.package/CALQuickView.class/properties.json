@@ -8,8 +8,7 @@
 	"instvars" : [
 		"date",
 		"currentIndex",
-		"app",
-		"day" ],
+		"app" ],
 	"name" : "CALQuickView",
 	"pools" : [
 		 ],

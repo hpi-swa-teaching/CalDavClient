@@ -1,4 +1,4 @@
-accessing
+initialize
 initialize
 
 	self isFullDaySelected: false

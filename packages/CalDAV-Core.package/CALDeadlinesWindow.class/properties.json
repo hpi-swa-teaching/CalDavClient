@@ -1,7 +1,7 @@
 {
 	"category" : "CalDAV-Core",
 	"classinstvars" : [
-		 ],
+		"heightOfWeek" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "LB 8/4/2021 13:58",
