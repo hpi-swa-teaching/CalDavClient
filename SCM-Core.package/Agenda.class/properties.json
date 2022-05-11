@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Agenda",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
