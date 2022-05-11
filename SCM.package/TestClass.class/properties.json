@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
