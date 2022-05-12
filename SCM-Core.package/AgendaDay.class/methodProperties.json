@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"createWithDate:" : "NMK 5/12/2022 10:40" },
 	"instance" : {
-		"initialize" : "Kiru 5/11/2022 12:57",
-		"setupContent" : "Kiru 5/11/2022 12:53" } }
+		"initialize" : "NMK 5/12/2022 10:40",
+		"setupContent" : "Kiru 5/11/2022 12:53",
+		"setupContent:" : "NMK 5/12/2022 10:40" } }

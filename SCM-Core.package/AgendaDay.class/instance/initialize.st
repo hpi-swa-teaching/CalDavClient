@@ -15,9 +15,6 @@ self layoutPolicy: TableLayout new;
   	wrapCentering: #topLeft;
   	wrapDirection: #none;
   	listDirection: #leftToRight;
-  	layoutInset: 10@40;
-	extent: 100@40;
+  	layoutInset: 5@5;
+	extent: 30@40;
 	clipSubmorphs: true.
-	
-self setupContent.
-	

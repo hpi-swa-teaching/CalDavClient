@@ -1,5 +1,8 @@
 initialization
 createDays
 
-10 timesRepeat:
-	[self addMorph: AgendaDay new].
+	| day |
+	day := DateAndTime today asDate.
+	7 timesRepeat:
+		[self addMorphBack: (AgendaDay createWithDate: day).
+		day := day next]
