@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "EventForm",
+		"date" ],
+	"name" : "SCMAgendaDayTitle",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }

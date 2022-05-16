@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "AgendaDayEventBox",
+	"name" : "SCMAgendaDayEvent",
 	"pools" : [
 		 ],
 	"super" : "Morph",

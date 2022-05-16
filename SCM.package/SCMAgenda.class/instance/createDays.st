@@ -4,5 +4,5 @@ createDays
 	| day |
 	day := DateAndTime today asDate.
 	7 timesRepeat:
-		[self addMorphBack: (AgendaDay createWithDate: day).
+		[self addMorphBack: (SCMAgendaDay createWithDate: day).
 		day := day next]
