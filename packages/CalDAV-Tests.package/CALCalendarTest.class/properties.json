@@ -1,0 +1,16 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LB 8/6/2021 16:42",
+	"instvars" : [
+		"demoCalendar1",
+		"demoCalendar2",
+		"demoCalendar3" ],
+	"name" : "CALCalendarTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LB 8/6/2021 17:13",
+	"instvars" : [
+		"eventGrid",
+		"app" ],
+	"name" : "CALEventGridPanelTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

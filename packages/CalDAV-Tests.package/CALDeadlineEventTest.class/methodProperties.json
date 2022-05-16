@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"app" : "LM 8/4/2021 17:48",
+		"app:" : "LM 8/4/2021 17:48",
+		"deadlinesEventPanel" : "LM 8/4/2021 17:48",
+		"deadlinesEventPanel:" : "LM 8/4/2021 17:48",
+		"setUp" : "LM 8/4/2021 17:24",
+		"testDayOfYearRange" : "LM 8/4/2021 17:24",
+		"testGetEventBlockFor" : "LM 8/6/2021 14:06",
+		"testHasBuildSpec" : "LM 8/4/2021 17:25",
+		"testIsColored" : "LM 8/4/2021 17:25",
+		"testIsNotColored" : "LM 8/4/2021 17:25",
+		"testIsNotEmpty" : "LB 8/6/2021 16:23" } }

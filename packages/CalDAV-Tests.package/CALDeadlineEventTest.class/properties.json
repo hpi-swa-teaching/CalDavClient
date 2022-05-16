@@ -1,0 +1,15 @@
+{
+	"category" : "CalDAV-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LB 8/6/2021 16:54",
+	"instvars" : [
+		"deadlinesEventPanel",
+		"app" ],
+	"name" : "CALDeadlineEventTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

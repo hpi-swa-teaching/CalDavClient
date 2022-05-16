@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"app" : "LM 8/4/2021 17:23",
+		"app:" : "LM 8/4/2021 17:23",
+		"deadlinesPanel" : "LM 8/4/2021 17:24",
+		"deadlinesPanel:" : "LM 8/4/2021 17:24",
+		"setUp" : "LM 8/4/2021 17:24",
+		"testCorrectScrollbarPosition" : "LB 8/6/2021 16:25",
+		"testHas53Panels" : "LM 8/4/2021 17:24",
+		"testHasBuildSpec" : "LM 8/4/2021 17:24",
+		"testIsScrollable" : "LM 8/4/2021 17:24" } }
