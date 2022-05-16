@@ -1,6 +1,6 @@
 as yet unclassified
 createMainHeaderTitle
-	"comment stating purpose of message"
+	"creates the Title of the Form"
 
 	| headerTitle |
 	headerTitle := StringMorph new

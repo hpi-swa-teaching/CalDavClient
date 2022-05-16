@@ -6,9 +6,8 @@ createFormButton
 	button := SimpleButtonMorph new
 		label: 'Create Event';
 		actWhen: #buttonUp;
-		target: self;
+		target: EventForm new;
 		actionSelector: 'createForm'.
 	
 	button openInWorld.
 		
-	
