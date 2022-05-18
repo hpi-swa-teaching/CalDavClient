@@ -1,16 +1,14 @@
 {
-	"category" : "SCM-Core",
+	"category" : "SCM-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view",
-		"dockingBar",
-		"window" ],
-	"name" : "SCMApp",
+		 ],
+	"name" : "SCMDockingBarTest",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

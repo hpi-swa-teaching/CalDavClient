@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
@@ -13,6 +13,6 @@ initialize
 	
 	self layoutPolicy: TableLayout new.
 	
-	self openInWindowLabeled: 'SCAM'.
+	self window: (self openInWindowLabeled: 'SCAM').
 	
-	self  owner clipSubmorphs: true.
+	self  owner clipSubmorphs: true
