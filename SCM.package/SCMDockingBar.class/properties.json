@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"date" ],
-	"name" : "SCMAgendaDayTitle",
+		"view" ],
+	"name" : "SCMDockingBar",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "Morph",
 	"type" : "normal" }

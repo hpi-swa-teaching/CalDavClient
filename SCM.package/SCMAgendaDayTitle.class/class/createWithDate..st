@@ -1,9 +1,9 @@
 nil
 createWithDate: aDate
 
-	| agendaDayTitle |
-	agendaDayTitle := self new
-		date: aDate;
-		yourself.
-	agendaDayTitle addMorph: (TextMorph string: agendaDayTitle date asString size: 20).
-	^ agendaDayTitle
+	^ self new
+			date: aDate;
+			string: aDate dayOfMonth asString ,  '. ' , aDate monthAbbreviation asString fontName: 'Arial' size: 20 wrap: true;
+			centered;
+			textColor: Color gray;
+			yourself.

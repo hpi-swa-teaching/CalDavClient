@@ -10,5 +10,5 @@
 	"name" : "SCMAgendaDayEvent",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TextMorph",
 	"type" : "normal" }
