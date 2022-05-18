@@ -8,4 +8,4 @@ createFormButton
 		target: (SCMEventForm new);
 		actionSelector: 'createForm'.
 		
-		^button.
+		^ button.
