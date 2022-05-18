@@ -10,12 +10,12 @@ createButtonWithLabel: aTitle andTarget: aTarget
 		listCentering: #center;
 		wrapCentering: #center;
 		hResizing: #spaceFill;
-		color: Color green.
+		color: Color lightGray.
 		
 	button := SimpleButtonMorph new
 		label: aTitle;
 		target: aTarget;
-		actionSelector: #abandon.
+		actionSelector: #closeBoxHit.  "like abandon but this is what the little red x in systems windows do..."
 	
 	buttonBox addMorph: button.
 	

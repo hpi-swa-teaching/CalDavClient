@@ -2,13 +2,12 @@ as yet unclassified
 createMainBox
 	"comment stating purpose of message"
 
-	| main header headerTitle|
-	main := MenuMorph new
-		color: Color transparent;
+	| main header headerTitle |
+	main := Morph new
 		position: 10@10;
 		extent: 750@500;
 		name: 'background';
-		openInWorld;
+		openInWindowLabeled: 'Create Event';
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
 		listCentering: #topLeft;

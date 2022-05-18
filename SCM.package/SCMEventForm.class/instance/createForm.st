@@ -10,5 +10,5 @@ createForm
 	self createFormComponentIn: mainBox With: 'Event Date'.
 	self createFormComponentIn: mainBox With: 'Event Starttime'.
 
-	button := self createButtonWithLabel: 'Done' andTarget: mainBox.
+	button := self createButtonWithLabel: 'Done' andTarget: mainBox owner.
 	mainBox addMorphBack: button.

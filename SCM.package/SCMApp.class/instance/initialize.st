@@ -15,5 +15,4 @@ initialize
 	
 	self openInWindowLabeled: 'SCAM'.
 	
-	self owner color: Color orange.
 	self  owner clipSubmorphs: true.
