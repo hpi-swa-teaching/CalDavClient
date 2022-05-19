@@ -1,4 +1,0 @@
-accessing
-datePicker
-
-	^ datePicker
