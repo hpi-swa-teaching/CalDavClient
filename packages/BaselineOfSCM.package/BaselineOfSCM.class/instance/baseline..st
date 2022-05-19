@@ -11,8 +11,10 @@ baseline: spec
 						repository: 'github://codezeilen/ical-smalltalk/repository'];
 				package: 'DAV' with: [
 					spec repository: 'github://hpi-swa-teaching/DAV-smalltalk/repository'];
+				baseline: 'MorphicTestingFramework' with: [
+					spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'];
 				package: 'SCM-Core' with: [spec requires: #('ICal' 'DAV')];
-				package: 'SCM-Tests' with: [spec requires: #('SCM-Core')];
+				package: 'SCM-Tests' with: [spec requires: #('SCM-Core' 'MorphicTestingFramework')];
 				yourself.
 			spec
 				group: 'default' with: #('SCM-Core');

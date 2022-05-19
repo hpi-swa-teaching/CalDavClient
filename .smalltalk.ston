@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading: 'scripts/preload.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'SCM',
@@ -11,6 +12,5 @@ SmalltalkCISpec {
     #coverage : {
       #categories : [ 'SCM-Core' ]
     }
-  },
-  #failOnSCIDeprecationWarnings : false
+  }
 }
