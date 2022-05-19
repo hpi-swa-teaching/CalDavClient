@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSCM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSCM",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
