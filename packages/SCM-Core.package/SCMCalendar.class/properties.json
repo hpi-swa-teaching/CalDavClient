@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TestClass",
+		"events",
+		"name" ],
+	"name" : "SCMCalendar",
 	"pools" : [
 		 ],
 	"super" : "Object",

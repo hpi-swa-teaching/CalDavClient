@@ -1,0 +1,27 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"beginYear",
+		"beginMonth",
+		"beginDay",
+		"beginHour",
+		"beginMinute",
+		"endYear",
+		"endMonth",
+		"endDay",
+		"endHour",
+		"endMinute",
+		"title",
+		"description",
+		"participants",
+		"location" ],
+	"name" : "SCMEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
