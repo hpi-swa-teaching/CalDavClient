@@ -9,6 +9,7 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
+    #packages: [ 'SCM.*' ],
     #coverage : {
       #categories : [ 'SCM-Core' ]
     }
