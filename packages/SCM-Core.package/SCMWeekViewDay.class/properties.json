@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SCMWeekViewDay",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
