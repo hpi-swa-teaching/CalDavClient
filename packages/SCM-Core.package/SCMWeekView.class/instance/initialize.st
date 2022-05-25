@@ -15,7 +15,7 @@ self layoutPolicy: TableLayout new;
   	wrapDirection: #none;
   	listDirection: #leftToRight;
   	layoutInset: 5@5;
-	extent: 800@1500;
+	extent: 2000@800;
 	clipSubmorphs: true.
 
 self createDays.
