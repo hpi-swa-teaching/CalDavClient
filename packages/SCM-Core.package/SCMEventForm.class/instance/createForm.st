@@ -1,14 +1,12 @@
 as yet unclassified
 createForm
-	"Form Layout"
 
-		|mainBox button|
+	|button|
 	
-	mainBox := self createMainBox.
-	
-	self createFormComponentIn: mainBox With: 'EventTitle'.
-	self createFormComponentIn: mainBox With: 'Event Date'.
-	self createFormComponentIn: mainBox With: 'Event Starttime'.
+	self eventTitle: (self createTextField: 'EventTitle').
+	self addMorph: self eventTitle.
+	self eventBeginDay: (self createTextField: 'Event Begin Day').
+	self addMorph: self eventBeginDay.
 
-	button := self createButtonWithLabel: 'Done' andTarget: mainBox owner.
-	mainBox addMorphBack: button.
+	button := self createButtonWithLabel: 'Done' andTarget: self.
+	self addMorphBack: button.

@@ -1,11 +1,13 @@
 initialization
 createFormButton
 
-	| button |
+	| button calendar |
+	calendar := SCMCalendar new.
 	button := SimpleButtonMorph new
 		label: 'Create Event';
 		actWhen: #buttonUp;
-		target: (SCMEventForm new);
-		actionSelector: 'createForm'.
+		target: (SCMEventForm);
+		actionSelector: 'createWithCalendar:';
+		arguments: {calendar} asOrderedCollection.
 		
-		^ button.
+		^ button

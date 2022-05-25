@@ -1,11 +1,12 @@
 as yet unclassified
-createTextField
-	"comment stating purpose of message"
+createTextField: aString
 
 	| textField |
 	textField :=  TextFieldMorph new
 		vResizing: #spaceFill;
 		hResizing: #spaceFill;
-		color: Color white.
+		color: Color white;
+		contents: aString;
+		yourself.
 		
 	^ textField
