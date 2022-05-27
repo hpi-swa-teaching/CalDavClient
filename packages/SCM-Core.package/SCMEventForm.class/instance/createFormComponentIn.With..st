@@ -1,6 +1,5 @@
 as yet unclassified
 createFormComponentIn: aBox With: aTitle
-	"comment stating purpose of message"
 
 	| box boxTextCell boxText boxTextField|
 	

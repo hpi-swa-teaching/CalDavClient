@@ -1,6 +1,5 @@
 as yet unclassified
 createButtonWithLabel: aTitle andTarget: aTarget
-	"comment stating purpose of message"
 
 	| buttonBox button |
 	
@@ -19,7 +18,7 @@ createButtonWithLabel: aTitle andTarget: aTarget
 	
 	buttonBox addMorph: button.
 	
-	^buttonBox 
+	^ buttonBox 
 
 
 

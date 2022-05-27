@@ -6,7 +6,7 @@ createForm
 	
 	mainBox := self createMainBox.
 	
-	self createFormComponentIn: mainBox With: 'EventTitle'.
+	self createFormComponentIn: mainBox With: 'Event Title'.
 	self createFormComponentIn: mainBox With: 'Event Date'.
 	self createFormComponentIn: mainBox With: 'Event Starttime'.
 
