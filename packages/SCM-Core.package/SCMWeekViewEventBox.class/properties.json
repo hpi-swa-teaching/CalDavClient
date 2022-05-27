@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SCMWeekViewEventBox",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
