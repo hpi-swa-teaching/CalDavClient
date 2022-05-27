@@ -1,5 +1,8 @@
 {
 	"class" : {
-		"createWithDate:" : "lottebalcke 5/25/2022 16:05" },
+		"createWithDate:" : "lottebalcke 5/25/2022 16:38" },
 	"instance" : {
-		"createWithDate" : "lottebalcke 5/25/2022 16:04" } }
+		"date" : "lottebalcke 5/25/2022 16:37",
+		"date:" : "lottebalcke 5/25/2022 16:37",
+		"initialize" : "lottebalcke 5/25/2022 16:57",
+		"setupContent" : "lottebalcke 5/25/2022 16:55" } }
