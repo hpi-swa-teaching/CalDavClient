@@ -7,13 +7,9 @@ testSwitchViewButton
 	self assert: button actionSelector equals: #switchView.
   	self assert: button target class equals: SCMApp.
 	
-	(currentView == SCMAgenda)
-		ifTrue:[self assert: subject extent equals: 800 @ 1000]
-		ifFalse:[self assert: subject extent equals: 2000 @ 835]
+	self assert: subject window extent equals: 800 @ 1000.
 	
 	button click. 
 	
 	self assert: subject view ~~ currentView.	
-	(currentView == SCMAgenda)
-		ifFalse:[self assert: subject extent equals: 800 @ 1000]
-		ifTrue:[self assert: subject extent equals: 2000 @ 835]
+	self assert: subject window extent equals: 1600 @ 835.
