@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LZ 5/18/2022 18:23",
+		"setUp" : "LZ 5/29/2022 16:34",
 		"testCreateFormButton" : "LZ 5/27/2022 14:06",
-		"testSwitchViewButton" : "lottebalcke 5/27/2022 18:00",
 		"testTableLayout" : "LZ 5/18/2022 17:50" } }

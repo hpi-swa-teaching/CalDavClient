@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMDockingBar new
+	self wantsToTest: SCMDockingBar new.
