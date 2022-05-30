@@ -1,5 +1,5 @@
 running
 setUp
 
-	self calendar: (CALCalendar withName: 'testCalendar').
-	self calendar addEvent: CALEvent new
+	self eventCalendar: (CALCalendar withName: 'testCalendar').
+	self eventCalendar addEvent: CALEvent new

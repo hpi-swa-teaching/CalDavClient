@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"availableCalendars",
 		"eventTitle",
 		"eventBeginDay",
-		"calendar",
+		"eventCalendar",
 		"eventParticipants",
 		"eventDescription",
 		"eventLocation",

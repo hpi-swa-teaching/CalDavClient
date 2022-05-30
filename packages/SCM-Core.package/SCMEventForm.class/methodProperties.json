@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"createWithCalendar:" : "BZ 5/25/2022 15:16" },
+		"createWithCalendars:" : "BZ 5/30/2022 14:49" },
 	"instance" : {
-		"calendar" : "BZ 5/29/2022 11:47",
-		"calendar:" : "BZ 5/29/2022 11:47",
+		"availableCalendars" : "BZ 5/30/2022 14:19",
+		"availableCalendars:" : "BZ 5/30/2022 14:19",
 		"createButtonWithLabel:andTarget:" : "BZ 5/25/2022 15:14",
 		"createForm" : "BZ 5/25/2022 15:15",
 		"createTextField:" : "BZ 5/25/2022 14:47",
 		"eventBeginDay" : "BZ 5/29/2022 11:47",
 		"eventBeginDay:" : "BZ 5/29/2022 11:47",
+		"eventCalendar" : "BZ 5/30/2022 14:07",
+		"eventCalendar:" : "BZ 5/30/2022 14:07",
 		"eventDescription" : "BZ 5/29/2022 11:47",
 		"eventDescription:" : "BZ 5/29/2022 11:47",
 		"eventEndDay" : "BZ 5/29/2022 11:47",
@@ -20,4 +22,4 @@
 		"eventTitle" : "BZ 5/29/2022 11:48",
 		"eventTitle:" : "BZ 5/29/2022 11:48",
 		"initialize" : "BZ 5/25/2022 14:48",
-		"saveEvent" : "BZ 5/25/2022 15:16" } }
+		"saveEvent" : "BZ 5/30/2022 15:05" } }

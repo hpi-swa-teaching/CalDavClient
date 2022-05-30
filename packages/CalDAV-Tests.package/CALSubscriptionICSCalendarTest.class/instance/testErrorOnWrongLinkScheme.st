@@ -1,7 +1,7 @@
 testing
 testErrorOnWrongLinkScheme
 	
-	self calendar 
+	self eventCalendar 
 		name: 'testCalendar';
 		caldavLink: 'test'.
-	self should: [self calendar updateEvents] raise: Error whoseDescriptionIncludes: 'Unsupported scheme: test' description: 'Should throw error on wrong link format'
+	self should: [self eventCalendar updateEvents] raise: Error whoseDescriptionIncludes: 'Unsupported scheme: test' description: 'Should throw error on wrong link format'

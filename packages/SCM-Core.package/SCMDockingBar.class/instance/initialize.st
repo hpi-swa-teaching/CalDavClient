@@ -1,6 +1,8 @@
 initialization
 initialize
 
+	"plz only call with createWith..."
+	
 	super initialize.
 	self color: Color red.
 	self
@@ -15,6 +17,4 @@ initialize
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 2 @ 2.
-	
-	self addMorph: (self createFormButton).
+	  	layoutInset: 2 @ 2

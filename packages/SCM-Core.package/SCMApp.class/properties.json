@@ -8,7 +8,8 @@
 	"instvars" : [
 		"view",
 		"dockingBar",
-		"window" ],
+		"window",
+		"calendars" ],
 	"name" : "SCMApp",
 	"pools" : [
 		 ],
