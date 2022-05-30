@@ -2,10 +2,10 @@
 	"class" : {
 		"start" : "BZ 5/25/2022 14:34" },
 	"instance" : {
-		"dockingBar" : "NMK 5/18/2022 11:52",
-		"dockingBar:" : "NMK 5/18/2022 11:52",
-		"initialize" : "LZ 5/18/2022 18:17",
-		"view" : "NMK 5/18/2022 11:10",
-		"view:" : "NMK 5/18/2022 11:10",
-		"window" : "LZ 5/18/2022 18:16",
-		"window:" : "LZ 5/18/2022 18:16" } }
+		"dockingBar" : "BZ 5/29/2022 11:22",
+		"dockingBar:" : "BZ 5/29/2022 11:22",
+		"initialize" : "BZ 5/29/2022 11:24",
+		"view" : "BZ 5/29/2022 11:24",
+		"view:" : "BZ 5/29/2022 11:24",
+		"window" : "BZ 5/29/2022 11:24",
+		"window:" : "BZ 5/29/2022 11:24" } }

@@ -8,6 +8,7 @@ createFormButton
 		actWhen: #buttonUp;
 		target: (SCMEventForm);
 		actionSelector: 'createWithCalendar:';
-		arguments: {calendar} asOrderedCollection.
+		arguments: {calendar} asOrderedCollection;
+		yourself.
 		
-		^ button
+	^ button

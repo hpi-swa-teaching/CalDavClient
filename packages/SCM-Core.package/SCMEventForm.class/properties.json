@@ -8,7 +8,11 @@
 	"instvars" : [
 		"eventTitle",
 		"eventBeginDay",
-		"calendar" ],
+		"calendar",
+		"eventParticipants",
+		"eventDescription",
+		"eventLocation",
+		"eventEndDay" ],
 	"name" : "SCMEventForm",
 	"pools" : [
 		 ],

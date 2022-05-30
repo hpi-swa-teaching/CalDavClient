@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createButtonWithLabel: aTitle andTarget: aTarget
 	"comment stating purpose of message"
 

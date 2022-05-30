@@ -1,5 +1,5 @@
 initialization
 setupContent
 
-self addMorph: SCMAgendaDayEventBox new.
-self addMorph: SCMAgendaDayTitle new.
+	self addMorph: SCMAgendaDayEventBox new;
+		addMorph: SCMAgendaDayTitle new
