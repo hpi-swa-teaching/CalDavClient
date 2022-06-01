@@ -1,0 +1,4 @@
+accessing
+eventTitle
+
+	^ eventTitle

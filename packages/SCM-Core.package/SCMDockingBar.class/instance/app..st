@@ -1,3 +1,4 @@
 accessing
-app: anObject
-	app := anObject
+app: aSCMApp
+
+	app := aSCMApp

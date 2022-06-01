@@ -1,11 +1,8 @@
 {
 	"class" : {
-		"with:" : "lottebalcke 5/27/2022 17:51" },
+		"createWithApp:" : "BZ 5/30/2022 14:32" },
 	"instance" : {
-		"app" : "lottebalcke 5/27/2022 16:32",
-		"app:" : "lottebalcke 5/27/2022 16:32",
-		"createFormButton" : "NMK 5/18/2022 13:17",
-		"createSwitchViewButton" : "lottebalcke 5/27/2022 16:32",
-		"initialize" : "lottebalcke 5/27/2022 16:42",
-		"view" : "LZ 5/27/2022 14:28",
-		"view:" : "LZ 5/27/2022 14:28" } }
+		"createEventButton" : "AN 5/27/2022 16:53",
+		"initialize" : "AN 5/27/2022 17:18",
+		"widgets" : "AN 5/27/2022 16:20",
+		"widgets:" : "AN 5/27/2022 16:21" } }

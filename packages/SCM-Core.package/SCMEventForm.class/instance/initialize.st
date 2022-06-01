@@ -1,5 +1,20 @@
-as yet unclassified
+initialization
 initialize
-	"comment stating purpose of message"
 
 	super initialize.
+	
+	self 
+		position: 10 @ 10;
+		extent: 300 @ 700;
+		openInWindowLabeled: 'Create Event';
+		layoutPolicy: TableLayout new;
+		listDirection: #topToBottom;
+		listCentering: #topLeft;
+		wrapCentering: #center;
+		vResizing: #spaceFill;
+		hResizing: #spaceFill;
+		color: Color paleGreen;
+		layoutInset: 10@10;
+		cellInset: 4@4.
+	
+	self createFields

@@ -1,7 +1,7 @@
 initialization
 initialize
 
-super initialize.
+	super initialize.
 
 self layoutPolicy: TableLayout new;
 	vResizing: #spaceFill;
@@ -16,5 +16,4 @@ self layoutPolicy: TableLayout new;
   	wrapDirection: #none;
   	listDirection: #leftToRight;
   	layoutInset: 5@5;
-	extent: 30@40;
 	clipSubmorphs: true.

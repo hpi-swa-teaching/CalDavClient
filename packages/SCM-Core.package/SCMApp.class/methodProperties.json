@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"start" : "NMK 5/18/2022 11:08" },
+		"start" : "BZ 5/25/2022 14:34" },
 	"instance" : {
 		"dockingBar" : "NMK 5/18/2022 11:52",
 		"dockingBar:" : "NMK 5/18/2022 11:52",
-		"initialize" : "LZ 5/29/2022 17:32",
-		"switchView" : "LZ 5/29/2022 17:29",
+		"initialize" : "AN 5/27/2022 17:57",
 		"view" : "NMK 5/18/2022 11:10",
 		"view:" : "NMK 5/18/2022 11:10",
 		"window" : "LZ 5/18/2022 18:16",

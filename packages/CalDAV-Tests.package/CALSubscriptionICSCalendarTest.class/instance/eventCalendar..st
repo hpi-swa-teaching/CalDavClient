@@ -1,3 +1,3 @@
 accessing
-calendar: anObject
+eventCalendar: anObject
 	calendar := anObject

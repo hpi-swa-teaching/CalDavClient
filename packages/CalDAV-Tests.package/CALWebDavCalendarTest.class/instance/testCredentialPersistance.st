@@ -1,7 +1,7 @@
 testing
 testCredentialPersistance
 
-	self calendar: (CALWebDAVCalendar new
+	self eventCalendar: (CALWebDAVCalendar new
 		name: 'webdavTest';
 		caldavLink: 'https://l.com';
 		username: 'u';
@@ -12,8 +12,8 @@ testCredentialPersistance
 		password: '';
 		restoreCredentials).
 		
-	self assert: self calendar username equals: 'u'.
-	self assert: self calendar password equals: 'p'.
-	self assert: self calendar caldavLink equals: 'https://l.com'.
+	self assert: self eventCalendar username equals: 'u'.
+	self assert: self eventCalendar password equals: 'p'.
+	self assert: self eventCalendar caldavLink equals: 'https://l.com'.
 		
 		
