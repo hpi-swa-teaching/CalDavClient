@@ -1,0 +1,4 @@
+accessing
+eventBeginHour
+
+	^ eventBeginHour

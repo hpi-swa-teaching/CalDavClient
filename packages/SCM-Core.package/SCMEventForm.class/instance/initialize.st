@@ -16,5 +16,5 @@ initialize
 		color: Color paleGreen;
 		layoutInset: 10@10;
 		cellInset: 4@4.
-		
-	self createForm.
+	
+	self createFields
