@@ -8,7 +8,7 @@ self layoutPolicy: TableLayout new;
  	hResizing: #spaceFill;
   	color: (Color r: 0.839 g: 1 b: 0.806);
   	borderWidth: 0;
-	cellInset: 10;
+	cellInset: 5;
   	cellPositioning: #topLeft;
    	listCentering: #center;
   	wrapCentering: #topLeft;

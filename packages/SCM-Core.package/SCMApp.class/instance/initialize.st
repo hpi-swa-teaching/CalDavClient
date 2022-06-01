@@ -15,4 +15,5 @@ initialize
 	
 	self window: (self openInWindowLabeled: 'SCAM').
 	
-	self  owner clipSubmorphs: true
+	self clipSubmorphs: true.
+	self owner clipSubmorphs: true

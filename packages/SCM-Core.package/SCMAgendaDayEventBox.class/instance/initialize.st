@@ -16,7 +16,6 @@ self layoutPolicy: TableLayout new;
   	wrapDirection: #none;
   	listDirection: #topToBottom;
   	layoutInset: 5@5;
-	extent: 10@20;
 	clipSubmorphs: true.
 
 

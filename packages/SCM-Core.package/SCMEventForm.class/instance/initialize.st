@@ -6,7 +6,6 @@ initialize
 	self 
 		position: 10 @ 10;
 		extent: 750 @ 500;
-		openInWindowLabeled: 'Create Event';
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
 		listCentering: #topLeft;
