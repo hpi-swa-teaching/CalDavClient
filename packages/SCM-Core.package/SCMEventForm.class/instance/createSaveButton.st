@@ -1,8 +1,5 @@
 initialization
-createButtonWithLabel: aTitle andTarget: aTarget
-	"comment stating purpose of message"
-
-	"THIS BE DSTUPID"
+createSaveButton
 
 	| buttonBox button |
 	
@@ -12,20 +9,13 @@ createButtonWithLabel: aTitle andTarget: aTarget
 		listCentering: #center;
 		wrapCentering: #center;
 		hResizing: #spaceFill;
-		color: Color lightGray.
+		color: Color transparent.
 		
 	button := SimpleButtonMorph new
-		label: aTitle;
-		target: aTarget;
+		label: 'Done';
+		target: self;
 		actionSelector: #saveEvent.  "like abandon but this is what the little red x in systems windows do..."
 	
 	buttonBox addMorph: button.
 	
-	^buttonBox 
-
-
-
-
-
-
-
+	^buttonBox

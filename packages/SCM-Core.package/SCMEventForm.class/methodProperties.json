@@ -4,9 +4,10 @@
 	"instance" : {
 		"availableCalendars" : "BZ 5/30/2022 14:19",
 		"availableCalendars:" : "BZ 5/30/2022 14:19",
-		"createButtonWithLabel:andTarget:" : "BZ 5/25/2022 15:14",
-		"createFields" : "NMK 6/1/2022 13:31",
+		"availableCalendarsAsStrings" : "NMK 6/1/2022 14:37",
+		"createFields" : "NMK 6/1/2022 14:56",
 		"createForm" : "BZ 5/25/2022 15:15",
+		"createSaveButton" : "NMK 6/1/2022 14:57",
 		"createTextField:" : "BZ 5/25/2022 14:47",
 		"eventBeginDay" : "BZ 5/29/2022 11:47",
 		"eventBeginDay:" : "BZ 5/29/2022 11:47",
@@ -20,6 +21,8 @@
 		"eventBeginYear:" : "NMK 6/1/2022 13:22",
 		"eventCalendar" : "BZ 5/30/2022 14:07",
 		"eventCalendar:" : "BZ 5/30/2022 14:07",
+		"eventCalendarDropDown" : "NMK 6/1/2022 14:25",
+		"eventCalendarDropDown:" : "NMK 6/1/2022 14:25",
 		"eventDescription" : "BZ 5/29/2022 11:47",
 		"eventDescription:" : "BZ 5/29/2022 11:47",
 		"eventEndDay" : "BZ 5/29/2022 11:47",
@@ -38,5 +41,5 @@
 		"eventParticipants:" : "BZ 5/29/2022 11:48",
 		"eventTitle" : "BZ 5/29/2022 11:48",
 		"eventTitle:" : "BZ 5/29/2022 11:48",
-		"initialize" : "NMK 6/1/2022 13:14",
-		"saveEvent" : "NMK 6/1/2022 13:38" } }
+		"initialize" : "NMK 6/1/2022 14:51",
+		"saveEvent" : "NMK 6/1/2022 14:43" } }

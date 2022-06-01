@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	
 	self
-		calendars: {SCMCalendar new}asOrderedCollection;
+		calendars: {SCMCalendar new name: 'Privat'; yourself . SCMCalendar new name: 'Uni'; yourself} asOrderedCollection;
 		dockingBar: (SCMDockingBar createWithApp: self);
 		addMorph: self dockingBar;
 		view: SCMAgenda new;

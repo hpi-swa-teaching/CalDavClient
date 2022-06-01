@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"availableCalendars",
-		"eventCalendar",
 		"eventTitle",
 		"eventBeginYear",
 		"eventBeginMonth",
@@ -21,7 +19,10 @@
 		"eventEndMinute",
 		"eventDescription",
 		"eventLocation",
-		"eventParticipants" ],
+		"eventParticipants",
+		"availableCalendars",
+		"eventCalendar",
+		"eventCalendarDropDown" ],
 	"name" : "SCMEventForm",
 	"pools" : [
 		 ],

@@ -1,7 +1,7 @@
 saving
 saveEvent
 
-	self eventCalendar: self availableCalendars first.  "to do: generalize"
+	self eventCalendar: (self availableCalendars at: (eventCalendarDropDown getCurrentSelectionIndex)).
 	
 	"TOdo: use better textfields or read input cleanly"
 	self eventCalendar addEvent: (SCMEvent new

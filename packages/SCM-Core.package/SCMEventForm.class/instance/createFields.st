@@ -45,5 +45,15 @@ createFields
 	self eventParticipants: (self createTextField: 'Participants').
 	self addMorphBack: self eventParticipants.
 	
-	button := self createButtonWithLabel: 'Done' andTarget: self.
+	self eventCalendarDropDown: (DropDownChoiceMorph new
+		contents: 'Choose calendar!';
+		target: self;
+		actionSelector: nil;
+		arguments: Array empty;
+		getItemsSelector: #availableCalendarsAsStrings;
+		getItemsArgs: Array empty;
+		yourself).
+	self addMorphBack: self eventCalendarDropDown.	
+		
+	button := self createSaveButton.
 	self addMorphBack: button.
