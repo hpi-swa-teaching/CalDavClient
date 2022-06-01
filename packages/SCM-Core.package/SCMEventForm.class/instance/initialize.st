@@ -1,11 +1,12 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	
 	self 
 		position: 10 @ 10;
-		extent: 750 @ 500;
+		extent: 300 @ 700;
+		openInWindowLabeled: 'Create Event';
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
 		listCentering: #topLeft;
@@ -15,5 +16,5 @@ initialize
 		color: Color paleGreen;
 		layoutInset: 10@10;
 		cellInset: 4@4.
-		
-	self createForm.
+	
+	self createFields

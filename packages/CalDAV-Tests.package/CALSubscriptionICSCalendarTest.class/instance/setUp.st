@@ -1,13 +1,13 @@
 running
 setUp
 	
-	self calendar: CALSubscriptionICSCalendar new.
-	self calendar 
+	self eventCalendar: CALSubscriptionICSCalendar new.
+	self eventCalendar 
 		name: 'subscriptionTest';
 		caldavLink: 'test';
 		storeLink;
 		caldavLink: '';
 		restoreLink.
 	
-	self assert: self calendar caldavLink = 'test'
+	self assert: self eventCalendar caldavLink = 'test'
 	

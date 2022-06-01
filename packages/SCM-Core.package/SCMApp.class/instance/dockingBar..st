@@ -1,3 +1,4 @@
 accessing
-dockingBar: anObject
-	dockingBar := anObject
+dockingBar: aSCMDockingBar
+
+	dockingBar := aSCMDockingBar

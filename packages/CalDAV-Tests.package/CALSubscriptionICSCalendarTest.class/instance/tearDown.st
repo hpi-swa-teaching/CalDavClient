@@ -1,5 +1,5 @@
 running
 tearDown
 	
-	self calendar calendarDirectory deleteFileNamed: 'subscriptionTest'.
+	self eventCalendar calendarDirectory deleteFileNamed: 'subscriptionTest'.
 	

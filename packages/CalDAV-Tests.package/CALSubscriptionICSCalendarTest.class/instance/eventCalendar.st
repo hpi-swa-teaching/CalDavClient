@@ -1,3 +1,3 @@
 accessing
-calendar
+eventCalendar
 	^ calendar

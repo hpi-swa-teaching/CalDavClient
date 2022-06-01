@@ -1,4 +1,4 @@
 testing
 setUp
 
-	self calendar: CALWebDAVCalendar new
+	self eventCalendar: CALWebDAVCalendar new

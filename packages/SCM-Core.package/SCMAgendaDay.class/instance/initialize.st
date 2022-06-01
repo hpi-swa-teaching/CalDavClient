@@ -1,7 +1,7 @@
 initialization
 initialize
 
-super initialize.
+	super initialize.
 
 self layoutPolicy: TableLayout new;
 	vResizing: #spaceFill;

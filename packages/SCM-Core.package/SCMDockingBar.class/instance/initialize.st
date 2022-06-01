@@ -1,6 +1,8 @@
 initialization
 initialize
 
+	"plz only call with createWith..."
+	
 	super initialize.
 	self color: Color red.
 	self
@@ -15,6 +17,4 @@ initialize
 	  	wrapCentering: #center;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 2 @ 2.
-	
-	self createEventButton.
+	  	layoutInset: 2 @ 2

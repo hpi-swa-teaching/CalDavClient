@@ -3,17 +3,16 @@ initialize
 
 	super initialize.
 	
-	self dockingBar: SCMDockingBar new.
-	self addMorph: self dockingBar.
+	self
+		calendars: {SCMCalendar new name: 'Privat'; yourself . SCMCalendar new name: 'Uni'; yourself} asOrderedCollection;
+		dockingBar: (SCMDockingBar createWithApp: self);
+		addMorph: self dockingBar;
+		view: SCMAgenda new;
+		addMorphBack: self view.
 	
-	self view: SCMAgenda new.
-	self addMorphBack: self view.
-	
-	self extent: 500 @ 500.
-	
-	self layoutPolicy: TableLayout new.
-	
-	self window: (self openInWindowLabeled: 'SCAM').
-	
-	self clipSubmorphs: true.
+	self 
+		extent: 500 @ 500;
+		layoutPolicy: TableLayout new;
+		window: (self openInWindowLabeled: 'SCAM').
+		
 	self owner clipSubmorphs: true

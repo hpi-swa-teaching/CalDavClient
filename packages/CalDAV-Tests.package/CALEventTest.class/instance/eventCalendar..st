@@ -1,4 +1,4 @@
 accessing
-calendar: aCALCalendar
+eventCalendar: aCALCalendar
 
 	calendar := aCALCalendar
