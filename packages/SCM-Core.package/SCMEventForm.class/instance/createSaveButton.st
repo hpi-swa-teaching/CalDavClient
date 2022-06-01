@@ -14,6 +14,7 @@ createSaveButton
 	button := SimpleButtonMorph new
 		label: 'Done';
 		target: self;
+		color: (Color r: 168 g: 219 b: 255 range: 255);
 		actionSelector: #saveEvent.  "like abandon but this is what the little red x in systems windows do..."
 	
 	buttonBox addMorph: button.

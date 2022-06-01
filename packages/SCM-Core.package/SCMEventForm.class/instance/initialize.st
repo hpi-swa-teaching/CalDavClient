@@ -13,7 +13,7 @@ initialize
 		wrapCentering: #center;
 		vResizing: #spaceFill;
 		hResizing: #spaceFill;
-		color: Color paleGreen;
+		color: Color white;
 		layoutInset: 10@10;
 		cellInset: 4@4.
 	
