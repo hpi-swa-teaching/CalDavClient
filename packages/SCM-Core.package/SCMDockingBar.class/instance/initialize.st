@@ -9,7 +9,7 @@ initialize
 		layoutPolicy: TableLayout new;
 		vResizing: #rigid;
 	 	hResizing: #spaceFill;
-	  	color: Color yellow;
+	  	color: (Color r: 0 g: 143 b: 245 range: 255) ;
 	  	borderWidth: 0;
 		cellInset: 5;
 	  	cellPositioning: #topLeft;
