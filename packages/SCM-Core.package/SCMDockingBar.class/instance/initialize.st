@@ -18,6 +18,3 @@ initialize
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
 	  	layoutInset: 2 @ 2.
-	
-	self addMorph: (self createFormButton).
-	self addMorphBack: (self createSwitchViewButton).

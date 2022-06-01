@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LZ 5/18/2022 18:23",
+		"setUp" : "AN 6/1/2022 17:51",
 		"tearDown" : "AN 5/27/2022 17:50",
 		"testCreateEventWidget" : "AN 5/27/2022 17:46",
 		"testHasCreateEventWidget" : "AN 5/27/2022 16:19",

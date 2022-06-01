@@ -3,9 +3,9 @@ createWithApp: aSCMApp
 
 	| dockingBar |
 	dockingBar := self new
-		app: aSCMApp;
+		app: aSCMApp; 
+		createEventButton;
+		createSwitchViewButton;
 		yourself.
-		
-	dockingBar addMorph: (dockingBar createFormButton).
 	
 	^ dockingBar

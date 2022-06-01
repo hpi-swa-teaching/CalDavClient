@@ -9,4 +9,5 @@ createSwitchViewButton
 		target: self app;
 		actionSelector: 'switchView'.
 		
-		^ button.
+		self widgets at: #switchView put: button.
+		self addMorphBack: button.
