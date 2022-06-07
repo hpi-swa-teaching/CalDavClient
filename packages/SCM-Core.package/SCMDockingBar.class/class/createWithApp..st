@@ -3,9 +3,7 @@ createWithApp: aSCMApp
 
 	| dockingBar |
 	dockingBar := self new
-		app: aSCMApp; 
-		createEventButton;
-		createSwitchViewButton;
+		createWidgets: aSCMApp;
 		yourself.
 	
 	^ dockingBar

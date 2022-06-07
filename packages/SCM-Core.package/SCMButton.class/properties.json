@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"widgets" ],
-	"name" : "SCMDockingBar",
+		"target",
+		"actionSelector",
+		"buttonForm" ],
+	"name" : "SCMButton",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "ImageMorph",
 	"type" : "normal" }

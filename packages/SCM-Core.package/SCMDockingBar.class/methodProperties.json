@@ -1,14 +1,11 @@
 {
 	"class" : {
-		"createWithApp:" : "AN 6/1/2022 17:47",
-		"with:" : " 6/1/2022 17:29:28" },
+		"createWithApp:" : "NMK 6/7/2022 08:43",
+		"with:" : "6/1/2022 17:29:28" },
 	"instance" : {
-		"app" : " 6/1/2022 17:29:28",
-		"app:" : " 6/1/2022 17:29:28",
-		"createEventButton" : "AN 6/1/2022 17:59",
-		"createSwitchViewButton" : "AN 6/1/2022 18:02",
-		"initialize" : "AN 6/1/2022 17:58",
-		"view" : " 6/1/2022 17:29:28",
-		"view:" : " 6/1/2022 17:29:28",
+		"configureLayout" : "NMK 6/7/2022 09:00",
+		"createButtonNamed:target:actionSelector:" : "NMK 6/7/2022 09:17",
+		"createWidgets:" : "NMK 6/7/2022 08:51",
+		"initialize" : "NMK 6/7/2022 08:55",
 		"widgets" : "AN 5/27/2022 16:20",
 		"widgets:" : "AN 5/27/2022 16:21" } }

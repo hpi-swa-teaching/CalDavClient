@@ -2,12 +2,13 @@
 	"class" : {
 		"start" : "BZ 5/25/2022 14:34" },
 	"instance" : {
-		"calendars" : " 6/1/2022 17:29:28",
-		"calendars:" : " 6/1/2022 17:29:28",
+		"calendars" : "6/1/2022 17:29:28",
+		"calendars:" : "6/1/2022 17:29:28",
 		"dockingBar" : "NMK 5/18/2022 11:52",
 		"dockingBar:" : "NMK 5/18/2022 11:52",
 		"initialize" : "AN 5/27/2022 17:57",
-		"switchView" : " 6/1/2022 17:29:28",
+		"openAddEventDialog" : "NMK 6/7/2022 09:08",
+		"switchView" : "NMK 6/7/2022 09:20",
 		"view" : "NMK 5/18/2022 11:10",
 		"view:" : "NMK 5/18/2022 11:10",
 		"window" : "LZ 5/18/2022 18:16",
