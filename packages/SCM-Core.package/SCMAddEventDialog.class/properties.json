@@ -23,7 +23,7 @@
 		"availableCalendars",
 		"eventCalendar",
 		"eventCalendarDropDown" ],
-	"name" : "SCMEventForm",
+	"name" : "SCMAddEventDialog",
 	"pools" : [
 		 ],
 	"super" : "Morph",

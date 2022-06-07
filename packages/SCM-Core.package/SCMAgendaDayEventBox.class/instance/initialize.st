@@ -19,5 +19,5 @@ self layoutPolicy: TableLayout new;
 	clipSubmorphs: true.
 
 
-self addMorph: SCMAgendaDayEvent new.
+self addMorph: (SCMEventMorph from: SCMEvent dummy).
 

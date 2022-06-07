@@ -1,10 +1,7 @@
 initialization
-initialize
+configureLayout
 
-	super initialize.
-	
 	self 
-		position: 10 @ 10;
 		extent: 300 @ 700;
 		openInWindowLabeled: 'Create Event';
 		layoutPolicy: TableLayout new;
@@ -16,5 +13,3 @@ initialize
 		color: Color white;
 		layoutInset: 10@10;
 		cellInset: 4@4.
-	
-	self createFields

@@ -2,10 +2,7 @@ initialization
 initialize
 
 	super initialize.
-
-	self
-		loadCalendars;
+	
+	self 
 		configureLayout;
-		addDockingBar;
-		addView;
-		openUp
+		createFields

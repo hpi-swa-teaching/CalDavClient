@@ -2,4 +2,4 @@ testing
 testHierarchy
 
 	self subject submorphs do:
-		[:sub | self assert: sub class equals: SCMAgendaDayEvent.]
+		[:submorph | self assert: submorph class equals: SCMEventMorph.]

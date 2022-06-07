@@ -1,4 +1,4 @@
 accessing
 openAddEventDialog
 
-	SCMEventForm createWithCalendars: self calendars.
+	SCMAddEventDialog createWithCalendars: self calendars.

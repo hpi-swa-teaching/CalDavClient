@@ -3,7 +3,8 @@ initialize
 
 super initialize.
 
-self layoutPolicy: TableLayout new;
+self
+	layoutPolicy: TableLayout new;
 	vResizing: #spaceFill;
  	hResizing: #spaceFill;
   	color: Color white;

@@ -4,7 +4,7 @@ createDefaultEvents
 	| event |
 	
 	event := (SCMWeekViewEventBox createWithHeight: 50).
-	event addMorph: SCMAgendaDayEvent new.
+	event addMorph: SCMEventMorph new.
 	
 	self addMorphBack: (SCMWeekViewEventBox createWithHeight: 325).
 	self addMorphBack: event.

@@ -6,6 +6,7 @@
 		"availableCalendars" : "BZ 5/30/2022 14:19",
 		"availableCalendars:" : "BZ 5/30/2022 14:19",
 		"availableCalendarsAsStrings" : "NMK 6/1/2022 14:37",
+		"configureLayout" : "AN 6/7/2022 09:49",
 		"createButtonWithLabel:andTarget:" : "6/1/2022 17:29:28",
 		"createFields" : "NMK 6/1/2022 14:56",
 		"createForm" : "BZ 5/25/2022 15:15",
@@ -44,5 +45,5 @@
 		"eventParticipants:" : "BZ 5/29/2022 11:48",
 		"eventTitle" : "BZ 5/29/2022 11:48",
 		"eventTitle:" : "BZ 5/29/2022 11:48",
-		"initialize" : "Kiru 6/1/2022 18:16",
-		"saveEvent" : "NMK 6/1/2022 14:43" } }
+		"initialize" : "AN 6/7/2022 09:45",
+		"saveEvent" : "AN 6/7/2022 10:45" } }
