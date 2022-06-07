@@ -1,5 +1,5 @@
 accessing
-loadView: aSCMView
+loadView: aSCMViewType
 
-	self currentView: aSCMView.
-	self addMorph: aSCMView
+	self currentView: aSCMViewType.
+	self addMorph: (self viewTypes at: aSCMViewType) new. "calender need to be transferred here..."

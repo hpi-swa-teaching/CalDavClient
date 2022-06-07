@@ -1,4 +1,4 @@
 accessing
 defaultView
 
-	   ^ SCMAgendaView new
+	   ^ #agenda

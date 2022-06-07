@@ -7,4 +7,4 @@ createWithDate: aDate
 			centered;
 			textColor: Color gray;
 			readOnly: true;
-			yourself.
+			yourself

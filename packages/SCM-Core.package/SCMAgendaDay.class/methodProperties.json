@@ -2,6 +2,7 @@
 	"class" : {
 		"createWithDate:" : "NMK 5/12/2022 10:40" },
 	"instance" : {
-		"initialize" : "AN 5/28/2022 11:50",
+		"configureLayout" : "AN 6/7/2022 19:19",
+		"initialize" : "AN 6/7/2022 19:17",
 		"setupContent" : "lottebalcke 5/16/2022 14:41",
 		"setupContent:" : "lottebalcke 5/16/2022 14:41" } }

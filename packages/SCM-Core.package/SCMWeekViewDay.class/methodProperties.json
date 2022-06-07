@@ -2,8 +2,9 @@
 	"class" : {
 		"createWithDate:" : "lottebalcke 5/25/2022 16:38" },
 	"instance" : {
+		"configureLayout" : "AN 6/7/2022 19:23",
 		"createDefaultEvents" : "AN 6/7/2022 09:53",
 		"date" : "lottebalcke 5/25/2022 16:37",
 		"date:" : "lottebalcke 5/25/2022 16:37",
-		"initialize" : "lottebalcke 5/25/2022 16:57",
+		"initialize" : "AN 6/7/2022 19:23",
 		"setupContent" : "lottebalcke 5/27/2022 15:53" } }

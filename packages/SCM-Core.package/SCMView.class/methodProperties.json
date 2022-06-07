@@ -4,11 +4,14 @@
 	"instance" : {
 		"calendarManager" : "NMK 6/7/2022 18:18",
 		"calendarManager:" : "NMK 6/7/2022 18:18",
+		"clearView" : "AN 6/7/2022 19:32",
 		"configureLayout" : "NMK 6/7/2022 18:22",
 		"currentView" : "NMK 6/7/2022 17:54",
 		"currentView:" : "NMK 6/7/2022 17:54",
-		"defaultView" : "NMK 6/7/2022 18:08",
+		"defaultView" : "AN 6/7/2022 19:44",
 		"fetchCalendars" : "NMK 6/7/2022 18:15",
 		"initialize" : "NMK 6/7/2022 18:20",
-		"loadView:" : "NMK 6/7/2022 18:09",
-		"switchView" : "NMK 6/7/2022 18:28" } }
+		"loadNextView" : "AN 6/7/2022 19:42",
+		"loadView:" : "AN 6/7/2022 19:45",
+		"switchView" : "AN 6/7/2022 19:31",
+		"viewTypes" : "AN 6/7/2022 19:27" } }
