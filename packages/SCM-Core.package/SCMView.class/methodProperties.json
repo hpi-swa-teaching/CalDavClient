@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"createWith:" : "NMK 6/7/2022 18:16" },
+	"instance" : {
+		"calendarManager" : "NMK 6/7/2022 18:18",
+		"calendarManager:" : "NMK 6/7/2022 18:18",
+		"configureLayout" : "NMK 6/7/2022 18:22",
+		"currentView" : "NMK 6/7/2022 17:54",
+		"currentView:" : "NMK 6/7/2022 17:54",
+		"defaultView" : "NMK 6/7/2022 18:08",
+		"fetchCalendars" : "NMK 6/7/2022 18:15",
+		"initialize" : "NMK 6/7/2022 18:20",
+		"loadView:" : "NMK 6/7/2022 18:09",
+		"switchView" : "NMK 6/7/2022 18:28" } }

@@ -1,0 +1,4 @@
+accessing
+defaultView
+
+	   ^ SCMAgendaView new

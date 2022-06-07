@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SCMAgenda",
+	"name" : "SCMWeekViewFactory",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SCMViewFactory",
 	"type" : "normal" }

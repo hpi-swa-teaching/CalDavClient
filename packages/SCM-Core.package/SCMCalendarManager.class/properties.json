@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view",
-		"dockingBar",
-		"window",
-		"calendarManager" ],
-	"name" : "SCMApp",
+		"calendars" ],
+	"name" : "SCMCalendarManager",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

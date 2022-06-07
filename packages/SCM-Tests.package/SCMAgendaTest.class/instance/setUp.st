@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMAgenda new.
+	self wantsToTest: SCMAgendaView new.

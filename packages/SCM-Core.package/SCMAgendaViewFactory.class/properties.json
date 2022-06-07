@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view",
-		"dockingBar",
-		"window",
-		"calendarManager" ],
-	"name" : "SCMApp",
+		 ],
+	"name" : "SCMAgendaViewFactory",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SCMViewFactory",
 	"type" : "normal" }

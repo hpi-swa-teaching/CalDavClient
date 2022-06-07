@@ -2,5 +2,5 @@ initialization
 addView
 	
 	self
-		view: SCMAgenda new;
-		addMorphBack: self view.
+		view: (SCMView createWith: self calendarManager);
+		addMorphBack: self view

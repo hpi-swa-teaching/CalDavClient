@@ -1,4 +1,4 @@
 accessing
 openAddEventDialog
 
-	SCMAddEventDialog createWithCalendars: self calendars.
+	SCMAddEventDialog createWithCalendars: self calendarManager calendars.
