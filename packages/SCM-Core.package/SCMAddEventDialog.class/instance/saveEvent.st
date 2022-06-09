@@ -1,6 +1,6 @@
 saving
 saveEvent
-
+	
 	self eventCalendar: (self availableCalendars at: (eventCalendarDropDown getCurrentSelectionIndex)).
 	
 	"TOdo: use better textfields or read input cleanly"

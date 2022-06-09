@@ -1,4 +1,4 @@
 accessing
-events: anObject
+events: anOrderedCollection
 
-	events := anObject.
+	events := anOrderedCollection.

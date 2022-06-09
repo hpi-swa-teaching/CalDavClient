@@ -7,4 +7,4 @@ loadFromDisk
 	file := FileStream readOnlyFileNamed: self fullName.
 	eventCollection := STON fromString: file contents.
 	file close.
-	eventCollection do: [:each | self addEvent: each].
+	eventCollection do: [:each | self addEvent: each]

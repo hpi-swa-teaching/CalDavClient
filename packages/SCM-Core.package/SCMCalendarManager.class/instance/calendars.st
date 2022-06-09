@@ -1,4 +1,5 @@
 accessing
 calendars
 
-	^ self basicCalendars veryDeepCopy
+	^ calendars ifNil: [calendars := OrderedCollection new]
+	

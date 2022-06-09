@@ -1,0 +1,15 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"demoCalendar",
+		"demoEvent" ],
+	"name" : "SCMCalendarManagerTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

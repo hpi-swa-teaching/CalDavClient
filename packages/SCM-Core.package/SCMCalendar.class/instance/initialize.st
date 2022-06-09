@@ -3,4 +3,5 @@ initialize
 
 	self
 		name: 'Default Calendar';
-		events: OrderedCollection new.
+		events: OrderedCollection new;
+		yourself.
