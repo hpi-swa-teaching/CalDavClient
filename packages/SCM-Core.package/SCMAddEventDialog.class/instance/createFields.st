@@ -6,34 +6,34 @@ createFields
 	self eventTitle: (self createTextField: 'Title').
 	self addMorphBack: self eventTitle.
 	
-	self eventBeginYear: (self createTextField: '1').
+	self eventBeginYear: (self createTextField: Date today year asString).
 	self addMorphBack: self eventBeginYear.
 	
-	self eventBeginMonth: (self createTextField: '1').
+	self eventBeginMonth: (self createTextField: Date today monthIndex asString).
 	self addMorphBack: self eventBeginMonth.
 	
-	self eventBeginDay: (self createTextField: '1').
+	self eventBeginDay: (self createTextField: Date today dayOfMonth asString).
 	self addMorphBack: self eventBeginDay.
 	
-	self eventBeginHour: (self createTextField: '1').
+	self eventBeginHour: (self createTextField: DateAndTime now hour asString).
 	self addMorphBack: self eventBeginHour.
 	
-	self eventBeginMinute: (self createTextField: '1').
+	self eventBeginMinute: (self createTextField: DateAndTime now minute asString).
 	self addMorphBack: self eventBeginMinute.
 	
-	self eventEndYear: (self createTextField: '1').
+	self eventEndYear: (self createTextField: Date today year asString).
 	self addMorphBack: self eventEndYear.
 	
-	self eventEndMonth: (self createTextField: '2').
+	self eventEndMonth: (self createTextField: Date today monthIndex asString).
 	self addMorphBack: self eventEndMonth.
 	
-	self eventEndDay: (self createTextField: '2').
+	self eventEndDay: (self createTextField: Date today dayOfMonth asString).
 	self addMorphBack: self eventEndDay.
 	
-	self eventEndHour: (self createTextField: '2').
+	self eventEndHour: (self createTextField: DateAndTime now hour asString).
 	self addMorphBack: self eventEndHour.
 	
-	self eventEndMinute: (self createTextField: '2').
+	self eventEndMinute: (self createTextField: DateAndTime now minutes asString).
 	self addMorphBack: self eventEndMinute.
 	
 	self eventDescription: (self createTextField: 'Description').
