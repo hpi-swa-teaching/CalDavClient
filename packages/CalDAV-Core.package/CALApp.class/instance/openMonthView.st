@@ -3,7 +3,7 @@ openMonthView
 
 	| builder |
 	
-	self clearView.
+	self clear.
 	builder := ToolBuilder default.
 	builder 
 		buildAll: {(self buildMonthPanel: builder)} 

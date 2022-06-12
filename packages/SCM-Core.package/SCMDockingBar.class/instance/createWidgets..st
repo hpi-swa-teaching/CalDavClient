@@ -2,4 +2,4 @@ initialization
 createWidgets: aSCMApp
 
 	self createButtonNamed: #addEvent target: aSCMApp actionSelector: #openAddEventDialog.
-	self createButtonNamed: #switchView target: aSCMApp actionSelector: #switchView
+	self createButtonNamed: #switch target: aSCMApp actionSelector: #switch

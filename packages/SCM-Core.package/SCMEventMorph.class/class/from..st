@@ -4,4 +4,5 @@ from: aSCMEvent
 	^ self new
 		event: aSCMEvent;
 		loadEvent;
+		wrapFlag: true;
 		yourself

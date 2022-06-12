@@ -4,7 +4,7 @@ testSwitchViewButton
 	| button currentView |
 	currentView := subject view.
 	button := self subject findByLabel: 'Switch View'.
-	self assert: button actionSelector equals: #switchView.
+	self assert: button actionSelector equals: #switch.
   	self assert: button target class equals: SCMApp.
 	
 	self assert: subject window extent equals: 800 @ 1000.

@@ -1,5 +1,5 @@
 accessing
-switchView
+switch
 
-	self clearView.
+	self clear.
 	^ self loadNextView

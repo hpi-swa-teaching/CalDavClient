@@ -3,5 +3,5 @@ initialize
 
 	self
 		name: 'Default Calendar';
-		events: OrderedCollection new;
+		events: (SortedCollection new sortBlock: [:a :b | a begin < b begin]; yourself);
 		yourself.

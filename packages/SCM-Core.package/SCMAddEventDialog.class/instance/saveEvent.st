@@ -1,7 +1,8 @@
 saving
 saveEvent
 	
-	self eventCalendar: (self availableCalendars at: (eventCalendarDropDown getCurrentSelectionIndex)).
+	self eventCalendarDropDown getCurrentSelectionIndex = 0 ifTrue: [^ self inform: 'Select calender!'].
+	self eventCalendar: (self availableCalendars at: (self eventCalendarDropDown getCurrentSelectionIndex)).
 	
 	"TOdo: use better textfields or read input cleanly"
 	self eventCalendar addEvent: (SCMEvent new
@@ -22,5 +23,6 @@ saveEvent
 		location: self eventLocation contents string;
 		participants: self eventParticipants contents string).
 		
+	self app reload.
 	self eventCalendar saveToDisk.
 	self owner closeBoxHit

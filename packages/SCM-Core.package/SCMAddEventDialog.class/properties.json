@@ -22,7 +22,8 @@
 		"eventParticipants",
 		"availableCalendars",
 		"eventCalendar",
-		"eventCalendarDropDown" ],
+		"eventCalendarDropDown",
+		"app" ],
 	"name" : "SCMAddEventDialog",
 	"pools" : [
 		 ],

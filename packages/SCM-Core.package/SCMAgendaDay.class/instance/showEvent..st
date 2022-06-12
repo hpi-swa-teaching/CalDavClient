@@ -1,0 +1,4 @@
+initialization
+showEvent: aSCMEvent
+
+	^ self

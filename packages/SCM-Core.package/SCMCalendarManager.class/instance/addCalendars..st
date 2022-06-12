@@ -1,4 +1,4 @@
 as yet unclassified
-addCalendars: aCollection
+addCalendars: aSortedCollection
 
-	aCollection do: [:each | self addCalendar: each]
+	aSortedCollection do: [:each | self addCalendar: each]

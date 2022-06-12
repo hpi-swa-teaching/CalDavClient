@@ -2,5 +2,8 @@ as yet unclassified
 dummy
 
 	^ self new
-			title: 'Das ist ein Test'
+			title: 'Kacken';
+			begin: DateAndTime now;
+			end: DateAndTime now;
+			location: 'Klo'
 			

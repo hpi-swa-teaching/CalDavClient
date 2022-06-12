@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"activeCalenders" : "AN 6/12/2022 15:35",
+		"activeEvents" : "AN 6/12/2022 16:00",
+		"activeEventsAfter:maxEvents:" : "AN 6/12/2022 16:05",
 		"addCalendar:" : "BZ 6/9/2022 12:33",
-		"addCalendars:" : "NMK 6/7/2022 17:41",
+		"addCalendars:" : "AN 6/12/2022 15:21",
 		"basicCalendars" : "BZ 6/9/2022 12:09",
 		"calendars" : "BZ 6/9/2022 13:21",
 		"calendars:" : "NMK 6/7/2022 18:11",
-		"extractEventsFrom:" : "BZ 6/9/2022 13:47",
+		"extractEventsFrom:" : "AN 6/12/2022 14:15",
 		"loadCalendars" : "BZ 6/9/2022 14:13",
 		"storeCalendar:" : "NMK 6/7/2022 17:42" } }

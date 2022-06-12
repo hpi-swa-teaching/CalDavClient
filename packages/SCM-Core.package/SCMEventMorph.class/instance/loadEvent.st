@@ -1,5 +1,4 @@
 initialization
 loadEvent
 
-	self string:  self event title fontName: 'arial' size: 20;
-		readOnly: true
+	self string: self extractString fontName: 'calibri' size: 20.
