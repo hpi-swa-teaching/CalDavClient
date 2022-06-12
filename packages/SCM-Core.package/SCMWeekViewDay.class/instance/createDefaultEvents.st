@@ -8,5 +8,4 @@ createDefaultEvents
 	
 	self addMorphBack: (SCMWeekViewEventBox createWithHeight: 325).
 	self addMorphBack: event.
-	self addMorphBack: (SCMWeekViewEventBox createWithHeight: 330).
-	
+	self addMorphBack: (SCMWeekViewEventBox createWithHeight: 330)

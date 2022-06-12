@@ -1,4 +1,4 @@
 accessing
-widgets: anObject
+widgets: aDictionary
 
-	widgets := anObject
+	widgets := aDictionary

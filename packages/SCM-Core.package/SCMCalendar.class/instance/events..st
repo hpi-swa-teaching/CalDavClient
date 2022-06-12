@@ -1,4 +1,4 @@
 accessing
-events: anOrderedCollection
+events: aSortedCollection
 
-	events := anOrderedCollection.
+	events := aSortedCollection

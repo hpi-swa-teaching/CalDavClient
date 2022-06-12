@@ -1,3 +1,4 @@
 accessing
-participants: anObject
-	participants := anObject
+participants: aString
+
+	participants := aString

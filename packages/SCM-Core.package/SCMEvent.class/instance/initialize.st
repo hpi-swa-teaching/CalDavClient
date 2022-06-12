@@ -7,4 +7,4 @@ initialize
 		title: '';
 		description: '';
 		location: '';
-		participants: OrderedCollection new.
+		participants: OrderedCollection new

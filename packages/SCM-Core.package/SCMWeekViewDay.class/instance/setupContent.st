@@ -8,4 +8,4 @@ setupContent
 		height: 50.
 
 	self addMorph: text.
-	self createDefaultEvents.
+	self createDefaultEvents

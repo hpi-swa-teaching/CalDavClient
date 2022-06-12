@@ -1,7 +1,7 @@
 as yet unclassified
-newWithName: aString andEvents: anOrderedCollection
+newWithName: aString andEvents: aSortedCollection
 
 	^ self new 
-		name: aString;
-		events: anOrderedCollection;
-		yourself
+			name: aString;
+			events: aSortedCollection;
+			yourself

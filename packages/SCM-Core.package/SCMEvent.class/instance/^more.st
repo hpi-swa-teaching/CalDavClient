@@ -1,0 +1,4 @@
+accessing
+> comparand
+
+	^ comparand < self

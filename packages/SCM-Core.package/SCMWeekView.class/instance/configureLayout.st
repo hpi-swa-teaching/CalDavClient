@@ -1,7 +1,8 @@
 as yet unclassified
 configureLayout
 
-	self layoutPolicy: TableLayout new;
+	self
+		layoutPolicy: TableLayout new;
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
 	  	color: Color white;
@@ -12,4 +13,4 @@ configureLayout
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 5@5
+	  	layoutInset: 5 @ 5
