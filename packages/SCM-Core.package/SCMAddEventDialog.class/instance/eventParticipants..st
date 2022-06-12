@@ -1,4 +1,4 @@
 accessing
-eventParticipants: anObject
+eventParticipants: aString
 
-	eventParticipants := anObject
+	eventParticipants := aString

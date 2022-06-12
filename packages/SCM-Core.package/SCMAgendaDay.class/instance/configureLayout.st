@@ -14,4 +14,4 @@ configureLayout
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 5@5
+	  	layoutInset: 5 @ 5

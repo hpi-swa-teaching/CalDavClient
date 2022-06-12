@@ -1,10 +1,10 @@
 as yet unclassified
 createWithCalendar: aSCMCalendar
 	
-	|e|
-	e := (self new)
+	| event |
+	event := (self new)
 		calendar: aSCMCalendar;
 		openInWindowLabeled: 'Create Event';
 		yourself.
-	e owner setWindowColor: Color blue.
-	^ e.
+	event owner setWindowColor: Color blue.
+	^ event

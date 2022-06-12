@@ -1,4 +1,4 @@
 accessing
-view: anObject
+view: aSCMView
 
-	view := anObject
+	view := aSCMView

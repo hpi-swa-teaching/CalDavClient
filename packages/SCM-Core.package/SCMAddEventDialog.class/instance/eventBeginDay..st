@@ -1,4 +1,4 @@
 accessing
-eventBeginDay: anObject
+eventBeginDay: aString
 
-	eventBeginDay := anObject
+	eventBeginDay := aString

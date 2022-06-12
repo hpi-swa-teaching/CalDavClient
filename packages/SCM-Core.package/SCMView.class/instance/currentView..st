@@ -1,4 +1,4 @@
 accessing
-currentView: aMorph
+currentView: aStringOrSymbol
 
-	currentView := aMorph
+	currentView := aStringOrSymbol

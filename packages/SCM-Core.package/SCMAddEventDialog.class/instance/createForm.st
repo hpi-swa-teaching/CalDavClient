@@ -1,7 +1,7 @@
 initialization
 createForm
 
-	|button|
+	| button |
 	
 	self eventTitle: (self createTextField: 'EventTitle').
 	self addMorph: self eventTitle.
@@ -9,4 +9,4 @@ createForm
 	self addMorph: self eventBeginDay.
 
 	button := self createButtonWithLabel: 'Done' andTarget: self.
-	self addMorphBack: button.
+	self addMorphBack: button

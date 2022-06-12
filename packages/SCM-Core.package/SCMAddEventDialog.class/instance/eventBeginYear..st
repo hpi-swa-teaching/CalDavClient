@@ -1,4 +1,4 @@
 accessing
-eventBeginYear: anObject
+eventBeginYear: aString
 
-	eventBeginYear := anObject.
+	eventBeginYear := aString

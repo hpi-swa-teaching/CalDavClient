@@ -11,5 +11,5 @@ configureLayout
 		vResizing: #spaceFill;
 		hResizing: #spaceFill;
 		color: Color white;
-		layoutInset: 10@10;
-		cellInset: 4@4.
+		layoutInset: 10 @ 10;
+		cellInset: 4 @ 4.

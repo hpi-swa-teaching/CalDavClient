@@ -1,4 +1,4 @@
 accessing
 defaultMaxEvents
 
-	^ 50
+	^ 10

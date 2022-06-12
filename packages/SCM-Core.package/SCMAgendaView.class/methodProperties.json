@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"createWithEvents:" : "AN 6/12/2022 16:48" },
+		"createWithEvents:" : "NMK 6/12/2022 20:12" },
 	"instance" : {
-		"configureLayout" : "AN 6/7/2022 19:21",
-		"createDays" : "lottebalcke 5/16/2022 14:41",
-		"initialize" : "AN 6/12/2022 16:08",
-		"loadViewWith:" : "AN 6/12/2022 16:55" } }
+		"configureLayout" : "NMK 6/12/2022 20:23",
+		"initialize" : "NMK 6/12/2022 20:11",
+		"loadViewWith:" : "NMK 6/12/2022 20:32" } }

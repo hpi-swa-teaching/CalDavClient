@@ -1,3 +1,4 @@
 accessing
-calendarManager: anObject
-	calendarManager := anObject
+calendarManager: aSCMCalendarManager
+
+	calendarManager := aSCMCalendarManager

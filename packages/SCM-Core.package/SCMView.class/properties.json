@@ -8,7 +8,7 @@
 	"instvars" : [
 		"currentView",
 		"calendarManager",
-		"startDay" ],
+		"startDate" ],
 	"name" : "SCMView",
 	"pools" : [
 		 ],

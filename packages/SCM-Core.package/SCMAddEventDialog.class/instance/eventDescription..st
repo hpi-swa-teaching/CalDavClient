@@ -1,4 +1,4 @@
 accessing
-eventDescription: anObject
+eventDescription: aString
 
-	eventDescription := anObject
+	eventDescription := aString

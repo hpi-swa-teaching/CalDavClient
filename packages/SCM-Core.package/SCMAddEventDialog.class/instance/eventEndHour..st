@@ -1,4 +1,4 @@
 accessing
-eventEndHour: anObject
+eventEndHour: aString
 
-	eventEndHour := anObject.
+	eventEndHour := aString

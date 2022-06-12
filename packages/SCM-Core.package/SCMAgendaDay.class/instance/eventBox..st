@@ -1,4 +1,4 @@
 accessing
-eventBox: anObject
+eventBox: aSCMAgendaDayEventBox
 
-	eventBox := anObject.
+	eventBox := aSCMAgendaDayEventBox

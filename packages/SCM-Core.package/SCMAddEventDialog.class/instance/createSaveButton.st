@@ -19,4 +19,4 @@ createSaveButton
 	
 	buttonBox addMorph: button.
 	
-	^buttonBox
+	^ buttonBox

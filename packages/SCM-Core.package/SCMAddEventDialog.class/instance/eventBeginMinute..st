@@ -1,4 +1,4 @@
 accessing
-eventBeginMinute: anObject
+eventBeginMinute: aString
 
-	eventBeginMinute := anObject.
+	eventBeginMinute := aString

@@ -1,7 +1,7 @@
 initialization
 createFields
 
-	|button|
+	| button |
 	
 	self eventTitle: (self createTextField: 'Title').
 	self addMorphBack: self eventTitle.
@@ -56,4 +56,4 @@ createFields
 	self addMorphBack: self eventCalendarDropDown.	
 		
 	button := self createSaveButton.
-	self addMorphBack: button.
+	self addMorphBack: button

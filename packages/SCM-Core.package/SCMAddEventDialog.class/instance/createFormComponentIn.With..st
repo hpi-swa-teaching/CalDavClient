@@ -1,7 +1,7 @@
 as yet unclassified
 createFormComponentIn: aBox With: aTitle
 
-	| box boxTextCell boxText boxTextField|
+	| box boxTextCell boxText boxTextField |
 	
 	box := self createBox.
 	aBox addMorphBack: box.
@@ -14,4 +14,4 @@ createFormComponentIn: aBox With: aTitle
 	boxTextCell addMorph: boxText.
 	box addMorphBack: boxTextCell.
 	boxTextField :=  self createTextField.
-	box addMorphBack: boxTextField.
+	box addMorphBack: boxTextField

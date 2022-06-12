@@ -1,4 +1,4 @@
 accessing
-eventLocation: anObject
+eventLocation: aString
 
-	eventLocation := anObject
+	eventLocation := aString

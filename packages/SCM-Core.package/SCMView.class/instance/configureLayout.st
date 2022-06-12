@@ -12,5 +12,5 @@ configureLayout
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #topToBottom;
-		extent: 2000@835;
-		clipSubmorphs: true.
+		extent: 2000 @ 835;
+		clipSubmorphs: true

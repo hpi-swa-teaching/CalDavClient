@@ -1,3 +1,4 @@
 accessing
-eventCalendarDropDown: anObject
-	eventCalendarDropDown := anObject
+eventCalendarDropDown: aDropDownChoiceMorph
+
+	eventCalendarDropDown := aDropDownChoiceMorph

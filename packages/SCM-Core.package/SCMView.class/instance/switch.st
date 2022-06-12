@@ -2,4 +2,4 @@ accessing
 switch
 
 	self clear.
-	^ self loadNextView
+	self loadNextView

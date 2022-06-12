@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	self configureLayout.
-	self extent: 500 @ 500.
+	self extent: 500 @ 500

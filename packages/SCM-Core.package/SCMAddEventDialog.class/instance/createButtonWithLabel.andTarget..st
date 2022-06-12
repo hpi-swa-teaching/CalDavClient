@@ -18,11 +18,4 @@ createButtonWithLabel: aTitle andTarget: aTarget
 	
 	buttonBox addMorph: button.
 	
-	^ buttonBox 
-
-
-
-
-
-
-
+	^ buttonBox
