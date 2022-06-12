@@ -5,4 +5,5 @@ from: aSCMEvent
 		event: aSCMEvent;
 		loadEvent;
 		wrapFlag: true;
+		readOnly: true;
 		yourself
