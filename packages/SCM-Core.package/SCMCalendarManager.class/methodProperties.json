@@ -10,6 +10,8 @@
 		"basicCalendars" : "BZ 6/9/2022 12:09",
 		"calendars" : "BZ 6/9/2022 13:21",
 		"calendars:" : "NMK 6/12/2022 21:06",
-		"extractEventsFrom:" : "AN 6/12/2022 14:15",
+		"extractEventsFrom:" : "BZ 6/13/2022 18:49",
 		"loadCalendars" : "NMK 6/12/2022 18:28",
-		"storeCalendar:" : "NMK 6/7/2022 17:42" } }
+		"loadFromDisk:" : "BZ 6/13/2022 18:36",
+		"saveToDisk:" : "BZ 6/13/2022 18:25",
+		"storeCalendar:" : "BZ 6/13/2022 18:54" } }

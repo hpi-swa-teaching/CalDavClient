@@ -5,8 +5,8 @@ testSaveEvent
 	
 	self demoCalendar addEvent: self demoEvent.
 	
-	self demoCalendar saveToDisk.
+	self subject saveToDisk: demoCalendar.
 	self assert: (SCMCalendar calendarDirectory fileExists: self demoCalendar name).
 	
 	self assert: (self subject extractEventsFrom: self demoCalendar name) size = 1.
-	self assert: (self subject extractEventsFrom: self demoCalendar name) first title = self demoEvent title.
+	self assert: (self subject extractEventsFrom: self demoCalendar name) first =  demoEvent.
