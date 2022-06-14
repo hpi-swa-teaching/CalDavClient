@@ -1,15 +1,19 @@
 as yet unclassified
 testEndAccessors
 
-	self demoEvent
-		endYear: 2014;
-		endMonth: 2;
-		endDay: 14;
-		endHour: 11;
-		endMinute: 30.
+	| event |
+	
+	event := self demoEvent.
 		
-	self assert: 2014 equals: self demoEvent endYear.
-	self assert: 2 equals: self demoEvent endMonth.
-	self assert: 14 equals: self demoEvent endDay.
-	self assert: 11 equals: self demoEvent endHour.
-	self assert: 30 equals: self demoEvent endMinute
+	self assert: (event end  = self end).
+	event end: (DateAndTime
+			year: 2020
+			month: 6
+			day: 5
+			hour:	2
+			minute: 55).
+	self assert: (event end dayOfMonth = 5).
+	self assert: (event end month = 6).
+	self assert: (event end year = 2020).
+	self assert: (event end hour = 2).
+	self assert: (event end minute = 55)

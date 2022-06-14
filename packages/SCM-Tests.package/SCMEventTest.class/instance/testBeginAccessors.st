@@ -1,15 +1,19 @@
 as yet unclassified
 testBeginAccessors
 
-	self demoEvent
-		beginYear: 2014;
-		beginMonth: 2;
-		beginDay: 14;
-		beginHour: 11;
-		beginMinute: 30.
+	| event |
+	
+	event := self demoEvent.
 		
-	self assert: 2014 equals: self demoEvent beginYear.
-	self assert: 2 equals: self demoEvent beginMonth.
-	self assert: 14 equals: self demoEvent beginDay.
-	self assert: 11 equals: self demoEvent beginHour.
-	self assert: 30 equals: self demoEvent beginMinute
+	self assert: (event begin  = self begin).
+	event begin: (DateAndTime
+			year: 2020
+			month: 6
+			day: 5
+			hour:	2
+			minute: 55).
+	self assert: (event begin dayOfMonth = 5).
+	self assert: (event begin month = 6).
+	self assert: (event begin year = 2020).
+	self assert: (event begin hour = 2).
+	self assert: (event begin minute = 55)

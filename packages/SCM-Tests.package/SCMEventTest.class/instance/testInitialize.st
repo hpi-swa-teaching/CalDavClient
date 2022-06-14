@@ -1,8 +1,11 @@
 as yet unclassified
 testInitialize
 
-	self assert: 0 equals: self demoEvent beginYear.
-	self assert: 0 equals: self demoEvent beginMonth.
-	self assert: 0 equals: self demoEvent beginDay.
-	self assert: 0 equals: self demoEvent beginHour.
-	self assert: 0 equals: self demoEvent beginMinute
+	| today | 
+	today := DateAndTime today.
+	
+	self assert: today year equals: self defaultEvent begin year.
+	self assert: today month equals: self defaultEvent begin month.
+	self assert: today day equals: self defaultEvent begin day.
+	self assert: today hour equals: self defaultEvent begin hour.
+	self assert: today minute equals: self defaultEvent begin minute
