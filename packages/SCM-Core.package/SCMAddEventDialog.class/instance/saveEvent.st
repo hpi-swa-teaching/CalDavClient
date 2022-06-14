@@ -24,5 +24,5 @@ saveEvent
 		participants: self eventParticipants contents string).
 		
 	self app reload.
-	self app save: self.
+	self app save: self eventCalendar.
 	self owner closeBoxHit
