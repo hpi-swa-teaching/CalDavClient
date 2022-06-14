@@ -2,10 +2,11 @@
 	"class" : {
 		"createWithDate:" : "lottebalcke 5/25/2022 16:38" },
 	"instance" : {
-		"addEvent:" : "lottebalcke 6/14/2022 18:00",
-		"configureLayout" : "NMK 6/12/2022 21:12",
+		"addEvent:" : "LZ 6/14/2022 18:34",
+		"addTimeGrid" : "LZ 6/14/2022 18:23",
+		"configureLayout" : "LZ 6/14/2022 18:36",
 		"createDefaultEvents" : "NMK 6/12/2022 21:13",
 		"date" : "NMK 6/12/2022 21:13",
 		"date:" : "NMK 6/12/2022 21:13",
 		"initialize" : "AN 6/7/2022 19:23",
-		"setupContent" : "lottebalcke 6/14/2022 17:29" } }
+		"setupContent" : "LZ 6/14/2022 18:19" } }
