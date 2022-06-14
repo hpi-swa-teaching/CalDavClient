@@ -1,4 +1,4 @@
 initialization
-addEvent: aSCMEventMorph
+addEvent: aSCMEvent
 
-	self eventBox addEvent: aSCMEventMorph
+	self eventBox addEvent: aSCMEvent

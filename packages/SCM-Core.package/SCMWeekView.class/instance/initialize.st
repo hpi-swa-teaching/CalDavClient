@@ -3,5 +3,4 @@ initialize
 
 	super initialize.
 	self
-		configureLayout;
-		createDays
+		configureLayout.
