@@ -9,7 +9,7 @@ loadViewWith: aSortedCollection
 		[currentDay := (SCMWeekViewDay createWithDate: day).
 		
 		aSortedCollection do: [
-			:each | each begin asDate == currentDay date
+			:each | each begin asDate = currentDay date
 				ifTrue: [currentDay addEvent: each].
 			].
 		
