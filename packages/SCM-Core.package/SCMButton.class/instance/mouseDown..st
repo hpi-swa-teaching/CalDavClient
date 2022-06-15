@@ -1,5 +1,4 @@
 accessing
 mouseDown: anEvent
 
-	super mouseDown: anEvent.
-	"self image: self buttonForm asGrayScale"
+	self image: self buttonForm asGrayScale

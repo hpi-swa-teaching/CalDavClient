@@ -2,11 +2,12 @@ initialization
 createTextField: aString
 
 	| textField |
-	textField :=  TextFieldMorph new
+	textField :=  PluggableTextMorphPlus new
 		vResizing: #spaceFill;
 		hResizing: #spaceFill;
-		color: Color white;
-		contents: aString;
+		wantsFrameAdornments: false;
+		balloonText: aString;
+		setText: '';
 		yourself.
 		
 	^ textField

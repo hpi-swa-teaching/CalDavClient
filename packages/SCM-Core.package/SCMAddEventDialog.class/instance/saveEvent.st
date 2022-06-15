@@ -6,22 +6,22 @@ saveEvent
 	
 	"TOdo: use better textfields or read input cleanly"
 	self eventCalendar addEvent: (SCMEvent new
-		title: self eventTitle contents string;
+		title: self eventTitle textMorph text string;
 		begin: (DateAndTime
-			year: self eventBeginYear contents string asInteger
-			month: self eventBeginMonth contents string asInteger
-			day: self eventBeginDay contents string asInteger
-			hour:	self eventBeginHour contents string asInteger
-			minute: self eventBeginMinute contents string asInteger);
+			year: self eventBeginYear textMorph text string asInteger
+			month: self eventBeginMonth textMorph text string asInteger
+			day: self eventBeginDay textMorph text string asInteger
+			hour:	self eventBeginHour textMorph text string asInteger
+			minute: self eventBeginMinute textMorph text string asInteger);
 		end: (DateAndTime
-			year: self eventEndYear contents string asInteger
-			month: self eventEndMonth contents string asInteger
-			day: self eventEndDay contents string asInteger
-			hour:	self eventEndHour contents string asInteger
-			minute: self eventEndMinute contents string asInteger);
-		description: self eventDescription contents string;
-		location: self eventLocation contents string;
-		participants: self eventParticipants contents string).
+			year: self eventEndYear textMorph text string asInteger
+			month: self eventEndMonth textMorph text string asInteger
+			day: self eventEndDay textMorph text string asInteger
+			hour:	self eventEndHour textMorph text string asInteger
+			minute: self eventEndMinute textMorph text string asInteger);
+		description: self eventDescription textMorph text string;
+		location: self eventLocation textMorph text string;
+		participants: self eventParticipants textMorph text string).
 		
 	self app reload.
 	self app save: self eventCalendar.
