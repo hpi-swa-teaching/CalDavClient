@@ -1,5 +1,5 @@
 testing
 testHierarchy
 
-	self assert: subject view class equals: SCMAgendaView.
-	self assert: subject dockingBar class equals: SCMDockingBar
+	self assert: self subject view class equals: SCMView.
+	self assert: self subject dockingBar class equals: SCMDockingBar

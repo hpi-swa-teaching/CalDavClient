@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "AN 6/1/2022 17:51",
-		"tearDown" : "AN 5/27/2022 17:50",
-		"testCreateEventWidget" : "AN 6/7/2022 09:49",
-		"testHasCreateEventWidget" : "AN 5/27/2022 16:19",
-		"testHasWidgets" : "AN 5/27/2022 16:16",
+		"app" : "NMK 6/15/2022 19:41",
+		"app:" : "NMK 6/15/2022 19:41",
+		"setUp" : "NMK 6/15/2022 19:42",
+		"tearDown" : "NMK 6/15/2022 19:44",
+		"testAddEventWidget" : "NMK 6/15/2022 19:47",
+		"testHasCreateEventWidget" : "NMK 6/15/2022 19:47",
+		"testHasWidgets" : "NMK 6/15/2022 19:47",
 		"testTableLayout" : "LZ 5/18/2022 17:50" } }

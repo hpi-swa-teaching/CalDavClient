@@ -1,5 +1,5 @@
 testing
 testHasCreateEventWidget
-	
-     self assert: (self subject widgets includesKey: #createEvent).
-	self assert: (self subject widgets at: #createEvent) isButton.
+
+	self assert: (self subject widgets includesKey: #addEvent).
+	self assert: (self subject widgets at: #addEvent) class = SCMButton

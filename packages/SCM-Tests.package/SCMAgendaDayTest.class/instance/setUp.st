@@ -1,5 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMAgendaDay new.
-	self subject setupContent.
+	self wantsToTest: (SCMAgendaDay createWithDate: DateAndTime today)

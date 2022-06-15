@@ -1,4 +1,4 @@
 testing
 testHasWidgets
 	
-     self assert: self subject widgets isDictionary.
+     self assert: self subject widgets isDictionary
