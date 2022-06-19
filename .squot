@@ -1,10 +1,10 @@
 OrderedDictionary {
-	'packages/SCM-Core.package' : #SquotCypressCodeSerializer,
-	'packages/SCM-Tests.package' : #SquotCypressCodeSerializer,
-	'packages/BaselineOfCalDAV.package' : #SquotCypressCodeSerializer,
-	'packages/CalDAV-Tests.package' : #SquotCypressCodeSerializer,
-	'packages/CalDAV-Core.package' : #SquotCypressCodeSerializer,
-	'packages/BaselineOfSCM.package' : #SquotCypressCodeSerializer,
+	'SCM-Core.package' : #SquotCypressCodeSerializer,
+	'SCM-AgendaView.package' : #SquotCypressCodeSerializer,
 	'SCM-WeekView.package' : #SquotCypressCodeSerializer,
-	'SCM-AgendaView.package' : #SquotCypressCodeSerializer
+	'BaselineOfSCM.package' : #SquotCypressCodeSerializer,
+	'SCM-Tests.package' : #SquotCypressCodeSerializer,
+	'CalDAV-Core.package' : #SquotCypressCodeSerializer,
+	'CalDAV-Tests.package' : #SquotCypressCodeSerializer,
+	'BaselineOfCalDAV.package' : #SquotCypressCodeSerializer
 }
