@@ -11,13 +11,9 @@ SWT22 Group 08
 ## Installation
 
     Metacello new
-        baseline: 'CalDAV';
-        repository: 'github://hpi-swa-teaching/CalDavClient:master/packages';
+        baseline: 'SCM';
+        repository: 'github://hpi-swa-teaching/CalDavClient:develop/packages';
         load.
-        
-## Icons
-
-Save uncompressed icons folder into ...\Contents\Resources\CalDAV
 
 ## Getting started
 
