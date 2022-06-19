@@ -1,13 +1,13 @@
 {
-	"category" : "SCM-Core",
+	"category" : "SCM-WeekView",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SCMWeekView",
+		"date" ],
+	"name" : "SCMWeekViewDay",
 	"pools" : [
 		 ],
 	"super" : "Morph",

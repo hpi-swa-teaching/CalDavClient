@@ -4,5 +4,7 @@ OrderedDictionary {
 	'packages/BaselineOfCalDAV.package' : #SquotCypressCodeSerializer,
 	'packages/CalDAV-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/CalDAV-Core.package' : #SquotCypressCodeSerializer,
-	'packages/BaselineOfSCM.package' : #SquotCypressCodeSerializer
+	'packages/BaselineOfSCM.package' : #SquotCypressCodeSerializer,
+	'SCM-WeekView.package' : #SquotCypressCodeSerializer,
+	'SCM-AgendaView.package' : #SquotCypressCodeSerializer
 }
