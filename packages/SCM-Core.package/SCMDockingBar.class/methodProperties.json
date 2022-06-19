@@ -7,7 +7,8 @@
 	"instance" : {
 		"configureLayout" : "NMK 6/7/2022 09:00",
 		"createButtonNamed:target:actionSelector:form:andWidth:" : "BZ 6/15/2022 17:17",
-		"createWidgets:" : "BZ 6/15/2022 17:20",
-		"initialize" : "NMK 6/7/2022 08:55",
-		"widgets" : "AN 5/27/2022 16:20",
+		"createWidgets:" : "NMK 6/19/2022 20:01",
+		"defaultWidgetWidth" : "NMK 6/19/2022 20:01",
+		"initialize" : "NMK 6/19/2022 20:05",
+		"widgets" : "NMK 6/19/2022 20:05",
 		"widgets:" : "NMK 6/12/2022 21:08" } }

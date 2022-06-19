@@ -2,4 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self configureLayout
+	self
+		configureLayout;
+		widgets: Dictionary new

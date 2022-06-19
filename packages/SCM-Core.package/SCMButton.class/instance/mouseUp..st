@@ -1,4 +1,4 @@
-accessing
+event handling
 mouseUp: anEvent
 
 	self image: self buttonForm.

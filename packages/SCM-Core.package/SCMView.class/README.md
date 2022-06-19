@@ -1,0 +1,1 @@
+This class contains the actual view (WeekView or AgendaView) and acts as a permanent placeholder.

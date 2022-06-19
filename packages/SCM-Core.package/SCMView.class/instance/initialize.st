@@ -1,6 +1,5 @@
-accessing
+initialization
 initialize
 
 	super initialize.
-	self configureLayout.
-	self extent: 500 @ 500
+	self configureLayout

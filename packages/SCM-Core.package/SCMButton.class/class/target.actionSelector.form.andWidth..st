@@ -2,9 +2,8 @@ as yet unclassified
 target: anObject actionSelector: aStringOrSymbol form: aForm andWidth: aWidth
 
 	| scaledForm |
-
+	
 	scaledForm := (aForm scaledToWidth: aWidth).
-
 	^ self new
 			target: anObject;
 			actionSelector: aStringOrSymbol;

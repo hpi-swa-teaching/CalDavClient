@@ -1,0 +1,1 @@
+This is the docking bar that is seen at the top of SCMApp. It contains navigation widgets (like buttons) to navigate the app.

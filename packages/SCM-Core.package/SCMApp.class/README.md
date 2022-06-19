@@ -1,0 +1,1 @@
+This is the main Class of SCM which contains a DockingBar and a View. It is used to work with calendars and events.

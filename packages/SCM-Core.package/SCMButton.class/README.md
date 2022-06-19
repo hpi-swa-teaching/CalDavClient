@@ -1,0 +1,1 @@
+This class specifies a button used in SCM environment. It contains an image and an action it executes when clicked.
