@@ -1,4 +1,4 @@
-initialization
+part creation
 createTextField: aString
 		
 	^ PluggableTextMorphPlus new

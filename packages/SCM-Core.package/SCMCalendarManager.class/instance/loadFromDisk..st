@@ -1,4 +1,4 @@
-as yet unclassified
+save and load
 loadFromDisk: aSCMCalendar
 
 	| file eventCollection |

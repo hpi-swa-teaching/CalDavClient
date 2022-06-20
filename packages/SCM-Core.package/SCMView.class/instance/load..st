@@ -1,4 +1,4 @@
-accessing
+actions
 load: aSCMViewType
 
 	self currentView: aSCMViewType.

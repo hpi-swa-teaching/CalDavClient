@@ -1,4 +1,4 @@
-as yet unclassified
+info retrieval
 extractEventsFrom: aFileName
 
 	| file eventCollection |

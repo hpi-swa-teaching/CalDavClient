@@ -1,4 +1,4 @@
-as yet unclassified
+part creation
 createButtonWithLabel: aTitle andTarget: aTarget
 
 	| buttonBox button |

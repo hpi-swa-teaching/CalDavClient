@@ -1,6 +1,5 @@
-as yet unclassified
+calendar actions
 storeCalendar: aSCMCalendar
 
-	"why does this method exist?"
 	(aSCMCalendar calendarDirectory fileExists: aSCMCalendar myName)
 		ifFalse: [aSCMCalendar store]

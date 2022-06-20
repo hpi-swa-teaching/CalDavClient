@@ -1,4 +1,4 @@
-initialization
+part creation
 createSaveButton
 
 	| buttonBox button |

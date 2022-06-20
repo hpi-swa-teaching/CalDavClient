@@ -1,4 +1,4 @@
-accessing
+actions
 loadAgendaView
 
 	self addMorph: ((self viewTypes at: #agenda)

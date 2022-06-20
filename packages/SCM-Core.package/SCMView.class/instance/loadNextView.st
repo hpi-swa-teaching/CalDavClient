@@ -1,4 +1,4 @@
-accessing
+actions
 loadNextView
 
 	| viewTypesKeys index |

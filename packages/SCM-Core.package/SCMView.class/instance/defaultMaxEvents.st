@@ -1,4 +1,4 @@
-accessing
+defaults
 defaultMaxEvents
 
 	^ 10

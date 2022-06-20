@@ -1,4 +1,4 @@
-as yet unclassified
+save and load
 saveToDisk: aSCMCalendar
 
 	(FileStream forceNewFileNamed: aSCMCalendar fullName)

@@ -1,4 +1,4 @@
-saving
+part creation
 saveEvent
 	
 	self eventCalendarDropDown getCurrentSelectionIndex = 0

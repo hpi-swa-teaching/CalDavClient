@@ -1,5 +1,7 @@
-initialization
+actions
 initialize
 
 	super initialize.
-	self configureLayout
+	self
+		configureLayout
+		startDate: Date today

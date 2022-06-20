@@ -1,4 +1,4 @@
-as yet unclassified
-activeCalenders
+info retrieval
+activeCalendars
 
 	^ self calendars "needs to be implemented"
