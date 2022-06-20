@@ -1,4 +1,4 @@
 accessing
-demoEvent: anObject
+demoEvent: aSCMEvent
 
-	demoEvent := anObject.
+	demoEvent := aSCMEvent
