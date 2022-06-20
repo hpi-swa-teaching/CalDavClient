@@ -1,4 +1,4 @@
 accessing
 fullName
 
-	^ self class calendarDirectory fullNameFor: self name
+	^ self class calendarDirectory fullNameFor: self myName

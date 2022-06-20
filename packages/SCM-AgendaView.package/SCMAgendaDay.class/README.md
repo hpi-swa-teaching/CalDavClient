@@ -1,0 +1,1 @@
+A container that holds one or more events that happen on one day in agenda view.

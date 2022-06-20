@@ -1,0 +1,4 @@
+accessing
+defaultTextSize
+
+	^ 20

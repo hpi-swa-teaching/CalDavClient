@@ -1,10 +1,12 @@
 saving
 saveEvent
 	
-	self eventCalendarDropDown getCurrentSelectionIndex = 0 ifTrue: [^ self inform: 'Select calender!'].
-	self eventCalendar: (self availableCalendars at: (self eventCalendarDropDown getCurrentSelectionIndex)).
+	self eventCalendarDropDown getCurrentSelectionIndex = 0
+		ifTrue: [^ self inform: 'Select calender!'].
+	self eventCalendar: (self availableCalendars
+		at: (self eventCalendarDropDown getCurrentSelectionIndex)).
 	
-	"TOdo: use better textfields or read input cleanly"
+	"To do: use better textfields or read input cleanly"
 	self eventCalendar addEvent: (SCMEvent new
 		title: self eventTitle textMorph text string;
 		begin: (DateAndTime

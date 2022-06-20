@@ -1,0 +1,1 @@
+A week view shows all events that happen in a week. Each day has a column and the events are vertically positioned according to their begin and end time.

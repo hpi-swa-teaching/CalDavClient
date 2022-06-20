@@ -1,0 +1,1 @@
+This dialog is used to add a new event to a calendar.

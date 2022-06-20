@@ -1,0 +1,1 @@
+An EventMorph contains exactly one event and is used to visually display that event data.

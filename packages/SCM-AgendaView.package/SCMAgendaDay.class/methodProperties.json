@@ -6,9 +6,11 @@
 		"configureLayout" : "NMK 6/12/2022 20:31",
 		"date" : "NMK 6/12/2022 20:31",
 		"date:" : "NMK 6/12/2022 20:31",
+		"defaultFont" : "NMK 6/20/2022 18:03",
+		"defaultTextSize" : "NMK 6/20/2022 18:03",
 		"eventBox" : "AN 6/12/2022 16:32",
 		"eventBox:" : "NMK 6/12/2022 20:30",
-		"getDateText:" : "NMK 6/19/2022 19:22",
+		"getDateText:" : "NMK 6/20/2022 18:03",
 		"initialize" : "AN 6/7/2022 19:17",
 		"setupContent:" : "NMK 6/19/2022 19:21",
 		"showEvent:" : "AN 6/12/2022 16:27" } }

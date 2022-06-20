@@ -2,7 +2,7 @@ initialization
 configureLayout
 
 	self 
-		extent: 300 @ 700;
+		extent: self defaultExtent;
 		openInWindowLabeled: 'Create Event';
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
@@ -12,4 +12,4 @@ configureLayout
 		hResizing: #spaceFill;
 		color: Color white;
 		layoutInset: 10 @ 10;
-		cellInset: 4 @ 4.
+		cellInset: 4 @ 4

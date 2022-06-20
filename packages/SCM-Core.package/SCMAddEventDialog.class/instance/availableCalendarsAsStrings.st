@@ -1,4 +1,4 @@
 accessing
 availableCalendarsAsStrings
 
-	^ availableCalendars collect: [:each | each name]
+	^ self availableCalendars collect: [:each | each name]

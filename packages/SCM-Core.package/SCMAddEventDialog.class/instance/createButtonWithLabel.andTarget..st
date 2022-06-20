@@ -9,7 +9,8 @@ createButtonWithLabel: aTitle andTarget: aTarget
 		listCentering: #center;
 		wrapCentering: #center;
 		hResizing: #spaceFill;
-		color: Color lightGray.
+		color: Color lightGray
+		yourself.
 		
 	button := SimpleButtonMorph new
 		label: aTitle;

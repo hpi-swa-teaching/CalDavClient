@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NMK 6/20/2022 17:55",
 	"instvars" : [
 		"calendars" ],
 	"name" : "SCMCalendarManager",

@@ -1,21 +1,18 @@
 {
 	"class" : {
-		"createWithCalendar:" : "NMK 6/12/2022 20:29",
-		"createWithCalendars:" : "NMK 6/12/2022 20:30",
 		"createWithCalendars:and:" : "NMK 6/12/2022 20:30" },
 	"instance" : {
 		"app" : "AN 6/12/2022 16:59",
 		"app:" : "NMK 6/12/2022 20:26",
 		"availableCalendars" : "BZ 5/30/2022 14:19",
 		"availableCalendars:" : "BZ 5/30/2022 14:19",
-		"availableCalendarsAsStrings" : "NMK 6/1/2022 14:37",
-		"configureLayout" : "NMK 6/12/2022 20:26",
-		"createButtonWithLabel:andTarget:" : "NMK 6/12/2022 20:26",
+		"availableCalendarsAsStrings" : "NMK 6/20/2022 17:41",
+		"configureLayout" : "NMK 6/20/2022 17:43",
+		"createButtonWithLabel:andTarget:" : "NMK 6/20/2022 17:46",
 		"createFields" : "NMK 6/12/2022 20:26",
-		"createForm" : "NMK 6/12/2022 20:26",
-		"createFormComponentIn:With:" : "NMK 6/12/2022 20:26",
 		"createSaveButton" : "NMK 6/12/2022 20:26",
-		"createTextField:" : "BZ 6/15/2022 17:56",
+		"createTextField:" : "NMK 6/20/2022 17:43",
+		"defaultExtent" : "NMK 6/20/2022 17:44",
 		"eventBeginDay" : "BZ 5/29/2022 11:47",
 		"eventBeginDay:" : "NMK 6/12/2022 20:27",
 		"eventBeginHour" : "NMK 6/1/2022 13:22",
@@ -49,4 +46,4 @@
 		"eventTitle" : "BZ 5/29/2022 11:48",
 		"eventTitle:" : "NMK 6/12/2022 20:29",
 		"initialize" : "NMK 6/12/2022 20:29",
-		"saveEvent" : "BZ 6/15/2022 17:40" } }
+		"saveEvent" : "NMK 6/20/2022 17:41" } }

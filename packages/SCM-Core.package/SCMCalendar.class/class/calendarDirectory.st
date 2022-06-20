@@ -4,4 +4,5 @@ calendarDirectory
 	| delimiter |
 
 	delimiter := FileDirectory pathNameDelimiter.
-	^ (FileDirectory default directoryNamed: 'SCM', delimiter, 'calendars', delimiter) assureExistence
+	^ (FileDirectory default
+			directoryNamed: 'SCM', delimiter, 'calendars', delimiter) assureExistence

@@ -2,6 +2,5 @@ accessing
 initialize
 
 	self
-		name: 'Default Calendar';
-		events: SortedCollection new;
-		yourself
+		myName: 'Default Calendar';
+		events: SortedCollection new

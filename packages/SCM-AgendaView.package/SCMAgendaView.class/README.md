@@ -1,0 +1,1 @@
+This class specifies the agenda view where the next upcoming events are listed from top to bottom and each EventMorph has the same height.

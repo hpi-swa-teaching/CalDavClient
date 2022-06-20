@@ -1,4 +1,4 @@
 accessing
 eventsData
 
-	^ STON toString:self events asOrderedCollection
+	^ STON toString: self events asOrderedCollection

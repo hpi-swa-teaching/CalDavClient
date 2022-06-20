@@ -1,0 +1,1 @@
+A placeholder in a week view day column that might contain an event.

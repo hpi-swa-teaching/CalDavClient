@@ -1,0 +1,1 @@
+A single day in week view. It contains the actual events.

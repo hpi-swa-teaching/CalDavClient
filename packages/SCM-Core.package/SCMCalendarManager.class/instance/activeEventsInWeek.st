@@ -6,4 +6,4 @@ activeEventsInWeek
 	monday := (DateAndTime today asWeek) asDate next.
 	sunday := (DateAndTime today asWeek) next asDate.
 
-	^ (self activeEvents select: [:each | (each begin >= monday) and: (each begin <= sunday)])
+	^ self activeEvents select: [:each | (each begin >= monday) and: (each begin <= sunday)]
