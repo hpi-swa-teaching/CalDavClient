@@ -5,10 +5,10 @@ loadViewWith: aSortedCollection
 	
 	aSortedCollection isEmpty ifTrue: [^ self].
 	
-	currentDay := SCMAgendaDay createWithDate: aSortedCollection first begin asDate.
+	currentDay := SCMAgendaViewDay createWithDate: aSortedCollection first begin asDate.
 	self addMorph: currentDay.
 	aSortedCollection do: [:each |
 		each begin asDate ~= currentDay date
-			ifTrue: [currentDay := SCMAgendaDay createWithDate: each begin.
+			ifTrue: [currentDay := SCMAgendaViewDay createWithDate: each begin.
 				self addMorphBack: currentDay].
 		currentDay addEvent: each]

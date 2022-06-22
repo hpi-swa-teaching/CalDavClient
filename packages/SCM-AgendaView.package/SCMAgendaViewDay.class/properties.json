@@ -8,7 +8,7 @@
 	"instvars" : [
 		"eventBox",
 		"date" ],
-	"name" : "SCMAgendaDay",
+	"name" : "SCMAgendaViewDay",
 	"pools" : [
 		 ],
 	"super" : "Morph",

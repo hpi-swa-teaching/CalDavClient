@@ -1,1 +1,0 @@
-This is a container to contain the actual events in the agenda view. It is a child of AgendaDay and has as sibling morph a TextMorph stating the date of all events contained in the event box.

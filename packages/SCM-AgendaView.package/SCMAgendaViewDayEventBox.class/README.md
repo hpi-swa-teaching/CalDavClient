@@ -1,0 +1,1 @@
+This is a container which holds the actual events in the agenda view. It is a child of SCMAgendaDay and has as sibling morph - a TextMorph stating the date of all events contained in the event box.
