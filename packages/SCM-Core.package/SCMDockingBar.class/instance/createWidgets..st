@@ -9,4 +9,14 @@ createWidgets: aSCMApp
 	self createButtonNamed: #switch
 		target: aSCMApp actionSelector: #switch
 		form: self class exchangeIcon
+		andWidth: self defaultWidgetWidth.
+	
+	self createButtonNamed: #showPreviousViewPage
+		target: aSCMApp actionSelector: #showPreviousViewPage
+		form: self class arrowLeftIcon
+		andWidth: self defaultWidgetWidth.
+	
+	self createButtonNamed: #showNextViewPage
+		target: aSCMApp actionSelector: #showNextViewPage
+		form: self class arrowRightIcon
 		andWidth: self defaultWidgetWidth
