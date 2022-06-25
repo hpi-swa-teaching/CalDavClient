@@ -1,5 +1,5 @@
 accessing
 deleteEvent
 
-	self app deleteEvent: self oldEvent.
+	self calendarList selectedEditableCalendar deleteEvent: self oldEvent.
 	self close

@@ -2,14 +2,15 @@ accessing
 compressedCopy
 
 	| s |
-	s := SCMEvent new
+	s := SCMEvent new "mandatory"
 		title: self title; 
 		begin: self begin;
-		end: self end
+		end: self end;
+		color: self color;
 		yourself.
 	
-	(self description = '' or: [self description = nil]) ifTrue: [s description: self description].
-	(self location = '' or: [self location = nil]) ifTrue: [s location: self location].
-	(self participants = '' or: [self participants = nil]) ifTrue: [s participants: self participants].
+	(self description ~= '' and: [self description ~= nil]) ifTrue: [s description: self description].
+	(self location ~= '' and: [self location ~= nil]) ifTrue: [s location: self location].
+	(self participants ~= '' and: [self participants ~= nil]) ifTrue: [s participants: self participants].
 	
 	^ s

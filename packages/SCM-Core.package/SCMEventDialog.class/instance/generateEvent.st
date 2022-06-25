@@ -1,4 +1,4 @@
-actions
+accessing
 generateEvent
 
 	^ SCMEvent new
@@ -7,7 +7,6 @@ generateEvent
 		title: self title;
 		location: self location;
 		description: self description;
-		participants: self participants; "should include calendar"
+		participants: self participants;
+		color: self color;
 		yourself
-		
-	

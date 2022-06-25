@@ -1,11 +1,16 @@
 {
 	"class" : {
-		"from:" : "NMK 6/12/2022 21:10" },
+		"from:" : "AN 6/25/2022 22:06" },
 	"instance" : {
-		"configureLayout" : "NMK 6/12/2022 20:13",
+		"appendOptionalInfo" : "AN 6/25/2022 23:31",
+		"configureLayout" : "AN 6/25/2022 22:07",
 		"event" : "AN 6/7/2022 10:33",
 		"event:" : "NMK 6/12/2022 21:09",
-		"extractString" : "NMK 6/12/2022 21:12",
-		"initialize" : "NMK 6/12/2022 21:09",
+		"extractString" : "AN 6/25/2022 23:31",
+		"generateTempRepository" : "AN 6/25/2022 23:54",
+		"handlesMouseDown:" : "AN 6/25/2022 23:33",
 		"loadEvent" : "NMK 6/12/2022 21:09",
+		"mainInfo" : "AN 6/25/2022 23:30",
+		"mouseUp:" : "AN 6/25/2022 23:47",
+		"openEditEventDialogFor:" : "AN 6/26/2022 00:02",
 		"printTime:" : "NMK 6/12/2022 21:10" } }

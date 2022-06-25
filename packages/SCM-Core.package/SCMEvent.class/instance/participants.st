@@ -1,4 +1,4 @@
 accessing
 participants
 
-	^ participants
+	^ participants ifNil: [participants := '']

@@ -1,7 +1,9 @@
 as yet unclassified
-createWith: aSCMApp
+createWith: aSCMCalendarRepository
 
-	^ self new
-		addDependent: aSCMApp;
-		calendarRepository: aSCMApp calendarRepository;
-		yourself
+	| s |
+	s := self new
+		calendarRepository: aSCMCalendarRepository;
+		yourself.
+	aSCMCalendarRepository addDependent: s.
+	^ s
