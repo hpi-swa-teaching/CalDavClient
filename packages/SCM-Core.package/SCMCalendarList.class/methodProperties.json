@@ -1,24 +1,13 @@
 {
 	"class" : {
-		"createWith:" : "AN 6/23/2022 10:38" },
+		"createWith:" : "AN 6/25/2022 16:16",
+		"with:" : "AN 6/25/2022 15:18" },
 	"instance" : {
-		"activeCalendars" : "AN 6/25/2022 13:39",
-		"activeEvents" : "NMK 6/20/2022 18:31",
-		"activeEventsAfter:maxEvents:" : "AN 6/12/2022 16:05",
-		"activeEventsInWeek" : "NMK 6/20/2022 18:00",
-		"addCalendar:" : "AN 6/25/2022 13:39",
-		"addCalendars:" : "AN 6/25/2022 12:08",
-		"addEvent:" : "AN 6/24/2022 10:59",
-		"basicCalendars" : "AN 6/25/2022 13:38",
 		"calendarIndex" : "AN 6/23/2022 09:52",
 		"calendarIndex:" : "AN 6/23/2022 09:47",
 		"calendarRepository" : "AN 6/25/2022 13:39",
 		"calendarRepository:" : "AN 6/25/2022 13:39",
-		"editableCalendarNames" : "AN 6/25/2022 12:33",
-		"editableCalendars" : "AN 6/23/2022 11:50",
-		"extractEventsFrom:" : "BZ 6/13/2022 18:49",
-		"initialize" : "AN 6/25/2022 13:39",
-		"loadCalendars" : "AN 6/25/2022 12:06",
+		"editableCalendarsNames" : "AN 6/25/2022 15:48",
 		"loadFromDisk:" : "AN 6/25/2022 12:35",
-		"saveToDisk:" : "AN 6/25/2022 12:35",
-		"selectedEditableCalendar" : "AN 6/23/2022 11:02" } }
+		"selectedEditableCalendar" : "AN 6/25/2022 15:25",
+		"update:" : "AN 6/25/2022 15:49" } }

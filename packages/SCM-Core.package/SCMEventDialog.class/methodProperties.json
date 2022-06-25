@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"openForApp:" : "AN 6/22/2022 18:11" },
+		"openForApp:" : "AN 6/25/2022 16:16" },
 	"instance" : {
 		"areDatesValid" : "AN 6/25/2022 12:29",
 		"autocorrectBegin" : "AN 6/24/2022 10:42",
@@ -27,7 +27,7 @@
 		"buildBeginPickerButton:" : "LM 7/12/2021 16:13",
 		"buildBeginYearText:" : "AN 6/25/2022 12:59",
 		"buildButtons:" : "LB 8/6/2021 13:38",
-		"buildCalendarList:" : "AN 6/22/2022 18:19",
+		"buildCalendarList:" : "AN 6/25/2022 16:18",
 		"buildDeleteButton:" : "LM 7/12/2021 16:13",
 		"buildDescriptionText:" : "AN 6/24/2022 10:04",
 		"buildEditButton:" : "LM 7/12/2021 16:13",
@@ -45,8 +45,9 @@
 		"buildStandardFields:" : "LM 7/12/2021 16:00",
 		"buildTitleText:" : "AN 6/24/2022 10:07",
 		"buildWith:" : "AN 6/22/2022 17:08",
-		"calendarManager" : "AN 6/22/2022 18:12",
-		"calendarManager:" : "AN 6/22/2022 18:12",
+		"calendarList" : "AN 6/25/2022 16:14",
+		"calendarList:" : "AN 6/25/2022 16:14",
+		"calendarRepository" : "AN 6/25/2022 15:29",
 		"close" : "jz 5/10/2018 14:05",
 		"defaultColor" : "LM 7/12/2021 16:04",
 		"defaultTextColor" : "LM 7/12/2021 16:04",
@@ -70,7 +71,7 @@
 		"fullDayButtonLabel" : "LM 7/12/2021 16:10",
 		"highlightErrors" : "jz 6/4/2018 18:12",
 		"highlightTitle" : "AN 6/24/2022 10:19",
-		"initialize" : "AN 6/22/2022 18:02",
+		"initialize" : "AN 6/25/2022 16:13",
 		"isBeginDateAndTimeValid" : "AN 6/24/2022 10:41",
 		"isBeginDateFilledOut" : "AN 6/24/2022 10:51",
 		"isEmptyText:" : "AN 6/23/2022 08:30",

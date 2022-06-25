@@ -10,7 +10,7 @@
 		"titleColor",
 		"isFullDaySelected",
 		"titleTextColor",
-		"calendarManager" ],
+		"calendarList" ],
 	"name" : "SCMEventDialog",
 	"pools" : [
 		 ],

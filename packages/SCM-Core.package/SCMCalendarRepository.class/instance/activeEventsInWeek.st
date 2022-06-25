@@ -1,4 +1,4 @@
-info retrieval
+as yet unclassified
 activeEventsInWeek
 
 	| monday sunday |

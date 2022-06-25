@@ -2,7 +2,7 @@ accessing
 store
 
 	(FileStream forceNewFileNamed: self fullTitle)
-		nextPutAll: self eventsData;
+		nextPutAll: (STON toString: self compressed);
 		close
 
 	

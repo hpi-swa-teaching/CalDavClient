@@ -1,7 +1,6 @@
 forwarding
 loadCalendars
 
-	self calendarManager loadCalendars.
-	self calendarManager calendarRepository
-		ifEmpty: [self calendarManager addCalendar: (SCMCalendar
-			newWithName: 'Default' andEvents: {} asSortedCollection)]
+	self calendarRepository loadCalendars.
+	self calendarRepository isEmpty ifTrue: [self calendarRepository addNewCalendar: (SCMCalendar
+			newWithName: 'Default')]

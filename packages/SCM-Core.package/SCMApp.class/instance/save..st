@@ -1,4 +1,4 @@
 forwarding
 save: aSCMCalender
 
-	self calendarManager saveToDisk: aSCMCalender
+	self calendarRepository saveToDisk: aSCMCalender

@@ -1,10 +1,15 @@
 accessing
 load
 
-	| file eventCollection |
+	| file loadedCalendar |
 	
 	self calendarFileExists ifFalse: [^ self].
 	file := FileStream readOnlyFileNamed: self fullTitle.
-	eventCollection := STON fromString: file contents.
+	loadedCalendar := STON fromString: file contents.
 	file close.
-	eventCollection do: [:each | self addEvent: each]
+	
+	self title: loadedCalendar title.
+	self isActive: loadedCalendar isActive.
+	self events: loadedCalendar events.
+	
+	self events do: [:event | event calendar: self].

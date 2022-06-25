@@ -1,4 +1,4 @@
 initialize
 openForApp: aSCMApp
 		
-	 ^ ToolBuilder default open: (self new calendarManager: aSCMApp calendarManager)
+	 ^ ToolBuilder default open: (self new calendarList: (SCMCalendarList createWith: aSCMApp))

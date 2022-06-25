@@ -3,5 +3,4 @@ createWith: aSCMApp
 
 	^ self new
 		addDependent: aSCMApp;
-		calendarRepository: aSCMApp calendarRepository;
 		yourself

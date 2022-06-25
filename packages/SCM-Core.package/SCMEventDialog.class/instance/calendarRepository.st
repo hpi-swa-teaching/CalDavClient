@@ -1,4 +1,4 @@
 accessing
-calendarManager
+calendarRepository
 
 	^ calendarManager
