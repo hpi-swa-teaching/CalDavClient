@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	self
 		configureLayout
-		startDate: Date today
+		startDate: DateAndTime today asDate "better than 'Date today' because it sets the right time zone!"

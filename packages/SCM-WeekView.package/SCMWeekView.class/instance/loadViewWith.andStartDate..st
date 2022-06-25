@@ -9,12 +9,8 @@ loadViewWith: aSortedCollection andStartDate: aDate
 		[currentDay := (SCMWeekViewDay createWithDate: day).
 		
 		aSortedCollection do: [:each |
-			each begin asDate mmddyyyy = day mmddyyyy
-				ifTrue: [currentDay addEvent: each].
-				
-				Transcript showln: each begin asDate class.
-				Transcript showln: day class.].
+			each begin asDate = day
+				ifTrue: [currentDay addEvent: each]].
 		
 		self addMorphBack: currentDay.
 		day := day next]
-	

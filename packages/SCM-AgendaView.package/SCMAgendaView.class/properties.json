@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "NMK 6/20/2022 18:10",
 	"instvars" : [
-		 ],
+		"startDate" ],
 	"name" : "SCMAgendaView",
 	"pools" : [
 		 ],

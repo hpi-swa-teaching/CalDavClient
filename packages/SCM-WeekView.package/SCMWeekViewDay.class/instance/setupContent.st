@@ -4,8 +4,8 @@ setupContent
 	| text |
 	
 	text := TextMorph new
-		contents: (date asString);
+		contents: (self date asString);
 		height: 50.
 
 	self addMorph: text.
-	self addTimeGrid.
+	self addTimeGrid
