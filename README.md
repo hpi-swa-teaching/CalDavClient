@@ -16,5 +16,6 @@ SWT22 Group 08
         load.
 
 ## Getting started
+Open the app in the Workspace using `SCMApp start`.
 
 Further details on how to get started, the applied code standard or the current version of our class diagram can be found at the wiki section of the repository.
