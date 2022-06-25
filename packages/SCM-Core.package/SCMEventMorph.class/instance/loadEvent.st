@@ -1,4 +1,5 @@
 initialization
 loadEvent
 
-	self string: self extractString fontName: 'calibri' size: 20
+	self contents: self extractText;
+		fontName: 'BitstreamVeraSans' size: 24
