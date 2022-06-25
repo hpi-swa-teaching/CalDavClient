@@ -1,0 +1,18 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"eventData",
+		"titleColor",
+		"isFullDaySelected",
+		"titleTextColor",
+		"calendarManager" ],
+	"name" : "SCMEventDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

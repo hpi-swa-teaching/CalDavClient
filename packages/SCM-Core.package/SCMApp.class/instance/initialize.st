@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		calendarManager: SCMCalendarManager new;
+		calendarManager: (SCMCalendarList createWith: self);
 		loadCalendars;
 		configureLayout;
 		addDockingBar;

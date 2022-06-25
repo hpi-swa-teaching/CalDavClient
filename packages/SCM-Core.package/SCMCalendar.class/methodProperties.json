@@ -1,15 +1,23 @@
 {
 	"class" : {
 		"calendarDirectory" : "NMK 6/20/2022 17:52",
-		"newWithName:andEvents:" : "NMK 6/20/2022 17:52" },
+		"newWithName:andEvents:" : "AN 6/25/2022 14:19" },
 	"instance" : {
-		"addEvent:" : "BZ 6/9/2022 12:03",
-		"calendarFileExists" : "NMK 6/20/2022 17:52",
+		"addEvent:" : "AN 6/25/2022 13:56",
+		"calendarDirectory" : "AN 6/25/2022 13:51",
+		"calendarFileExists" : "AN 6/25/2022 13:51",
+		"deleteEvent:" : "AN 6/25/2022 13:56",
 		"eventCount" : "NMK 5/21/2022 15:52",
-		"events" : "BZ 6/9/2022 12:26",
+		"events" : "AN 6/25/2022 12:36",
 		"events:" : "NMK 6/12/2022 21:23",
 		"eventsData" : "NMK 6/20/2022 17:52",
-		"fullName" : "NMK 6/20/2022 17:52",
-		"initialize" : "NMK 6/20/2022 17:52",
-		"myName" : "NMK 6/20/2022 17:51",
-		"myName:" : "NMK 6/20/2022 17:52" } }
+		"fullTitle" : "AN 6/25/2022 13:51",
+		"isActive" : "AN 6/25/2022 13:37",
+		"isActive:" : "AN 6/25/2022 13:36",
+		"isEmpty" : "AN 6/25/2022 13:57",
+		"isReadOnly" : "AN 6/25/2022 12:35",
+		"load" : "AN 6/25/2022 13:56",
+		"refresh" : "AN 6/25/2022 13:57",
+		"store" : "AN 6/25/2022 13:56",
+		"title" : "AN 6/25/2022 12:37",
+		"title:" : "AN 6/25/2022 12:32" } }

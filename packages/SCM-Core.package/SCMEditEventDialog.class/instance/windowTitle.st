@@ -1,0 +1,4 @@
+toolbuilding
+windowTitle
+
+	^ 'Edit Event'

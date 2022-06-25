@@ -1,0 +1,4 @@
+constants
+isReadOnly
+	
+	^ false

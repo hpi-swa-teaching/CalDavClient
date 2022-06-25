@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"calendars" ],
+	"name" : "SCMCalendarRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

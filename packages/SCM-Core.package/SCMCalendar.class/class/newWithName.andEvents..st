@@ -2,6 +2,7 @@ as yet unclassified
 newWithName: aString andEvents: aSortedCollection
 
 	^ self new 
-			myName: aString;
+			title: aString;
 			events: aSortedCollection;
+			isActive: true;
 			yourself

@@ -1,0 +1,16 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"date",
+		"shouldUpdate",
+		"stepTime" ],
+	"name" : "SCMDatePicker",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

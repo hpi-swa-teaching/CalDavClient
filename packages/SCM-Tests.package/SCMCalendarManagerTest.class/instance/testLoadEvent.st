@@ -10,5 +10,5 @@ testLoadEvent
 
 	testManager loadFromDisk: self demoCalendar.
 
-	self assert: (testManager extractEventsFrom: self demoCalendar myName) size = 1.
-	self assert: (testManager extractEventsFrom: self demoCalendar myName) first = self demoEvent
+	self assert: (testManager extractEventsFrom: self demoCalendar title) size = 1.
+	self assert: (testManager extractEventsFrom: self demoCalendar title) first = self demoEvent
