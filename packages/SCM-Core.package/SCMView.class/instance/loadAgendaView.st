@@ -1,6 +1,6 @@
-actions
+loading
 loadAgendaView
 
 	self addMorph: ((self viewTypes at: #agenda)
-		createWithEvents: (self calendarManager activeEventsAfter: self startDate maxEvents: self defaultMaxEvents)
+		createWithEvents: self retrieveAgendaEvents
 		andStartDate: self startDate)

@@ -1,4 +1,4 @@
-actions
+initialization
 configureLayout
  
 	self
@@ -6,7 +6,7 @@ configureLayout
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
 	  	color: Color white;
-	  	borderWidth: 0;
+	  	borderWidth: self defaultBorderWidth;
 	  	cellPositioning: #topLeft;
 	   	listCentering: #center;
 	  	wrapCentering: #topLeft;

@@ -1,4 +1,4 @@
-actions
+loading
 loadNextView
 
 	| viewTypesKeys index |
@@ -6,4 +6,4 @@ loadNextView
 	viewTypesKeys := self viewTypes keysInOrder.
 	index := viewTypesKeys indexOf: self currentView.
 	self load: (viewTypesKeys
-		at: (self getNextWrapped: index withLimit: viewTypesKeys size))
+					at: (self getNextWrapped: index withLimit: viewTypesKeys size))
