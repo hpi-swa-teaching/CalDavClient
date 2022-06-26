@@ -2,6 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultAgendaDaysPerPage" : "BZ 6/26/2022 11:27",
+		"defaultWeekDaysPerPage" : "BZ 6/26/2022 11:27",
 		"setUp" : "LZ 6/21/2022 20:30",
-		"testViewLoadingAndClearing" : "LZ 6/21/2022 20:59",
+		"testDaysPerPageAccessors" : "BZ 6/26/2022 11:30",
+		"testReload" : "BZ 6/26/2022 11:43",
+		"testShowNextPage" : "BZ 6/26/2022 11:51",
+		"testShowPreviousPage" : "BZ 6/26/2022 11:50",
+		"testViewLoadingAndClearing" : "BZ 6/26/2022 11:40",
 		"testViewSwitching" : "LZ 6/21/2022 20:59" } }
