@@ -1,0 +1,4 @@
+defaults
+agendaDaysPerPage
+	
+	^ 1

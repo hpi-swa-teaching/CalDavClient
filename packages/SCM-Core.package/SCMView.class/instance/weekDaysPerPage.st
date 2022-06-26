@@ -1,0 +1,4 @@
+defaults
+weekDaysPerPage
+	
+	^ 7

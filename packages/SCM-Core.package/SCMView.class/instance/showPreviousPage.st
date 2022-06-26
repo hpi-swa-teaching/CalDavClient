@@ -1,11 +1,10 @@
-actions
+navigating
 showPreviousPage
 
 	| dayDecrease |
 	
 	self currentView = #agenda
-		ifTrue: [dayDecrease := 1]
-		ifFalse: [dayDecrease := 7].
-		
+		ifTrue: [dayDecrease := self agendaDaysPerPage]
+		ifFalse: [dayDecrease := self weekDaysPerPage].
 	self startDate: (self startDate subtractDays: dayDecrease).
 	self reload
