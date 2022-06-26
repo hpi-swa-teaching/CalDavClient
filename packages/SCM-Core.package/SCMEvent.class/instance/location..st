@@ -1,4 +1,5 @@
 accessing
 location: aString
 
-	location := aString
+	location := aString.
+	self changed: #eventChanged

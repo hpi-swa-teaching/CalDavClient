@@ -1,4 +1,6 @@
 accessing
-color: anObject
+color: aColor
 
-	color := anObject.
+	color := aColor.
+	self changed: #eventChanged
+	

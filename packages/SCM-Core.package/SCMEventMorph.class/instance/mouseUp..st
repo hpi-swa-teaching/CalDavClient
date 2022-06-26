@@ -1,7 +1,9 @@
 initialization
 mouseUp: anEvent
 
-	self event calendar isReadOnly
-		ifTrue: [self openShowEventDialogFor: self event]
-		ifFalse: [self openEditEventDialogFor: self event]
+	(self containsPoint: anEvent cursorPoint)
+		ifTrue: [
+		self event isInReadOnlyCalendar
+			ifTrue: [self openShowEventDialogFor: self event]
+			ifFalse: [self openEditEventDialogFor: self event]]
 		

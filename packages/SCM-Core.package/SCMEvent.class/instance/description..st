@@ -1,4 +1,5 @@
 accessing
 description: aString
 
-	description := aString
+	description := aString.
+	self changed: #eventChanged

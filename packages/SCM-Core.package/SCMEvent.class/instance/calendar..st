@@ -1,4 +1,4 @@
 accessing
-calendar: aString
+calendar: aSCMCalendar
 
-	calendar := aString.
+	calendar := aSCMCalendar

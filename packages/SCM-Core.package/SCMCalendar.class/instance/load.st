@@ -12,4 +12,4 @@ load
 	self isActive: loadedCalendar isActive.
 	self events: loadedCalendar events.
 	
-	self events do: [:event | event calendar: self].
+	self events do: [:event | event addDependent: self. event calendar: self].
