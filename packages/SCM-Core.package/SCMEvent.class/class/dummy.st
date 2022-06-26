@@ -2,8 +2,7 @@ as yet unclassified
 dummy
 
 	^ self new
-			title: 'Kacken';
+			title: 'Bank ausrauben';
 			begin: DateAndTime now;
 			end: DateAndTime now;
-			location: 'Klo'
-			
+			location: 'Bank'

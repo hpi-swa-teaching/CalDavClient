@@ -1,4 +1,4 @@
-navigating
+actions
 switch
 
 	self clear.

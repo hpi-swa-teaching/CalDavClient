@@ -2,6 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LZ 6/21/2022 20:30",
+		"createEvents" : "NMK 6/26/2022 19:44",
+		"dayAfterTomorrowEvent" : "NMK 6/26/2022 19:44",
+		"dayAfterTomorrowEvent:" : "NMK 6/26/2022 19:44",
+		"setUp" : "NMK 6/26/2022 19:36",
 		"testViewLoadingAndClearing" : "LZ 6/21/2022 20:59",
-		"testViewSwitching" : "LZ 6/21/2022 20:59" } }
+		"testViewShowNextPage" : "NMK 6/26/2022 19:59",
+		"testViewShowPreviousPage" : "NMK 6/26/2022 19:59",
+		"testViewSwitching" : "LZ 6/21/2022 20:59",
+		"yesterdayEvent" : "NMK 6/26/2022 19:44",
+		"yesterdayEvent:" : "NMK 6/26/2022 19:44" } }

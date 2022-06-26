@@ -18,4 +18,4 @@ setUp
 		begin: Date today;
 		end: Date today;	
 		yourself).
-	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3})
+	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3} andStartDate: DateAndTime today asDate)

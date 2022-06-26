@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 createWith: aSCMCalendarManager
 
 	^ self new
