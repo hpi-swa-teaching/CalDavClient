@@ -1,9 +1,10 @@
-as yet unclassified
+initialization
 createWithApp: aSCMApp
 
 	| dockingBar |
+	
 	dockingBar := self new
-		createWidgets: aSCMApp;
+		createWidgetsFor: aSCMApp;
 		yourself.
 	
 	^ dockingBar

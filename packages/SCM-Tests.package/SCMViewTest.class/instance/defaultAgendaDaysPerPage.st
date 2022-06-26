@@ -1,4 +1,4 @@
-setUp
+running
 defaultAgendaDaysPerPage
 
 	^ 1

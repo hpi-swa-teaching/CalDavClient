@@ -1,4 +1,4 @@
-setUp
+running
 defaultWeekDaysPerPage
 
 	^ 7
