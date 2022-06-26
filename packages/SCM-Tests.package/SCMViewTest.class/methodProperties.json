@@ -2,13 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createEvents" : "NMK 6/26/2022 19:44",
-		"dayAfterTomorrowEvent" : "NMK 6/26/2022 19:44",
-		"dayAfterTomorrowEvent:" : "NMK 6/26/2022 19:44",
-		"setUp" : "NMK 6/26/2022 19:36",
-		"testViewLoadingAndClearing" : "LZ 6/21/2022 20:59",
-		"testViewShowNextPage" : "NMK 6/26/2022 19:59",
-		"testViewShowPreviousPage" : "NMK 6/26/2022 19:59",
-		"testViewSwitching" : "LZ 6/21/2022 20:59",
-		"yesterdayEvent" : "NMK 6/26/2022 19:44",
-		"yesterdayEvent:" : "NMK 6/26/2022 19:44" } }
+		"defaultAgendaDaysPerPage" : "BZ 6/26/2022 11:27",
+		"defaultWeekDaysPerPage" : "BZ 6/26/2022 11:27",
+		"setUp" : "LZ 6/21/2022 20:30",
+		"testDaysPerPageAccessors" : "BZ 6/26/2022 11:30",
+		"testReload" : "BZ 6/26/2022 11:43",
+		"testShowNextPage" : "BZ 6/26/2022 11:51",
+		"testShowPreviousPage" : "BZ 6/26/2022 11:50",
+		"testViewLoadingAndClearing" : "BZ 6/26/2022 11:40",
+		"testViewSwitching" : "LZ 6/21/2022 20:59" } }

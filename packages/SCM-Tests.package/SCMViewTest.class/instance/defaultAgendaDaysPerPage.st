@@ -1,0 +1,4 @@
+setUp
+defaultAgendaDaysPerPage
+
+	^ 1
