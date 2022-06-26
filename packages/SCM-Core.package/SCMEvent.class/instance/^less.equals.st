@@ -1,4 +1,4 @@
-comparing
+accessing
 <= comparand
 
-	^ self < comparand or: [self = comparand]
+	^ (self > comparand) not

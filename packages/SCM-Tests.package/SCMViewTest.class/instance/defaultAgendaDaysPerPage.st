@@ -1,4 +1,0 @@
-running
-defaultAgendaDaysPerPage
-
-	^ 1

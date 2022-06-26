@@ -1,4 +1,4 @@
 initialization
 loadEvent
 
-	self string: self extractString fontName: self defaultFont size: self defaultSize
+	self string: self extractString fontName: 'calibri' size: 20

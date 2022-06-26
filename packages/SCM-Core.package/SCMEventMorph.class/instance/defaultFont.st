@@ -1,4 +1,0 @@
-defaults
-defaultFont
-
-	^ 'calibri'

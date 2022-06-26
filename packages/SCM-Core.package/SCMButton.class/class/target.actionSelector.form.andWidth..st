@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 target: anObject actionSelector: aStringOrSymbol form: aForm andWidth: aWidth
 
 	| scaledForm |

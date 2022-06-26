@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 testViewLoadingAndClearing
 
 	self subject load: #agenda.

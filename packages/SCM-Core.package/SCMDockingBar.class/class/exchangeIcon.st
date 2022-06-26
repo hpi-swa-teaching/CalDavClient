@@ -1,4 +1,4 @@
-icons
+as yet unclassified
 exchangeIcon
 	"by itim2101 on Flaticon"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlw

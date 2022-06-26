@@ -1,4 +1,4 @@
-icons
+as yet unclassified
 plusIcon
 	"by Pixel perfect on Flaticon"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlw

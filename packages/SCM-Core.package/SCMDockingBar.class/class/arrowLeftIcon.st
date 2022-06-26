@@ -1,4 +1,4 @@
-icons
+as yet unclassified
 arrowLeftIcon
 	"image from flyclipart.com"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAABkAAAAZACAMAAAAW0n6VAAAA4WlDQ1BzUkdCAAAYlWNgYDzN

@@ -1,4 +1,4 @@
-loading
+actions
 reload
 
 	self clear.

@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 testViewSwitching
 
 	self subject load: #agenda.
