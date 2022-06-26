@@ -1,6 +1,6 @@
 as yet unclassified
 setUp
 
-	self wantsToTest: (SCMAddEventDialog createWithCalendars: (OrderedCollection new) and: (SCMApp new))
+	self wantsToTest: (SCMAddEventDialog createWithCalendars: {SCMCalendar new} and: (SCMApp new))
 
 	

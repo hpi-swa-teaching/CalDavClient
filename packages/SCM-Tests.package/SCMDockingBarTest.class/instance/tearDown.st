@@ -1,4 +1,4 @@
 testing
 tearDown
 
-	self app window abandon
+	self app owner closeBoxHit 

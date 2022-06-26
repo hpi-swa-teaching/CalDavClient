@@ -1,5 +1,5 @@
 as yet unclassified
 tearDown
 
-	self subject app window abandon.
-	self subject abandon
+	self subject app owner closeBoxHit.
+	self subject owner closeBoxHit

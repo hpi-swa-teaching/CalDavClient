@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self subject window abandon
+	self subject owner closeBoxHit
