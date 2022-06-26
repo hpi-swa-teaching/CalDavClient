@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMApp new
+	self wantsToTest: SCMApp start

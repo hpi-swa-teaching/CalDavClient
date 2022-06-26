@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LZ 5/18/2022 17:55",
+		"setUp" : "LZ 6/26/2022 19:06",
 		"tearDown" : "LZ 6/26/2022 08:55",
 		"testHierarchy" : "NMK 6/15/2022 20:27",
+		"testReloadView" : "LZ 6/26/2022 19:11",
 		"testSwitchViewButton" : "NMK 6/15/2022 20:31",
 		"testTableLayout" : "LZ 5/18/2022 17:50" } }
