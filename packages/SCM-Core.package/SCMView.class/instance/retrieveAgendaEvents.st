@@ -1,4 +1,4 @@
 loading
 retrieveAgendaEvents
 		
-		^ self calendarManager activeEventsAfter: self startDate maxEvents: self defaultMaxEvents
+		^ self calendarRepository activeEventsAfter: self startDate maxEvents: self defaultMaxEvents

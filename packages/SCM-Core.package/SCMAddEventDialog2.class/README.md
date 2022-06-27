@@ -1,1 +1,0 @@
-CALAddEventDialog is a CALEventDialog window for adding a new event. 

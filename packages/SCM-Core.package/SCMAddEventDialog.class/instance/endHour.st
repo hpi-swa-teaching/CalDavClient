@@ -1,4 +1,0 @@
-accessing
-endHour
-
-	^ eventEndHour

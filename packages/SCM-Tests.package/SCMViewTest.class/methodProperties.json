@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createEvents" : " 6/27/2022 22:39:32",
+		"dayAfterTomorrowEvent" : " 6/27/2022 22:39:32",
+		"dayAfterTomorrowEvent:" : " 6/27/2022 22:39:32",
 		"defaultAgendaDaysPerPage" : "BZ 6/26/2022 11:27",
 		"defaultWeekDaysPerPage" : "BZ 6/26/2022 11:27",
 		"setUp" : "LZ 6/21/2022 20:30",
@@ -10,4 +13,8 @@
 		"testShowNextPage" : "BZ 6/26/2022 11:51",
 		"testShowPreviousPage" : "BZ 6/26/2022 11:50",
 		"testViewLoadingAndClearing" : "BZ 6/26/2022 11:40",
-		"testViewSwitching" : "LZ 6/21/2022 20:59" } }
+		"testViewShowNextPage" : " 6/27/2022 22:39:32",
+		"testViewShowPreviousPage" : " 6/27/2022 22:39:32",
+		"testViewSwitching" : "LZ 6/21/2022 20:59",
+		"yesterdayEvent" : " 6/27/2022 22:39:32",
+		"yesterdayEvent:" : " 6/27/2022 22:39:32" } }

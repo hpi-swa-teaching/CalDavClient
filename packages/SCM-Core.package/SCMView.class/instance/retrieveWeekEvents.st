@@ -1,4 +1,4 @@
 loading
 retrieveWeekEvents
 		
-		^ self calendarManager activeEventsInWeek
+		^ self calendarRepository activeEventsInWeek

@@ -1,1 +1,1 @@
-This dialog is used to add a new event to a calendar.
+CALAddEventDialog is a CALEventDialog window for adding a new event. 

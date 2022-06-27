@@ -1,4 +1,0 @@
-accessing
-eventCalendarDropDown: aDropDownChoiceMorph
-
-	eventCalendarDropDown := aDropDownChoiceMorph

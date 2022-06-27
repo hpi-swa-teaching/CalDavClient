@@ -3,6 +3,7 @@
 		"createWith:" : "AN 6/25/2022 16:35",
 		"defaultView" : "AN 6/12/2022 16:37" },
 	"instance" : {
+		"agendaDaysPerPage" : " 6/27/2022 22:39:31",
 		"calendarRepository" : "AN 6/25/2022 15:37",
 		"calendarRepository:" : "AN 6/25/2022 15:41",
 		"clear" : "NMK 6/12/2022 20:14",
@@ -17,9 +18,16 @@
 		"loadAgendaView" : "AN 6/25/2022 15:29",
 		"loadNextView" : "NMK 6/19/2022 20:14",
 		"loadWeekView" : "AN 6/25/2022 15:29",
+		"monday" : " 6/27/2022 22:39:31",
 		"reload" : "NMK 6/12/2022 20:20",
+		"retrieveAgendaEvents" : "AN 6/27/2022 22:41",
+		"retrieveWeekEvents" : "AN 6/27/2022 22:42",
+		"showNextPage" : " 6/27/2022 22:39:31",
+		"showPreviousPage" : " 6/27/2022 22:39:31",
 		"startDate" : "NMK 6/20/2022 18:38",
 		"startDate:" : "NMK 6/12/2022 20:22",
 		"switch" : "NMK 6/12/2022 20:21",
+		"today" : " 6/27/2022 22:39:31",
 		"update:" : "AN 6/25/2022 16:34",
-		"viewTypes" : "NMK 6/20/2022 18:38" } }
+		"viewTypes" : "NMK 6/20/2022 18:38",
+		"weekDaysPerPage" : " 6/27/2022 22:39:31" } }
