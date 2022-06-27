@@ -1,4 +1,0 @@
-accessing
-eventEndYear
-
-	^ eventEndYear

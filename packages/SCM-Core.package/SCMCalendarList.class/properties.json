@@ -1,0 +1,15 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NMK 6/20/2022 17:55",
+	"instvars" : [
+		"calendarIndex",
+		"calendarRepository" ],
+	"name" : "SCMCalendarList",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

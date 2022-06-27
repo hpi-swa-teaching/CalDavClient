@@ -1,4 +1,4 @@
 part creation
 availableCalendarsAsStrings
 
-	^ self availableCalendars collect: [:each | each myName]
+	^ self availableCalendars collect: [:each | each title]

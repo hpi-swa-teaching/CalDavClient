@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"createWith:" : "AN 6/25/2022 15:32" },
+	"instance" : {
+		"activeCalendars" : "AN 6/25/2022 15:45",
+		"activeEvents" : "AN 6/25/2022 15:43",
+		"activeEventsAfter:maxEvents:" : "AN 6/25/2022 15:11",
+		"activeEventsInWeek" : "AN 6/25/2022 15:11",
+		"addCalendar:" : "AN 6/25/2022 15:34",
+		"addCalendars:" : "AN 6/25/2022 15:12",
+		"addNewCalendar:" : "AN 6/25/2022 16:23",
+		"calendars" : "AN 6/25/2022 15:20",
+		"calendars:" : "AN 6/25/2022 15:19",
+		"editableCalendars" : "AN 6/25/2022 15:22",
+		"editableCalendarsNames" : "AN 6/25/2022 15:22",
+		"isEmpty" : "AN 6/25/2022 15:35",
+		"loadCalendars" : "AN 6/25/2022 15:09",
+		"update:" : "AN 6/25/2022 16:33" } }

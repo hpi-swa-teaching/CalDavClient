@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SCMAddEventDialog2",
+	"pools" : [
+		 ],
+	"super" : "SCMEventDialog",
+	"type" : "normal" }

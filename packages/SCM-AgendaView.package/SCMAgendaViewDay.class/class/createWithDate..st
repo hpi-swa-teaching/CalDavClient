@@ -1,6 +1,6 @@
 nil
-createWithDate: aDay
+createWithDate: aDate
 
 	^ self new
-			setupContent: aDay;
+			setupContent: aDate;
 			yourself

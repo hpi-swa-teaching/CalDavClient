@@ -1,4 +1,0 @@
-accessing
-eventBeginHour
-
-	^ eventBeginHour

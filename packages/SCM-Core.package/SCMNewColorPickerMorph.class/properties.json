@@ -1,0 +1,17 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseIt" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"target",
+		"setColorSelector",
+		"hsvaMorph",
+		"colorPresenter" ],
+	"name" : "SCMNewColorPickerMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

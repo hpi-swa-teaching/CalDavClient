@@ -1,4 +1,0 @@
-accessing
-eventBeginYear
-
-	^ eventBeginYear

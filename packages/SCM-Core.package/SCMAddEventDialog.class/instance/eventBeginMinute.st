@@ -1,4 +1,0 @@
-accessing
-eventBeginMinute
-
-	^ eventBeginMinute

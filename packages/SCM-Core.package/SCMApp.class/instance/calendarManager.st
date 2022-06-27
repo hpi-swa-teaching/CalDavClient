@@ -1,4 +1,0 @@
-accessing
-calendarManager
-
-	^ calendarManager

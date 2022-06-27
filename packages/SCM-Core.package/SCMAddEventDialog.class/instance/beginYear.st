@@ -1,0 +1,4 @@
+accessing
+beginYear
+
+	^ eventBeginYear

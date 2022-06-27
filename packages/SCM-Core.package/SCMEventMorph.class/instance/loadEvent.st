@@ -1,4 +1,5 @@
 initialization
 loadEvent
 
-	self string: self extractString fontName: self defaultFont size: self defaultSize
+	self contents: self extractText;
+		fontName: 'BitstreamVeraSans' size: 24

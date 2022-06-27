@@ -1,14 +1,18 @@
 {
 	"class" : {
-		"from:" : "NMK 6/12/2022 21:10" },
+		"from:" : "AN 6/25/2022 22:06" },
 	"instance" : {
-		"configureLayout" : "BZ 6/26/2022 12:12",
-		"defaultFillColor" : "BZ 6/26/2022 12:12",
-		"defaultFont" : "BZ 6/26/2022 12:09",
-		"defaultSize" : "BZ 6/26/2022 12:09",
+		"configureLayout" : "AN 6/25/2022 22:07",
 		"event" : "AN 6/7/2022 10:33",
 		"event:" : "NMK 6/12/2022 21:09",
-		"extractString" : "NMK 6/12/2022 21:12",
-		"initialize" : "NMK 6/12/2022 21:09",
-		"loadEvent" : "BZ 6/26/2022 12:08",
-		"printTime:" : "BZ 6/26/2022 12:05" } }
+		"extractText" : "AN 6/26/2022 00:28",
+		"generateTempRepository" : "AN 6/25/2022 23:54",
+		"handlesMouseDown:" : "AN 6/25/2022 23:33",
+		"loadEvent" : "AN 6/26/2022 00:38",
+		"mainInfo" : "AN 6/26/2022 00:27",
+		"mouseDown:" : "AN 6/26/2022 08:52",
+		"mouseUp:" : "AN 6/26/2022 08:45",
+		"openEditEventDialogFor:" : "AN 6/26/2022 11:54",
+		"openShowEventDialogFor:" : "AN 6/26/2022 11:54",
+		"printTime:" : "NMK 6/12/2022 21:10",
+		"startDrag:" : "AN 6/26/2022 09:20" } }

@@ -9,7 +9,7 @@
 		"view",
 		"dockingBar",
 		"window",
-		"calendarManager" ],
+		"calendarRepository" ],
 	"name" : "SCMApp",
 	"pools" : [
 		 ],

@@ -4,4 +4,4 @@ configureLayout
 	 self 	
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
-	  	backgroundColor: self defaultFillColor.
+	  	backgroundColor: self event color

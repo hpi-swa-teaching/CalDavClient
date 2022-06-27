@@ -1,7 +1,11 @@
-initialization
-createWith: aSCMCalendarManager
+as yet unclassified
+createWith: aSCMCalendarRepository
 
-	^ self new
-			calendarManager: aSCMCalendarManager;
+	| a |
+	a := self new
+			calendarRepository: aSCMCalendarRepository;
 			load: self defaultView;
-			yourself
+			yourself.
+	aSCMCalendarRepository addDependent: a.
+	
+	^ a 

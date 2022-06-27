@@ -1,0 +1,1 @@
+A CALShowEventDialog is a CALEventDialog windows that only shows event info (read-only). 

@@ -11,7 +11,9 @@
 		"title",
 		"description",
 		"participants",
-		"location" ],
+		"location",
+		"calendar",
+		"color" ],
 	"name" : "SCMEvent",
 	"pools" : [
 		 ],

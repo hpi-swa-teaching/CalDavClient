@@ -1,4 +1,4 @@
 accessing
 calendarFileExists
 
-	^ self class calendarDirectory fileExists: self myName
+	^ self calendarDirectory fileExists: self title

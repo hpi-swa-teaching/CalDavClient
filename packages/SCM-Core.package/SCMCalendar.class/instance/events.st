@@ -1,4 +1,4 @@
 accessing
 events
 
-	^ events
+	^ events ifNil: [events := SortedCollection new]
