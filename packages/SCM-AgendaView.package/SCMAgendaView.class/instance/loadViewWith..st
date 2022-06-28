@@ -9,6 +9,6 @@ loadViewWith: aSortedCollection
 	self addMorph: currentDay.
 	aSortedCollection do: [:each |
 		each begin asDate ~= currentDay date
-			ifTrue: [currentDay := SCMAgendaDay createWithDate: each begin asDate.
+			ifTrue: [currentDay := SCMAgendaViewDay createWithDate: each begin asDate.
 				self addMorphBack: currentDay].
 		currentDay addEvent: each]
