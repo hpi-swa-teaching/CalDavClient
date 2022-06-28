@@ -1,5 +1,9 @@
 testing
 testDaysPerPageAccessors
 
-	self assert: self subject weekDaysPerPage equals: self defaultWeekDaysPerPage.
-	self assert: self subject agendaDaysPerPage equals: self defaultAgendaDaysPerPage
+
+	self subject currentView: #agenda.
+	self assert: self subject daysPerPage equals: SCMAgendaView daysPerPage.
+	
+	self subject currentView: #week.
+	self assert: self subject daysPerPage equals: SCMWeekView daysPerPage

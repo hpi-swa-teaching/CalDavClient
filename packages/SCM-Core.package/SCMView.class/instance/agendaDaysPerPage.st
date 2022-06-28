@@ -1,4 +1,4 @@
 defaults
 agendaDaysPerPage
 	
-	^ 1
+	^ SCMAgendaView new daysPerPage

@@ -1,11 +1,9 @@
 running
 setUp
 
-	| calendar |
-	
-	calendar := SCMCalendar new.
+	self calendar: (SCMCalendar newWithName: 'Test').
 	self createEvents do: [:each |
-		calendar addEvent: each].
+		self calendar addEvent: each].
 	
-	self wantsToTest: (SCMView createWith: (SCMCalendarManager new)).
-	self subject calendarManager addCalendar: calendar
+	self wantsToTest: (SCMView createWith: (SCMCalendarRepository new)).
+	self subject calendarRepository addCalendar: self calendar

@@ -4,7 +4,7 @@ loadViewWithEmptyDays: aSortedCollection
 	| currentDay currentDate |
 	
 	currentDate := self startDate.
-	7 timesRepeat: [
+	self class daysPerPage timesRepeat: [
 		currentDay := SCMAgendaViewDay createWithDate: currentDate.
 		self addMorphBack: currentDay.
 	
