@@ -3,9 +3,9 @@ testBeginAccessors
 
 	| event |
 	
-	event := self demoEvent.
+	event := self pastEvent.
 		
-	self assert: (event begin  = self begin).
+	self assert: (event begin  = self pastEventBegin).
 	event begin: (DateAndTime
 			year: 2020
 			month: 6

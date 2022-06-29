@@ -3,9 +3,9 @@ testEndAccessors
 
 	| event |
 	
-	event := self demoEvent.
+	event := self pastEvent.
 		
-	self assert: (event end  = self end).
+	self assert: (event end  = self pastEventEnd).
 	event end: (DateAndTime
 			year: 2020
 			month: 6
