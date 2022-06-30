@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 
-	self wantsToTest: SCMCalendarManager new.
+	self wantsToTest: SCMCalendarRepository new.
 	self setUpCalendars.
 	self demoEvent: SCMEvent new.
 	self demoEvent title: 'demoEvent'

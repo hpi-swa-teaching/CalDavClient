@@ -22,7 +22,8 @@ createEvents
 			day: each dayOfMonth
 			hour: 11
 			minute: 30);
-		location: 'Bank')].
+		location: 'Bank';
+		color: Color blue)].
 	
 	self yesterdayEvent: events first.
 	self dayAfterTomorrowEvent: events second.

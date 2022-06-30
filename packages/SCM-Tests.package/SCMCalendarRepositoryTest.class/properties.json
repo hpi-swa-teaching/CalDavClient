@@ -10,7 +10,7 @@
 		"demoEvent",
 		"demoCalendar2",
 		"demoCalendar3" ],
-	"name" : "SCMCalendarManagerTest",
+	"name" : "SCMCalendarRepositoryTest",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

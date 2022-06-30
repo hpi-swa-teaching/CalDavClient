@@ -5,9 +5,9 @@ testSaveEvent
 	
 	self demoCalendar addEvent: self demoEvent.
 	
-	self subject saveToDisk: self demoCalendar.
+	self subject storeAllCalendars.
 	self assert: (SCMCalendar calendarDirectory fileExists: self demoCalendar title).
 	
-	self assert: (self subject extractEventsFrom: self demoCalendar title) size = 1.
-	self assert: (self subject extractEventsFrom: self demoCalendar title)
-		first =  self demoEvent
+	"to do: find calendar by title not by index of collection"
+	self assert: (self subject calendars first events) size equals: 1.
+	self assert: (self  subject calendars first events first) equals: self demoEvent
