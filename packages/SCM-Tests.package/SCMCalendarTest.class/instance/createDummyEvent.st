@@ -8,4 +8,5 @@ createDummyEvent
 			description: 'whatever';
 			location: 'Potsdam';
 			participants: 'everyone';
+			color: Color gray;
 			yourself
