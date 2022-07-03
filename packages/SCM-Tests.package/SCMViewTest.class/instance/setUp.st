@@ -3,7 +3,7 @@ setUp
 
 	| calendar |
 	
-	calendar := SCMCalendar newWithName: '____TESTING_CALENDER'.
+	calendar := SCMCalendar newWithName: 'testCalendarView'.
 	self createEvents do: [:each |
 		calendar addEvent: each].
 	
