@@ -3,7 +3,7 @@ setUp
 
 	| calendar |
 	
-	calendar := SCMCalendar new.
+	calendar := SCMCalendar newWithName: '____TESTING_CALENDER'.
 	self createEvents do: [:each |
 		calendar addEvent: each].
 	

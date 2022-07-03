@@ -5,4 +5,4 @@ addEvent: aSCMEvent
 	aSCMEvent calendar: self;
 		addDependent: self.
 	self store.
-	self changed: #eventsChanged
+	self changed: #calendarChanged

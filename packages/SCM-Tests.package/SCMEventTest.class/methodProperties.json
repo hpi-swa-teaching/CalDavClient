@@ -2,23 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createPastEvent" : "NMK 6/29/2022 18:12",
-		"createTodayEvent" : "NMK 6/29/2022 18:12",
+		"createPastEvent" : "AN 7/3/2022 12:31",
 		"pastEvent" : "NMK 6/29/2022 18:11",
 		"pastEvent:" : "NMK 6/29/2022 18:11",
 		"pastEventBegin" : "NMK 6/29/2022 17:55",
+		"pastEventColor" : "AN 7/3/2022 12:32",
 		"pastEventDescription" : "NMK 6/29/2022 17:57",
 		"pastEventEnd" : "NMK 6/29/2022 17:56",
 		"pastEventLocation" : "NMK 6/29/2022 18:00",
 		"pastEventParticipants" : "NMK 6/29/2022 18:00",
 		"pastEventTitle" : "NMK 6/29/2022 17:59",
-		"setUp" : "NMK 6/29/2022 18:13",
-		"testAccessors" : "NMK 6/29/2022 18:11",
-		"testAccessorsTime" : "NMK 6/29/2022 18:11",
-		"testBeginAccessors" : "NMK 6/29/2022 18:11",
-		"testEndAccessors" : "NMK 6/29/2022 18:11",
-		"testInitialize" : "NMK 6/29/2022 18:13",
-		"testOtherAccessors" : "NMK 6/29/2022 18:11",
-		"testWithCurrentTime" : "NMK 6/29/2022 18:11",
-		"todayEvent" : "NMK 6/29/2022 18:11",
-		"todayEvent:" : "NMK 6/29/2022 18:12" } }
+		"setUp" : "AN 7/3/2022 12:44",
+		"testAccessors" : "AN 7/3/2022 12:34" } }

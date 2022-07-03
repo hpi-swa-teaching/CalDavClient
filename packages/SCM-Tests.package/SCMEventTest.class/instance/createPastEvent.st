@@ -8,4 +8,5 @@ createPastEvent
 			description: self pastEventDescription;
 			location: self pastEventLocation;
 			participants: self pastEventParticipants;
+			color: self pastEventColor;
 			yourself

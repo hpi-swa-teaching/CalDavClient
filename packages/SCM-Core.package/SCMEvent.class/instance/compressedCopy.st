@@ -9,8 +9,8 @@ compressedCopy
 		color: self color;
 		yourself.
 	
-	(self description ~= '' and: [self description ~= nil]) ifTrue: [s description: self description].
-	(self location ~= '' and: [self location ~= nil]) ifTrue: [s location: self location].
-	(self participants ~= '' and: [self participants ~= nil]) ifTrue: [s participants: self participants].
+	self description ~= '' ifTrue: [s description: self description].
+	self location ~= '' ifTrue: [s location: self location].
+	self participants ~= '' ifTrue: [s participants: self participants].
 	
 	^ s

@@ -1,6 +1,6 @@
 initialization
 initialize
-
+	
 	super initialize.
 	self
 		calendarRepository: (SCMCalendarRepository createWith: self);

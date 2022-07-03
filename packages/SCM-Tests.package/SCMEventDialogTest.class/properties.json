@@ -1,0 +1,19 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"addDialog",
+		"editDialog",
+		"eventDialog",
+		"showDialog",
+		"calendarRepository",
+		"calendar" ],
+	"name" : "SCMEventDialogTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

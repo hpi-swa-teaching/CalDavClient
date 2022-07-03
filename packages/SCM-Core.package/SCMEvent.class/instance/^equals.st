@@ -6,4 +6,5 @@ comparing
 			and: [self title = comparand title
 			and: [self description = comparand description
 			and: [self participants = comparand participants
-			and: [self location = comparand location]]]]]
+			and: [self location = comparand location
+			and: [self color = comparand color]]]]]]
