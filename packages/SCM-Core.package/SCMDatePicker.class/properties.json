@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"date",
-		"shouldUpdate",
-		"stepTime" ],
+		 ],
 	"name" : "SCMDatePicker",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "CalendarMorph",
 	"type" : "normal" }

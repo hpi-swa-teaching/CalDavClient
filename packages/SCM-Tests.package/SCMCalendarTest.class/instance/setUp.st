@@ -1,4 +1,4 @@
 accessing
 setUp
 
-	self demoCalendar: SCMCalendar new
+	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar')

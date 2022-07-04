@@ -1,6 +1,5 @@
 accessing
 date: aDate
 
-	date := aDate.
-	self shouldUpdate: true.
+	super date: aDate.
 	self triggerEvent: #dateChanged with: aDate start.

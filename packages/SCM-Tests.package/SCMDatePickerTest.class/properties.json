@@ -1,0 +1,15 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"datePicker",
+		"date" ],
+	"name" : "SCMDatePickerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

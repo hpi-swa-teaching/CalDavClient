@@ -1,4 +1,0 @@
-CalendarMorph
-minimumStepTime
-
-	^ 20

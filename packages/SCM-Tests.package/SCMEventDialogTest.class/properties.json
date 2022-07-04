@@ -11,7 +11,7 @@
 		"eventDialog",
 		"showDialog",
 		"calendarRepository",
-		"calendar" ],
+		"demoCalendar" ],
 	"name" : "SCMEventDialogTest",
 	"pools" : [
 		 ],

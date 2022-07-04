@@ -2,10 +2,10 @@ running
 setUp
 
 	self calendarRepository: (SCMCalendarRepository new).
-	self calendar: (SCMCalendar newWithName: 'testCalendarEventDialog').
-	self calendar addEvent: self demoEvent.
+	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar').
+	self demoCalendar addEvent: self demoEvent.
 	
-	self calendarRepository addCalendar: self calendar.
+	self calendarRepository addCalendar: self demoCalendar.
 	
 	self eventDialog: SCMEventDialog new.
 	self eventDialog calendarList: (SCMCalendarList createWith: self calendarRepository).

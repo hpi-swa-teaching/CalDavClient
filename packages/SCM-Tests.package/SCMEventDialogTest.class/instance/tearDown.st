@@ -1,4 +1,4 @@
 running
 tearDown
 	
-	SCMCalendar calendarDirectory deleteFileNamed: 'testCalendarEventDialog'
+	self demoCalendar delete

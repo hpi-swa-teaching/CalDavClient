@@ -6,6 +6,7 @@ setUp
 		title: 'Event 1';
 		begin: (DateAndTime year: 2017 month: 4 day: 18 hour: 16 minute: 15);
 		end: (DateAndTime year: 2017 month: 4 day: 18 hour: 19 minute: 0);	
+		color: Color green;
 		yourself).	
 	event2 := (SCMEvent new
 		title: 'Event 2';
@@ -17,5 +18,6 @@ setUp
 		title: 'Event 3';
 		begin: Date today;
 		end: Date today;	
+		color: Color green;
 		yourself).
 	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3} andStartDate: DateAndTime today asDate)
