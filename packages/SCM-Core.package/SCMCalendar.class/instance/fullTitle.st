@@ -1,4 +1,4 @@
 accessing
 fullTitle
 
-	^ self calendarDirectory fullNameFor: self title, self id asString
+	^ self calendarDirectory fullNameFor: self fileName

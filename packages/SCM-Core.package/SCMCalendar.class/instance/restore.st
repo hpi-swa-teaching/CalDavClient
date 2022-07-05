@@ -13,4 +13,5 @@ restore
 	self events: loadedCalendar events.
 	self id: loadedCalendar id.
 	
-	self events do: [:event | event addDependent: self. event calendar: self].
+	self events do: [:event | event addDependent: self.
+									event calendar: self].
