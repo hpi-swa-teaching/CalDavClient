@@ -1,7 +1,8 @@
 accessing
 store
+
 	(FileStream forceNewFileNamed: self fullTitle)
-		nextPutAll: (STON toString: self compressed);
+		nextPutAll: (STON toString: self compressedCopy);
 		close
 
 	

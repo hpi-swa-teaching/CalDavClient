@@ -1,6 +1,6 @@
 actions
 updateBegin
 
-	self autocorrectEnd.
+	self checkBeginHighlighting.
 	self isFullDaySelected ifTrue: [self makeFullDay].
 	self reloadDates

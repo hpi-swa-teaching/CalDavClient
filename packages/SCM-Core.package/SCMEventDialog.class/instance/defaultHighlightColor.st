@@ -1,0 +1,4 @@
+ui
+defaultHighlightColor
+
+	^ Color paleRed

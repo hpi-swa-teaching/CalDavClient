@@ -5,5 +5,5 @@ updateBeginMonth: aText
 		ifTrue: [self eventData at: #beginMonth put: '']
 		ifFalse: [
 			(self isValidMonth: aText)
-				ifTrue: [self eventData at: #beginMonth put: aText asString]].
+				ifTrue: [self beginMonth: aText]].
 	self updateBegin

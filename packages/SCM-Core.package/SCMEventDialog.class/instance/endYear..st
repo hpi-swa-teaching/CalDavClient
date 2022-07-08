@@ -1,4 +1,4 @@
 accessing
-endYear: aText 
+endYear: aTextOrString 
 
-	self eventData at: #endYear put: aText asString
+	self eventData at: #endYear put: aTextOrString asString

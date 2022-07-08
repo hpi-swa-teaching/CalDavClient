@@ -5,6 +5,7 @@ buildBeginMonthText: aBuilder
 		model: self;
 		getText: #beginMonth;
 		editText: #updateBeginMonth:;
+		color: #beginColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Month';

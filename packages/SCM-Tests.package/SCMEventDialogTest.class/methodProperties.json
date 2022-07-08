@@ -14,7 +14,7 @@
 		"editDialog:" : "RL 8/6/2021 16:18",
 		"eventDialog" : "RL 8/6/2021 16:18",
 		"eventDialog:" : "LB 8/6/2021 17:01",
-		"setUp" : "AN 7/4/2022 22:00",
+		"setUp" : "AN 7/8/2022 11:42",
 		"showDialog" : "AN 7/3/2022 13:33",
 		"showDialog:" : "AN 7/3/2022 13:33",
 		"tearDown" : "AN 7/4/2022 21:59",
@@ -23,6 +23,8 @@
 		"testButtonsForAddDialog" : "AN 7/3/2022 14:18",
 		"testButtonsForEditDialog" : "AN 7/3/2022 14:18",
 		"testChangeEventCalendar" : "AN 7/4/2022 21:59",
+		"testDateIsHighlighted" : "AN 7/8/2022 02:42",
+		"testDateIsHighlighted2" : "AN 7/8/2022 02:43",
 		"testDeleteEvent" : "AN 7/4/2022 21:59",
 		"testEditDialogBuildWith" : "AN 7/3/2022 14:52",
 		"testEventPropertiesChanges" : "AN 7/3/2022 15:11",
@@ -35,5 +37,4 @@
 		"testSaveNewEvent" : "AN 7/4/2022 21:59",
 		"testShowDialogBuildWith" : "AN 7/3/2022 14:52",
 		"testTitleHighlighting" : "AN 7/3/2022 16:01",
-		"testValidEventPropertiesChanges" : "AN 7/3/2022 15:51",
-		"testWrongOrderIsCorrected" : "AN 7/3/2022 16:03" } }
+		"testValidEventPropertiesChanges" : "AN 7/3/2022 15:51" } }

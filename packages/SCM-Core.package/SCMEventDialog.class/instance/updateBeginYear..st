@@ -5,5 +5,5 @@ updateBeginYear: aText
 		ifTrue: [self eventData at: #beginYear put: '']
 		ifFalse: [
 			(self isValidYear: aText)
-				ifTrue: [self eventData at: #beginYear put: aText asString]].
-	self updateBegin 
+				ifTrue: [self beginYear: aText]].
+	self updateBegin

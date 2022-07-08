@@ -5,5 +5,5 @@ updateEndDay: aText
 		ifTrue: [self eventData at: #endDay put: '']
 		ifFalse: [
 			(self isValidDay: aText)
-				ifTrue: [self eventData at: #endDay put: aText asString]].
+				ifTrue: [self endDay: aText]].
 	self updateEnd

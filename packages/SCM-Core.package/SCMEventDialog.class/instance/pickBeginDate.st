@@ -10,5 +10,5 @@ pickBeginDate
 	self windows add: datePicker owner.
 	datePicker 
 		when: #dateChanged 
-		send: #beginDateChanged: 
+		send: #updateBeginDate: 
 		to: self

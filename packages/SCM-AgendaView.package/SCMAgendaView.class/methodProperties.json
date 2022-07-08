@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"createWithEvents:andStartDate:" : "NMK 6/25/2022 09:26",
+		"defaultDaysPerView" : "AN 7/8/2022 13:57",
 		"load:" : "Kiru 7/3/2022 19:34" },
 	"instance" : {
 		"configureLayout" : "NMK 6/20/2022 18:05",
 		"initialize" : "NMK 6/12/2022 20:11",
 		"loadViewWith:" : "Kiru 6/28/2022 17:25",
-		"loadViewWithEmptyDays:" : "6/28/2022 17:07:54",
+		"loadViewWithEmptyDays:" : "AN 7/8/2022 13:57",
 		"startDate" : "6/28/2022 17:07:54",
 		"startDate:" : "6/28/2022 17:07:54" } }

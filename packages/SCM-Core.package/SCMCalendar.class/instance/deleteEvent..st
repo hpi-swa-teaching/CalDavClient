@@ -1,6 +1,7 @@
 accessing
 deleteEvent: aSCMEvent
 
+	self synchronize.
 	self events 
 		remove: aSCMEvent 
 		ifAbsent: [^ self errorEventNotInCalendar: aSCMEvent].

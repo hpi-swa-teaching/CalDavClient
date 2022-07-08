@@ -1,0 +1,4 @@
+running
+defaultColor
+
+	^ Color green

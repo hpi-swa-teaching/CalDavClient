@@ -6,5 +6,4 @@ buildCalendarList: aBuilder
 		list: #editableCalendarsNames;
 		getIndex: #calendarIndex;
 		setIndex: #calendarIndex:;
-		frame: (self borderLeft @ (self lineOffsetOf: 8) corner: self borderRight @ (1 - self spacing));
-		yourself
+		frame: (self borderLeft @ (self lineOffsetOf: 2) corner: self borderRight @ ((self lineOffsetOf: 2) + self lineHeight))

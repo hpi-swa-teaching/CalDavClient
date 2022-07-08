@@ -1,4 +1,5 @@
 accessing
 tearDown
 
-		self colorPicker owner closeBoxHit
+	self eventDialog abandon.
+	self colorPicker owner abandon

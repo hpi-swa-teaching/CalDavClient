@@ -9,7 +9,8 @@
 		"events",
 		"title",
 		"isActive",
-		"id" ],
+		"id",
+		"color" ],
 	"name" : "SCMCalendar",
 	"pools" : [
 		 ],

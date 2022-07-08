@@ -2,8 +2,8 @@
 	"class" : {
 		"createWithDate:" : "AN 6/25/2022 17:41" },
 	"instance" : {
-		"addEvent:" : "lottebalcke 6/14/2022 17:59",
-		"configureLayout" : "NMK 6/12/2022 20:31",
+		"addEvent:" : "AN 7/7/2022 17:24",
+		"configureLayout" : "AN 7/7/2022 17:24",
 		"date" : "NMK 6/12/2022 20:31",
 		"date:" : "NMK 6/12/2022 20:31",
 		"defaultFont" : "NMK 6/20/2022 18:03",
@@ -12,5 +12,5 @@
 		"eventBox:" : "NMK 6/12/2022 20:30",
 		"getDateText:" : "NMK 7/6/2022 20:12",
 		"initialize" : "AN 6/7/2022 19:17",
-		"setupContent:" : "BZ 6/22/2022 10:43",
+		"setupContent:" : "AN 7/7/2022 17:10",
 		"showEvent:" : "AN 6/12/2022 16:27" } }

@@ -1,8 +1,9 @@
 as yet unclassified
-newNamed: aString 
+newNamed: aString withDefaultColor: aColor 
 
 	^ self new 
 			title: aString;
+			color: aColor;
 			createId;
 			store;
 			yourself

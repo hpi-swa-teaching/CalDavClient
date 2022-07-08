@@ -5,6 +5,7 @@ buildEndHourText: aBuilder
 		model: self;
 		getText: #endHour;
 		editText: #updateEndHour:;
+		color: #endColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'hh';

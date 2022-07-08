@@ -1,7 +1,7 @@
 running
 setUp
 
-	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar').
+	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise).
 	self createEvents do: [:each |
 		self demoCalendar addEvent: each].
 	

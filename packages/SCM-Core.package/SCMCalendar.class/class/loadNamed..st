@@ -8,5 +8,5 @@ loadNamed: aString
 	loadedCalendar := STON fromString: file contents.
 	file close.
 	
-	loadedCalendar events do: [:event | event addDependent: loadedCalendar. event calendar: loadedCalendar].
+	loadedCalendar events do: [:event | event calendar: loadedCalendar].
 	^ loadedCalendar

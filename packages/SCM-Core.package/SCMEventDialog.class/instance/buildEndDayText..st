@@ -5,6 +5,7 @@ buildEndDayText: aBuilder
 		model: self;
 		getText: #endDay;
 		editText: #updateEndDay:;
+		color: #endColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Day';
