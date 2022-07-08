@@ -5,7 +5,7 @@ loadViewWith: aSortedCollection andStartDate: aDate
 	
 	day := aDate.
 	
-	7 timesRepeat:
+	self class defaultDaysPerView timesRepeat:
 		[currentDay := (SCMWeekViewDay createWithDate: day).
 		
 		aSortedCollection do: [:each |

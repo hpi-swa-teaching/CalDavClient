@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pastEvent",
-		"todayEvent" ],
+		"event" ],
 	"name" : "SCMEventTest",
 	"pools" : [
 		 ],

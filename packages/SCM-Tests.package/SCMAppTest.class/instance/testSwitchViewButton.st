@@ -2,7 +2,7 @@ testing
 testSwitchViewButton
 
 	| button currentView |
-	currentView := self subject view currentView.
+	currentView := self subject viewClass currentView.
 	button := self subject dockingBar widgets at: #switch.
 	self assert: button actionSelector equals: #switch.
   	self assert: button target class equals: SCMApp.

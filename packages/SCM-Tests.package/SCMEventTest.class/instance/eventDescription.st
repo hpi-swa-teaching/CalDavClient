@@ -1,4 +1,4 @@
 as yet unclassified
-pastEventDescription
+eventDescription
 
 	^  'I am sure something will happen eventually'

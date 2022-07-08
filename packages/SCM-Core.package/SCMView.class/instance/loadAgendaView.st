@@ -1,6 +1,6 @@
 loading
 loadAgendaView
 
-	self addMorph: ((self viewTypes at: #agenda)
+	self addMorph: (self agendaView
 		createWithEvents: self retrieveAgendaEvents
 		andStartDate: self startDate)

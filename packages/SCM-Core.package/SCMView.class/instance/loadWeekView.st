@@ -1,6 +1,6 @@
 loading
 loadWeekView
 
-	self addMorph: ((self viewTypes at: #week)
+	self addMorph: (self weekView
 	createWithEvents: self retrieveWeekEvents
 		andStartDate: self monday)

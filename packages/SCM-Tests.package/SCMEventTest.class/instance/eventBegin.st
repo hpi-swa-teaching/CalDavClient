@@ -1,5 +1,5 @@
 as yet unclassified
-pastEventBegin
+eventBegin
 
 	^ DateAndTime
 			year: 2013

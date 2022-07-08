@@ -1,5 +1,5 @@
 as yet unclassified
-pastEventEnd
+eventEnd
 
 	^ DateAndTime
 			year: 2014

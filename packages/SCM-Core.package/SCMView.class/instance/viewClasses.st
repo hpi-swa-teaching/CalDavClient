@@ -1,4 +1,4 @@
 accessing
-viewTypes
+viewClasses
 
 	^ {#agenda -> SCMAgendaView. #week -> SCMWeekView} asDictionary

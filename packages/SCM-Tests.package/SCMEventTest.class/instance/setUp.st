@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	self pastEvent: self createPastEvent
+	self event: self createEvent

@@ -1,4 +1,4 @@
 accessing
-pastEventTitle
+eventTitle
 
 	^ 'just waiting'

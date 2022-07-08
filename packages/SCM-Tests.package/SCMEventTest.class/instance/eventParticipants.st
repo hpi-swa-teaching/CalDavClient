@@ -1,4 +1,4 @@
 as yet unclassified
-pastEventParticipants
+eventParticipants
 
 	 ^ 'me, myself and I'
