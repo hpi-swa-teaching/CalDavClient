@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"openForDialog:color:label:" : "AN 6/24/2022 09:44" },
+		"openForDialog:color:label:" : "AN 7/6/2022 18:13" },
 	"instance" : {
 		"date:" : "AN 7/4/2022 20:24",
 		"dayInitialsRow" : "LB 6/30/2021 16:42",
 		"initializeSubmorphs" : "AN 7/4/2022 18:09",
 		"newDateButtonWithContents:For:" : "AN 6/24/2022 09:47",
-		"selectDate:" : "AN 6/24/2022 09:47",
+		"selectDate:" : "AN 7/6/2022 18:14",
 		"textOfDayName:" : "LB 6/30/2021 16:40" } }

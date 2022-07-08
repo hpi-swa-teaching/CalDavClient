@@ -1,4 +1,4 @@
 accessing
-beginMonth: aText 
+beginMonth: aTextOrString 
 
-	self eventData at: #beginMonth put: aText asString
+	self eventData at: #beginMonth put: aTextOrString asString

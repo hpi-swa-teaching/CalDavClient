@@ -1,6 +1,6 @@
 accessing
 areDatesValid  
 
-	^ self isBeginDateAndTimeValid and: 
-		[self isEndDateAndTimeValid 
-		and: [self begin < self end]]
+	^ self isBeginDateValid and: 
+		[self isEndDateValid 
+		and: [self beginDate <= self endDate]]

@@ -1,11 +1,14 @@
 initialization
 loadViewWithEmptyDays: aSortedCollection
 
-	| currentDay currentDate |
+	| currentDay currentDate layout|
+	
+	layout := aSortedCollection isEmpty ifTrue: [#spaceFill] ifFalse: [#shrinkWrap].
 	
 	currentDate := self startDate.
-	7 timesRepeat: [
+	self class defaultDaysPerView timesRepeat: [
 		currentDay := SCMAgendaViewDay createWithDate: currentDate.
+		currentDay vResizing: layout.
 		self addMorphBack: currentDay.
 	
 		aSortedCollection do: [:each |

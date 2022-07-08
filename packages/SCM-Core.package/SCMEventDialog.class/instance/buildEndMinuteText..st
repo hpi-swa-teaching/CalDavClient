@@ -5,6 +5,7 @@ buildEndMinuteText: aBuilder
 		model: self;
 		getText: #endMinute;
 		editText: #updateEndMinute:;
+		color: #endColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'mm';

@@ -5,6 +5,7 @@ buildBeginDayText: aBuilder
 		model: self;
 		getText: #beginDay;
 		editText: #updateBeginDay:;
+		color: #beginColor;
 		indicateUnacceptedChanges: false;
 		help: 'Day';
 		readOnly: self isReadOnly; 

@@ -3,6 +3,6 @@ testRestore
 
 	self demoCalendar events add: self createDummyEvent.
 	self assert: self demoCalendar isEmpty not.
-	self demoCalendar restore.
+	self demoCalendar synchronize.
 	self assert: self demoCalendar isEmpty
 	

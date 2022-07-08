@@ -4,5 +4,11 @@
 	"instance" : {
 		"colorPicker" : "Kiru 7/5/2022 12:17",
 		"colorPicker:" : "Kiru 7/5/2022 12:17",
-		"tearDown" : "Kiru 7/5/2022 12:24",
-		"testConstructor" : "Kiru 7/5/2022 12:25" } }
+		"defaultColor" : "AN 7/6/2022 18:24",
+		"defaultColorSelector" : "AN 7/6/2022 18:24",
+		"defaultLabel" : "AN 7/6/2022 18:24",
+		"eventDialog" : "AN 7/6/2022 18:29",
+		"eventDialog:" : "AN 7/6/2022 18:29",
+		"setUp" : "AN 7/6/2022 18:23",
+		"tearDown" : "AN 7/6/2022 18:25",
+		"testConstructor" : "AN 7/6/2022 18:32" } }

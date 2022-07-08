@@ -5,5 +5,5 @@ updateEndHour: aText
 		ifTrue: [self eventData at: #endHour put: '']
 		ifFalse: [
 			(self isValidHour: aText)
-				ifTrue: [self eventData at: #endHour put: aText asString]].
+				ifTrue: [self endHour: aText]].
 	self updateEnd

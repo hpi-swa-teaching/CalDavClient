@@ -1,6 +1,5 @@
 running
 tearDown
 
-	self datePicker
-		release;
-		abandon
+	self eventDialog abandon.
+	self datePicker owner abandon

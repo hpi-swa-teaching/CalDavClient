@@ -5,6 +5,6 @@ updateEndYear: aText
 		ifTrue: [self eventData at: #endYear put: '']
 		ifFalse: [
 			(self isValidYear: aText)
-				ifTrue: [self eventData at: #endYear put: aText asString]].
+				ifTrue: [self endYear: aText]].
 	self updateEnd
 	

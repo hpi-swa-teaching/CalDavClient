@@ -3,15 +3,15 @@ configureLayout
 
 	self
 		layoutPolicy: TableLayout new;
-		vResizing: #spaceFill;
+		vResizing: #shrinkWrap;
 	 	hResizing: #spaceFill;
 	  	color: Color white;
 	  	borderWidth: 2;
 	  	borderColor: Color black;
-		cellInset: 5;
+		cellInset: 3;
 	  	cellPositioning: #topLeft;
-	   	listCentering: #center;
+	   	listCentering: #topLeft;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 5 @ 5
+	  	layoutInset: 3 @ 3

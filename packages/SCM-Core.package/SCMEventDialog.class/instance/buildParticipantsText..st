@@ -8,4 +8,4 @@ buildParticipantsText: aBuilder
 		indicateUnacceptedChanges: false;
 		help: 'Participants';
 		readOnly: self isReadOnly; 
-		frame: (0.01 @ (self lineOffsetOf: 6) corner: self borderRight @ ((self lineOffsetOf: 6) + self lineHeight))
+		frame: (self borderLeft @ (self lineOffsetOf: 7) corner: self borderRight @ ((self lineOffsetOf: 7) + self lineHeight))

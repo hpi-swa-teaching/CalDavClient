@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self app owner closeBoxHit 
+	self app owner abandon 

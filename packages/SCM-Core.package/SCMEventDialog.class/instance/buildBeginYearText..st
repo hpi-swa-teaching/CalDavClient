@@ -5,6 +5,7 @@ buildBeginYearText: aBuilder
 		model: self;
 		getText: #beginYear;
 		editText: #updateBeginYear:;
+		color: #beginColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Year';

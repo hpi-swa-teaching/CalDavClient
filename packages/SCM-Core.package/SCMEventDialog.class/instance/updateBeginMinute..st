@@ -5,5 +5,5 @@ updateBeginMinute: aText
 		ifTrue: [self eventData at: #beginMinute put: '']
 		ifFalse: [
 			(self isValidMinute: aText)
-				ifTrue: [self eventData at: #beginMinute put: aText asString]].
-	self updateEnd
+				ifTrue: [self beginMinute: aText]].
+	self updateBegin

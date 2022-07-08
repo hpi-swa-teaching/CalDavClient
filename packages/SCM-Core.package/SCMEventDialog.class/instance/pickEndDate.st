@@ -10,5 +10,5 @@ pickEndDate
 	self windows add: datePicker owner.
 	datePicker 
 		when: #dateChanged 
-		send: #endDateChanged: 
+		send: #updateEndDate: 
 		to: self

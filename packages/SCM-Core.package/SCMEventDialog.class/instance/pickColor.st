@@ -5,7 +5,7 @@ pickColor
 	
 	datePicker := SCMNewColorPickerMorph 
 		on: self 
-		originalColor: self defaultEventColor 
+		originalColor: self color
 		setColorSelector: #color:
 		label: 'Pick Color'.
 	self windows add: datePicker owner.

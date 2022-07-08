@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self subject owner closeBoxHit
+	self subject owner abandon

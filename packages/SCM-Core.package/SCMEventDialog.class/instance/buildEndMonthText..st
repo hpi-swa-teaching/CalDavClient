@@ -5,6 +5,7 @@ buildEndMonthText: aBuilder
 		model: self;
 		getText: #endMonth;
 		editText: #updateEndMonth:;
+		color: #endColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
 		help: 'Month';

@@ -1,4 +1,4 @@
 accessing
 titleColor
 
-	^ titleColor ifNil: [^ titleColor := self defaultColor]
+	^ titleColor ifNil: [titleColor := self defaultColor]

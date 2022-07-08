@@ -1,4 +1,4 @@
 accessing
-endDay: aText 
+endDay: aTextOrString 
 
-	self eventData at: #endDay put: aText asString
+	self eventData at: #endDay put: aTextOrString asString
