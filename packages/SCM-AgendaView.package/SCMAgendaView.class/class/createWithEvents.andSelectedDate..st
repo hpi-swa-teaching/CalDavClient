@@ -10,5 +10,5 @@ createWithEvents: aSortedCollection andSelectedDate: aDate
 	s scroller addMorph: (self new
 			loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate;
 			yourself).
-	s updateLayout.
+	s scroller layoutPolicy: TableLayout new.
 	^ s
