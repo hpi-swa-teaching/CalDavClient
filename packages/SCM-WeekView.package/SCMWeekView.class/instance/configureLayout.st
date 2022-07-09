@@ -7,10 +7,10 @@ configureLayout
 	 	hResizing: #spaceFill;
 	  	color: Color white;
 	  	borderWidth: 0;
-		cellInset: 2;
+		cellInset: 5;
 	  	cellPositioning: #topLeft;
 	   	listCentering: #center;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #leftToRight;
-	  	layoutInset: 4 @ 4
+	  	layoutInset: 5 @ 5

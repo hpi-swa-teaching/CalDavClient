@@ -1,4 +1,0 @@
-initialization
-showEvent: aSCMEvent
-
-	^ self

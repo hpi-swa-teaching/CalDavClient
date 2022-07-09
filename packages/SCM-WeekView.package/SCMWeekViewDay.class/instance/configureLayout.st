@@ -7,6 +7,7 @@ configureLayout
 	 	hResizing: #spaceFill;
 	  	color: Color white;
 	  	borderWidth: 2;
+		layoutInset: 3@3;
 	  	borderColor: Color black;
 	  	cellPositioning: #center;
 	   	listCentering: #top;

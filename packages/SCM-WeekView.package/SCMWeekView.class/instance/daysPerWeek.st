@@ -1,4 +1,4 @@
 as yet unclassified
-defaultDaysPerView
+daysPerWeek 
 
 	^ 7

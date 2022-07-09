@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"createWithEvents:andStartDate:" : "NMK 6/25/2022 09:26",
-		"defaultDaysPerView" : "AN 7/8/2022 13:57",
-		"load:" : "Kiru 7/3/2022 19:34" },
+		"createWithEvents:andSelectedDate:" : "AN 7/9/2022 14:44",
+		"defaultDurationPerView" : "AN 7/9/2022 13:12",
+		"defaultSkip" : "AN 7/9/2022 10:46",
+		"timespanFor:" : "AN 7/9/2022 11:39" },
 	"instance" : {
-		"configureLayout" : "NMK 6/20/2022 18:05",
+		"configureLayout" : "AN 7/9/2022 14:38",
+		"daysPerView" : "AN 7/9/2022 11:44",
 		"initialize" : "NMK 6/12/2022 20:11",
 		"loadViewWith:" : "Kiru 6/28/2022 17:25",
-		"loadViewWithEmptyDays:" : "AN 7/8/2022 13:57",
-		"startDate" : "6/28/2022 17:07:54",
-		"startDate:" : "6/28/2022 17:07:54" } }
+		"loadViewWithEmptyDays:andSelectedDate:" : "AN 7/9/2022 14:44" } }

@@ -2,6 +2,6 @@ initialization
 configureLayout
 
 	 self 	
-		vResizing: #spaceFill;
+		vResizing: #rigid;
 	 	hResizing: #spaceFill;
 	  	backgroundColor: self event color

@@ -4,8 +4,9 @@ configureLayout
 	self
 		layoutPolicy: TableLayout new;
 		vResizing: #shrinkWrap;
-	 	hResizing: #spaceFill;
+	 	hResizing: #rigid;
 	  	color: Color white;
+		width: 450;
 	  	borderWidth: 2;
 	  	borderColor: Color black;
 		cellInset: 3;

@@ -2,8 +2,8 @@
 	"class" : {
 		"createWithDate:" : "AN 6/25/2022 17:41" },
 	"instance" : {
-		"addEvent:" : "AN 7/7/2022 17:24",
-		"configureLayout" : "AN 7/7/2022 17:24",
+		"addEvent:" : "AN 7/9/2022 14:43",
+		"configureLayout" : "AN 7/9/2022 14:51",
 		"date" : "NMK 6/12/2022 20:31",
 		"date:" : "NMK 6/12/2022 20:31",
 		"defaultFont" : "NMK 6/20/2022 18:03",
@@ -12,5 +12,4 @@
 		"eventBox:" : "NMK 6/12/2022 20:30",
 		"getDateText:" : "AN 7/8/2022 14:07",
 		"initialize" : "AN 6/7/2022 19:17",
-		"setupContent:" : "AN 7/7/2022 17:10",
-		"showEvent:" : "AN 6/12/2022 16:27" } }
+		"setupContent:" : "AN 7/7/2022 17:10" } }

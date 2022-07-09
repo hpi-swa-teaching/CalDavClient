@@ -1,4 +1,5 @@
 initialization
 showPreviousViewPage
 
-	self view showPreviousPage
+	self view showPreviousPage.
+	self updateWindowSize

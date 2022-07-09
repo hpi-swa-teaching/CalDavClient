@@ -8,7 +8,7 @@
 	"instvars" : [
 		"currentView",
 		"calendarRepository",
-		"startDate" ],
+		"selectedDate" ],
 	"name" : "SCMView",
 	"pools" : [
 		 ],

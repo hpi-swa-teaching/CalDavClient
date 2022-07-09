@@ -1,4 +1,0 @@
-defaults
-defaultMaxEvents
-
-	^ 25

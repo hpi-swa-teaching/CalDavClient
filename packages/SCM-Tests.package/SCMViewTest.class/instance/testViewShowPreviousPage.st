@@ -4,9 +4,9 @@ testViewShowPreviousPage
 	| startDate |
 	
 	self subject load: #agenda.
-	startDate := self subject startDate.
+	startDate := self subject selectedDate.
 	self subject showPreviousPage.
-	self assert: startDate previous equals: self subject startDate.
+	self assert: startDate previous equals: self subject selectedDate.
 	
 	self subject submorphs first submorphsDo: [:each  |
 		each date = DateAndTime yesterday asDate
