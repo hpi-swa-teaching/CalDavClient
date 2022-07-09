@@ -8,6 +8,6 @@ testViewShowNextPage
 	self subject showNextPage.
 	self assert: startDate next equals: self subject selectedDate.
 	
-	self subject submorphs first submorphsDo: [:each  |
+	self subject submorphs first submorphs second submorphs first submorphsDo: [:each  |
 		each date = DateAndTime tomorrow asDate next
 			ifTrue: [self assert: each submorphs second submorphs first event equals: self dayAfterTomorrowEvent]]

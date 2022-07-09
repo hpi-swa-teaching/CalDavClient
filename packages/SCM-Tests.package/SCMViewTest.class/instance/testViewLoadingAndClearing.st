@@ -2,7 +2,7 @@ testing
 testViewLoadingAndClearing
 
 	self subject load: #agenda.
-	self assert: self subject submorphs first class equals: SCMAgendaView.
+	self assert: self subject submorphs first class equals: ScrollPane.
 	
 	self subject clear.
 	self assert: self subject submorphs size equals: 0.

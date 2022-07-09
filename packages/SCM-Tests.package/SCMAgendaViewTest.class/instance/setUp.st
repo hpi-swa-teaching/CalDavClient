@@ -20,4 +20,4 @@ setUp
 		end: Date today;	
 		color: Color green;
 		yourself).
-	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3} andSelectedDate: DateAndTime today asDate)
+	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3} andSelectedDate: DateAndTime today asDate) scroller submorphs first

@@ -5,4 +5,4 @@ testViewSwitching
 	self subject switch.
 	self assert: self subject submorphs first class equals: SCMWeekView.
 	self subject switch.
-	self assert: self subject submorphs first class equals: SCMAgendaView.
+	self assert: self subject submorphs first class equals: ScrollPane.
