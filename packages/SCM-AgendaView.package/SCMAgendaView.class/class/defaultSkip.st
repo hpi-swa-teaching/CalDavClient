@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultSkip
 
 	^ Duration days: 1

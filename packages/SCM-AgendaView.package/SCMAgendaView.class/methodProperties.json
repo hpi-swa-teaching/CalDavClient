@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"createWithEvents:andSelectedDate:" : "AN 7/9/2022 17:47",
+		"createWithEvents:andSelectedDate:" : "NMK 7/10/2022 06:16",
 		"defaultDurationPerView" : "AN 7/9/2022 13:12",
 		"defaultSkip" : "AN 7/9/2022 10:46",
 		"timespanFor:" : "AN 7/9/2022 11:39" },
@@ -8,5 +8,4 @@
 		"configureLayout" : "AN 7/9/2022 14:38",
 		"daysPerView" : "AN 7/9/2022 11:44",
 		"initialize" : "NMK 6/12/2022 20:11",
-		"loadViewWith:" : "Kiru 6/28/2022 17:25",
-		"loadViewWithEmptyDays:andSelectedDate:" : "AN 7/9/2022 14:44" } }
+		"loadViewWithEmptyDays:andSelectedDate:" : "NMK 7/10/2022 06:19" } }

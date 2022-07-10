@@ -1,4 +1,4 @@
-accessing
+convenience
 compressedCopy
 
 	^ SCMCalendar new

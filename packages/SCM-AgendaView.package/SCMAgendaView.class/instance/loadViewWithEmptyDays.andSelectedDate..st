@@ -1,7 +1,7 @@
 initialization
 loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate
 
-	| currentDay currentDate|
+	| currentDay currentDate |
 	
 	currentDate := aDate.
 	self daysPerView timesRepeat: [
@@ -10,4 +10,4 @@ loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate
 		aSortedCollection do: [:each |
 			each begin asDate = currentDate
 				ifTrue: [currentDay addEvent: each]].
-			currentDate := currentDate next]
+		currentDate := currentDate next]

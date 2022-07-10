@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultDurationPerView
 
 	^ Duration days: 10

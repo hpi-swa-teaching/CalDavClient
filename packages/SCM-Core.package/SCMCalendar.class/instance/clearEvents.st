@@ -1,4 +1,4 @@
-accessing
+actions
 clearEvents
 
 	self events removeAll

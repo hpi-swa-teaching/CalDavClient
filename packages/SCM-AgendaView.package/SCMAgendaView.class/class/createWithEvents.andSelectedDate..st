@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createWithEvents: aSortedCollection andSelectedDate: aDate
 
 	| s |
@@ -8,7 +8,7 @@ createWithEvents: aSortedCollection andSelectedDate: aDate
 		adoptPaneColor: Color blue;
 		yourself.
 	s scroller addMorph: (self new
-			loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate;
-			yourself).
+		loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate;
+		yourself).
 	s scroller layoutPolicy: TableLayout new.
 	^ s

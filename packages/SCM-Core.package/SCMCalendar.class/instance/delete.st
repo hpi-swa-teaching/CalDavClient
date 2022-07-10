@@ -1,4 +1,4 @@
-accessing
+actions
 delete
 
 	self calendarDirectory deleteFileNamed: self fullTitle.

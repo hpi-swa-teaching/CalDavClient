@@ -3,6 +3,4 @@ loadCalendars
 
 	SCMCalendar calendarDirectory fileNames do: 
 		[:fileName | self addCalendar: 
-			(SCMCalendar loadNamed: fileName)].
-	
-	
+			(SCMCalendar loadNamed: fileName)]

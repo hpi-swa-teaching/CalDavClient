@@ -1,4 +1,4 @@
 save and load
 resetIndex
 
-	self calendarIndex: 1.
+	self calendarIndex: 1

@@ -1,4 +1,4 @@
-accessing
+convenience
 eventCount
 
 	^ self events size

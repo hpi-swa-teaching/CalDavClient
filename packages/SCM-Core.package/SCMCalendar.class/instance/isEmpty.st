@@ -1,4 +1,4 @@
-accessing
+convenience
 isEmpty
 
 	^ self events isEmpty

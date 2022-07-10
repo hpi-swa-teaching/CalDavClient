@@ -1,4 +1,4 @@
-accessing
+actions
 synchronize
 
 	| file loadedCalendar |
@@ -13,4 +13,4 @@ synchronize
 	self events: loadedCalendar events.
 	self id: loadedCalendar id.
 	
-	self events do: [:event | event calendar: self].
+	self events do: [:event | event calendar: self]

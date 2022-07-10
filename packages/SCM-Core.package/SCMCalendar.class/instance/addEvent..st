@@ -1,4 +1,4 @@
-accessing
+actions
 addEvent: aSCMEvent
 
 	self synchronize.

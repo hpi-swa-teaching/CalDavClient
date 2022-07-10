@@ -1,4 +1,4 @@
 accessing
-isActive: anObject
+isActive: aBoolean
 
-	isActive := anObject.
+	isActive := aBoolean

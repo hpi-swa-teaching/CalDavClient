@@ -1,4 +1,4 @@
-accessing
+convenience
 calendarDirectory 
 
 	^ self class calendarDirectory 
