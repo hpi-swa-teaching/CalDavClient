@@ -1,0 +1,15 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"demoCalendarList",
+		"demoCalendarRepository" ],
+	"name" : "SCMCalendarListTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
