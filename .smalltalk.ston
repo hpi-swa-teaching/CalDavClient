@@ -11,7 +11,7 @@ SmalltalkCISpec {
   #testing : {
     #packages: [ 'SCM.*' ],
     #coverage : {
-      #categories : [ 'SCM-Core' 'SCM-WeekView' 'SCM-AgendaView' ]
+      #categories : [ 'SCM-Core', 'SCM-WeekView', 'SCM-AgendaView' ]
     }
   }
 }
