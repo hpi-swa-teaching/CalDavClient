@@ -8,4 +8,5 @@ demoEvent
 		location: 'Office';
 		participants: 'Minions';
 		color: Color green;
+		calendar: self demoCalendar;
 		yourself

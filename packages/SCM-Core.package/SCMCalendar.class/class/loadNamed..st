@@ -9,4 +9,5 @@ loadNamed: aString
 	file close.
 	
 	loadedCalendar events do: [:event | event calendar: loadedCalendar].
+	loadedCalendar events: loadedCalendar events asSortedCollection.
 	^ loadedCalendar

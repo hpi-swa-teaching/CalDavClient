@@ -8,4 +8,5 @@ demoEvent2
 		location: 'Kitchen';
 		participants: '';
 		color: Color red;
+		calendar: self demoCalendar;
 		yourself

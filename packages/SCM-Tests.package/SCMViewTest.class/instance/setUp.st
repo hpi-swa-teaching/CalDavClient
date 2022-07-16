@@ -5,5 +5,5 @@ setUp
 	self createEvents do: [:each |
 		self demoCalendar addEvent: each].
 	
-	self wantsToTest: (SCMView createWith: (SCMCalendarRepository new)).
+	self wantsToTest: (SCMView createWith: SCMCalendarRepository getDummy).
 	self subject calendarRepository addCalendar: self demoCalendar

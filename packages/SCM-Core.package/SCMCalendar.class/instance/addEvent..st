@@ -1,7 +1,7 @@
 actions
 addEvent: aSCMEvent
 
-	self synchronize.
+	"self synchronize."
 	self events add: aSCMEvent.
 	aSCMEvent calendar: self.
 	self store.

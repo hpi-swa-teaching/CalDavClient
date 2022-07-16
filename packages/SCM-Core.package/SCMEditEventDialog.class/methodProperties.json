@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"openEvent:for:" : "AN 6/26/2022 00:01" },
+		"createForEvent:" : "AN 7/16/2022 10:16" },
 	"instance" : {
 		"buildButtons:" : "AN 6/25/2022 22:48",
-		"deleteEvent" : "AN 6/26/2022 00:05",
+		"deleteOldEvent" : "AN 7/14/2022 21:13",
 		"oldEvent" : "LB 6/21/2021 17:16",
 		"oldEvent:" : "LB 6/21/2021 17:28",
-		"saveEvent" : "AN 6/26/2022 00:05",
+		"saveEvent" : "AN 7/15/2022 00:53",
 		"windowTitle" : "jz 5/30/2018 14:38" } }

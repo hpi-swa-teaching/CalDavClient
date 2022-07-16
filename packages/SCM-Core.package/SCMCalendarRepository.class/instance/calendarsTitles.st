@@ -1,4 +1,4 @@
 accessing
-calendarsNames
+calendarsTitles
 	
 	^ self calendars collect: [:each | each title]

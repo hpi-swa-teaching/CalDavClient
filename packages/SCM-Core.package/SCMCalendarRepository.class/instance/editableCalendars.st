@@ -1,4 +1,4 @@
 accessing
 editableCalendars
-	
-	^ self calendars select: [:each | each isReadOnly not]
+
+	^ self calendars select: [:each | each isEditable]

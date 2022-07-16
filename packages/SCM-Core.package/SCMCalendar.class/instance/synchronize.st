@@ -3,7 +3,7 @@ synchronize
 
 	| file loadedCalendar |
 	
-	self calendarFileExists ifFalse: [^ self].
+	self calendarFileExists ifFalse: [self store. ^ self].
 	file := FileStream readOnlyFileNamed: self fullTitle.
 	loadedCalendar := STON fromString: file contents.
 	file close.

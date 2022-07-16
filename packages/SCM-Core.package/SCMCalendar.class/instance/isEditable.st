@@ -1,0 +1,4 @@
+accessing
+isEditable
+
+	^ true

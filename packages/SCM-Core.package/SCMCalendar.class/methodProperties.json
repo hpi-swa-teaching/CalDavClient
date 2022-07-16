@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"calendarDirectory" : "NMK 6/20/2022 17:52",
-		"loadNamed:" : "AN 7/7/2022 16:12",
+		"loadNamed:" : "AN 7/15/2022 01:51",
 		"newNamed:withDefaultColor:" : "AN 7/8/2022 11:40" },
 	"instance" : {
 		"=" : "NMK 7/10/2022 06:27",
-		"addEvent:" : "AN 7/7/2022 16:12",
+		"addEvent:" : "AN 7/14/2022 23:44",
 		"calendarDirectory" : "AN 6/25/2022 13:51",
 		"calendarFileExists" : "Kiru 7/5/2022 11:37",
 		"clearEvents" : "AN 6/25/2022 15:13",
@@ -14,7 +14,7 @@
 		"compressedCopy" : "AN 7/8/2022 11:45",
 		"createId" : "Kiru 7/5/2022 11:42",
 		"delete" : "AN 7/4/2022 21:45",
-		"deleteEvent:" : "AN 7/7/2022 15:56",
+		"deleteEvent:" : "AN 7/14/2022 23:49",
 		"errorEventNotInCalendar:" : "Kiru 7/5/2022 12:12",
 		"eventCount" : "NMK 5/21/2022 15:52",
 		"events" : "AN 6/25/2022 12:36",
@@ -27,10 +27,12 @@
 		"id:" : "NMK 7/10/2022 06:32",
 		"isActive" : "AN 6/25/2022 15:14",
 		"isActive:" : "NMK 7/10/2022 06:33",
+		"isEditable" : "AN 7/15/2022 10:06",
 		"isEmpty" : "AN 6/25/2022 13:57",
-		"isReadOnly" : "AN 7/8/2022 13:55",
+		"isReadOnly" : "AN 7/14/2022 20:00",
+		"retitle:" : "AN 7/14/2022 12:00",
 		"store" : "AN 7/8/2022 11:45",
-		"synchronize" : "NMK 7/10/2022 06:28",
+		"synchronize" : "AN 7/14/2022 13:43",
 		"title" : "AN 6/25/2022 12:37",
 		"title:" : "NMK 7/10/2022 06:33",
 		"update:" : "AN 7/3/2022 12:28" } }

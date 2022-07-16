@@ -1,4 +1,4 @@
 initialization
 defaultExtent
 
-	^ 500 @ 700
+	^ 700 @ 500

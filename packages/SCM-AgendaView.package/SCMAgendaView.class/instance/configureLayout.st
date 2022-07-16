@@ -9,7 +9,7 @@ configureLayout
 	  	borderWidth: 0;
 		cellInset: 5;
 	  	cellPositioning: #topLeft;
-	   	listCentering: #center;
+	   	listCentering: #topLeft;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
 	  	listDirection: #topToBottom;

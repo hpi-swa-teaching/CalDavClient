@@ -1,4 +1,4 @@
 save and load
 selectedEditableCalendar
 
-	^ self calendarRepository editableCalendars at: self calendarIndex
+	^ self editableCalendars at: self calendarIndex

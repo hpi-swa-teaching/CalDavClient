@@ -1,10 +1,9 @@
 running
 setUp
 
-	self calendarRepository: (SCMCalendarRepository new).
+	self calendarRepository: SCMCalendarRepository getDummy.
 	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise).
 	self demoCalendar addEvent: self demoEvent.
-	
 	self calendarRepository addCalendar: self demoCalendar.
 	
 	self eventDialog: SCMEventDialog new.

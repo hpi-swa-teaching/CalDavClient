@@ -10,5 +10,8 @@ openInScrollPane
 	s scroller 
 		addMorph: self;
 		layoutPolicy: TableLayout new.
+	"s vScrollBar
+		color: Color red;
+		sliderColor: Color green."
 	^ s
 	

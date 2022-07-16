@@ -3,7 +3,7 @@ mouseUp: anEvent
 
 	(self containsPoint: anEvent cursorPoint)
 		ifTrue: [
-		self event isInReadOnlyCalendar
-			ifTrue: [self openShowEventDialogFor: self event]
-			ifFalse: [self openEditEventDialogFor: self event]]
+		self event isEditable
+			ifFalse: [self openShowEventDialogFor: self event]
+			ifTrue: [self openEditEventDialogFor: self event]]
 		
