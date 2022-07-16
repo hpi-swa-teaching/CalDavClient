@@ -20,4 +20,4 @@ setUp
 		end: DateAndTime today;	
 		color: Color green;
 		yourself).
-	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next))
+	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next)) scroller firstSubmorph
