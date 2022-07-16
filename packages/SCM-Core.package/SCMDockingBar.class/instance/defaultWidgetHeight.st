@@ -1,4 +1,4 @@
 defaults
-defaultWidgetWidth
+defaultWidgetHeight
 
 	^ 25 @ 25

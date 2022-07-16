@@ -1,9 +1,9 @@
 initialization
-target: anObject actionSelector: aStringOrSymbol form: aForm andWidth: aWidth
+target: anObject actionSelector: aStringOrSymbol form: aForm andHeight: aNumber
 
 	| scaledForm |
 	
-	scaledForm := (aForm scaledToWidth: aWidth).
+	scaledForm := (aForm scaledToHeight: aNumber).
 	^ self new
 			target: anObject;
 			actionSelector: aStringOrSymbol;

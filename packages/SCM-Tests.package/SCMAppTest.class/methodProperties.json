@@ -6,5 +6,8 @@
 		"tearDown" : "AN 7/6/2022 18:14",
 		"testHierarchy" : "AN 7/9/2022 14:55",
 		"testReloadView" : "LZ 6/26/2022 19:11",
+		"testShowNextViewPage" : "Kiru 7/14/2022 10:38",
+		"testShowPreviousViewPage" : "Kiru 7/14/2022 10:39",
 		"testSwitchViewButton" : "AN 7/9/2022 14:55",
-		"testTableLayout" : "LZ 5/18/2022 17:50" } }
+		"testTableLayout" : "LZ 5/18/2022 17:50",
+		"testViewSwitching" : "Kiru 7/14/2022 10:33" } }

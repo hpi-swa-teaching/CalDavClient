@@ -1,4 +1,4 @@
 accessing
 viewClasses
 
-	^ {#agenda -> SCMAgendaView. #week -> SCMWeekView} asDictionary
+	^ Dictionary newFrom: {#agenda -> SCMAgendaView. #week -> SCMWeekView}

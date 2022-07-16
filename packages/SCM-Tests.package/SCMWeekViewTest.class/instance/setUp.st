@@ -16,8 +16,8 @@ setUp
 	
 	event3 := (SCMEvent new
 		title: 'Event 3';
-		begin: Date today;
-		end: Date today;	
+		begin: DateAndTime today;
+		end: DateAndTime today;	
 		color: Color green;
 		yourself).
-	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next)) scroller firstSubmorph
+	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next))
