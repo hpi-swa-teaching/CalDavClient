@@ -1,5 +1,5 @@
 initialization
-createWithApp: aSCMApp
+createWith: aSCMApp
 
 	| dockingBar |
 	

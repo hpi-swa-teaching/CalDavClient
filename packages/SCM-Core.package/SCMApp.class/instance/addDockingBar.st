@@ -2,5 +2,5 @@ initialization
 addDockingBar
 
 	self 
-		dockingBar: (SCMDockingBar createWithApp: self);
+		dockingBar: (SCMDockingBar createWith: self);
 		addMorph: self dockingBar

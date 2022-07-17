@@ -1,7 +1,9 @@
 testing
 testShowPreviousViewPage
 
-	|selectedDate|
-	selectedDate := self subject view selectedDate.
+	| selectedDate previousSelectedDate |
+	
+	selectedDate := self selectedDate.
 	self subject showPreviousViewPage.
-	self assert: (selectedDate -  self subject view currentViewClass defaultSkip = self subject view selectedDate)
+	previousSelectedDate := selectedDate - self currentViewClass defaultSkip.
+	self assert: previousSelectedDate = self selectedDate

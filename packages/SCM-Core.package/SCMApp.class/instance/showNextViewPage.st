@@ -1,4 +1,4 @@
-initialization
+configuring view
 showNextViewPage
 
 	self view showNextPage.

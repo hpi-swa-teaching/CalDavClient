@@ -1,8 +1,10 @@
 testing
 testViewSwitching
 
-	|view|
-	view := self subject view currentView.
+	| currentView switchedView |
+	
+	currentView := self view currentView.
 	self subject switch.
-	self assert: (view ~=  self subject view currentView)
+	switchedView := self view currentView.
+	self assert: (currentView ~=  switchedView)
 	

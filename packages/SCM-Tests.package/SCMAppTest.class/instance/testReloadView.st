@@ -1,7 +1,9 @@
 testing
 testReloadView
 
-	| currentView |
-	currentView := self subject submorphs second.
+	| view reloadedView |
+	
+	view := self view.
 	self subject reload.
-	self assert: self subject submorphs second equals: currentView.
+	reloadedView := self view.
+	self assert: reloadedView equals: view.

@@ -2,12 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentViewClass" : "BZ 7/17/2022 11:34",
+		"selectedDate" : "BZ 7/17/2022 11:34",
 		"setUp" : "LZ 6/26/2022 19:06",
 		"tearDown" : "AN 7/6/2022 18:14",
 		"testHierarchy" : "AN 7/9/2022 14:55",
-		"testReloadView" : "LZ 6/26/2022 19:11",
-		"testShowNextViewPage" : "Kiru 7/14/2022 10:38",
-		"testShowPreviousViewPage" : "Kiru 7/14/2022 10:39",
-		"testSwitchViewButton" : "AN 7/9/2022 14:55",
+		"testReloadView" : "BZ 7/17/2022 11:34",
+		"testShowNextViewPage" : "BZ 7/17/2022 11:25",
+		"testShowPreviousViewPage" : "BZ 7/17/2022 11:25",
+		"testSwitchViewButton" : "BZ 7/17/2022 11:33",
 		"testTableLayout" : "LZ 5/18/2022 17:50",
-		"testViewSwitching" : "Kiru 7/14/2022 10:33" } }
+		"testViewSwitching" : "BZ 7/17/2022 11:35",
+		"view" : "BZ 7/17/2022 11:32" } }
