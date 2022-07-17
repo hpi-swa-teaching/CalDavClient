@@ -5,7 +5,6 @@ newBottomRow
 		 changeTableLayout ;
 		 listDirection: #leftToRight ;
 		 hResizing: #spaceFill; vResizing: #shrinkWrap ;
-		 height: 20 ;
-		 cellGap: 4 ;
+		 height: 20;
 		 addMorph: (StringMorph contents: 'Current selection:' translated) ;
 		 addMorphBack: self newColorPresenterMorph
