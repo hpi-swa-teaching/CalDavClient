@@ -1,4 +1,4 @@
-as yet unclassified
+event data
 eventColor
 
 	^ Color turquoise

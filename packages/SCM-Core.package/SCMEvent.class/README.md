@@ -1,1 +1,1 @@
-An event can be added to a calendar
+This is a data class that contains all information of an event. It can be displayed with EventMorph.

@@ -1,4 +1,4 @@
-accessing
+event data
 eventTitle
 
 	^ 'just waiting'

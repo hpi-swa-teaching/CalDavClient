@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "BZ 6/22/2022 10:40",
+	"commentStamp" : "NMK 7/17/2022 22:50",
 	"instvars" : [
 		"begin",
 		"end",
@@ -12,8 +12,8 @@
 		"description",
 		"participants",
 		"location",
-		"calendar",
-		"color" ],
+		"color",
+		"calendar" ],
 	"name" : "SCMEvent",
 	"pools" : [
 		 ],

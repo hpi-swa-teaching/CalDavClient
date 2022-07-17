@@ -1,4 +1,4 @@
-as yet unclassified
+event data
 eventParticipants
 
 	 ^ 'me, myself and I'

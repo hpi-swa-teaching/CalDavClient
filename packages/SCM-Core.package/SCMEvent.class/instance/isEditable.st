@@ -1,4 +1,4 @@
-accessing
+testing
 isEditable
 
 	^ self calendar isEditable

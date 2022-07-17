@@ -2,15 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createEvent" : "AN 7/8/2022 18:49",
+		"createEvent" : "NMK 7/17/2022 21:58",
 		"event" : "AN 7/8/2022 18:47",
 		"event:" : "AN 7/8/2022 18:48",
-		"eventBegin" : "AN 7/8/2022 18:48",
+		"eventBegin" : "NMK 7/17/2022 21:58",
 		"eventColor" : "AN 7/8/2022 18:48",
 		"eventDescription" : "AN 7/8/2022 18:48",
-		"eventEnd" : "AN 7/8/2022 18:48",
+		"eventEnd" : "NMK 7/17/2022 21:58",
 		"eventLocation" : "AN 7/8/2022 18:48",
 		"eventParticipants" : "AN 7/8/2022 18:49",
 		"eventTitle" : "AN 7/8/2022 18:49",
 		"setUp" : "AN 7/8/2022 18:49",
-		"testAccessors" : "AN 7/8/2022 18:49" } }
+		"testAccessors" : "AN 7/8/2022 18:49",
+		"testCompressedCopy" : "NMK 7/17/2022 22:41",
+		"testEqual" : "NMK 7/17/2022 22:35",
+		"testGreaterThan" : "NMK 7/17/2022 22:28",
+		"testGreaterThanOrEqual" : "NMK 7/17/2022 22:29",
+		"testLessThan" : "NMK 7/17/2022 22:27",
+		"testLessThanOrEqual" : "NMK 7/17/2022 22:30" } }

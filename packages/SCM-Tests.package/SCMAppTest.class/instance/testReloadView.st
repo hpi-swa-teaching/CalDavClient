@@ -6,4 +6,4 @@ testReloadView
 	view := self view.
 	self subject reload.
 	reloadedView := self view.
-	self assert: reloadedView equals: view.
+	self assert: reloadedView equals: view

@@ -7,5 +7,4 @@ comparing
 			and: [self description = comparand description
 			and: [self participants = comparand participants
 			and: [self location = comparand location
-			and: [self color = comparand color
-			"and: [self calendar == comparand calendar]"]]]]]]
+			and: [self color = comparand color]]]]]]
