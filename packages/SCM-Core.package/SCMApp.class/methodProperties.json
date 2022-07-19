@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"start" : "BZ 5/25/2022 14:34" },
+		"start" : "NMK 7/19/2022 23:24",
+		"startDummy" : "NMK 7/19/2022 23:25" },
 	"instance" : {
 		"addDockingBar" : "BZ 7/17/2022 10:46",
 		"addView" : "AN 7/16/2022 10:09",
@@ -10,11 +11,11 @@
 		"defaultExtent" : "AN 7/16/2022 11:21",
 		"dockingBar" : "NMK 5/18/2022 11:52",
 		"dockingBar:" : "NMK 5/18/2022 11:52",
-		"initialize" : "AN 7/14/2022 19:03",
 		"loadCalendars" : "BZ 7/17/2022 10:42",
 		"openAddEventDialog" : "AN 7/16/2022 10:12",
 		"openUp" : "AN 7/16/2022 10:19",
 		"reload" : "AN 6/12/2022 17:07",
+		"setUp" : "NMK 7/19/2022 23:24",
 		"showNextViewPage" : "AN 7/9/2022 14:42",
 		"showPreviousViewPage" : "AN 7/9/2022 14:42",
 		"switch" : "AN 7/16/2022 11:16",

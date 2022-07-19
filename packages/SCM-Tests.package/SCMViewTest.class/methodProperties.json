@@ -12,11 +12,11 @@
 		"setUp" : "AN 7/15/2022 01:27",
 		"tearDown" : "AN 7/15/2022 01:18",
 		"testReload" : "BZ 6/26/2022 11:43",
-		"testShowPreviousPageAgenda" : "AN 7/9/2022 14:57",
+		"testShowPreviousPageAgenda" : "NMK 7/19/2022 22:50",
 		"testShowPreviousPageWeek" : "AN 7/9/2022 14:57",
 		"testViewLoadingAndClearing" : "AN 7/16/2022 11:28",
 		"testViewShowNextPage" : "AN 7/11/2022 18:38",
 		"testViewShowPreviousPage" : "AN 7/11/2022 18:38",
-		"testViewSwitching" : "AN 7/16/2022 11:26",
+		"testViewSwitching" : "NMK 7/19/2022 22:52",
 		"yesterdayEvent" : "6/27/2022 22:39:32",
 		"yesterdayEvent:" : "6/27/2022 22:39:32" } }

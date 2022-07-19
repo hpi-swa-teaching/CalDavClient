@@ -1,4 +1,0 @@
-defaults
-defaultCellInset
-
-	^ 5

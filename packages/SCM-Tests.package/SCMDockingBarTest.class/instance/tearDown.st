@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self app owner abandon 
+	self app window abandon 

@@ -1,9 +1,7 @@
 initialization
-initialize
-	
-	super initialize.
+setUp
+
 	self
-		calendarRepository: SCMCalendarRepository get;
 		loadCalendars;
 		configureLayout;
 		addDockingBar;

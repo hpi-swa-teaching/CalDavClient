@@ -3,6 +3,10 @@ createButtonNamed: aSymbol target: anObject actionSelector: aStringOrSymbol form
 
 	| button |
 	
-	button := SCMButton target: anObject actionSelector: aStringOrSymbol form: aForm andHeight: aNumber.
+	button := SCMButton
+		target: anObject
+		actionSelector: aStringOrSymbol
+		form: aForm
+		andHeight: aNumber.
 	self widgets at: aSymbol ifAbsentPut: button.
 	self addMorphBack: button

@@ -9,5 +9,5 @@ configureResizingAndCentering
 	  	wrapCentering: #center;
 	  	wrapDirection: #none;
 		cellPositioning: #topLeft;
-		cellInset: self defaultCellInset
+		cellInset: 5
 		

@@ -1,1 +1,1 @@
-Tests for SCMEvent
+This class tests SCMEvent.

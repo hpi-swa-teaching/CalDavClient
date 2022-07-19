@@ -2,10 +2,9 @@ initialization
 configureLayout
 
 	self
-	  	color: self defaultFillColor;
-		borderWidth: self defaultBorderWidth;
-		borderColor: Color black;
 		layoutPolicy: TableLayout new;
-	 	layoutInset: self defaultLayoutInset;
+	 	layoutInset: 2 @ 2;
+	  	color: (Color r: 0 g: 143 b: 245 range: 255);
+		borderColor: Color black;
+		borderWidth: 0;
 		configureResizingAndCentering
-		
