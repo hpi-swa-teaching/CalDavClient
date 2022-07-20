@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"get" : "AN 7/14/2022 19:03",
+		"get" : "NMK 7/20/2022 13:29",
 		"getDummy" : "AN 7/14/2022 20:11" },
 	"instance" : {
 		"activeCalendars" : "AN 6/25/2022 15:45",
@@ -16,7 +16,9 @@
 		"calendarsTitles" : "AN 7/14/2022 19:49",
 		"deleteCalendar:" : "AN 7/15/2022 01:19",
 		"editableCalendars" : "AN 7/14/2022 20:04",
+		"initialize" : "NMK 7/20/2022 13:21",
 		"isEmpty" : "AN 6/25/2022 15:35",
 		"loadCalendars" : "NMK 7/19/2022 23:21",
+		"startUp:" : "NMK 7/20/2022 13:27",
 		"storeAllCalendars" : "NMK 6/30/2022 09:38",
 		"update:" : "NMK 7/10/2022 06:34" } }

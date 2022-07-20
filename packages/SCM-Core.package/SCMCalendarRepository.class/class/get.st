@@ -1,4 +1,4 @@
 as yet unclassified
 get
 
-	^ Singleton ifNil: [Singleton := self basicNew]
+	^ Smalltalk at: #SCMGlobalCalendarRepository ifAbsentPut: self new
