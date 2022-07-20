@@ -1,4 +1,4 @@
 accessing
-demoCalendarList: anObject
+demoCalendarList: aSCMCalendarList
 
-	demoCalendarList := anObject.
+	demoCalendarList := aSCMCalendarList

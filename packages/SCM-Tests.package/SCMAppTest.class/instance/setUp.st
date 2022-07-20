@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMApp start
+	self wantsToTest: SCMApp startDummy
