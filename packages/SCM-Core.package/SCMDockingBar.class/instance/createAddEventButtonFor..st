@@ -1,8 +1,8 @@
 initialization
-createAddButtonFor: aSCMApp
+createAddEventButtonFor: aSCMApp
 	
 	self createButtonNamed: #addEvent
 		target: aSCMApp
 		actionSelector: #openAddEventDialog
-		form: self class plusIcon
+		form: self class addEventIcon
 		andHeight: self defaultWidgetHeight

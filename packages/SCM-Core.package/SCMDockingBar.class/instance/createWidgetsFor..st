@@ -2,7 +2,8 @@ initialization
 createWidgetsFor: aSCMApp
 
 	self 
-		createAddButtonFor: aSCMApp;
+		createAddCalendarButtonFor: aSCMApp;
+		createAddEventButtonFor: aSCMApp;
 		createSwitchButtonFor: aSCMApp;
 		createPreviousButtonFor: aSCMApp;
 		createNextButtonFor: aSCMApp

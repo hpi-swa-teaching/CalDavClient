@@ -1,7 +1,7 @@
-initialize
+as yet unclassified
 createWith: aSCMCalendarRepository
-		
+
 	 ^ ToolBuilder default open:
 			(self new
-				calendarList: (SCMCalendarList createWith: aSCMCalendarRepository);
+				calendarRepository: aSCMCalendarRepository;
 				yourself)

@@ -1,14 +1,14 @@
 actions
 pickBeginDate
 
-	| datePicker |
+	| colorPicker |
 	
-	datePicker := SCMDatePicker 
+	colorPicker := SCMDatePicker 
 		openForDialog: self 
 		color: Color sky 
 		label: 'Pick Begin Date'.
-	self windows add: datePicker owner.
-	datePicker 
+	self windows add: colorPicker owner.
+	colorPicker 
 		when: #dateChanged 
 		send: #updateBeginDate: 
 		to: self

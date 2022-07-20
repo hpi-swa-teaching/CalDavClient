@@ -1,0 +1,19 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"windows",
+		"calendarRepository",
+		"calendarColor",
+		"calendarTitle",
+		"titleColor",
+		"titleTextColor" ],
+	"name" : "SCMAddCalendarDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

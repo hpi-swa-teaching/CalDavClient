@@ -1,0 +1,4 @@
+actions
+isValid
+
+	^ self calendarTitle ~= ''

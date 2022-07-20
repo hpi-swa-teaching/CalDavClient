@@ -1,5 +1,5 @@
 icons
-plusIcon
+addEventIcon
 	"by Pixel perfect on Flaticon"
 	^ (Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: 'iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlw
 SFlzAAALEwAACxMBAJqcGAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoA
