@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildStandardFields: aBuilder
 
 	^ {self buildTitleText: aBuilder.

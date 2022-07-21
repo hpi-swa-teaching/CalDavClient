@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"calendarRepository",
-		"calendarColor",
-		"calendarTitle" ],
-	"name" : "SCMAddCalendarDialog",
+		"windows",
+		"titleColor",
+		"titleTextColor" ],
+	"name" : "SCMDialog",
 	"pools" : [
 		 ],
-	"super" : "SCMDialog",
+	"super" : "Model",
 	"type" : "normal" }

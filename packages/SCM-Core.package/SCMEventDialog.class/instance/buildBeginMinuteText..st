@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildBeginMinuteText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new

@@ -1,0 +1,4 @@
+validating
+isValid
+
+	^ self subclassResponsibility

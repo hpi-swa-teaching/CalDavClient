@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildColorPickerButton: aBuilder
 
 	^ aBuilder pluggableActionButtonSpec new

@@ -1,4 +1,4 @@
-actions
+accessing
 color: aColor
 	
 	self eventData at: #color put: aColor.

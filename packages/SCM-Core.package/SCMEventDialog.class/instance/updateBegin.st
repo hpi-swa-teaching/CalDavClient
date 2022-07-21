@@ -1,4 +1,4 @@
-actions
+updating
 updateBegin
 
 	self checkBeginHighlighting.

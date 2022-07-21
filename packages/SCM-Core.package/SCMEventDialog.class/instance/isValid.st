@@ -1,4 +1,4 @@
-accessing
+validating
 isValid
 
 	^ self isTitleValid 

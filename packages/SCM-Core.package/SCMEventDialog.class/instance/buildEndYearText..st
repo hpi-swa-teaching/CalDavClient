@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildEndYearText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new

@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 close
 
 	self windows do: [:window | window abandon].

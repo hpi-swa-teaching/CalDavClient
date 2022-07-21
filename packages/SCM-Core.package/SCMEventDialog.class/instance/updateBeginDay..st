@@ -1,4 +1,4 @@
-accessing
+updating
 updateBeginDay: aText 
 
 	(self isEmptyText: aText)

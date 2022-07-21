@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 windowFields: aBuilder
 	
 	^ OrderedCollection new

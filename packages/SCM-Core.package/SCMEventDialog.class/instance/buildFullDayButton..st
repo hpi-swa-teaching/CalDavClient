@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildFullDayButton: aBuilder
 
 	^ aBuilder pluggableActionButtonSpec new

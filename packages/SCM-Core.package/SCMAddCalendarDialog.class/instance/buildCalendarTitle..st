@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildCalendarTitle: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new

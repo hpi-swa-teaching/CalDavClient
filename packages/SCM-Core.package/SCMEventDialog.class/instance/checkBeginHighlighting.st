@@ -1,4 +1,4 @@
-actions
+validating
 checkBeginHighlighting
 
 	self beginColor: self defaultColor.

@@ -1,4 +1,4 @@
-accessing
+updating
 updateBeginHour: aText
 
 	(self isEmptyText: aText)

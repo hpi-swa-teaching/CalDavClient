@@ -1,4 +1,4 @@
-actions
+updating
 updateEnd
 
 	self checkEndHighlighting.

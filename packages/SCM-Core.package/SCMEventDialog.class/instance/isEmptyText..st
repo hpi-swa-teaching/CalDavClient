@@ -1,4 +1,4 @@
-toolbuilding
+validating
 isEmptyText: aText
 
-	^ aText asString = ''
+	^ aText asString isEmpty

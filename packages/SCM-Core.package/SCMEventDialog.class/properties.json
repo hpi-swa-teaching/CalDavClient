@@ -7,15 +7,12 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"eventData",
-		"titleColor",
 		"isFullDaySelected",
-		"titleTextColor",
 		"calendarList",
-		"windows",
 		"beginColor",
 		"endColor" ],
 	"name" : "SCMEventDialog",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "SCMDialog",
 	"type" : "normal" }

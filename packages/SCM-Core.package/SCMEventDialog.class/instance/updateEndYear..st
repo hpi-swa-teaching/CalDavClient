@@ -1,4 +1,4 @@
-accessing
+updating
 updateEndYear: aText
 
 	(self isEmptyText: aText)

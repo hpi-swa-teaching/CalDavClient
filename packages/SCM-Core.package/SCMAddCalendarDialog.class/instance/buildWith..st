@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildWith: aBuilder
 
 	| newWindow |

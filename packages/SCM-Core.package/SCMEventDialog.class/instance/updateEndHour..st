@@ -1,4 +1,4 @@
-accessing
+updating
 updateEndHour: aText
 	
 	(self isEmptyText: aText)

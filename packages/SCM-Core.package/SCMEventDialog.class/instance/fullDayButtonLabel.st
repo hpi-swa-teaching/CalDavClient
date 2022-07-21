@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 fullDayButtonLabel
 	
 	self isFullDaySelected

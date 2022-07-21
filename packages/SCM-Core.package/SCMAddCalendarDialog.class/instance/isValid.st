@@ -1,4 +1,4 @@
-actions
+validating
 isValid
 
-	^ self calendarTitle ~= ''
+	^ self calendarTitle isEmpty not

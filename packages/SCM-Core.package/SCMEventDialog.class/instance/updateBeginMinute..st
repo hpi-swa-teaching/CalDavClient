@@ -1,4 +1,4 @@
-accessing
+updating
 updateBeginMinute: aText
 	
 	(self isEmptyText: aText)

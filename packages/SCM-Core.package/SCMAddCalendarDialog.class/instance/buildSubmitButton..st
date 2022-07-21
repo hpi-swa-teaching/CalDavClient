@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildSubmitButton: aBuilder
 
 	^ aBuilder pluggableActionButtonSpec new

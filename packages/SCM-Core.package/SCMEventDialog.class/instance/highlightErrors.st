@@ -1,5 +1,6 @@
 ui
 highlightErrors
 
-	self highlightTitle;
+	self 
+		highlightTitle;
 		highlightDatesAndTimes
