@@ -8,5 +8,7 @@ buildBeginHourText: aBuilder
 		color: #beginColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
-		help: 'hh';
-		frame: (0.73 @ (self lineOffsetOf: 3) corner: 0.78 @ ((self lineOffsetOf: 3) + self lineHeight))
+		help: self eventHourHelpText;
+		frame: (0.73 @ (self lineOffsetOf: 3) 
+			corner: 0.78 @ ((self lineOffsetOf: 3) + self lineHeight));
+		yourself

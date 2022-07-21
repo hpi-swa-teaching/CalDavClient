@@ -3,4 +3,4 @@ areDatesValid
 
 	^ self isBeginDateValid and: 
 		[self isEndDateValid 
-		and: [self beginDate <= self endDate]]
+			and: [self beginDate <= self endDate]]

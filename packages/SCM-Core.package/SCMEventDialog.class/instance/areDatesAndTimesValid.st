@@ -3,4 +3,4 @@ areDatesAndTimesValid
 
 	^ self isBeginDateAndTimeValid and: 
 		[self isEndDateAndTimeValid 
-		and: [self begin < self end]]
+			and: [self begin < self end]]

@@ -2,11 +2,13 @@ toolbuilder
 buildBeginDayText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
-			model: self;
-			getText: #beginDay;
-			editText: #updateBeginDay:;
-			color: #beginColor;
-			indicateUnacceptedChanges: false;
-			help: 'Day';
-			readOnly: self isReadOnly; 
-			frame: (0.62 @ (self lineOffsetOf: 3) corner: 0.72 @ ((self lineOffsetOf: 3) + self lineHeight))
+		model: self;
+		getText: #beginDay;
+		editText: #updateBeginDay:;
+		color: #beginColor;
+		indicateUnacceptedChanges: false;
+		help: self eventDayHelpText;
+		readOnly: self isReadOnly; 
+		frame: (0.62 @ (self lineOffsetOf: 3) 
+			corner: 0.72 @ ((self lineOffsetOf: 3) + self lineHeight));
+		yourself

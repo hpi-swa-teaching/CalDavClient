@@ -8,5 +8,7 @@ buildBeginYearText: aBuilder
 		color: #beginColor;
 		indicateUnacceptedChanges: false;
 		readOnly: self isReadOnly; 
-		help: 'Year';
-		frame: (0.21 @ (self lineOffsetOf: 3) corner: 0.3 @ ((self lineOffsetOf: 3) + self lineHeight))
+		help: self eventYearHelpText;
+		frame: (0.21 @ (self lineOffsetOf: 3) 
+			corner: 0.3 @ ((self lineOffsetOf: 3) + self lineHeight));
+		yourself

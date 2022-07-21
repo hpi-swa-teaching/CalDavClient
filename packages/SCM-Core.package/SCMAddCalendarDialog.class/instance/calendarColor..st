@@ -1,5 +1,5 @@
 accessing
 calendarColor: aColor
 
-  calendarColor := aColor.
-  self changed: #calendarColor
+	calendarColor := aColor.
+	self changed: #calendarColor

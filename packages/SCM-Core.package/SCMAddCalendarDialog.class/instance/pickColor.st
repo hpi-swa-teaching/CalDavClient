@@ -7,5 +7,5 @@ pickColor
 		on: self 
 		originalColor: self calendarColor
 		setColorSelector: #calendarColor:
-		label: 'Pick Color'.
+		label: self colorPickerLabelText.
 	self windows add: colorPicker owner

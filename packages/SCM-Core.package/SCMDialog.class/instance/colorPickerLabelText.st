@@ -1,0 +1,4 @@
+constants
+colorPickerLabelText
+
+	^  'Pick Color'

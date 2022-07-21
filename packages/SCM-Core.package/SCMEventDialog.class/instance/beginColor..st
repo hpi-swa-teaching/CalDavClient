@@ -1,5 +1,5 @@
 accessing
-beginColor: anObject
+beginColor: aColor
 
-	beginColor := anObject.
+	beginColor := aColor.
 	self changed: #beginColor
