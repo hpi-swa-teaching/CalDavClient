@@ -6,6 +6,7 @@ openForDialog: aDialog color: aColor label: aLabel
 	dialogWindow := aDialog topView.
 	datePicker := self new color: aColor.
 	(datePicker openInWindowLabeled: aLabel) 
-		extent: datePicker extent + 10;
+		extent: datePicker extent + 40;
+		model: datePicker;
 		position: (dialogWindow width + dialogWindow position x) @ (dialogWindow height * 0.3 + dialogWindow position y).
 	^ datePicker
