@@ -1,5 +1,7 @@
 ui
 highlightDatesAndTimes
 
-	self areDatesAndTimesValid ifFalse: [self endColor: self defaultHighlightColor.
-		self beginColor: self defaultHighlightColor]
+	self areDatesAndTimesValid
+		ifFalse:
+			[self beginFieldsColor: self defaultHighlightColor.
+			self endFieldsColor: self defaultHighlightColor]

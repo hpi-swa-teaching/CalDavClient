@@ -1,6 +1,6 @@
 accessing
 isValidMonth: aText
 
-	^ aText asString isAllDigits
-		and: [aText asNumber <= 12 
-		and: [aText asNumber > 0]]
+	^ (self isPositiveInteger: aText)
+			and: [aText asNumber >= 1
+				and: [aText asNumber <= 12]]

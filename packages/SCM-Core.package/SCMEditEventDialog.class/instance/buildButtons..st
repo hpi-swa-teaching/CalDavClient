@@ -1,13 +1,11 @@
 toolbuilding
 buildButtons: aBuilder
  
-	| buttons |
-	
-	buttons := OrderedCollection new.
-	buttons add: (self buildEditButton: aBuilder).
-	buttons add: (self buildDeleteButton: aBuilder).
-	buttons add: (self buildBeginPickerButton: aBuilder).
-	buttons add: (self buildEndPickerButton: aBuilder).
-	buttons add: (self buildFullDayButton: aBuilder).
-	buttons add: (self buildColorPickerButton: aBuilder).
-	^ buttons
+	^ OrderedCollection new
+			add: (self buildEditButton: aBuilder);
+			add: (self buildDeleteButton: aBuilder);
+			add: (self buildBeginPickerButton: aBuilder);
+			add: (self buildEndPickerButton: aBuilder);
+			add: (self buildFullDayButton: aBuilder);
+			add: (self buildColorPickerButton: aBuilder);
+			yourself

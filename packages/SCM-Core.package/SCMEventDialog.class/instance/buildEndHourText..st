@@ -2,11 +2,13 @@ toolbuilder
 buildEndHourText: aBuilder
 
 	^ aBuilder pluggableInputFieldSpec new
-		model: self;
-		getText: #endHour;
-		editText: #updateEndHour:;
-		color: #endColor;
-		indicateUnacceptedChanges: false;
-		readOnly: self isReadOnly; 
-		help: 'hh';
-		frame: (0.73 @ (self lineOffsetOf: 4) corner: 0.78 @ ((self lineOffsetOf: 4) + self lineHeight))
+			model: self;
+			getText: #endHour;
+			editText: #updateEndHour:;
+			color: #endFieldsColor;
+			indicateUnacceptedChanges: false;
+			readOnly: self isReadOnly; 
+			help: self eventHourHelpText;
+			frame: (0.73 @ (self lineOffsetOf: 4)
+				corner: 0.78 @ ((self lineOffsetOf: 4) + self lineHeight));
+			yourself

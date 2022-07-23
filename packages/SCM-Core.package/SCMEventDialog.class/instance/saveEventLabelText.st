@@ -1,0 +1,4 @@
+constants
+saveEventLabelText
+
+	^ 'Save Event'

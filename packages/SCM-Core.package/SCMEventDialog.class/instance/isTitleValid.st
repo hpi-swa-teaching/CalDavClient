@@ -1,4 +1,4 @@
 accessing
 isTitleValid
 
-	^ self title ~= ''
+	^ self title isEmpty not

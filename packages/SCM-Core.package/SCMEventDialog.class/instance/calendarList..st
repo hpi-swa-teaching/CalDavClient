@@ -1,5 +1,5 @@
 accessing
-calendarList: anObject
+calendarList: aSCMCalendarList
 
-	calendarList := anObject.
+	calendarList := aSCMCalendarList.
 	calendarList addDependent: self

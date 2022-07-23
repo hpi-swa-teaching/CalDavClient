@@ -9,8 +9,8 @@
 		"eventData",
 		"isFullDaySelected",
 		"calendarList",
-		"beginColor",
-		"endColor" ],
+		"beginFieldsColor",
+		"endFieldsColor" ],
 	"name" : "SCMEventDialog",
 	"pools" : [
 		 ],

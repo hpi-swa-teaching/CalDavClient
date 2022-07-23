@@ -1,6 +1,7 @@
 updating
 updateEnd
 
-	self checkEndHighlighting.
 	self isFullDaySelected ifTrue: [self makeFullDay].
-	self reloadDates
+	self
+		checkEndHighlighting;
+		reloadDates

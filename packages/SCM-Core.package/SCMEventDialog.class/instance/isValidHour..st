@@ -1,6 +1,5 @@
 accessing
 isValidHour: aText
 
-	^ aText asString isAllDigits 
-		and: [aText asNumber < 24 
-		and: [aText asNumber >= 0]]
+	^ (self isPositiveInteger: aText)
+			and: [aText asNumber < 24]

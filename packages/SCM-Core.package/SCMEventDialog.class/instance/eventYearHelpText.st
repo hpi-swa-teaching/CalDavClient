@@ -1,4 +1,4 @@
 constants
 eventYearHelpText
 
-	^ 'Month'
+	^ 'Year'

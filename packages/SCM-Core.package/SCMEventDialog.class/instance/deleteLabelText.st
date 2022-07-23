@@ -1,0 +1,4 @@
+constants
+deleteLabelText
+
+	^ 'Delete Event'

@@ -3,12 +3,12 @@ pickEndDate
 
 	| datePicker |
 	
-	datePicker := SCMDatePicker 
-		openForDialog: self 
-		color: Color paleGreen 
-		label: 'Pick End Date'.
-	self windows add: datePicker owner.
-	datePicker 
+	datePicker := SCMDatePicker
+		openForDialog: self
+		color: Color sky
+		label: self endDatePickerLabelText.
+	datePicker
 		when: #dateChanged 
 		send: #updateEndDate: 
-		to: self
+		to: self.
+	self windows add: datePicker owner

@@ -8,4 +8,4 @@ testDateIsHighlighted2
 		color: Color green).
 	
 	self editDialog updateEndMonth: '4' asText.
-	self assert: editDialog endColor equals: self editDialog defaultHighlightColor.
+	self assert: editDialog endFieldsColor equals: self editDialog defaultHighlightColor

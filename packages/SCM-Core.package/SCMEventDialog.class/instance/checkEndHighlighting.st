@@ -1,8 +1,10 @@
 validating
 checkEndHighlighting
 
-	self beginColor: self defaultColor.
-	self endColor: self defaultColor.
+	self
+		beginFieldsColor: self defaultColor;
+		endFieldsColor: self defaultColor.
 	self isBeginDateAndTimeValid ifFalse: [^ self].
 	self isEndDateAndTimeValid ifFalse: [^ self].
-	(self begin >= self end) ifTrue: [self endColor: self defaultHighlightColor]
+	(self begin >= self end)
+		ifTrue: [self endFieldsColor: self defaultHighlightColor]
