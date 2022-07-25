@@ -1,5 +1,5 @@
 actions
-pickBeginDate
+pickBeginDateAndTime
 
 	| datePicker |
 	

@@ -3,8 +3,6 @@ testInputFieldChangeMode
 
 	| fields |
 	
-	fields := self eventDialog buildFields: ToolBuilder default.
-	self assert: (fields allSatisfy: [:each | each indicateUnacceptedChanges = false]).
 	fields := self addDialog buildFields: ToolBuilder default.
 	self assert: (fields allSatisfy: [:each | each indicateUnacceptedChanges = false]).
 	fields := self editDialog buildFields: ToolBuilder default.
