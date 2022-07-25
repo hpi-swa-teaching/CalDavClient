@@ -1,4 +1,4 @@
 constants
 isReadOnly
 	
-	^ false
+	^ self subclassResponsibility

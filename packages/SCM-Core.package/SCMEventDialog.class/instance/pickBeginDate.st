@@ -9,6 +9,6 @@ pickBeginDate
 		label: self beginDatePickerLabelText.
 	datePicker
 		when: #dateChanged 
-		send: #updateBeginDate: 
+		send: #updateBeginDateAndTime: 
 		to: self.
 	self windows add: datePicker owner

@@ -9,6 +9,6 @@ pickEndDate
 		label: self endDatePickerLabelText.
 	datePicker
 		when: #dateChanged 
-		send: #updateEndDate: 
+		send: #updateEndDateAndTime: 
 		to: self.
 	self windows add: datePicker owner
