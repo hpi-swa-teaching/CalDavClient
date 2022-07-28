@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"demoCalendar" : "AN 7/4/2022 21:54",
+		"demoCalendar:" : "BZ 7/28/2022 16:24",
+		"demoDate" : "BZ 7/28/2022 17:04",
+		"demoEvents" : "BZ 7/28/2022 16:52",
+		"getLoadedViewClass" : "BZ 7/28/2022 16:37",
+		"setUp" : "BZ 7/28/2022 17:04",
+		"tearDown" : "AN 7/15/2022 01:18",
+		"testAgendaViewLoading" : "BZ 7/28/2022 16:38",
+		"testClearing" : "BZ 7/28/2022 16:38",
+		"testReload" : "BZ 6/26/2022 11:43",
+		"testShowNextPageAgenda" : "BZ 7/28/2022 17:04",
+		"testShowNextPageWeek" : "BZ 7/28/2022 17:05",
+		"testShowPreviousPageAgenda" : "BZ 7/28/2022 17:05",
+		"testShowPreviousPageWeek" : "BZ 7/28/2022 17:05",
+		"testViewShowNextPage" : "BZ 7/28/2022 16:55",
+		"testViewShowPreviousPage" : "AN 7/11/2022 18:38",
+		"testViewSwitching" : "NMK 7/19/2022 22:52",
+		"testWeekViewLoading" : "BZ 7/28/2022 16:38",
+		"tomorrowEvent" : "BZ 7/28/2022 16:52",
+		"yesterdayEvent" : "BZ 7/28/2022 16:52" } }

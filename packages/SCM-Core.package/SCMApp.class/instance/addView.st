@@ -2,5 +2,5 @@ initialization
 addView
 	
 	self
-		view: (SCMView createWith: self calendarRepository);
+		view: (SCMViewHolder createWith: self calendarRepository);
 		addMorphBack: self view

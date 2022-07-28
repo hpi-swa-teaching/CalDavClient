@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"createWith:" : "BZ 7/28/2022 17:00",
+		"defaultView" : "BZ 7/28/2022 16:59",
+		"today" : "BZ 7/28/2022 17:00" },
+	"instance" : {
+		"calendarRepository" : "AN 6/25/2022 15:37",
+		"calendarRepository:" : "AN 6/25/2022 15:41",
+		"clear" : "BZ 7/28/2022 16:11",
+		"configureLayout" : "BZ 7/28/2022 16:07",
+		"currentView" : "BZ 7/28/2022 16:57",
+		"currentView:" : "BZ 7/28/2022 15:53",
+		"currentViewClass" : "AN 7/9/2022 10:54",
+		"determineNextView" : "BZ 7/28/2022 16:16",
+		"generateView" : "AN 7/9/2022 13:20",
+		"getNextWrapped:withMaxIndex:" : "BZ 7/28/2022 16:00",
+		"load:" : "AN 7/9/2022 13:20",
+		"loadNextView" : "BZ 7/28/2022 16:16",
+		"reload" : "NMK 6/12/2022 20:20",
+		"retrieveEvents" : "AN 7/9/2022 11:49",
+		"selectedDate" : "AN 7/9/2022 11:34",
+		"selectedDate:" : "BZ 7/28/2022 17:02",
+		"showNextPage" : "BZ 7/28/2022 16:56",
+		"showPreviousPage" : "BZ 7/28/2022 16:56",
+		"switch" : "NMK 6/12/2022 20:21",
+		"update:" : "AN 6/25/2022 16:34",
+		"viewClasses" : "NMK 7/14/2022 15:20" } }

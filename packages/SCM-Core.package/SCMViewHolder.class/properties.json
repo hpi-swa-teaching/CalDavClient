@@ -1,0 +1,16 @@
+{
+	"category" : "SCM-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NMK 6/19/2022 20:17",
+	"instvars" : [
+		"currentView",
+		"calendarRepository",
+		"selectedDate" ],
+	"name" : "SCMViewHolder",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
