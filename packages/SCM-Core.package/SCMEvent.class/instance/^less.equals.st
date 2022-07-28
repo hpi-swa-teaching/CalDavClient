@@ -1,4 +1,4 @@
 comparing
-<= comparand
+<= aSCMEvent
 
-	^ self < comparand or: [self = comparand]
+	^ self < aSCMEvent or: [self = aSCMEvent]

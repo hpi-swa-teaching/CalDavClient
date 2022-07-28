@@ -3,7 +3,14 @@
 		"createForEvent:" : "AN 7/16/2022 10:15",
 		"makeDummyRepositoryFor:" : "AN 7/16/2022 10:15" },
 	"instance" : {
+		"buildBeginYearText:" : "AN 7/28/2022 14:24",
 		"buildButtons:" : "NMK 7/23/2022 18:28",
 		"buildCalendarList:" : "AN 7/14/2022 19:49",
+		"buildEndYearText:" : "AN 7/28/2022 14:24",
+		"buildLocationText:" : "AN 7/28/2022 14:24",
+		"buildParticipantsText:" : "AN 7/28/2022 14:24",
+		"buildWith:" : "AN 7/28/2022 14:47",
+		"defaultExtent" : "AN 7/28/2022 14:47",
 		"isReadOnly" : "dm 7/24/2018 19:09",
+		"lineHeight" : "AN 7/28/2022 14:44",
 		"windowTitle" : "dm 7/24/2018 18:59" } }

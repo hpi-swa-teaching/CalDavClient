@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"createWithEvents:andSelectedDate:" : "AN 7/16/2022 11:19",
+		"createWithEvents:andSelectedDate:" : "AN 7/28/2022 13:08",
 		"defaultSkip" : "AN 7/9/2022 10:47",
 		"mondayBefore:" : "AN 7/9/2022 11:36",
 		"timespanFor:" : "AN 7/9/2022 11:42" },
@@ -9,4 +9,4 @@
 		"daysPerWeek" : "AN 7/9/2022 11:41",
 		"initialize" : "NMK 6/25/2022 09:44",
 		"loadViewWith:andStartDate:" : "AN 7/9/2022 11:57",
-		"openInScrollPane" : "AN 7/16/2022 11:33" } }
+		"openInScrollPane" : "AN 7/28/2022 13:10" } }

@@ -1,4 +1,4 @@
 comparing
->= comparand
+>= aSCMEvent
 
-	^ comparand <= self
+	^ aSCMEvent <= self

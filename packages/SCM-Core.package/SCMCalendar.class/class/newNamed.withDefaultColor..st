@@ -5,5 +5,6 @@ newNamed: aString withDefaultColor: aColor
 			title: aString;
 			color: aColor;
 			createId;
+			updateLastModified;
 			store;
 			yourself

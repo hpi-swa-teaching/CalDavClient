@@ -1,4 +1,4 @@
 as yet unclassified
 get
 
-	^ Smalltalk at: #SCMGlobalCalendarRepository ifAbsentPut: self new
+	^ Smalltalk at: #SCMGlobalCalendarRepository ifAbsentPut: [self new]

@@ -8,6 +8,6 @@ buildLocationText: aBuilder
 			indicateUnacceptedChanges: false;
 			help: self locationHelpText;
 			readOnly: self isReadOnly;
-			frame: (0.01 @ (self lineOffsetOf: 6)
+			frame: (self borderLeft @ (self lineOffsetOf: 6)
 				corner: self borderRight @ ((self lineOffsetOf: 6) + self lineHeight));
 			yourself

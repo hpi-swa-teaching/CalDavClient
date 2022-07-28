@@ -1,4 +1,4 @@
 comparing
-< comparand
+< aSCMEvent
 
-	^ self begin < comparand begin
+	^ self begin < aSCMEvent begin

@@ -1,10 +1,10 @@
 comparing
-= comparand
+= aSCMEvent
 
-	^ self begin = comparand begin
-			and: [self end = comparand end
-			and: [self title = comparand title
-			and: [self description = comparand description
-			and: [self participants = comparand participants
-			and: [self location = comparand location
-			and: [self color = comparand color]]]]]]
+	^ self begin = aSCMEvent begin
+			and: [self end = aSCMEvent end
+			and: [self title = aSCMEvent title
+			and: [self description = aSCMEvent description
+			and: [self participants = aSCMEvent participants
+			and: [self location = aSCMEvent location
+			and: [self color = aSCMEvent color]]]]]]

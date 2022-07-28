@@ -6,4 +6,5 @@ deleteEvent: aSCMEvent
 		remove: aSCMEvent 
 		ifAbsent: [^ self errorEventNotInCalendar: aSCMEvent].
 	self store.
-	self changed: #calendarChanged
+	self changed: #calendarChanged.
+	self updateLastModified
