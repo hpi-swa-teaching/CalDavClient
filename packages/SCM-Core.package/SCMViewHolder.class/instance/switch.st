@@ -1,5 +1,4 @@
 navigating
 switch
 
-	self clear.
-	self loadNextView
+	self currentView: self nextView

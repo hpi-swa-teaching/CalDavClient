@@ -1,4 +1,4 @@
 accessing
-demoEvent2
+demoTomorrowEvent
 
 	^ demoEvent2

@@ -1,5 +1,5 @@
 testing
 testWeekViewLoading
 	
-	self subject load: #week.
+	self subject currentView: #week.
 	self assert: self getLoadedViewClass equals: SCMWeekView

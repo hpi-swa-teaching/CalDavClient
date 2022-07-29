@@ -1,4 +1,4 @@
 as yet unclassified
 demoEvents
 	
-	^ {self yesterdayEvent . self tomorrowEvent} asOrderedCollection
+	^ {self demoYesterdayEvent . self demoTomorrowEvent} asOrderedCollection

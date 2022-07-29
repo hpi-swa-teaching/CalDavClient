@@ -1,5 +1,5 @@
 loading
-determineNextView
+nextView
 
 	| viewTypesKeys index |
 	

@@ -1,4 +1,5 @@
 accessing
 currentView: aSymbol
 
-	currentView := aSymbol
+	self basicCurrentView: aSymbol.
+	self reload

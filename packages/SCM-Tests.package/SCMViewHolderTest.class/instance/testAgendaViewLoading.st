@@ -1,5 +1,5 @@
 testing
 testAgendaViewLoading
 
-	self subject load: #agenda.
+	self subject currentView: #agenda.
 	self assert: self getLoadedViewClass equals: SCMAgendaView

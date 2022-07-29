@@ -1,5 +1,5 @@
 constants
-demoEvent2
+demoTomorrowEvent
 
 	^ SCMEvent new
 		title: 'Meeting2';

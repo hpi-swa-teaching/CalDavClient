@@ -6,8 +6,9 @@ createWith: aSCMCalendarRepository
 	view := self new
 			calendarRepository: aSCMCalendarRepository;
 			configureLayout;
-			currentView: self defaultView;
-			selectedDate: self today;
+			basicCurrentView: self defaultView;
+			basicSelectedDate: self today;
+			reload;
 			yourself.
 	aSCMCalendarRepository addDependent: view.
 	
