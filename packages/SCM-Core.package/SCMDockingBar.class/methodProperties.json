@@ -7,16 +7,16 @@
 		"createWith:" : "NMK 7/19/2022 22:18",
 		"exchangeIcon" : "BZ 6/15/2022 18:25" },
 	"instance" : {
+		"buttons" : "AN 7/30/2022 17:11",
+		"buttons:" : "AN 7/30/2022 17:12",
 		"configureLayout" : "NMK 7/19/2022 22:36",
 		"configureResizingAndCentering" : "NMK 7/19/2022 22:16",
 		"createAddCalendarButtonFor:" : "NMK 7/20/2022 18:50",
 		"createAddEventButtonFor:" : "NMK 7/20/2022 18:38",
-		"createButtonNamed:target:actionSelector:form:andHeight:" : "NMK 7/19/2022 22:26",
+		"createButtonNamed:target:actionSelector:form:andHeight:" : "AN 7/30/2022 17:23",
 		"createNextButtonFor:" : "NMK 7/19/2022 22:21",
 		"createPreviousButtonFor:" : "NMK 7/19/2022 22:22",
 		"createSwitchButtonFor:" : "NMK 7/19/2022 22:22",
 		"createWidgetsFor:" : "NMK 7/20/2022 18:33",
 		"defaultWidgetHeight" : "NMK 7/15/2022 01:21",
-		"initialize" : "NMK 6/19/2022 20:05",
-		"widgets" : "NMK 6/19/2022 20:05",
-		"widgets:" : "NMK 6/12/2022 21:08" } }
+		"initialize" : "AN 7/30/2022 17:12" } }

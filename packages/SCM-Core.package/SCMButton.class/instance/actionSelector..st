@@ -1,9 +1,4 @@
 accessing
-actionSelector: aSymbolOrString
+actionSelector: aSymbol
 
- 	(aSymbolOrString isNil
-		or: ['nil' = aSymbolOrString
-		or: [aSymbolOrString isEmpty]])
-			ifTrue: [^ actionSelector := nil].
-
- 	actionSelector := aSymbolOrString asSymbol
+ 	actionSelector := aSymbol

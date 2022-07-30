@@ -1,4 +1,4 @@
-testing
+accessing
 demoTomorrowEvent
 
 	^ SCMEvent new
@@ -6,4 +6,5 @@ demoTomorrowEvent
 		begin: (DateAndTime date: self demoDateTomorrow time: self demoEventsStartTime);
 		end: (DateAndTime date: self demoDateTomorrow time: self demoEventsEndTime);
 		location: 'Bank';
-		color: Color blue
+		color: Color blue;
+		yourself

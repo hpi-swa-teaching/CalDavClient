@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 agendaViewDays
 
-	^ self subject firstSubmorph scroller firstSubmorph submorphs
+	^ self getLoadedView getViewDays

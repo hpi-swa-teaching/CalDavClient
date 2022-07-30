@@ -1,4 +1,4 @@
-testing
+accessing
 getLoadedViewClass
 
- 	^ self subject firstSubmorph scroller firstSubmorph class
+ 	^ self getLoadedView class

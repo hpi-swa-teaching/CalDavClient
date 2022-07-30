@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultForm" : "AN 7/30/2022 17:41",
+		"defaultHeight" : "AN 7/30/2022 17:33",
+		"defaultSelector" : "AN 7/30/2022 17:49",
+		"setUp" : "AN 7/30/2022 18:12",
+		"state" : "AN 7/30/2022 18:11",
+		"state:" : "AN 7/30/2022 18:12",
+		"testAction" : "AN 7/30/2022 18:13",
+		"testHandlesMouseDown" : "AN 7/30/2022 17:58",
+		"testMouseUp" : "AN 7/30/2022 18:15",
+		"toggle" : "AN 7/30/2022 18:12" } }

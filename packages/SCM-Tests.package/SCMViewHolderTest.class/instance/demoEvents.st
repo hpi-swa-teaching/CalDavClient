@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 demoEvents
 	
 	^ {self demoYesterdayEvent . self demoTomorrowEvent} asOrderedCollection

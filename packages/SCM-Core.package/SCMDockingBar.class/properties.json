@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "NMK 7/19/2022 22:10",
 	"instvars" : [
-		"widgets" ],
+		"buttons" ],
 	"name" : "SCMDockingBar",
 	"pools" : [
 		 ],
