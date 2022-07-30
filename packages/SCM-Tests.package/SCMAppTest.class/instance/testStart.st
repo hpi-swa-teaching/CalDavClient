@@ -1,4 +1,0 @@
-running
-testStart
-
-	self assert
