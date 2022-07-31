@@ -1,4 +1,4 @@
 constants
-eventMonthHelpText
+monthHelpText
 
 	^ 'Month'

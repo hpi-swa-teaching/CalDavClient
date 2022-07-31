@@ -1,4 +1,4 @@
 validating
 isValid
 
-	^ self isTitleValid
+	^ self isValidTitle

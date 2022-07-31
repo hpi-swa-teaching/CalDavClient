@@ -1,4 +1,4 @@
-accessing
+validating
 isValidMinute: aText
 
 	^ (self isPositiveInteger: aText)

@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildParticipantsText: aBuilder
 
 	^ (super buildParticipantsText: aBuilder) frame: (self borderLeft @ (self lineOffsetOf: 6)

@@ -1,4 +1,4 @@
 accessing
-calendar: aSCMCalendar
+setIndexForCalendar: aSCMCalendar
 
 	self calendarList setIndexForCalendar: aSCMCalendar

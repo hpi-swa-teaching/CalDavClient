@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildButtons: aBuilder
  
 	^ OrderedCollection new

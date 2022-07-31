@@ -2,7 +2,7 @@ actions
 switchFullDaySelected
 	
 	self 
-		isFullDaySelected: self isFullDaySelected not;
+		fullDaySelected: self fullDaySelected not;
 		updateBegin;
 		updateEnd;
 		changed: #fullDayButtonLabel

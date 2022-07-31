@@ -1,4 +1,4 @@
-accessing
-isTitleValid
+validating
+isValidTitle
 
 	^ self title isEmpty not

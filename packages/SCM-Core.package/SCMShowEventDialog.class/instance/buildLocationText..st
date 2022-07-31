@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 buildLocationText: aBuilder
 
 	^ (super buildLocationText: aBuilder) frame: (self borderLeft @ (self lineOffsetOf: 5)

@@ -1,4 +1,4 @@
-accessing
+validating
 isFullDay
 
 	^ 	self beginHour = '0' 

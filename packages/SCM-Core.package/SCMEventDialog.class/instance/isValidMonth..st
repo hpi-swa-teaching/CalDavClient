@@ -1,4 +1,4 @@
-accessing
+validating
 isValidMonth: aText
 
 	^ (self isPositiveInteger: aText)

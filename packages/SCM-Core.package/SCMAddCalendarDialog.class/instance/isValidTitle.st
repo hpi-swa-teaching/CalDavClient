@@ -1,4 +1,4 @@
 validating
-isTitleValid
+isValidTitle
 
 	^ self calendarTitle isEmpty not

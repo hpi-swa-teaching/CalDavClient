@@ -7,10 +7,10 @@
 	"commentStamp" : "AN 7/31/2022 13:45",
 	"instvars" : [
 		"eventData",
-		"isFullDaySelected",
 		"calendarList",
 		"beginFieldsColor",
-		"endFieldsColor" ],
+		"endFieldsColor",
+		"fullDaySelected" ],
 	"name" : "SCMEventDialog",
 	"pools" : [
 		 ],
