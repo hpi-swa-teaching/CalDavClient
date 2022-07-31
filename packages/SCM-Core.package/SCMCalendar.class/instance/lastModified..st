@@ -1,4 +1,4 @@
 accessing
-lastModified: anObject
+lastModified: aDateAndTime
 
-	lastModified := anObject.
+	lastModified := aDateAndTime

@@ -1,4 +1,4 @@
 convenience
 fileName
 
-	^ self title, self id asString.
+	^ self title, self id asString

@@ -1,4 +1,4 @@
-accessing
+testing
 testClearEvents
 
 	self demoCalendar addEvent: self createDummyEvent.

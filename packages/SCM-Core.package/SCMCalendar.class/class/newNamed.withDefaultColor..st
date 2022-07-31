@@ -1,10 +1,8 @@
-as yet unclassified
+initialization
 newNamed: aString withDefaultColor: aColor 
 
 	^ self new 
 			title: aString;
 			color: aColor;
-			createId;
-			updateLastModified;
 			store;
 			yourself

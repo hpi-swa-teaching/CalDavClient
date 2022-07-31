@@ -1,5 +1,5 @@
 accessing
-calendarTitle: aString
+calendarTitle: aText
 
-	calendarTitle := aString.
+	calendarTitle := aText asString.
 	self highlightErrors
