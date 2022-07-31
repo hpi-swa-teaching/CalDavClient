@@ -1,4 +1,4 @@
 accessing
 isActive
 
-	^ isActive
+	^ isActive ifNil: [isActive := true]

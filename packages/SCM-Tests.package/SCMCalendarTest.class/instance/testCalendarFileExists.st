@@ -1,4 +1,4 @@
-testing
+accessing
 testCalendarFileExists
 
 	self assert: self demoCalendar calendarFileExists.

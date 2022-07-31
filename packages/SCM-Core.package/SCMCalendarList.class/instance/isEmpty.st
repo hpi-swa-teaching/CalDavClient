@@ -1,4 +1,4 @@
-save and load
+convenience
 isEmpty
 
 	^ self calendarRepository isEmpty

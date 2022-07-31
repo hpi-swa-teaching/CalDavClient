@@ -1,9 +1,7 @@
 accessing
-calendarIndex: aNumber
+calendarIndex: anInteger
 
-	(self reselectedCalendar: aNumber)
-		ifTrue: [self changed: #calendarSelected. ^ self].
-	(self selectedOtherCalendar: aNumber)
-		ifTrue: [calendarIndex := aNumber. 
-				self changed: #calendarIndex.
-				self changed: #calendarSelected]
+	(self selectedOtherCalendar: anInteger)
+		ifTrue: [self basicCalendarIndex: anInteger]. 
+	self changed: #calendarIndex.
+	self changed: #calendarSelected

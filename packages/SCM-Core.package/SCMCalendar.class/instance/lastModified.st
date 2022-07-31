@@ -1,4 +1,4 @@
 accessing
 lastModified
 
-	^ lastModified
+	^ lastModified ifNil: [lastModified := DateAndTime now]

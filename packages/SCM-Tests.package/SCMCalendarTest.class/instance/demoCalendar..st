@@ -1,4 +1,3 @@
 accessing
-demoCalendar: aSCMCalendar
-
-	demoCalendar := aSCMCalendar
+demoCalendar: anObject
+	demoCalendar := anObject

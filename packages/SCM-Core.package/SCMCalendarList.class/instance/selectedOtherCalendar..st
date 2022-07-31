@@ -1,4 +1,4 @@
-accessing
-selectedOtherCalendar: aNumber
-
-	^ aNumber <= self editableCalendarsTitles size and: [aNumber >= 1]
+convenience
+selectedOtherCalendar: anInteger
+"selecting same calendar in SCMEventDialog returns value 0"
+	^ anInteger ~= 0

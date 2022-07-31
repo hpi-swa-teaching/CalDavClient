@@ -1,4 +1,4 @@
-actions
+accessing
 store
 
 	(FileStream forceNewFileNamed: self fullTitle)

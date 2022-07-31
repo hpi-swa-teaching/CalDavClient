@@ -1,4 +1,4 @@
-save and load
+convenience
 calendarsTitles
 
 	^ self calendarRepository calendarsTitles

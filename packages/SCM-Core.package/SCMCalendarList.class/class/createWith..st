@@ -1,9 +1,11 @@
 as yet unclassified
 createWith: aSCMCalendarRepository
 
-	| s |
-	s := self new
+	| calendarList |
+	
+	calendarList := self new
 		calendarRepository: aSCMCalendarRepository;
 		yourself.
-	aSCMCalendarRepository addDependent: s.
-	^ s
+	aSCMCalendarRepository addDependent: calendarList.
+	
+	^ calendarList

@@ -1,7 +1,7 @@
 convenience
 compressedCopy
 
-	^ self class new
+	^ SCMCalendar new
 		isActive: self isActive;
 		title: self title;
 		id: self id;

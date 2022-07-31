@@ -1,4 +1,4 @@
-save and load
+accessing
 selectedEditableCalendar
 
 	^ self editableCalendars at: self calendarIndex

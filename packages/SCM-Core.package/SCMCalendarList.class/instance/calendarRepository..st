@@ -1,4 +1,4 @@
 accessing
-calendarRepository: anOrderedCollection
+calendarRepository: aSCMCalendarRepository
 
-	calendarRepository := anOrderedCollection
+	calendarRepository := aSCMCalendarRepository

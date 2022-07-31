@@ -1,4 +1,6 @@
-save and load
+actions
 update: aSymbol
 
-	aSymbol = #calendarsChanged ifTrue: [self changed: #editableCalendarsTitles. self resetIndex]
+	aSymbol = #calendarsChanged 
+		ifTrue: [self changed: #editableCalendarsTitles. 
+			self resetIndex]
