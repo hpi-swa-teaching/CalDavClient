@@ -5,6 +5,10 @@
 		"demoCalendarList" : "Kiru 7/14/2022 11:48",
 		"demoCalendarList:" : "NMK 7/21/2022 01:00",
 		"demoCalendarRepository" : "Kiru 7/14/2022 11:51",
-		"demoCalendarRepository:" : "Kiru 7/14/2022 11:51",
+		"demoCalendarRepository:" : "BZ 7/31/2022 12:04",
 		"setUp" : "NMK 7/21/2022 01:07",
-		"testIsEmpty" : "BZ 7/16/2022 10:18" } }
+		"testBasicCalendarIndex" : "BZ 7/31/2022 12:08",
+		"testResetIndex" : "BZ 7/31/2022 12:08",
+		"testSelectedOtherCalendar" : "BZ 7/31/2022 12:21",
+		"testSetIndex" : "BZ 7/31/2022 12:15",
+		"testUpdate" : "BZ 7/31/2022 12:16" } }

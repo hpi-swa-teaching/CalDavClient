@@ -1,4 +1,4 @@
-as yet unclassified
+calendar management
 deleteCalendar: aSCMCalendar
 
 	self calendars remove: aSCMCalendar.

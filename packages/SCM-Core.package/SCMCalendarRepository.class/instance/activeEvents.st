@@ -1,8 +1,10 @@
-as yet unclassified
+accessing
 activeEvents
 
-	| s |
-	s := SortedCollection new.
+	| events |
+	
+	events := SortedCollection new.
 	self activeCalendars do:
-		[:calendar | s addAll: calendar events].
-	^ s
+		[:calendar | events addAll: calendar events].
+	
+	^ events

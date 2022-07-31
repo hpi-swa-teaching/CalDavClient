@@ -1,4 +1,4 @@
-as yet unclassified
+calendar management
 reset
 
 	| copiedCalendars |

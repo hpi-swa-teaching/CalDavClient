@@ -1,4 +1,4 @@
-as yet unclassified
+starting
 startUp: resuming
 
-	resuming ifTrue: [self get synchronizeCalendars].
+	resuming ifTrue: [self get synchronizeCalendars]

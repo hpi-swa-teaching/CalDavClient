@@ -1,4 +1,4 @@
-accessing
+running
 setUp
 
 	self demoCalendarRepository: SCMCalendarRepository getDummy.

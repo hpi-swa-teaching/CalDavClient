@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isEmpty
 
 	^ self calendars isEmpty

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 activeCalendars
 
 	^ self calendars select: [:calendar | calendar isActive]

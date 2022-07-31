@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCalendarCount
 
-	self assert: 3 equals: self subject calendars size
+	self assert: 2 equals: self demoCalendarRepository calendars size

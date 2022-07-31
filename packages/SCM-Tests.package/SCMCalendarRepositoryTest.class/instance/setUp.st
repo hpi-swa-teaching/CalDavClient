@@ -1,7 +1,7 @@
-as yet unclassified
+running
 setUp
 
-	self wantsToTest: SCMCalendarRepository getDummy.
+	self demoCalendarRepository: SCMCalendarRepository getDummy.
 	self setUpCalendars.
 	self demoEvent: SCMEvent new.
 	self demoEvent title: 'demoEvent'
