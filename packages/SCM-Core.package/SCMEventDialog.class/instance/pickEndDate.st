@@ -1,14 +1,14 @@
 actions
-pickBeginDateAndTime
+pickEndDate
 
 	| datePicker |
 	
 	datePicker := SCMDatePicker
 		openForDialog: self
 		color: Color sky
-		label: self beginDatePickerLabelText.
+		label: self endDatePickerLabelText.
 	datePicker
 		when: #dateChanged 
-		send: #updateBeginDateAndTime: 
+		send: #updateEndDate: 
 		to: self.
 	self windows add: datePicker owner

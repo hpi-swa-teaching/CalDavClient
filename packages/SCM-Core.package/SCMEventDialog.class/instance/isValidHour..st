@@ -1,5 +1,5 @@
 validating
 isValidHour: aText
 
-	^ (self isPositiveInteger: aText)
+	^ (self isNonnegativeInteger: aText)
 			and: [aText asNumber < 24]
