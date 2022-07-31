@@ -17,5 +17,6 @@
 		"tearDown" : "BZ 7/31/2022 12:54",
 		"testAddCalendar" : "BZ 7/31/2022 13:04",
 		"testCalendarCount" : "BZ 7/31/2022 13:02",
+		"testDeleteCalendar" : "AN 7/31/2022 13:31",
 		"testIsEmpty" : "BZ 7/31/2022 13:03",
 		"testReset" : "BZ 7/31/2022 12:57" } }
