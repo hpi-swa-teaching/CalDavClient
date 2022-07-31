@@ -11,6 +11,9 @@ testSetIndex
 	self assert: self demoCalendarList selectedEditableCalendar equals: demoCalendar.
 	self demoCalendarList setIndexForCalendar: demoCalendar2.
 	self assert: self demoCalendarList selectedEditableCalendar equals: demoCalendar2.
+	
+	demoCalendar	delete.
+	demoCalendar2 delete.
 		
 	
 	
