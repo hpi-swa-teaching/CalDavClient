@@ -1,4 +1,4 @@
-save and load
+accessing
 basicCalendarIndex: aNumber
 
 	^ calendarIndex := aNumber

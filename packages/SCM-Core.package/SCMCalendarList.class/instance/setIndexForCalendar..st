@@ -1,5 +1,7 @@
-save and load
+actions
 setIndexForCalendar: aSCMCalendar
 
-	self basicCalendarIndex: ((self editableCalendars includes: aSCMCalendar) ifTrue: [self editableCalendars indexOf: aSCMCalendar startingAt: 1] ifFalse: [1])
+	aSCMCalendar isEditable 
+		ifTrue: [self basicCalendarIndex: (self editableCalendars indexOf: aSCMCalendar startingAt: 1)]
+		ifFalse: [self basicCalendarIndex: 1]
 	

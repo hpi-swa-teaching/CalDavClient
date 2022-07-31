@@ -1,4 +1,4 @@
-save and load
+convenience
 editableCalendars
 	
 	^ self calendarRepository editableCalendars

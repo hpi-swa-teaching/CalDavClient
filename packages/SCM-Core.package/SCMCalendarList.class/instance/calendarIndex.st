@@ -1,4 +1,4 @@
 accessing
 calendarIndex 
 		
-	^ calendarIndex ifNil: [calendarIndex := 1] 
+	^ calendarIndex ifNil: [calendarIndex := 1]

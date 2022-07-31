@@ -1,4 +1,4 @@
 comparing
 hash
 
-	^ { self title. self id } hash
+	^ {self title. self id} hash
