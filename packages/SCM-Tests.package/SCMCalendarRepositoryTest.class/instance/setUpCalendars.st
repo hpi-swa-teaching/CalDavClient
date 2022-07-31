@@ -5,4 +5,4 @@ setUpCalendars
 	self demoCalendar2: (SCMCalendar newNamed: 'demoCalendar2' withDefaultColor: Color turquoise).
 	self demoCalendar3: (SCMCalendar newNamed: 'demoCalendar3' withDefaultColor: Color turquoise).
 	
-	self demoCalendarRepository addCalendars: {self demoCalendar. self demoCalendar2}
+	self demoCalendarRepository addCalendars: self demoCalendars

@@ -1,1 +1,1 @@
-CALAddEventDialog is a CALEventDialog window for adding a new event. 
+SCMAddEventDialog is a SCMAddEventDialog window for adding a new event. 

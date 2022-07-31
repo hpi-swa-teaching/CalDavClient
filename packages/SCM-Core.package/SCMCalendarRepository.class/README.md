@@ -1,0 +1,1 @@
+This class is a singleton and the owner of the all the SCMCalendars in the Squeak image.

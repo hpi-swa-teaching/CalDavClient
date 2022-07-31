@@ -1,0 +1,1 @@
+A SCMDialog is an abstract class for dialogs that can create or edit calendars and events.
