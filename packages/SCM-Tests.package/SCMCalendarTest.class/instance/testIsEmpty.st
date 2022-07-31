@@ -1,4 +1,4 @@
-accessing
+testing
 testIsEmpty
 
 	self assert: self demoCalendar isEmpty.

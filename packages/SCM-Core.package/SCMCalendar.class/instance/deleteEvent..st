@@ -1,10 +1,9 @@
 actions
 deleteEvent: aSCMEvent
 
-	"self synchronize."
 	self events 
 		remove: aSCMEvent 
 		ifAbsent: [^ self errorEventNotInCalendar: aSCMEvent].
+	self updateLastModified.
 	self store.
-	self changed: #calendarChanged.
-	self updateLastModified
+	self changed: #calendarChanged

@@ -1,1 +1,1 @@
-A calendar contains all its events in a sorted fashion. It also has a name (myName) and a default color (to do).
+A calendar contains all its events in a sorted fashion. It also has a title and a default color.

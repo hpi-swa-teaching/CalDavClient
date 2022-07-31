@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 loadNamed: aString 
 
 	| file loadedCalendar |
@@ -7,7 +7,6 @@ loadNamed: aString
 	file := FileStream readOnlyFileNamed: (self calendarDirectory fullNameFor: aString).
 	loadedCalendar := STON fromString: file contents.
 	file close.
+	self setUpEventsFor: loadedCalendar.
 	
-	loadedCalendar events do: [:event | event calendar: loadedCalendar].
-	loadedCalendar events: loadedCalendar events asSortedCollection.
 	^ loadedCalendar
