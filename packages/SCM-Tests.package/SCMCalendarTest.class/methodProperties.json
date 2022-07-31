@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createDummyEvent" : "BZ 7/31/2022 10:09",
+		"createDummyEvent" : "BZ 7/31/2022 10:15",
 		"demoCalendar" : "BZ 7/31/2022 10:00",
 		"demoCalendar:" : "BZ 7/31/2022 10:00",
 		"demoDateAndTime" : "BZ 7/31/2022 10:09",
@@ -10,10 +10,10 @@
 		"tearDown" : "AN 7/4/2022 21:57",
 		"testCalendarFileExists" : "Kiru 7/5/2022 11:50",
 		"testClearEvents" : "Kiru 7/5/2022 11:58",
-		"testDifferentIdHash" : "BZ 7/31/2022 10:06",
-		"testDifferentNameHash" : "BZ 7/31/2022 10:06",
+		"testDifferentIdHash" : "BZ 7/31/2022 10:19",
+		"testDifferentNameHash" : "BZ 7/31/2022 10:19",
 		"testErrorEventNotInCalendar" : "Kiru 7/5/2022 12:14",
 		"testEventCount" : "BZ 7/31/2022 09:54",
 		"testIsEmpty" : "Kiru 7/5/2022 11:58",
-		"testSameHash" : "BZ 7/31/2022 10:04",
+		"testSameHash" : "BZ 7/31/2022 10:19",
 		"testUpdate" : "Kiru 7/5/2022 11:53" } }
