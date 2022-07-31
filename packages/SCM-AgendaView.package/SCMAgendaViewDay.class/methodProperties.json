@@ -1,15 +1,17 @@
 {
 	"class" : {
-		"createWithDate:" : "AN 6/25/2022 17:41" },
+		"createWithDate:" : "LZ 7/31/2022 11:43" },
 	"instance" : {
-		"addEvent:" : "AN 7/9/2022 14:43",
-		"configureLayout" : "AN 7/9/2022 17:45",
+		"addEvent:" : "LZ 7/31/2022 11:30",
+		"configureLayout" : "LZ 7/31/2022 11:45",
+		"createDateStringWith:" : "LZ 7/31/2022 12:03",
 		"date" : "NMK 6/12/2022 20:31",
 		"date:" : "NMK 6/12/2022 20:31",
+		"defaultDateTextExtent" : "LZ 7/31/2022 11:41",
 		"defaultFont" : "NMK 6/20/2022 18:03",
 		"defaultTextSize" : "NMK 6/20/2022 18:03",
 		"eventBox" : "AN 6/12/2022 16:32",
 		"eventBox:" : "NMK 6/12/2022 20:30",
-		"getDateText:" : "AN 7/8/2022 14:07",
+		"getDateText:" : "LZ 7/31/2022 12:04",
 		"initialize" : "AN 6/7/2022 19:17",
 		"setupContent:" : "AN 7/7/2022 17:10" } }

@@ -1,4 +1,4 @@
 accessing
-eventMorphs: anObject
+eventMorphs: anOrderedCollection
 
-	eventMorphs := anObject.
+	eventMorphs := anOrderedCollection.

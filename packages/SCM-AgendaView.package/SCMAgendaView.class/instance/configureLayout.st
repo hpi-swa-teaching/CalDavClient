@@ -5,12 +5,12 @@ configureLayout
 		layoutPolicy: TableLayout new;
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
-	  	color: Color white;
-	  	borderWidth: 0;
-		cellInset: 5;
 	  	cellPositioning: #topLeft;
 	   	listCentering: #topLeft;
+		listDirection: #topToBottom;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
-	  	listDirection: #topToBottom;
-	  	layoutInset: 5 @ 5
+		color: Color white;
+	  	layoutInset: 5 @ 5;
+	  	borderWidth: 0;
+		cellInset: 5

@@ -1,1 +1,1 @@
-A container that holds one or more events that happen on one day in agenda view.
+A container that holds the events happening on one day as well as a TextMorph stating the date of that day.

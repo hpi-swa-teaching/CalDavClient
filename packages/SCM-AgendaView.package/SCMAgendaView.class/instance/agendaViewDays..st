@@ -1,4 +1,4 @@
 accessing
-agendaViewDays: anObject
+agendaViewDays: aDictionary
 
-	agendaViewDays := anObject.
+	agendaViewDays := aDictionary

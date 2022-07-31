@@ -5,10 +5,6 @@ loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate
 	
 	currentDate := aDate.
 	self daysPerView timesRepeat: [
-		currentViewDay := SCMAgendaViewDay createWithDate: currentDate.
-		self addMorphBack: currentViewDay.
-		self agendaViewDays at: currentDate put: currentViewDay.
-		aSortedCollection do: [:each |
-			each begin asDate = currentDate
-				ifTrue: [currentViewDay addEvent: each]].
+		currentViewDay := self createAndAddViewDayAtDate: currentDate.
+		self addEventMorphs: aSortedCollection ToViewDay: currentViewDay.
 		currentDate := currentDate next]
