@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "BZ 7/28/2022 16:39",
 	"instvars" : [
-		"demoCalendar" ],
+		"calendar" ],
 	"name" : "SCMViewHolderTest",
 	"pools" : [
 		 ],

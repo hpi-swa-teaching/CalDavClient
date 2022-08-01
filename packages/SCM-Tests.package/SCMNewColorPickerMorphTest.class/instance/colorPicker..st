@@ -1,4 +1,4 @@
 accessing
-colorPicker: anObject
+colorPicker: aSCMColorPicker
 
-	colorPicker := anObject.
+	colorPicker := aSCMColorPicker

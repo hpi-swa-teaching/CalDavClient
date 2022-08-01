@@ -1,4 +1,4 @@
-accessing
+testing
 testConstructor
 
 	self assert: (self colorPicker isKindOf: SCMNewColorPickerMorph).

@@ -1,4 +1,4 @@
 accessing
-demoCalendar: aSCMCalendar
+demoCalendar: aSCMMockCalendar
 
-	demoCalendar := aSCMCalendar
+	calendar := aSCMMockCalendar

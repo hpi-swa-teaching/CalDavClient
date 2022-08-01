@@ -2,6 +2,7 @@ as yet unclassified
 setUp
 
 	| event1 event2 event3 |
+	
 	event1 := (SCMEvent new
 		title: 'Event 1';
 		begin: (DateAndTime year: 2017 month: 4 day: 18 hour: 16 minute: 15);
@@ -20,4 +21,5 @@ setUp
 		end: DateAndTime today;	
 		color: Color green;
 		yourself).
+	
 	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next)) scroller firstSubmorph
