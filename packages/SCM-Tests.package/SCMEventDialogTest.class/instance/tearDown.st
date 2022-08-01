@@ -1,4 +1,4 @@
 running
 tearDown
 	
-	self calendarRepository deleteCalendar: self demoCalendar
+	self calendarRepository deleteCalendar: self calendar

@@ -1,4 +1,4 @@
-running
+defaults
 defaultColor
 
 	^ Color green

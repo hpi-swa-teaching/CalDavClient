@@ -1,4 +1,4 @@
 accessing
-eventDialog: aCALEventDialog
+eventDialog: aSCMEventDialog
 
-	eventDialog := aCALEventDialog
+	eventDialog := aSCMEventDialog
