@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SCMMockApp",
+	"pools" : [
+		 ],
+	"super" : "SCMApp",
+	"type" : "normal" }

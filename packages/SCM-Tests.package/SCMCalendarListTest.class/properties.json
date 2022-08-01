@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "NMK 7/20/2022 01:09",
 	"instvars" : [
-		"demoCalendarList",
-		"demoCalendarRepository" ],
+		"calendarList",
+		"calendarRepository" ],
 	"name" : "SCMCalendarListTest",
 	"pools" : [
 		 ],

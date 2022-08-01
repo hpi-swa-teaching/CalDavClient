@@ -1,4 +1,4 @@
-accessing
+convenience
 currentViewClass
 
 	^ self view currentViewClass

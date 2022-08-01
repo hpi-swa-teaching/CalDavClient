@@ -1,0 +1,4 @@
+accessing
+calendarRepository: aSCMMockCalendarRepository
+
+	calendarRepository := aSCMMockCalendarRepository

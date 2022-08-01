@@ -13,11 +13,11 @@ setUp
 		begin: (DateAndTime year: 2022 month: 1 day: 7 hour: 7 minute: 30);
 		end: (DateAndTime year: 2022 month: 1 day: 7 hour: 8 minute: 15);	
 		yourself).
-	
 	event3 := (SCMEvent new
 		title: 'Event 3';
 		begin: Date today;
 		end: Date today;	
 		color: Color green;
 		yourself).
-	self wantsToTest: (SCMAgendaView createWithEvents: {event1 . event2 . event3} andSelectedDate: DateAndTime today asDate) scroller submorphs first
+	self wantsToTest: (SCMAgendaView createWithEvents: {event1. event2. event3}
+		andSelectedDate: DateAndTime today asDate) scroller submorphs first

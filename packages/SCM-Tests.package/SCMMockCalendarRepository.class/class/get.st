@@ -1,4 +1,4 @@
 initialization
-getDummy
+get
 
 	^ self basicNew

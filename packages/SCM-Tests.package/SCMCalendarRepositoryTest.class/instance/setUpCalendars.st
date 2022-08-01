@@ -1,8 +1,11 @@
 running
 setUpCalendars
 
-	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise).
-	self demoCalendar2: (SCMCalendar newNamed: 'demoCalendar2' withDefaultColor: Color turquoise).
-	self demoCalendar3: (SCMCalendar newNamed: 'demoCalendar3' withDefaultColor: Color turquoise).
+	self calendar1: (SCMMockCalendar
+		newNamed: 'demoCalendar' withDefaultColor: Color turquoise).
+	self calendar2: (SCMMockCalendar
+		newNamed: 'demoCalendar2' withDefaultColor: Color turquoise).
+	self calendar3: (SCMMockCalendar
+		newNamed: 'demoCalendar3' withDefaultColor: Color turquoise).
 	
-	self demoCalendarRepository addCalendars: self demoCalendars
+	self calendarRepository addCalendars: self twoCalendars

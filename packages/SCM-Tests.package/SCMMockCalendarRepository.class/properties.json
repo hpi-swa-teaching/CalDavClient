@@ -1,0 +1,14 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SCMMockCalendarRepository",
+	"pools" : [
+		 ],
+	"super" : "SCMCalendarRepository",
+	"type" : "normal" }
