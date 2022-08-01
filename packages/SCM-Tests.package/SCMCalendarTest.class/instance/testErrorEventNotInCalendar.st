@@ -2,4 +2,4 @@ testing
 testErrorEventNotInCalendar
 	
 
-	self assert:	([self demoCalendar errorEventNotInCalendar: self createDummyEvent] on: NotFound do: [true]).
+	self assert:	([self calendar errorEventNotInCalendar: self createDummyEvent] on: NotFound do: [true]).
