@@ -2,9 +2,13 @@
 	"class" : {
 		"openForDialog:color:label:" : "Kiru 8/2/2022 18:12" },
 	"instance" : {
+		"buildRows" : "NMK 8/2/2022 23:03",
+		"createDateButtonFor:" : "NMK 8/2/2022 23:11",
 		"date:" : "NMK 7/10/2022 06:36",
-		"dayInitialsRow" : "Kiru 8/2/2022 18:31",
-		"initializeSubmorphs" : "Kiru 8/2/2022 18:38",
+		"dayInitialsRow" : "NMK 8/2/2022 23:01",
+		"grayOut:" : "NMK 8/2/2022 23:09",
+		"hightlightDateButton:" : "NMK 8/2/2022 23:09",
+		"initializeSubmorphs" : "NMK 8/2/2022 23:12",
 		"modelSleep" : "NMK 7/21/2022 12:17",
 		"newDateButtonWithContents:for:" : "Kiru 8/2/2022 18:37",
 		"selectDate:" : "AN 7/6/2022 18:14",

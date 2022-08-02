@@ -1,4 +1,4 @@
 accessing
-description: aText
+description: aTextOrString
 
-	self eventData at: #description put: aText asString
+	self eventData at: #description put: aTextOrString asString

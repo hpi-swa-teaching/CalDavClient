@@ -1,0 +1,4 @@
+constants
+defaultCalendarColor
+
+	^ Color lightGreen

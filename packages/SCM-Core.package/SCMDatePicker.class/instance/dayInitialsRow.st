@@ -8,4 +8,4 @@ dayInitialsRow
 		do: [:dayName | newRow addMorphBack: (self weekdayRepresentation: dayName)]
 		separatedBy: [newRow addMorphBack: AlignmentMorph newVariableTransparentSpacer].
 		
-	^ newRow 
+	^ newRow

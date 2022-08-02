@@ -1,5 +1,5 @@
 accessing
-title: aText
+title: aTextOrString
 
-	self eventData at: #title put: aText asString.
+	self eventData at: #title put: aTextOrString asString.
 	self highlightTitle

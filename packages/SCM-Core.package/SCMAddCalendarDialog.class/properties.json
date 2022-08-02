@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "NMK 8/2/2022 22:52",
 	"instvars" : [
-		"calendarRepository",
 		"calendarColor",
 		"calendarTitle" ],
 	"name" : "SCMAddCalendarDialog",

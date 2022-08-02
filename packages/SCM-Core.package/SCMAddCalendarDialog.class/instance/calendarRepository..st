@@ -1,4 +1,0 @@
-accessing
-calendarRepository: aSCMCalendarRepository
-
-	calendarRepository := aSCMCalendarRepository

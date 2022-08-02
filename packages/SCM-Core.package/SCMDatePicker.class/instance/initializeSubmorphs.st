@@ -3,24 +3,14 @@ initializeSubmorphs
 
 	| weekRow dateButton |
 	
-	self addMorphBack: self buildYearRow;
-		 addMorphBack: self buildMonthRow;
-		 addMorphBack: self dayInitialsRow.
-	self date month weeks
-		do: [:week | 
-			weekRow := self newRow.
-			week dates
-				do: [:aDate | 
-					dateButton := self newDateButtonWithContents: (aDate dayOfMonth asString) for: aDate. 
-					self date = aDate
-						ifTrue: [dateButton
-								color: (self color
-										mixed: 0.5
-										with: (self color adjustSaturation: 1 brightness: 1))].
-					self date month ~= aDate month
-						ifTrue: [dateButton color: self color.
-							(dateButton findA: StringMorph)
-								color: Color gray].
-					weekRow addMorphBack: dateButton]
-				separatedBy: [weekRow addMorphBack: AlignmentMorph newVariableTransparentSpacer].
-			self addMorphBack: weekRow]
+	self buildRows.
+	self date month weeks do: [:week | weekRow := self newRow.
+		week dates
+			do: [:aDate | dateButton := self createDateButtonFor: aDate. 
+				self date = aDate
+					ifTrue: [self hightlightDateButton: dateButton].
+				self date month ~= aDate month
+					ifTrue: [self grayOut: dateButton].
+				weekRow addMorphBack: dateButton]
+			separatedBy: [weekRow addMorphBack: AlignmentMorph newVariableTransparentSpacer].
+		self addMorphBack: weekRow]
