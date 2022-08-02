@@ -1,1 +1,1 @@
-SCMAddEventDialog is a SCMAddEventDialog window for adding a new event. 
+A SCMAddEventDialog is a SCMEventDialog window for adding a new event.
