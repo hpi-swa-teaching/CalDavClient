@@ -1,4 +1,4 @@
-CalendarMorph
+actions
 selectDate: aDate
 
 	self date: aDate.
