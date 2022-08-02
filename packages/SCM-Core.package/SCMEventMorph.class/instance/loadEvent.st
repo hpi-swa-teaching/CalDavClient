@@ -1,5 +1,6 @@
-initialization
+actions
 loadEvent
 
-	self contents: self extractText;
-		fontName: 'BitstreamVeraSans' size: 24
+	self
+		contents: self attributesAsText;
+		fontName: self defaultFontName size: self defaultFontSize

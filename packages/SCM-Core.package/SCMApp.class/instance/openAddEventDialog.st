@@ -1,4 +1,4 @@
 accessing
 openAddEventDialog
 
-	SCMAddEventDialog createWith: self calendarRepository
+	SCMAddEventDialog open

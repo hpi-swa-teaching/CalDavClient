@@ -1,0 +1,4 @@
+constants
+defaultFontName
+
+	^ 'BitstreamVeraSans'

@@ -3,7 +3,7 @@ addEvent: aSCMEvent
 
 	| eventMorph |
 	
-	eventMorph := (SCMEventMorph from: aSCMEvent).
+	eventMorph := (SCMEventMorph createWith: aSCMEvent).
 	
 	self addMorphBack: eventMorph.
 	self eventMorphs add: eventMorph.

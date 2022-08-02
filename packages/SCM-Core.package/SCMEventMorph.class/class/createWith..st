@@ -1,5 +1,5 @@
 initialization
-from: aSCMEvent
+createWith: aSCMEvent
 
 	^ self new
 			event: aSCMEvent;
