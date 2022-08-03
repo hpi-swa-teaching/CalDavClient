@@ -1,16 +1,8 @@
 running
 setUpDemoEvents
 
-	self event1: (SCMEvent new
-		title: 'demoEvent';
-		color: Color green;
-		begin: DateAndTime today;
-		end: DateAndTime today
-		yourself).
+	self setUpDemoEvent1.
+	self setUpDemoEvent2.
 	
-	self event2: (SCMEvent new
-		title: 'demoEvent2';
-		color: Color banana;
-		begin: DateAndTime today;
-		end: DateAndTime today;
-		yourself)
+	self subject addEvent: self event1.
+	self subject addEvent: self event2

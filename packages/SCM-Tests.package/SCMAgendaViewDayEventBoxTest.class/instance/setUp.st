@@ -1,4 +1,4 @@
 running
 setUp
 
-	self wantsToTest: SCMAgendaViewDayEventBox new.
+	self wantsToTest: SCMAgendaViewDayEventBox new
