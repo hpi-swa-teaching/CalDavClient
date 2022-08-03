@@ -1,7 +1,7 @@
 accessing
 endDate
 
-	^ DateAndTime
+	^ Date
 			year: self endYear asNumber
 			month: self endMonth asNumber 
 			day: self endDay asNumber

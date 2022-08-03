@@ -3,5 +3,5 @@ beginDate: aDate
 
 	self
 		beginYear: aDate year asString;
-		beginMonth: aDate month asString;
+		beginMonth: aDate monthIndex asString;
 		beginDay: aDate dayOfMonth asString

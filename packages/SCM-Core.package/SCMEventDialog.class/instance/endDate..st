@@ -3,5 +3,5 @@ endDate: aDate
 
 	self
 		endYear: aDate year asString;
-		endMonth: aDate month asString;
+		endMonth: aDate monthIndex asString;
 		endDay: aDate dayOfMonth asString
