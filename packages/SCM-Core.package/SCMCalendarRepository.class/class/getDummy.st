@@ -1,4 +1,0 @@
-initialization
-getDummy
-
-	^ self basicNew

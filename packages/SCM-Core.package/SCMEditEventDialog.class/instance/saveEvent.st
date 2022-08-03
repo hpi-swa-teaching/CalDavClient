@@ -3,6 +3,6 @@ saveEvent
 	
 	self isValid
 		ifFalse: [self highlightErrors]
-		ifTrue: [self calendarList selectedEditableCalendar addEvent: self generateEvent.
-				self deleteOldEvent.
-				self close]
+		ifTrue: [self selectedCalendar addEvent: self generateEvent.
+			self deleteOldEvent.
+			self close]

@@ -1,4 +1,4 @@
-accessing
+actions
 generateEvent
 
 	^ SCMEvent new

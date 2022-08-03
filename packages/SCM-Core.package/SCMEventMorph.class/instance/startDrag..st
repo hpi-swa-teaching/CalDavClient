@@ -1,4 +1,4 @@
-initialization
+event handling
 startDrag: anEvent
 
 	| transferMorph |

@@ -1,2 +1,1 @@
-A NewColorPickerMorph is a new widget for choosing colors in Morphic. 
-
+A NewColorPickerMorph is a new widget for choosing colors in Morphic. This is a slightly modified version.

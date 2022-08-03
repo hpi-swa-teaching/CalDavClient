@@ -8,7 +8,7 @@ buildBeginMonthText: aBuilder
 			color: #beginFieldsColor;
 			indicateUnacceptedChanges: false;
 			readOnly: self isReadOnly; 
-			help: self eventMonthHelpText;
+			help: self monthHelpText;
 			frame: (0.31 @ (self lineOffsetOf: 3) 
 				corner: 0.61 @ ((self lineOffsetOf: 3) + self lineHeight));
 			yourself

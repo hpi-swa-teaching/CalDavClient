@@ -1,4 +1,4 @@
-running
+defaults
 defaultLabel
 
 	^ 'Pick Date'

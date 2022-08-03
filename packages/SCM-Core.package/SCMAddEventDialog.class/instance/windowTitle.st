@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 windowTitle
 
 	^ 'New Event'

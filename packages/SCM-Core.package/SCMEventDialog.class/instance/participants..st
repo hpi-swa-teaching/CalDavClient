@@ -1,4 +1,4 @@
 accessing
-participants: aText
+participants: aTextOrString
 
-	self eventData at: #participants put: aText asString
+	self eventData at: #participants put: aTextOrString asString

@@ -1,5 +1,5 @@
-accessing
+validating
 isValidMinute: aText
 
-	^ (self isPositiveInteger: aText)
+	^ (self isNonnegativeInteger: aText)
 			and: [aText asNumber < 60]

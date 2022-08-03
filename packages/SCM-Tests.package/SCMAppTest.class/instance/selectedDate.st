@@ -1,4 +1,4 @@
-accessing
+convenience
 selectedDate
 
 	^ self view selectedDate

@@ -1,4 +1,4 @@
-accessing
+testing
 isEmpty
 
 	^ self calendars isEmpty

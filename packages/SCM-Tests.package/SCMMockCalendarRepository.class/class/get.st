@@ -1,0 +1,4 @@
+initialization
+get
+
+	^ SCMCalendarRepository getBasic

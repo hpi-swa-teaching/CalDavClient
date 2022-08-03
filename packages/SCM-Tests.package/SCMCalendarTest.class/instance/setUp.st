@@ -1,4 +1,4 @@
 running
 setUp
 
-	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise)
+	self calendar: (SCMMockCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise)

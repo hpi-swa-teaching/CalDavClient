@@ -1,4 +1,4 @@
-accessing
+running
 tearDown
 
 	self eventDialog abandon.

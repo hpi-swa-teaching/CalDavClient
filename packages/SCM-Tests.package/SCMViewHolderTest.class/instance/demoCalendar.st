@@ -1,4 +1,4 @@
 accessing
 demoCalendar
 
-	^ demoCalendar
+	^ calendar

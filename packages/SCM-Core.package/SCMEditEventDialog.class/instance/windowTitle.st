@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 windowTitle
 
 	^ 'Edit Event'

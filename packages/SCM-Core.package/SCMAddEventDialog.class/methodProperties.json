@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"open" : "NMK 8/2/2022 17:32" },
 	"instance" : {
 		"buildButtons:" : "NMK 7/23/2022 16:40",
+		"initialize" : "NMK 8/2/2022 17:32",
 		"isReadOnly" : "LB 8/6/2021 15:47",
-		"saveEvent" : "AN 6/25/2022 16:27",
+		"saveEvent" : "NMK 8/2/2022 23:31",
 		"windowTitle" : "jz 5/10/2018 12:19" } }

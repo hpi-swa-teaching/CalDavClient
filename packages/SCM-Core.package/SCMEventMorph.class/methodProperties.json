@@ -1,18 +1,19 @@
 {
 	"class" : {
-		"from:" : "AN 6/25/2022 22:06" },
+		"createWith:" : "NMK 8/2/2022 16:59",
+		"hourAndMinuteAsText:" : "NMK 8/2/2022 20:54" },
 	"instance" : {
-		"configureLayout" : "AN 7/9/2022 14:32",
+		"attributesAsText" : "NMK 8/2/2022 17:54",
+		"configureLayout" : "NMK 8/2/2022 17:12",
+		"defaultFontName" : "NMK 8/2/2022 17:17",
+		"defaultFontSize" : "NMK 8/2/2022 17:16",
 		"event" : "AN 6/7/2022 10:33",
 		"event:" : "NMK 6/12/2022 21:09",
-		"extractText" : "AN 6/26/2022 00:28",
-		"generateTempRepository" : "AN 6/25/2022 23:54",
 		"handlesMouseDown:" : "AN 6/25/2022 23:33",
-		"loadEvent" : "AN 6/26/2022 00:38",
-		"mainInfo" : "AN 6/26/2022 00:27",
-		"mouseDown:" : "AN 6/26/2022 08:52",
-		"mouseUp:" : "AN 7/14/2022 20:06",
-		"openEditEventDialogFor:" : "AN 7/14/2022 20:03",
-		"openShowEventDialogFor:" : "AN 7/14/2022 20:02",
-		"printTime:" : "NMK 6/12/2022 21:10",
-		"startDrag:" : "NMK 7/10/2022 06:40" } }
+		"loadEvent" : "NMK 8/2/2022 17:54",
+		"mouseDown:" : "NMK 8/2/2022 17:12",
+		"mouseUp:" : "NMK 8/2/2022 17:14",
+		"openEditEventDialogFor:" : "NMK 8/2/2022 17:24",
+		"openShowEventDialogFor:" : "NMK 8/2/2022 17:24",
+		"startDrag:" : "NMK 7/10/2022 06:40",
+		"timeAndTitleAsText" : "NMK 8/2/2022 17:56" } }

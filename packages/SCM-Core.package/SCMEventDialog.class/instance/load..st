@@ -2,7 +2,7 @@ actions
 load: aSCMEvent
 
 	self 
-		calendar: aSCMEvent calendar;
+		setIndexForCalendar: aSCMEvent calendar;
 		begin: aSCMEvent begin;
 		end: aSCMEvent end;
 		title: aSCMEvent title;

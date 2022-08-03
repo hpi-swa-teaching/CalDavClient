@@ -1,4 +1,4 @@
-accessing
+defaults
 defaultHeight
 
 	^ 20

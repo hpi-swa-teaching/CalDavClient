@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "NMK 7/20/2022 01:09",
 	"instvars" : [
-		"demoCalendar" ],
+		"calendar" ],
 	"name" : "SCMCalendarTest",
 	"pools" : [
 		 ],

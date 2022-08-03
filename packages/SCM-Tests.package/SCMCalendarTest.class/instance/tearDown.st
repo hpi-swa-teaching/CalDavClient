@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self demoCalendar delete
+	self calendar delete

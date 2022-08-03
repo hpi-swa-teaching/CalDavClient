@@ -1,4 +1,4 @@
-accessing
+validating
 isPositiveInteger: aText
 
 	^ aText asString isAllDigits

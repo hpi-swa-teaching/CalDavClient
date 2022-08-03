@@ -1,5 +1,5 @@
 running
 setUp
 
-	self app: SCMApp startDummy.
+	self app: SCMMockApp start.
 	self wantsToTest: (SCMDockingBar createWith: self app)

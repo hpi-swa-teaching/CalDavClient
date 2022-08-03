@@ -1,5 +1,5 @@
 validating
 isValid
 
-	^ self isTitleValid 
+	^ self isValidTitle 
 			and: [self areDatesAndTimesValid] 

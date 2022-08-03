@@ -1,4 +1,4 @@
 accessing
-endHour: aText 
+endHour: aTextOrString 
 
-	self eventData at: #endHour put: aText asString
+	self eventData at: #endHour put: aTextOrString asString

@@ -1,0 +1,4 @@
+constants
+dayHelpText
+
+	^ 'Day'

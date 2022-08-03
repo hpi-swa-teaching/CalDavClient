@@ -1,1 +1,1 @@
-This class contains the actual view (WeekView or AgendaView) and acts as a permanent placeholder.
+A SCMViewHolder contains the actual view (SCMWeekView or SCMAgendaView) and acts as a permanent placeholder.

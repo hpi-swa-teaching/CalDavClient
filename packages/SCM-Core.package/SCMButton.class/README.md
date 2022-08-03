@@ -1,1 +1,1 @@
-This class specifies a button used in SCM environment. It contains an image and an action it executes when clicked.
+A SCMButton specifies a button with basic functionality used in the context of SCM. It contains an image and an action it executes when clicked.

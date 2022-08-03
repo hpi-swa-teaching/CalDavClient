@@ -7,5 +7,5 @@ pickColor
 		on: self 
 		originalColor: self color
 		setColorSelector: #color:
-		label: 'Pick Color'.
+		label: self colorPickerLabelText.
 	self windows add: colorPicker owner

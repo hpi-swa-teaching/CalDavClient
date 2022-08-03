@@ -1,1 +1,1 @@
-A DataPicker is a Morph that is used to change the data of an event when creating it. It is transferred from Squeak-EToys-CalendarMorph. 
+A SCMDataPicker object is a Morph that is used to change the data of an event when creating it. It is transferred from Squeak-EToys-CalendarMorph.

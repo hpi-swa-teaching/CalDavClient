@@ -5,6 +5,6 @@ testSaveNewEvent
 		load: self demoTomorrowEvent.
 	self addDialog saveEvent.
 	
-	self assert: (self demoCalendar events includes: self demoEvent).
-	self assert: (self demoCalendar events includes: self demoTomorrowEvent)
+	self assert: (self calendar events includes: self demoEvent).
+	self assert: (self calendar events includes: self demoTomorrowEvent)
 	

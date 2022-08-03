@@ -1,4 +1,4 @@
-toolbuilding
+toolbuilder
 windowTitle
 
 	^ 'Show Event'

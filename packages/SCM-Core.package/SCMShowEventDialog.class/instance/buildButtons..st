@@ -1,4 +1,9 @@
-toolbuilding
+toolbuilder
 buildButtons: aBuilder
  
-	^ OrderedCollection new "no buttons needed yet"
+	^ OrderedCollection new
+			add: (self buildBeginPickerButton: aBuilder);
+			add: (self buildEndPickerButton: aBuilder);
+			add: (self buildFullDayButton: aBuilder);
+			add: (self buildColorPickerButton: aBuilder);
+			yourself
