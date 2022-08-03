@@ -5,4 +5,4 @@ addEvent: aSCMEvent
 	
 	hour := aSCMEvent begin hour.
 	index := self getIndexForHour: hour.
-	(self submorphs at: index) addMorph: (SCMEventMorph from: aSCMEvent)
+	(self submorphs at: index) addMorph: (SCMEventMorph createWith: aSCMEvent)
