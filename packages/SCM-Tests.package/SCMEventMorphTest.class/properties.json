@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NMK 7/19/2022 22:55",
+	"commentStamp" : "",
 	"instvars" : [
 		"event" ],
-	"name" : "SCMEventTest",
+	"name" : "SCMEventMorphTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

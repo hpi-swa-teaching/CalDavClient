@@ -8,3 +8,5 @@ testUpdateEndDate
 	self assert: (self eventDialog end = aDateAndTime).
 	"self eventDialog updateEndDateAndTime: anotherDateAndTime.
 	self assert: (self eventDialog end = anotherDateAndTime)"
+	
+	"if testUpdateBeginDate is fixed copy that and replace with end"

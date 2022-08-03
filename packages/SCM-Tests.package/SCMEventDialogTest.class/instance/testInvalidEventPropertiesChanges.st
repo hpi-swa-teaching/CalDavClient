@@ -21,4 +21,4 @@ testInvalidEventPropertiesChanges
 	self eventDialog updateEndHour: 'Sieben' asText.
 	self assert: self eventDialog endHour = ''.
 	self eventDialog updateEndMinute: 'Acht' asText.
-	self assert: self eventDialog endMinute = ''.
+	self assert: self eventDialog endMinute = ''

@@ -11,4 +11,4 @@ testFullDayButton
 	
 	self editDialog switchFullDaySelected.
 	
-	self assert: self editDialog fullDaySelected not.
+	self assert: self editDialog fullDaySelected not

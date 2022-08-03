@@ -1,7 +1,7 @@
 testing
 testMonthProtection
 
-	|oldValue|
+	| oldValue |
 	
 	self eventDialog load: self demoEvent.
 	oldValue := self eventDialog beginMonth.
