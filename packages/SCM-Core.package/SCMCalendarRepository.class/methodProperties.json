@@ -1,14 +1,13 @@
 {
 	"class" : {
 		"get" : "AN 7/28/2022 15:21",
-		"getBasic" : "NMK 8/2/2022 23:50",
+		"getDummy" : "AN 7/14/2022 20:11",
 		"startUp:" : "BZ 7/31/2022 12:46" },
 	"instance" : {
 		"activeCalendars" : "NMK 7/25/2022 19:36",
 		"activeEvents" : "BZ 7/31/2022 12:25",
-		"activeEventsWithin:" : "NMK 7/31/2022 19:45",
-		"addCalendar:" : "NMK 7/31/2022 20:34",
-		"addCalendarInternally:" : "NMK 7/31/2022 20:31",
+		"activeEventsWithin:" : "AN 7/9/2022 11:22",
+		"addCalendar:" : "AN 7/31/2022 13:37",
 		"addCalendars:" : "AN 6/25/2022 15:12",
 		"addDefaultCalendars" : "BZ 7/17/2022 10:41",
 		"calendars" : "AN 6/25/2022 15:20",
@@ -16,9 +15,9 @@
 		"calendarsTitles" : "AN 7/14/2022 19:49",
 		"deleteCalendar:" : "AN 7/15/2022 01:19",
 		"editableCalendars" : "AN 7/14/2022 20:04",
-		"initialize" : "NMK 7/31/2022 19:45",
+		"initialize" : "AN 7/28/2022 14:04",
 		"isEmpty" : "AN 6/25/2022 15:35",
 		"reset" : "AN 7/28/2022 15:31",
 		"storeAllCalendars" : "BZ 7/31/2022 12:44",
-		"synchronizeCalendars" : "NMK 7/31/2022 20:18",
-		"update:" : "NMK 7/31/2022 20:14" } }
+		"synchronizeCalendars" : "BZ 7/31/2022 12:45",
+		"update:" : "NMK 7/10/2022 06:34" } }

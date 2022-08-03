@@ -10,7 +10,7 @@ createScrollPane
 		
 	scrollPane vScrollBar
 		color: Color white;
-		sliderColor: Color gray..
+		sliderColor: Color gray.
 	
 	^ scrollPane
 	

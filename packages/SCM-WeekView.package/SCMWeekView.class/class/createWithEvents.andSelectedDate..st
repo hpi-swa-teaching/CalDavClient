@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createWithEvents: aSortedCollection andSelectedDate: aDate
 
 	^ self new

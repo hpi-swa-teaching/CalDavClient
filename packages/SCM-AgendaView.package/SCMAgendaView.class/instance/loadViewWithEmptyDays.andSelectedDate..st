@@ -1,10 +1,10 @@
 initialization
 loadViewWithEmptyDays: aSortedCollection andSelectedDate: aDate
 
-	| currentViewDay currentDate |
+	| currentDate currentViewDay |
 	
 	currentDate := aDate.
-	self daysPerView timesRepeat: [
-		currentViewDay := self createAndAddViewDayAtDate: currentDate.
-		self addEventMorphs: aSortedCollection ToViewDay: currentViewDay.
+	self daysPerView timesRepeat: 
+		[currentViewDay := self createViewDayWithDate: currentDate.
+		self addViewDay: currentViewDay withEvents: aSortedCollection.
 		currentDate := currentDate next]

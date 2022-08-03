@@ -1,1 +1,1 @@
-A SCMShowEventDialog is a SCMEventDialog window that only shows event info (read-only).
+A CALShowEventDialog is a CALEventDialog windows that only shows event info (read-only). 

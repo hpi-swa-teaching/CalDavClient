@@ -1,4 +1,4 @@
-defaults
+accessing
 defaultLabel
 
 	^ 'Pick Color'

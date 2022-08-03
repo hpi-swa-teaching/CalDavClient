@@ -1,4 +1,4 @@
-defaults
+accessing
 defaultColor
 
 	^ Color green

@@ -1,1 +1,1 @@
-This is the main class of SCM. A SCMApp contains a SCMDockingBar and a SCMView. It is used to work with SCMCalendars and SCMEvents.
+This is the main Class of SCM which contains a DockingBar and a View. It is used to work with calendars and events.

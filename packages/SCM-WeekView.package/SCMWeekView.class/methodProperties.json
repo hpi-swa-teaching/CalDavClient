@@ -1,12 +1,17 @@
 {
 	"class" : {
-		"createWithEvents:andSelectedDate:" : "AN 7/28/2022 13:08",
+		"createWithEvents:andSelectedDate:" : "lottebalcke 8/3/2022 12:27",
 		"defaultSkip" : "AN 7/9/2022 10:47",
 		"mondayBefore:" : "AN 7/9/2022 11:36",
 		"timespanFor:" : "AN 7/9/2022 11:42" },
 	"instance" : {
-		"configureLayout" : "AN 7/9/2022 12:31",
+		"addEventMorphs:ToViewDay:" : "lottebalcke 8/3/2022 12:01",
+		"addViewDay:withEvents:" : "lottebalcke 8/3/2022 12:13",
+		"configureLayout" : "lottebalcke 8/3/2022 11:56",
+		"createScrollPane" : "lottebalcke 8/3/2022 12:43",
+		"createViewDayWithDate:" : "lottebalcke 8/3/2022 12:11",
 		"daysPerWeek" : "AN 7/9/2022 11:41",
-		"initialize" : "NMK 6/25/2022 09:44",
-		"loadViewWith:andStartDate:" : "AN 7/9/2022 11:57",
-		"openInScrollPane" : "AN 7/28/2022 13:10" } }
+		"initialize" : "lottebalcke 8/3/2022 11:57",
+		"loadViewWith:andStartDate:" : "lottebalcke 8/3/2022 12:26",
+		"openInScrollPane" : "lottebalcke 8/3/2022 12:17",
+		"setColorsForScrollPane:" : "lottebalcke 8/3/2022 12:25" } }

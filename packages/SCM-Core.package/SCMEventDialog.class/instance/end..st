@@ -1,9 +1,9 @@
 accessing
-end: aDateAndTime
+end: aDate
 
 	self 
-		endYear: aDateAndTime year asString;
-		endMonth: aDateAndTime month asString; 
-		endDay: aDateAndTime dayOfMonth asString;
-		endHour: aDateAndTime hour asString;
-		endMinute: aDateAndTime minute asString
+		endYear: aDate year asString;
+		endMonth: aDate month asString; 
+		endDay: aDate dayOfMonth asString;
+		endHour: aDate hour asString;
+		endMinute: aDate minute asString

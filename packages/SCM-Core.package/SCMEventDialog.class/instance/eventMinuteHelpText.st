@@ -1,0 +1,4 @@
+constants
+eventMinuteHelpText
+
+	^ 'mm'

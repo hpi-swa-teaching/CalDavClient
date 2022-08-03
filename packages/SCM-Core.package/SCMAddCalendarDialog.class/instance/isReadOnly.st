@@ -1,4 +1,4 @@
-testing
+constants
 isReadOnly
 	
 	^ false

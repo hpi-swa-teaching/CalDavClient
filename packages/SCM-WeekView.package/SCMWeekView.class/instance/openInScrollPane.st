@@ -1,21 +1,12 @@
-as yet unclassified
+initialization
 openInScrollPane
 
-
-	| s |
-	s := ScrollPane new
-		vResizing: #spaceFill;
-	 	hResizing: #spaceFill;
-		showHScrollBarOnlyWhenNeeded;
-		yourself.
-	s scroller 
+	| scrollPane |
+	
+	scrollPane := self createScrollPane.
+	scrollPane scroller 
 		addMorph: self;
 		layoutPolicy: TableLayout new.
-	s vScrollBar
-		color: Color white;
-		sliderColor: Color gray.
-	s hScrollBar
-		color: Color white;
-		sliderColor: Color gray..
-	^ s
+		
+	^ scrollPane
 	

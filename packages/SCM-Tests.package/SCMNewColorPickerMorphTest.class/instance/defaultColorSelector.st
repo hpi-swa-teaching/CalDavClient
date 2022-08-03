@@ -1,4 +1,4 @@
-defaults
+accessing
 defaultColorSelector
 
 	^ #color:

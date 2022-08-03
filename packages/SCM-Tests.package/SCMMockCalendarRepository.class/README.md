@@ -1,1 +1,0 @@
-This class mocks SCMCalendarRepository and is used in tests instead of the actual SCMCalendarRepository class.

@@ -2,7 +2,7 @@ toolbuilder
 windowFields: aBuilder
 	
 	^ OrderedCollection new
-			add: (self buildCalendarTitle: aBuilder);
-			add: (self buildColorPickerButton: aBuilder);
-			add: (self buildSubmitButton: aBuilder);
-			yourself
+		add: (self buildCalendarTitle: aBuilder);
+		add: (self buildColorPickerButton: aBuilder);
+		add: (self buildSubmitButton: aBuilder);
+		yourself

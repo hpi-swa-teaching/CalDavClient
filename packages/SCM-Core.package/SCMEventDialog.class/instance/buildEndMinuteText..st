@@ -8,7 +8,7 @@ buildEndMinuteText: aBuilder
 			color: #endFieldsColor;
 			indicateUnacceptedChanges: false;
 			readOnly: self isReadOnly; 
-			help: self minuteHelpText;
+			help: self eventMinuteHelpText;
 			frame: (0.79 @ (self lineOffsetOf: 4)
 				corner: self borderRight @ ((self lineOffsetOf: 4) + self lineHeight));
 			yourself

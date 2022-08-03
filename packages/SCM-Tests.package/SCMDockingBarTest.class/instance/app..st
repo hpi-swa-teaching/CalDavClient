@@ -1,4 +1,4 @@
 accessing
-app: aSCMMockApp
+app: aSCMApp
 
-	app := aSCMMockApp
+	app := aSCMApp

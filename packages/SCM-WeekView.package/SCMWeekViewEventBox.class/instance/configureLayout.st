@@ -4,12 +4,11 @@ configureLayout
 	self
 		layoutPolicy: TableLayout new;
 		hResizing: #spaceFill;
+		cellPositioning: #topLeft;
+	   listCentering: #center;
+		listDirection: #topToBottom;
+		wrapCentering: #topLeft;
+	  	wrapDirection: #none;
 	  	color: Color white;
 	  	borderWidth: 2;
-	  	"borderColor: Color gray; --> for debugging"
-		cellInset: 1;
-	  	cellPositioning: #topLeft;
-	   	listCentering: #center;
-	  	wrapCentering: #topLeft;
-	  	wrapDirection: #none;
-	  	listDirection: #topToBottom.
+		cellInset: 1

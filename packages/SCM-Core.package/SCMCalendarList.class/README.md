@@ -1,1 +1,1 @@
-An object of this class is wrapping the SCMCalendarRepository to make indexing of SCMCalendars possible for the SCMEventDialogs.
+This class is wrapping the SCMCalendarRepository to make indexing of SCMCalendars possible for the SCMEventDialogs.

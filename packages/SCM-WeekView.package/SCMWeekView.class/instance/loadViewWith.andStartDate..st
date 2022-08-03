@@ -1,14 +1,10 @@
-as yet unclassified
+initialization
 loadViewWith: aSortedCollection andStartDate: aDate
 
-	| day currentDay|
+	| currentDate currentViewDay |
 	
-	day := aDate.
-	
+	currentDate := aDate.
 	self daysPerWeek timesRepeat:
-		[currentDay := (SCMWeekViewDay createWithDate: day).
-		aSortedCollection do: [:each |
-			each begin asDate = day
-				ifTrue: [currentDay addEvent: each]].
-		self addMorphBack: currentDay.
-		day := day next]
+		[currentViewDay := self createViewDayWithDate: currentDate.
+		self addViewDay: currentViewDay withEvents: aSortedCollection.
+		currentDate := currentDate next]

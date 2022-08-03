@@ -3,6 +3,5 @@ calendarIndex: anInteger
 
 	(self selectedOtherCalendar: anInteger)
 		ifTrue: [self basicCalendarIndex: anInteger]. 
-	self
-		changed: #calendarIndex;
-		changed: #calendarSelected
+	self changed: #calendarIndex.
+	self changed: #calendarSelected

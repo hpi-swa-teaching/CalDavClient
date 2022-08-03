@@ -1,0 +1,4 @@
+constants
+eventDayHelpText
+
+	^ 'Day'

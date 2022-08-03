@@ -1,4 +1,4 @@
 accessing
-beginMinute: aTextOrString 
+beginMinute: aText 
 
-	self eventData at: #beginMinute put: aTextOrString asString
+	self eventData at: #beginMinute put: aText asString

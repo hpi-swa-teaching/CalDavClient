@@ -1,6 +1,6 @@
 toolbuilder
 fullDayButtonLabel
 	
-	^ self fullDaySelected
+	^ self isFullDaySelected
 			ifTrue: ['Deactivate Full Day']
 			ifFalse: ['Activate Full Day']

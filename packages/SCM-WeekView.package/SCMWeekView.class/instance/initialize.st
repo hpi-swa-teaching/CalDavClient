@@ -1,6 +1,5 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
-	self
-		configureLayout
+	self configureLayout

@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 mondayBefore: aDate
 
 	^ aDate asWeek asDate next

@@ -6,7 +6,7 @@ configureLayout
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
 	  	cellPositioning: #topLeft;
-	   	listCentering: #center;
+	   listCentering: #center;
 		listDirection: #topToBottom;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;

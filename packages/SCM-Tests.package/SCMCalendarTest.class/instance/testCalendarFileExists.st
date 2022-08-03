@@ -1,6 +1,6 @@
 testing
 testCalendarFileExists
 
-	self assert: self calendar calendarFileExists.
-	self calendar delete.
-	self assert: self calendar calendarFileExists not
+	self assert: self demoCalendar calendarFileExists.
+	self demoCalendar delete.
+	self assert: self demoCalendar calendarFileExists not

@@ -1,1 +1,0 @@
-This class mocks SCMApp and is used in tests instead of the actual SCMApp class.

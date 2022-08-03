@@ -1,4 +1,4 @@
 accessing
 calendarColor
 
-	^ calendarColor ifNil: [calendarColor := self defaultCalendarColor]
+	^ calendarColor ifNil: [calendarColor := Color red]

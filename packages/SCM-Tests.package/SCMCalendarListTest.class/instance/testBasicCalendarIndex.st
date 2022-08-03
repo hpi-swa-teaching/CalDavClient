@@ -1,5 +1,5 @@
 testing
 testBasicCalendarIndex
 
-	self calendarList basicCalendarIndex: 2.
-	self assert: self calendarList calendarIndex equals: 2
+	self demoCalendarList basicCalendarIndex: 2.
+	self assert: self demoCalendarList calendarIndex equals: 2

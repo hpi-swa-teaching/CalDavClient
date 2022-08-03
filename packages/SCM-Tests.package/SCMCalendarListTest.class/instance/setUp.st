@@ -1,5 +1,5 @@
 running
 setUp
 
-	self calendarRepository: SCMMockCalendarRepository get.
-	self calendarList: (SCMCalendarList createWith: self calendarRepository)
+	self demoCalendarRepository: SCMCalendarRepository getDummy.
+	self demoCalendarList: (SCMCalendarList createWith: self demoCalendarRepository)

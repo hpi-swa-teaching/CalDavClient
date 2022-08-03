@@ -1,10 +1,10 @@
 running
 setUp
 
-	self calendarRepository: SCMMockCalendarRepository get.
-	self calendar: (SCMMockCalendar newNamed: #calendar withDefaultColor: Color turquoise).
-	self calendar addEvent: self demoEvent.
-	self calendarRepository addCalendar: self calendar.
+	self calendarRepository: SCMCalendarRepository getDummy.
+	self demoCalendar: (SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color turquoise).
+	self demoCalendar addEvent: self demoEvent.
+	self calendarRepository addCalendar: self demoCalendar.
 	
 	self eventDialog: SCMEventDialog new.
 	self eventDialog calendarList: (SCMCalendarList createWith: self calendarRepository).
@@ -21,4 +21,5 @@ setUp
 	self showDialog: SCMShowEventDialog new.
 	self showDialog
 		calendarList: (SCMCalendarList createWith: self calendarRepository);
-		load: self demoEvent
+		load: self demoEvent.
+		

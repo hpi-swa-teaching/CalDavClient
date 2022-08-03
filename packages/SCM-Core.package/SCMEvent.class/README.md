@@ -1,1 +1,1 @@
-This is a data class that contains all information of an event. It can be displayed with SCMEventMorph.
+This is a data class that contains all information of an event. It can be displayed with EventMorph.

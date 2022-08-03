@@ -1,6 +1,6 @@
 initialization
-addEventMorphs: aSortedCollection ToViewDay: aViewDay 
+addEventMorphs: aSortedCollection ToViewDay: aSCMAgendaViewDay 
 
-	aSortedCollection do: [:each |
-		each begin asDate = aViewDay date
-			ifTrue: [aViewDay addEvent: each]]
+	aSortedCollection do: 
+		[:each | each begin asDate = aSCMAgendaViewDay date
+			ifTrue: [aSCMAgendaViewDay addEvent: each]]

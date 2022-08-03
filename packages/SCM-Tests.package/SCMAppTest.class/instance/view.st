@@ -1,4 +1,4 @@
-convenience
+accessing
 view
 
 	^ self subject submorphs second

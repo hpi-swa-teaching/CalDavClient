@@ -1,15 +1,11 @@
 {
 	"class" : {
-		"openForDialog:color:label:" : "Kiru 8/2/2022 18:12" },
+		"openForDialog:color:label:" : "Kiru 7/21/2022 14:17" },
 	"instance" : {
-		"buildRows" : "NMK 8/2/2022 23:03",
-		"createDateButtonFor:" : "NMK 8/2/2022 23:11",
 		"date:" : "NMK 7/10/2022 06:36",
-		"dayInitialsRow" : "NMK 8/2/2022 23:01",
-		"grayOut:" : "NMK 8/2/2022 23:09",
-		"hightlightDateButton:" : "NMK 8/2/2022 23:09",
-		"initializeSubmorphs" : "NMK 8/2/2022 23:12",
+		"dayInitialsRow" : "LB 6/30/2021 16:42",
+		"initializeSubmorphs" : "AN 7/4/2022 18:09",
 		"modelSleep" : "NMK 7/21/2022 12:17",
-		"newDateButtonWithContents:for:" : "Kiru 8/2/2022 18:37",
+		"newDateButtonWithContents:For:" : "AN 6/24/2022 09:47",
 		"selectDate:" : "AN 7/6/2022 18:14",
-		"weekdayRepresentation:" : "Kiru 8/2/2022 18:30" } }
+		"textOfDayName:" : "NMK 7/10/2022 06:36" } }

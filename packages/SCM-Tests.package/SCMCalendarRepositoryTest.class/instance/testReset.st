@@ -1,6 +1,6 @@
 testing
 testReset
 
-	self assert: self calendarRepository isEmpty not.
-	self calendarRepository reset.
-	self assert: self calendarRepository isEmpty
+	self assert: self demoCalendarRepository isEmpty not.
+	self demoCalendarRepository reset.
+	self assert: self demoCalendarRepository isEmpty

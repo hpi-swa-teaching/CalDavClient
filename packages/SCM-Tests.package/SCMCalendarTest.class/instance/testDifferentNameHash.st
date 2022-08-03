@@ -5,9 +5,9 @@ testDifferentNameHash
 
 	aSecondDemoCalendar := SCMCalendar new
 		title: 'aSecondDemoCalendar';
-		id: self calendar id;
+		id: self demoCalendar id;
 		yourself.
 		
-	self assert: aSecondDemoCalendar hash ~= self calendar hash
+	self assert: aSecondDemoCalendar hash ~= self demoCalendar hash
 
 	

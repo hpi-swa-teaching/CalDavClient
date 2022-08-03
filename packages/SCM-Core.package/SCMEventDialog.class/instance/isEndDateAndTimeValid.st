@@ -1,4 +1,4 @@
-validating
+accessing
 isEndDateAndTimeValid
 	
 	[self end] 

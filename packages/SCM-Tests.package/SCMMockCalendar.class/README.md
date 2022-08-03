@@ -1,1 +1,0 @@
-This class mocks SCMCalendar and is used in tests instead of the actual SCMCalendar class.

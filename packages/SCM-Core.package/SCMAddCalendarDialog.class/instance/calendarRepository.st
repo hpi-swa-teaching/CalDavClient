@@ -1,4 +1,4 @@
 accessing
 calendarRepository
 
-	^ SCMCalendarRepository get
+	^ calendarRepository

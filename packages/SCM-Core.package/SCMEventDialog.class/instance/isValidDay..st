@@ -1,5 +1,4 @@
-validating
+accessing
 isValidDay: aText
 
-	^ (self isPositiveInteger: aText)
-			and: [aText asNumber <= 31]
+	^ self isPositiveInteger: aText

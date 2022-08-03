@@ -1,4 +1,4 @@
-validating
+accessing
 isBeginDateAndTimeValid
 
 	[self begin]

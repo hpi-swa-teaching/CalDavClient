@@ -1,1 +1,1 @@
-A SCMCalendar object contains all its events in a sorted fashion. It also has a title and a default color.
+A calendar contains all its events in a sorted fashion. It also has a title and a default color.

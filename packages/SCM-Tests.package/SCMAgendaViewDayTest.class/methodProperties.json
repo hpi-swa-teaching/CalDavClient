@@ -2,14 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"event1" : "lottebalcke 8/2/2022 20:26",
-		"event1:" : "NMK 8/1/2022 21:34",
-		"event2" : "NMK 8/1/2022 21:33",
-		"event2:" : "NMK 8/1/2022 21:34",
-		"setUp" : "lottebalcke 8/2/2022 20:23",
-		"setUpDemoEvent1" : "lottebalcke 8/2/2022 20:26",
-		"setUpDemoEvent2" : "lottebalcke 8/2/2022 20:22",
-		"setUpDemoEvents" : "lottebalcke 8/2/2022 20:24",
-		"testEventMapping" : "lottebalcke 8/2/2022 20:27",
-		"testHierarchy" : "lottebalcke 8/2/2022 20:33",
+		"demoEvent" : "BZ 6/26/2022 12:22",
+		"demoEvent2:" : "BZ 6/26/2022 12:23",
+		"demoEvent:" : "BZ 6/26/2022 12:23",
+		"demoTomorrowEvent" : "AN 7/29/2022 15:56",
+		"setUp" : "NMK 6/29/2022 17:26",
+		"setUpDemoEvents" : "AN 7/4/2022 20:26",
+		"testHierarchy" : "AN 7/29/2022 15:56",
 		"testTableLayout" : "LZ 5/18/2022 17:50" } }

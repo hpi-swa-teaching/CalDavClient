@@ -1,1 +1,1 @@
-A SCMAddCalendarDialog is a window that allows the user to add a new SCMCalendar.
+A SCMAddCalendarDialog is a window so that a user can add a new calendar.

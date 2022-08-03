@@ -1,4 +1,4 @@
 accessing
-editDialog: aSCMEditEventDialog
+editDialog: aCALEditEventDialog
 
-	editDialog := aSCMEditEventDialog
+	editDialog := aCALEditEventDialog

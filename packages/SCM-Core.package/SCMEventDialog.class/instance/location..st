@@ -1,4 +1,4 @@
 accessing
-location: aTextOrString
+location: aText
 
-	self eventData at: #location put: aTextOrString asString
+	self eventData at: #location put: aText asString

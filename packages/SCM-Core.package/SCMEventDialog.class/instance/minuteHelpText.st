@@ -1,4 +1,0 @@
-constants
-minuteHelpText
-
-	^ 'mm'

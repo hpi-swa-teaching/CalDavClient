@@ -1,4 +1,4 @@
 accessing
-addDialog: aSCMAddEventDialog
+addDialog: aCALAddEventDialog
 
-	addDialog := aSCMAddEventDialog
+	addDialog := aCALAddEventDialog

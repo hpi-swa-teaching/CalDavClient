@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilding
 buildDeleteButton: aBuilder
 
 	^ aBuilder pluggableActionButtonSpec new

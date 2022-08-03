@@ -1,6 +1,6 @@
 testing
 testDeleteCalendar
 
-	self assert: (self calendarRepository calendars includes: self calendar2).
-	self calendarRepository deleteCalendar: self calendar2.
-	self assert: (self calendarRepository calendars includes: self calendar2) not
+	self assert: (self demoCalendarRepository calendars includes: self demoCalendar2).
+	self demoCalendarRepository deleteCalendar: self demoCalendar2.
+	self assert: (self demoCalendarRepository calendars includes: self demoCalendar2) not

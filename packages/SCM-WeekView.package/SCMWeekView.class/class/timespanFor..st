@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 timespanFor: aDate
 
 	"timespan between monday and sunday which includes the date"

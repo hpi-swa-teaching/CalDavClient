@@ -1,6 +1,6 @@
 running
 tearDown
 
-	self calendar1 delete.
-	self calendar2 delete.
-	self calendar3 delete
+	self demoCalendar delete.
+	self demoCalendar2 delete.
+	self demoCalendar3 delete

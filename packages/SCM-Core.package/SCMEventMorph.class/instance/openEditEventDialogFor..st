@@ -1,4 +1,4 @@
-actions
+initialization
 openEditEventDialogFor: aSCMEvent
 
-	SCMEditEventDialog openForEvent: aSCMEvent
+	^ SCMEditEventDialog createForEvent: aSCMEvent

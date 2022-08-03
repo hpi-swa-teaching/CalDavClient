@@ -1,5 +1,5 @@
-as yet unclassified
+initialization
 addTimeGrid
 
-	15 timesRepeat: [
-		self addMorphBack: (SCMWeekViewEventBox new)]
+	15 timesRepeat: 
+		[self addMorphBack: (SCMWeekViewEventBox new)]

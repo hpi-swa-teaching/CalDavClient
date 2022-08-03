@@ -1,16 +1,20 @@
 testing
 testSetIndex
 
-	| calendar1 calendar2 |
+	| demoCalendar demoCalendar2 |
 	
-	calendar1 := SCMMockCalendar newNamed: 'demoCalendar' withDefaultColor: Color green.
-	calendar2 := SCMMockCalendar newNamed: 'demoCalendar2' withDefaultColor: Color red.
-	self calendarRepository addCalendars: {calendar1. calendar2} asOrderedCollection.
+	demoCalendar := SCMCalendar newNamed: 'demoCalendar' withDefaultColor: Color green.
+	demoCalendar2 := SCMCalendar newNamed: 'demoCalendar2' withDefaultColor: Color red.
+	self demoCalendarRepository addCalendars: {demoCalendar . demoCalendar2} asOrderedCollection.
 	
-	self calendarList setIndexForCalendar: calendar1.
-	self assert: self calendarList selectedEditableCalendar equals: calendar1.
-	self calendarList setIndexForCalendar: calendar2.
-	self assert: self calendarList selectedEditableCalendar equals: calendar2.
+	self demoCalendarList setIndexForCalendar: demoCalendar.
+	self assert: self demoCalendarList selectedEditableCalendar equals: demoCalendar.
+	self demoCalendarList setIndexForCalendar: demoCalendar2.
+	self assert: self demoCalendarList selectedEditableCalendar equals: demoCalendar2.
 	
-	calendar1 delete.
-	calendar2 delete
+	demoCalendar	delete.
+	demoCalendar2 delete.
+		
+	
+	
+	

@@ -1,7 +1,7 @@
 running
 setUp
 
-	self calendarRepository: SCMMockCalendarRepository get.
+	self demoCalendarRepository: SCMCalendarRepository getDummy.
 	self setUpCalendars.
-	self event: SCMEvent new.
-	self event title: #event
+	self demoEvent: SCMEvent new.
+	self demoEvent title: 'demoEvent'

@@ -1,4 +1,0 @@
-constants
-defaultFontSize
-
-	^ 24

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NMK 8/2/2022 22:53",
+	"commentStamp" : "AN 7/31/2022 13:44",
 	"instvars" : [
 		"oldEvent" ],
 	"name" : "SCMEditEventDialog",

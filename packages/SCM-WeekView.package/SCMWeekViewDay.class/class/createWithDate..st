@@ -3,5 +3,5 @@ createWithDate: aDate
 
 	^ self new
 		date: aDate;
-		setupContent;
+		setupContent: aDate;
 		yourself.

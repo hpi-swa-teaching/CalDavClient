@@ -6,7 +6,7 @@ testDateIsHighlighted
 		begin: (DateAndTime year: 2018 month: 5 day: 17 hour: 10 minute: 5);
 		end: (DateAndTime year: 2018 month: 6 day: 17 hour: 10 minute: 0);
 		color: Color green;
-		calendar: self calendar).
+		calendar: self demoCalendar).
 	
 	self editDialog updateBeginMonth: '7' asText.
 	self assert: editDialog beginFieldsColor equals: self editDialog defaultHighlightColor.

@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NMK 8/2/2022 22:52",
+	"commentStamp" : "AN 7/31/2022 13:45",
 	"instvars" : [
 		"eventData",
+		"isFullDaySelected",
 		"calendarList",
 		"beginFieldsColor",
-		"endFieldsColor",
-		"fullDaySelected" ],
+		"endFieldsColor" ],
 	"name" : "SCMEventDialog",
 	"pools" : [
 		 ],

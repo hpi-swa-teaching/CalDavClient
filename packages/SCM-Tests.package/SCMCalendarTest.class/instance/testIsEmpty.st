@@ -1,6 +1,6 @@
 testing
 testIsEmpty
 
-	self assert: self calendar isEmpty.
-	self calendar addEvent: self createDummyEvent.
-	self assert: self calendar isEmpty not
+	self assert: self demoCalendar isEmpty.
+	self demoCalendar addEvent: self createDummyEvent.
+	self assert: self demoCalendar isEmpty not

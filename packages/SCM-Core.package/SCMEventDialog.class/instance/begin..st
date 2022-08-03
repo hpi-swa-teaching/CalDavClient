@@ -1,9 +1,9 @@
 accessing
-begin: aDateAndTime
+begin: aDate
 
 	self 
-		beginYear: aDateAndTime year asString; 
-		beginMonth: aDateAndTime month asString; 
-		beginDay: aDateAndTime dayOfMonth asString;
-		beginHour: aDateAndTime hour asString;
-		beginMinute: aDateAndTime minute asString
+		beginYear: aDate year asString; 
+		beginMonth: aDate month asString; 
+		beginDay: aDate dayOfMonth asString;
+		beginHour: aDate hour asString;
+		beginMinute: aDate minute asString

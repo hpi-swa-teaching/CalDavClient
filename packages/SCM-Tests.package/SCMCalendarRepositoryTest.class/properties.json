@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "NMK 7/20/2022 01:09",
 	"instvars" : [
-		"event",
-		"calendar1",
-		"calendar2",
-		"calendar3",
-		"calendarRepository" ],
+		"demoCalendar",
+		"demoEvent",
+		"demoCalendar2",
+		"demoCalendar3",
+		"demoCalendarRepository" ],
 	"name" : "SCMCalendarRepositoryTest",
 	"pools" : [
 		 ],

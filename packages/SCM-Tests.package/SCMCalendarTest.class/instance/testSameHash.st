@@ -3,11 +3,11 @@ testSameHash
 
 	| aSecondDemoCalendar |
 
-	aSecondDemoCalendar := SCMMockCalendar new
-		title: #demoCalendar;
-		id: self calendar id;
+	aSecondDemoCalendar := SCMCalendar new
+		title: 'demoCalendar';
+		id: self demoCalendar id;
 		yourself.
 		
-	self assert: aSecondDemoCalendar hash equals: self calendar hash
+	self assert: aSecondDemoCalendar hash equals: self demoCalendar hash
 
 	

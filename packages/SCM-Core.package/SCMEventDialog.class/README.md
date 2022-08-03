@@ -1,1 +1,1 @@
-A SCMEventDialog is a Model that stands for a window displaying an event. It opens when we create a new SCMEvent or edit an existing one.
+A SCMEventDialog is a Model that stands for a window displaying an event. It opens when we create a new SCMEvent or edit an existing one. 

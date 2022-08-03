@@ -1,1 +1,1 @@
-A SCMEditEventDialog is a SCMEventDialog window for editing an existing event.
+SCMEditEventDialog is a SCMEditEventDialog window for editing an existing event. 

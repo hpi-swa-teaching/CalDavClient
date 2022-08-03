@@ -1,0 +1,4 @@
+constants
+eventMonthHelpText
+
+	^ 'Month'

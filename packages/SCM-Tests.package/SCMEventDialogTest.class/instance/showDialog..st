@@ -1,4 +1,4 @@
 accessing
-showDialog: aSCMShowEventDialog
+showDialog: anObject
 
-	showDialog := aSCMShowEventDialog
+	showDialog := anObject.

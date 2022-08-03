@@ -1,4 +1,4 @@
 accessing
-oldEvent: aSCMEvent 
+oldEvent: aCALEvent 
 
-	oldEvent := aSCMEvent
+	oldEvent := aCALEvent

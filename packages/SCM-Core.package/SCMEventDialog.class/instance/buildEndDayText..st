@@ -8,7 +8,7 @@ buildEndDayText: aBuilder
 			color: #endFieldsColor;
 			indicateUnacceptedChanges: false;
 			readOnly: self isReadOnly; 
-			help: self dayHelpText;
+			help: self eventDayHelpText;
 			frame: (0.62 @ (self lineOffsetOf: 4)
 				corner: 0.72 @ ((self lineOffsetOf: 4) + self lineHeight));
 			yourself

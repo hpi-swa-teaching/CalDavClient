@@ -1,9 +1,11 @@
 as yet unclassified
 testDate
 	
-	self assert: self subject submorphs first date equals: self monday.
-	
+	| dateMonday |
+	dateMonday := ((DateAndTime today asDate subtractDays: 1) asWeek asDate next).
+	self assert: self subject submorphs first date equals: dateMonday.
+
 	(1 to: 7) doWithIndex:
 		[:foo :i | 
-			self assert: ((self subject submorphs at: i) date) equals: (self monday addDays: i-1).
-			self assert: (self subject submorphs at: i) date class equals: Date]
+			self assert: ((self subject submorphs at: i) date) equals: (dateMonday addDays: i-1).
+			self assert: (self subject submorphs at: i) date class equals: Date.]

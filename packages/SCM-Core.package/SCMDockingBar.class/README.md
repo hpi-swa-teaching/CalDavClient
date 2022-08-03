@@ -1,1 +1,1 @@
-This is the docking bar that is seen at the top of a SCMApp. It contains navigation widgets (like SCMButtons) to navigate the app.
+This is the docking bar that is seen at the top of the calendar app. It contains navigation widgets (like buttons) to navigate the app.

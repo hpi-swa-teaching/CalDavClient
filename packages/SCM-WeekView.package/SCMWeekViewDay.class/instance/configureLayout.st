@@ -1,16 +1,16 @@
-as yet unclassified
+initialization
 configureLayout
 
 	self
 		layoutPolicy: TableLayout new;
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
-	  	color: Color white;
-	  	borderWidth: 2;
-		layoutInset: 3@3;
-	  	borderColor: Color black;
 	  	cellPositioning: #center;
-	   	listCentering: #top;
+	   listCentering: #top;
+		listDirection: #topToBottom;
 	  	wrapCentering: #top;
 	  	wrapDirection: #none;
-	  	listDirection: #topToBottom.
+	  	color: Color white;
+		borderColor: Color black;
+	  	borderWidth: 2;
+		layoutInset: 3@3
