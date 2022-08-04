@@ -9,4 +9,3 @@ openInScrollPane
 		layoutPolicy: TableLayout new.
 		
 	^ scrollPane
-	

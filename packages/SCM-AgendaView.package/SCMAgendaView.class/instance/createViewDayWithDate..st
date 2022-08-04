@@ -7,4 +7,3 @@ createViewDayWithDate: aDate
 	self agendaViewDays at: aDate put: viewDay.
 	
 	^ viewDay
-	

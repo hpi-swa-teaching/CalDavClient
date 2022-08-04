@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"createWithDate:" : "LZ 7/31/2022 11:43" },
+		"createWithDate:" : "NMK 8/5/2022 00:52" },
 	"instance" : {
 		"addEvent:" : "LZ 7/31/2022 11:30",
-		"configureLayout" : "lottebalcke 8/3/2022 12:33",
-		"createDateStringWith:" : "LZ 7/31/2022 12:03",
+		"configureLayout" : "NMK 8/5/2022 00:52",
+		"createDateStringWith:" : "NMK 8/5/2022 00:51",
 		"date" : "NMK 6/12/2022 20:31",
 		"date:" : "NMK 6/12/2022 20:31",
-		"defaultDateTextExtent" : "LZ 7/31/2022 11:41",
+		"defaultDateTextExtent" : "NMK 8/5/2022 00:52",
 		"defaultFont" : "NMK 6/20/2022 18:03",
 		"defaultTextSize" : "NMK 6/20/2022 18:03",
 		"eventBox" : "AN 6/12/2022 16:32",
 		"eventBox:" : "NMK 6/12/2022 20:30",
-		"getDateText:" : "LZ 7/31/2022 12:04",
+		"getDateText:" : "NMK 8/5/2022 00:52",
 		"initialize" : "AN 6/7/2022 19:17",
 		"setupContent:" : "AN 7/7/2022 17:10" } }

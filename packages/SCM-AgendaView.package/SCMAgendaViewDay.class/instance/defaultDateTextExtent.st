@@ -1,4 +1,4 @@
 defaults
 defaultDateTextExtent
 
-	^ 65@30
+	^ 65 @ 30

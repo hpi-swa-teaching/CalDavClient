@@ -13,4 +13,3 @@ createScrollPane
 		sliderColor: Color gray.
 	
 	^ scrollPane
-	

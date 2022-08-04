@@ -1,4 +1,4 @@
-accessing
+constants
 daysPerWeek 
 
 	^ 7

@@ -1,4 +1,4 @@
-defaults
+constants
 defaultSkip
 
 	^ Duration days: 7

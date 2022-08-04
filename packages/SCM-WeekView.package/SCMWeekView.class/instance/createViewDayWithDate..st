@@ -1,4 +1,4 @@
 initialization
 createViewDayWithDate: aDate
 	
-	^ (SCMWeekViewDay createWithDate: aDate)
+	^ SCMWeekViewDay createWithDate: aDate

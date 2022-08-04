@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"createWithDate:" : "lottebalcke 8/3/2022 12:38" },
+		"createWithDate:" : "NMK 8/5/2022 00:56" },
 	"instance" : {
 		"addEvent:" : "Kiru 8/3/2022 18:22",
 		"addTimeGrid" : "lottebalcke 8/3/2022 12:32",
-		"configureLayout" : "lottebalcke 8/3/2022 12:34",
+		"configureLayout" : "NMK 8/5/2022 00:58",
 		"createDateStringWith:" : "lottebalcke 8/3/2022 12:37",
 		"date" : "NMK 6/12/2022 21:13",
 		"date:" : "NMK 6/12/2022 21:13",
@@ -14,4 +14,4 @@
 		"getDateText:" : "lottebalcke 8/3/2022 12:35",
 		"getIndexForHour:" : "lottebalcke 8/3/2022 12:39",
 		"initialize" : "AN 6/7/2022 19:23",
-		"setupContent:" : "lottebalcke 8/3/2022 12:38" } }
+		"setupContent:" : "NMK 8/5/2022 00:58" } }

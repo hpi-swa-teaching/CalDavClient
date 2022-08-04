@@ -1,7 +1,7 @@
-as yet unclassified
+initialization
 createWithDate: aDate
 
 	^ self new
-		date: aDate;
-		setupContent: aDate;
-		yourself.
+			date: aDate;
+			setupContent: aDate;
+			yourself
