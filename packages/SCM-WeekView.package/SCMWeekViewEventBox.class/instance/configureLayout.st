@@ -5,7 +5,7 @@ configureLayout
 		layoutPolicy: TableLayout new;
 		hResizing: #spaceFill;
 		cellPositioning: #topLeft;
-	   listCentering: #center;
+	     listCentering: #center;
 		listDirection: #topToBottom;
 		wrapCentering: #topLeft;
 	  	wrapDirection: #none;
