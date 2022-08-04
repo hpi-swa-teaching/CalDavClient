@@ -6,7 +6,7 @@ configureLayout
 		vResizing: #spaceFill;
 	 	hResizing: #spaceFill;
 	  	cellPositioning: #topLeft;
-	   	listCentering: #center;
+	     listCentering: #center;
 		listDirection: #leftToRight;
 	  	wrapCentering: #topLeft;
 	  	wrapDirection: #none;
@@ -14,3 +14,5 @@ configureLayout
 		layoutInset: 5 @ 5;
 		borderWidth: 0;
 		cellInset: 5
+	  	
+	  	
