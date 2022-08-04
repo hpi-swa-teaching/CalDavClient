@@ -7,4 +7,4 @@ testSaveCalendar
 	
 	self dialog calendarTitle: 'ABC'.
 	self dialog saveCalendar.
-	self deny: self dialog titleColor equals: Color paleRed
+	self assert: self dialog titleColor ~= Color paleRed
