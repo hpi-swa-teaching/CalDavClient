@@ -1,1 +1,1 @@
-A placeholder in a week view day column that might contain an event.
+This is a placeholder in a SCMWeekViewDay column that might contain an event.

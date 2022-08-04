@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHierarchy
 
 	self assert: self subject submorphs size equals: 7.

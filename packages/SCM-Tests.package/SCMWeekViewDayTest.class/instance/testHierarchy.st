@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHierarchy
 
 	self assert: self subject submorphs first class equals: TextMorph.

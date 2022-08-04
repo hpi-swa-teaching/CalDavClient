@@ -1,1 +1,2 @@
-A week view shows all events that happen in a week. Each day has a column and the events are vertically positioned according to their begin and end time.
+This class specifies the week view which shows all events that happen in a week. Per default the week view loads with the current week, starting wiht monday.
+The next upcoming events are listed from top to bottom and each EventMorph has the same height.

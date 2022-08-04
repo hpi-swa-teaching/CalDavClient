@@ -1,1 +1,1 @@
-A single day in week view. It contains the actual events.
+A single day in the week view that holds the events happening on that day as well as a TextMorph stating the date.

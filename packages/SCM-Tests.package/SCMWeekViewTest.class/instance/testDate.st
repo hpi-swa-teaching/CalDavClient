@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDate
 	
 	self assert: self subject submorphs first date equals: self monday.

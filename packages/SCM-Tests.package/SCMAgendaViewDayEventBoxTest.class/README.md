@@ -1,1 +1,1 @@
-This class tests SCMAgendaViewDayEventBoxTest.
+This class tests SCMAgendaViewDayEventBox.
