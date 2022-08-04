@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"createForEvent:" : "NMK 8/2/2022 23:52",
-		"createLocalRepositoryFor:" : "NMK 8/2/2022 23:52" },
+		"createForEvent:" : "NMK 8/4/2022 23:23",
+		"createLocalRepositoryFor:" : "NMK 8/2/2022 23:52",
+		"openForEvent:" : "NMK 8/4/2022 23:23" },
 	"instance" : {
 		"buildBeginYearText:" : "NMK 8/2/2022 23:33",
 		"buildButtons:" : "NMK 7/31/2022 16:05",

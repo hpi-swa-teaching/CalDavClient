@@ -1,11 +1,7 @@
 initialization
 createForEvent: aSCMEvent 
 
-	| dialog |
-	
-	dialog := self new.
-	dialog
-		calendarList: (SCMCalendarList createWith: (self createLocalRepositoryFor: aSCMEvent));
-		load: aSCMEvent.
-	
-	 ^ ToolBuilder default open: dialog
+	^ self new
+			calendarList: (SCMCalendarList createWith: (self createLocalRepositoryFor: aSCMEvent));
+			load: aSCMEvent;
+			yourself

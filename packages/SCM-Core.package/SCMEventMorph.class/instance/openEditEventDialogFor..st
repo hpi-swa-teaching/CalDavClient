@@ -1,4 +1,6 @@
 actions
 openEditEventDialogFor: aSCMEvent
 
-	SCMEditEventDialog openForEvent: aSCMEvent
+	SCMEditEventDialog
+		openWith: SCMCalendarRepository get
+		forEvent: aSCMEvent

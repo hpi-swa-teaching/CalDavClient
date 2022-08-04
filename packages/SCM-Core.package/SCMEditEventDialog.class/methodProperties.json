@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"createForEvent:" : "NMK 8/2/2022 17:22",
-		"openForEvent:" : "NMK 8/2/2022 17:21" },
+		"createWith:forEvent:" : "NMK 8/4/2022 23:21",
+		"openWith:forEvent:" : "NMK 8/4/2022 23:21" },
 	"instance" : {
 		"buildButtons:" : "NMK 7/23/2022 16:39",
 		"buildDeleteButton:" : "NMK 7/23/2022 16:49",

@@ -1,4 +1,4 @@
 accessing
 openAddCalendarDialog
 
-	SCMAddCalendarDialog open
+	SCMAddCalendarDialog openWith: self calendarRepository
