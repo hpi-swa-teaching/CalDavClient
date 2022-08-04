@@ -15,4 +15,3 @@ configureLayout
 		borderWidth: 0;
 		cellInset: 5
 	  	
-	  	
