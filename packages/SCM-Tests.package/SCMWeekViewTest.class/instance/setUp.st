@@ -1,23 +1,12 @@
 as yet unclassified
 setUp
 
-	| event1 event2 event3 |
-	event1 := (SCMEvent new
-		title: 'Event 1';
-		begin: (DateAndTime year: 2017 month: 4 day: 18 hour: 16 minute: 15);
-		end: (DateAndTime year: 2017 month: 4 day: 18 hour: 19 minute: 0);	
-		color: Color green;
-		yourself).	
-	event2 := (SCMEvent new
-		title: 'Event 2';
-		begin: (DateAndTime year: 2022 month: 1 day: 7 hour: 7 minute: 30);
-		end: (DateAndTime year: 2022 month: 1 day: 7 hour: 8 minute: 15);	
-		yourself).
+	| pastEvent currentEvent futureEvent |
 	
-	event3 := (SCMEvent new
-		title: 'Event 3';
-		begin: DateAndTime today;
-		end: DateAndTime today;	
-		color: Color green;
-		yourself).
-	self wantsToTest: (SCMWeekView createWithEvents: {event1 . event2 . event3} andSelectedDate: ((DateAndTime today asDate subtractDays: 1) asWeek asDate next)) scroller firstSubmorph
+	pastEvent := self createPastTestEvent.
+	currentEvent := self createCurrentTestEvent.
+	futureEvent := self createFutureTestEvent.
+	
+	self setUpMonday.
+	
+	self wantsToTest: (SCMWeekView createWithEvents: {pastEvent. currentEvent. futureEvent} andSelectedDate: self monday) scroller firstSubmorph

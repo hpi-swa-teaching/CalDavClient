@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "NMK 7/20/2022 01:07",
 	"instvars" : [
-		"demoEvent",
-		"demoEvent2" ],
+		"event1",
+		"event2" ],
 	"name" : "SCMAgendaViewDayTest",
 	"pools" : [
 		 ],
