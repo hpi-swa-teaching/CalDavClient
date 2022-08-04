@@ -3,6 +3,6 @@ createCurrentTestEvent
 
 	^ SCMEvent new
 		title: 'Current Event';
-		begin: Date today;
-		end: Date today;	
+		begin: Date today asDateAndTime;
+		end: Date today asDateAndTime;
 		yourself

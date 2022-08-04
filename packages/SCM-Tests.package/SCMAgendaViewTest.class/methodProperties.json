@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createCurrentTestEvent" : "lottebalcke 8/2/2022 20:15",
-		"createFutureTestEvent" : "lottebalcke 8/2/2022 20:15",
-		"createPastTestEvent" : "lottebalcke 8/2/2022 20:15",
+		"createCurrentTestEvent" : "NMK 8/4/2022 21:09",
+		"createFutureTestEvent" : "NMK 8/4/2022 21:09",
+		"createPastTestEvent" : "NMK 8/4/2022 21:09",
 		"setUp" : "lottebalcke 8/2/2022 18:00",
 		"testDate" : "lottebalcke 8/2/2022 20:44",
 		"testHierarchy" : "NMK 6/26/2022 19:24",
