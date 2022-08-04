@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 today
 
 	^ DateAndTime today asDate

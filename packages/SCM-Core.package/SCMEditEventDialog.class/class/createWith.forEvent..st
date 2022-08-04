@@ -1,4 +1,4 @@
-initialize
+initialization
 createWith: aSCMCalendarRepository forEvent: aSCMEvent
 
 	^ self new

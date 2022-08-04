@@ -1,4 +1,5 @@
 loading
 createView
 
-	^ self currentViewClass createWithEvents: self retrieveEvents andSelectedDate: self selectedDate
+	^ self currentViewClass
+			createWithEvents: self retrieveEvents andSelectedDate: self selectedDate

@@ -1,4 +1,4 @@
-initialize
+initialization
 openWith: aSCMCalendarRepository forEvent: aSCMEvent
 	
 	 ^ ToolBuilder default

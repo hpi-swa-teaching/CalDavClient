@@ -1,4 +1,4 @@
-accessing
+testing
 testAddDialogIsValidTitle
 
 	self addDialog title: ''.

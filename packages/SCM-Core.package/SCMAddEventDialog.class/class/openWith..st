@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openWith: aSCMCalendarRepository
 	
 	 ^ ToolBuilder default open: (self createWith: aSCMCalendarRepository)

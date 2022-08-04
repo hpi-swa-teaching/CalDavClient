@@ -1,1 +1,1 @@
-This class tests SCMEventDialog.
+This class tests SCMEventDialog as well as classes that inherit from SCMEventDialog.
