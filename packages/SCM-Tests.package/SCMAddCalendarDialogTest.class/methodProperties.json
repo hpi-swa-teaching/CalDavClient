@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calendar" : "NMK 8/4/2022 23:55",
+		"calendar:" : "NMK 8/4/2022 23:55",
+		"dialog" : "NMK 8/5/2022 00:05",
+		"dialog:" : "NMK 8/5/2022 00:05",
+		"setUp" : "NMK 8/5/2022 00:05",
+		"testBuildWith" : "NMK 8/5/2022 00:06",
+		"testIsReadOnly" : "NMK 8/5/2022 00:08",
+		"testIsValid" : "NMK 8/5/2022 00:09",
+		"testOpenWith" : "NMK 8/5/2022 00:17",
+		"testSaveCalendar" : "NMK 8/5/2022 00:14" } }

@@ -2,4 +2,4 @@ testing
 testBuildWith
 	
 	self assert: (SCMEventDialog selectors 
-		anySatisfy: [ :each| each = 'buildWith:'])
+		anySatisfy: [:each | each = 'buildWith:'])

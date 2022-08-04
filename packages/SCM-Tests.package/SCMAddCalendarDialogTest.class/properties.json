@@ -1,0 +1,15 @@
+{
+	"category" : "SCM-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"calendar",
+		"dialog" ],
+	"name" : "SCMAddCalendarDialogTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

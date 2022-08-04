@@ -18,6 +18,7 @@
 		"testAddCalendar" : "NMK 8/1/2022 21:41",
 		"testCalendarCount" : "NMK 8/1/2022 21:46",
 		"testDeleteCalendar" : "NMK 8/1/2022 21:41",
+		"testGetSingleton" : "NMK 8/5/2022 00:20",
 		"testIsEmpty" : "NMK 8/1/2022 21:47",
 		"testReset" : "NMK 8/1/2022 21:37",
 		"twoCalendars" : "NMK 8/1/2022 21:47" } }
