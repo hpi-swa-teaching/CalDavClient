@@ -15,6 +15,13 @@ SWT22 Group 08
         repository: 'github://hpi-swa-teaching/CalDavClient:develop/packages';
         load.
 
+To also load the tests, run:
+
+    Metacello new
+        baseline: 'MorphicTestingFramework';
+        repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages';
+        load.
+
 ## Getting started
 Open the app in the Workspace using `SCMApp start`.
 
