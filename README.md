@@ -24,6 +24,7 @@ To also load the tests, run:
 
 ## Getting started
 The most current version of the SCM project can be found on the develop branch.
+
 Open the app in the Workspace using `SCMApp start`.
 
 Further details on how to get started, the applied code standard or the current version of our class diagram can be found at the wiki section of the repository.
