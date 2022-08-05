@@ -1,6 +1,7 @@
 # CalDavClient [![Build Status][travis_badge]][travis_url]
 SWT22 Group 08
 
+<p align="center"><img src="https://user-images.githubusercontent.com/73845790/183123995-2678f778-0681-42ba-a7a3-5aa7c7c25762.png" width="40%"></p>
 
 
 <!-- References -->
@@ -24,6 +25,8 @@ To also load the tests, run:
 
 ## Getting started
 The most current version of the SCM project can be found on the develop branch.
+
 Open the app in the Workspace using `SCMApp start`.
 
 Further details on how to get started, the applied code standard or the current version of our class diagram can be found at the wiki section of the repository.
+
