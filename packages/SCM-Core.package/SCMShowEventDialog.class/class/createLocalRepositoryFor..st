@@ -1,6 +1,6 @@
 initialization
 createLocalRepositoryFor: aSCMEvent
 
-	^ SCMCalendarRepository getBasic
+	^ SCMCalendarRepository basicNew
 			addCalendar: aSCMEvent calendar;
 			yourself

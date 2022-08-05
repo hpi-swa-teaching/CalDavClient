@@ -1,0 +1,4 @@
+starting
+new
+
+	^ self shouldNotImplement

@@ -1,4 +1,6 @@
 initialization
 get
 
-	^ Smalltalk at: #SCMGlobalCalendarRepository ifAbsentPut: [self new]
+	^ Smalltalk at: #SCMGlobalCalendarRepository ifAbsentPut: [self basicNew
+			initialize;
+			yourself]

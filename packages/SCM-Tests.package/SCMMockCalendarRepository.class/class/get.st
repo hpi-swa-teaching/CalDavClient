@@ -1,4 +1,4 @@
 initialization
 get
 
-	^ SCMCalendarRepository getBasic
+	^ self basicNew
