@@ -16,6 +16,7 @@
 		"setUpCalendars" : "NMK 8/1/2022 21:46",
 		"tearDown" : "NMK 8/1/2022 21:47",
 		"testAddCalendar" : "NMK 8/1/2022 21:41",
+		"testAddDefaultCalendars" : "Kiru 8/5/2022 16:08",
 		"testCalendarCount" : "NMK 8/1/2022 21:46",
 		"testDeleteCalendar" : "NMK 8/1/2022 21:41",
 		"testGetSingleton" : "NMK 8/5/2022 00:20",

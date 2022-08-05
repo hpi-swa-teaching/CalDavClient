@@ -15,5 +15,6 @@
 		"testErrorEventNotInCalendar" : "NMK 8/1/2022 22:01",
 		"testEventCount" : "NMK 8/1/2022 22:01",
 		"testIsEmpty" : "NMK 8/1/2022 22:01",
+		"testIsMoreRecentlyModifiedThan" : "Kiru 8/5/2022 15:45",
 		"testSameHash" : "NMK 8/1/2022 22:04",
 		"testUpdate" : "NMK 8/1/2022 22:01" } }

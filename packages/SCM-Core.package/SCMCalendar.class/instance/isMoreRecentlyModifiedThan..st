@@ -1,4 +1,4 @@
 comparing
-isNewerThan: aSCMCalendar
+isMoreRecentlyModifiedThan: aSCMCalendar
 
 	^ self lastModified > aSCMCalendar lastModified
