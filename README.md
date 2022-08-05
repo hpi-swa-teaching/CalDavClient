@@ -1,7 +1,7 @@
 # CalDavClient [![Build Status][travis_badge]][travis_url]
 SWT22 Group 08
 
-
+<p align="center"><img src="https://user-images.githubusercontent.com/73845790/183129334-b3629b79-bb38-4bbd-830d-073894d8e7a6.png" width="50%"></p>
 
 <!-- References -->
 [travis_badge]: https://travis-ci.org/hpi-swa-teaching/CalDavClient.svg?branch=master
